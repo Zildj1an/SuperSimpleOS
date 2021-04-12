@@ -19,6 +19,8 @@ typedef struct {
 	void *stack;              /* Mapped virtual address                       */
 	void *code;               /* Mapped virtual address                       */
 
+	void *tls_addr;           /* TLS address                                  */
+
  	uint32_t pid;             /* Process IDentfier                            */
  	uint8_t  user_space:1;    /* Flag for the privilege level (kernel/user)   */
 
