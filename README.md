@@ -2,15 +2,15 @@
 
 In this project we implement the main abstractions of an operating system from scratch:
 
-- 1. A basic UEFI boot loader (boot.c) that loads the kernel and allocates memory for its structures (stacks, etc.) before exiting boot services. 
+- A basic UEFI boot loader (boot.c) that loads the kernel and allocates memory for its structures (stacks, etc.) before exiting boot services. 
 
-- 2. A 4-level (4 KB Long Mode) page table structure for the kernel or user-space applications.
+- A 4-level (4 KB Long Mode) page table structure for the kernel or user-space applications.
 
-- 3. User-space related stuff: System calls, including one for printing on screen, virtual addresses, Task State Segment, Thread Local Storage, etc. 
+- User-space related stuff: System calls, including one for printing on screen, virtual addresses, Task State Segment, Thread Local Storage, etc. 
 
-- 4. Handling of exceptions and interrupts (IDT) and APIC timer.
+- Handling of exceptions and interrupts (IDT) and APIC timer.
 
-- 5. Support for the Xen hypervisor, with PV clocks and shared memory between guests, or Qemu.
+- Support for the Xen hypervisor, with PV clocks and shared memory between guests, or Qemu.
 
 ## Instructions for launching a HVM guest
 
