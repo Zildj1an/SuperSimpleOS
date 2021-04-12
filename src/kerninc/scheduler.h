@@ -9,6 +9,8 @@
 #ifndef __SCHEDULER_H__
 #define __SCHEDULER_H__
 
+#define MAX_NUM_THREADS (6)
+
 typedef enum {DEFAUT_POLICY, NUM_SCHED_POLICIES} sched_policy_t;
 
 typedef struct {
@@ -21,17 +23,16 @@ typedef struct {
 
 	void *tls_addr;           /* TLS address                                  */
 
- 	uint32_t pid;             /* Process IDentfier                            */
+ 	uint32_t pid;             /* Process IDentfier  (array position)          */
  	uint8_t  user_space:1;    /* Flag for the privilege level (kernel/user)   */
 
 	sched_policy_t policy;    /* Scheduling policy for this task              */
 
 } task_struct;
 
+static int current_task = 0; // Update in a wrapper of user_jump? 
 
-static task_struct kernel_task; 
-
-// static task_struct current_task; // Update in a wrapper of user_jump? 
+static task_struct tasks[MAX_NUM_THREADS];
 
 void init_scheduler(page_tables_t *kinfo_pages); 
 
