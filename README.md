@@ -25,3 +25,9 @@ $ sudo xl list
 
 $ sudo xl destroy <domid>
 ```
+
+## Contributors
+
+- Carlos Bilbao
+
+- Ashwin Krishnakumar
