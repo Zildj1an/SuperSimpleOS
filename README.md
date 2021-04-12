@@ -31,3 +31,5 @@ $ sudo xl destroy <domid>
 - Carlos Bilbao ([GitHub](https://github.com/Zildj1an/)), contact: bilbao [at] vt.edu
 
 - Ashwin Krishnakumar
+
+- Dr. Ruslan Nikolaev
