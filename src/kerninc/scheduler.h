@@ -30,7 +30,7 @@ typedef struct {
 
 } task_struct;
 
-static int current_task = 0; // Update in a wrapper of user_jump? 
+static volatile int current_task = 0; // Update in a wrapper of user_jump? 
 
 static task_struct tasks[MAX_NUM_THREADS];
 
