@@ -1,0 +1,92 @@
+diff -urN xen-4.14.1-original/xen/arch/x86/guest/xen/hypercall_page.S xen-4.14.1-modified/xen/arch/x86/guest/xen/hypercall_page.S
+--- xen-4.14.1-original/xen/arch/x86/guest/xen/hypercall_page.S	2020-12-17 11:47:25.000000000 -0500
++++ xen-4.14.1-modified/xen/arch/x86/guest/xen/hypercall_page.S	2021-04-05 22:24:40.058362451 -0400
+@@ -60,6 +60,7 @@
+ DECLARE_HYPERCALL(kexec_op)
+ DECLARE_HYPERCALL(argo_op)
+ DECLARE_HYPERCALL(xenpmu_op)
++DECLARE_HYPERCALL(assignment_3)
+ 
+ DECLARE_HYPERCALL(arch_0)
+ DECLARE_HYPERCALL(arch_1)
+diff -urN xen-4.14.1-original/xen/arch/x86/hvm/hypercall.c xen-4.14.1-modified/xen/arch/x86/hvm/hypercall.c
+--- xen-4.14.1-original/xen/arch/x86/hvm/hypercall.c	2020-12-17 11:47:25.000000000 -0500
++++ xen-4.14.1-modified/xen/arch/x86/hvm/hypercall.c	2021-04-04 18:12:51.633444991 -0400
+@@ -153,7 +153,8 @@
+ #ifdef CONFIG_HYPFS
+     HYPERCALL(hypfs_op),
+ #endif
+-    HYPERCALL(arch_1)
++    HYPERCALL(arch_1),
++    HYPERCALL(assignment_3)
+ };
+ 
+ #undef do_arch_1
+diff -urN xen-4.14.1-original/xen/arch/x86/hypercall.c xen-4.14.1-modified/xen/arch/x86/hypercall.c
+--- xen-4.14.1-original/xen/arch/x86/hypercall.c	2020-12-17 11:47:25.000000000 -0500
++++ xen-4.14.1-modified/xen/arch/x86/hypercall.c	2021-04-05 22:27:28.004893095 -0400
+@@ -78,6 +78,7 @@
+ #endif
+     ARGS(mca, 1),
+     ARGS(arch_1, 1),
++    ARGS(assignment_3, 1),
+ };
+ 
+ #undef COMP
+diff -urN xen-4.14.1-original/xen/arch/x86/pv/hypercall.c xen-4.14.1-modified/xen/arch/x86/pv/hypercall.c
+--- xen-4.14.1-original/xen/arch/x86/pv/hypercall.c	2020-12-17 11:47:25.000000000 -0500
++++ xen-4.14.1-modified/xen/arch/x86/pv/hypercall.c	2021-04-04 18:12:51.625444392 -0400
+@@ -90,6 +90,7 @@
+ #endif
+     HYPERCALL(mca),
+     HYPERCALL(arch_1),
++    HYPERCALL(assignment_3)
+ };
+ 
+ #undef do_arch_1
+diff -urN xen-4.14.1-original/xen/common/assignment_3.c xen-4.14.1-modified/xen/common/assignment_3.c
+--- xen-4.14.1-original/xen/common/assignment_3.c	1969-12-31 19:00:00.000000000 -0500
++++ xen-4.14.1-modified/xen/common/assignment_3.c	2021-04-04 18:12:51.597442299 -0400
+@@ -0,0 +1,7 @@
++#include <xen/lib.h>
++
++int do_assignment_3(int op)
++{
++	printk("Hello world!\n");
++	return 0;
++}
+diff -urN xen-4.14.1-original/xen/common/Makefile xen-4.14.1-modified/xen/common/Makefile
+--- xen-4.14.1-original/xen/common/Makefile	2020-12-17 11:47:25.000000000 -0500
++++ xen-4.14.1-modified/xen/common/Makefile	2021-04-04 18:12:51.597442299 -0400
+@@ -48,6 +48,7 @@
+ obj-y += string.o
+ obj-y += symbols.o
+ obj-y += sysctl.o
++obj-y += assignment_3.o
+ obj-y += tasklet.o
+ obj-y += time.o
+ obj-y += timer.o
+diff -urN xen-4.14.1-original/xen/include/public/xen.h xen-4.14.1-modified/xen/include/public/xen.h
+--- xen-4.14.1-original/xen/include/public/xen.h	2020-12-17 11:47:25.000000000 -0500
++++ xen-4.14.1-modified/xen/include/public/xen.h	2021-04-04 18:14:53.898531587 -0400
+@@ -131,6 +131,7 @@
+ #define __HYPERVISOR_xenpmu_op            40
+ #define __HYPERVISOR_dm_op                41
+ #define __HYPERVISOR_hypfs_op             42
++#define __HYPERVISOR_assignment_3         46
+ 
+ /* Architecture-specific hypercall definitions. */
+ #define __HYPERVISOR_arch_0               48
+diff -urN xen-4.14.1-original/xen/include/xen/hypercall.h xen-4.14.1-modified/xen/include/xen/hypercall.h
+--- xen-4.14.1-original/xen/include/xen/hypercall.h	2020-12-17 11:47:25.000000000 -0500
++++ xen-4.14.1-modified/xen/include/xen/hypercall.h	2021-04-04 18:12:51.637445290 -0400
+@@ -129,6 +129,9 @@
+ do_xsm_op(
+     XEN_GUEST_HANDLE_PARAM(xsm_op_t) u_xsm_op);
+ 
++extern int
++do_assignment_3(int op);
++
+ #ifdef CONFIG_ARGO
+ extern long do_argo_op(
+     unsigned int cmd,

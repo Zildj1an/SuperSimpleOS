@@ -1,0 +1,9 @@
+This directory contains a modified FwImage utility (originally found
+in EdkCompatibilityPkg sample code). Modifications remove unnecessary
+dependencies.
+
+Changes are by Ruslan Nikolaev.
+
+See fwimage.patch for the list of changes for fwimage.c;
+fwimage.h and base.h replace Windows and Edk2 headers correspondingly,
+PeImage.h is from Edk2: IndustryStandard/PeImage.h.

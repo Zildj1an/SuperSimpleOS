@@ -1,0 +1,10141 @@
+cscope 15 $HOME/VT/SPRING_2021/6504/Assignment1/Include/Pi               0000078065
+	@PiBootMode.h
+
+12 #i‚de‡
+__PI_BOOT_MODE_H__
+
+
+13 
+	#__PI_BOOT_MODE_H__
+
+
+	)
+
+18 
+UINT32
+ 
+	tEFI_BOOT_MODE
+;
+
+23 
+	#BOOT_WITH_FULL_CONFIGURATION
+ 0x00
+
+	)
+
+24 
+	#BOOT_WITH_MINIMAL_CONFIGURATION
+ 0x01
+
+	)
+
+25 
+	#BOOT_ASSUMING_NO_CONFIGURATION_CHANGES
+ 0x02
+
+	)
+
+26 
+	#BOOT_WITH_FULL_CONFIGURATION_PLUS_DIAGNOSTICS
+ 0x03
+
+	)
+
+27 
+	#BOOT_WITH_DEFAULT_SETTINGS
+ 0x04
+
+	)
+
+28 
+	#BOOT_ON_S4_RESUME
+ 0x05
+
+	)
+
+29 
+	#BOOT_ON_S5_RESUME
+ 0x06
+
+	)
+
+30 
+	#BOOT_WITH_MFG_MODE_SETTINGS
+ 0x07
+
+	)
+
+31 
+	#BOOT_ON_S2_RESUME
+ 0x10
+
+	)
+
+32 
+	#BOOT_ON_S3_RESUME
+ 0x11
+
+	)
+
+33 
+	#BOOT_ON_FLASH_UPDATE
+ 0x12
+
+	)
+
+34 
+	#BOOT_IN_RECOVERY_MODE
+ 0x20
+
+	)
+
+	@PiDependency.h
+
+11 #i‚de‡
+__PI_DEPENDENCY_H__
+
+
+12 
+	#__PI_DEPENDENCY_H__
+
+
+	)
+
+18 
+	#EFI_DEP_BEFORE
+ 0x00
+
+	)
+
+24 
+	#EFI_DEP_AFTER
+ 0x01
+
+	)
+
+26 
+	#EFI_DEP_PUSH
+ 0x02
+
+	)
+
+27 
+	#EFI_DEP_AND
+ 0x03
+
+	)
+
+28 
+	#EFI_DEP_OR
+ 0x04
+
+	)
+
+29 
+	#EFI_DEP_NOT
+ 0x05
+
+	)
+
+30 
+	#EFI_DEP_TRUE
+ 0x06
+
+	)
+
+31 
+	#EFI_DEP_FALSE
+ 0x07
+
+	)
+
+32 
+	#EFI_DEP_END
+ 0x08
+
+	)
+
+39 
+	#EFI_DEP_SOR
+ 0x09
+
+	)
+
+	@PiDxeCis.h
+
+12 #i‚de‡
+__PI_DXECIS_H__
+
+
+13 
+	#__PI_DXECIS_H__
+
+
+	)
+
+15 
+	~<Uefi/UefiMu…iPha£.h
+>
+
+16 
+	~<Pi/PiMu…iPha£.h
+>
+
+26 
+	mEfiGcdMem‹yTy≥N⁄Exi°ít
+,
+
+32 
+	mEfiGcdMem‹yTy≥Re£rved
+,
+
+38 
+	mEfiGcdMem‹yTy≥Sy°emMem‹y
+,
+
+44 
+	mEfiGcdMem‹yTy≥Mem‹yM≠≥dIo
+,
+
+49 
+	mEfiGcdMem‹yTy≥Pîsi°ít
+,
+
+53 
+	mEfiGcdMem‹yTy≥Pîsi°ítMem‹y
+ = 
+EfiGcdMem‹yTy≥Pîsi°ít
+,
+
+58 
+	mEfiGcdMem‹yTy≥M‹eRñübÀ
+,
+
+59 
+	mEfiGcdMem‹yTy≥Maximum
+
+
+60 } 
+	tEFI_GCD_MEMORY_TYPE
+;
+
+70 
+	mEfiGcdIoTy≥N⁄Exi°ít
+,
+
+75 
+	mEfiGcdIoTy≥Re£rved
+,
+
+80 
+	mEfiGcdIoTy≥Io
+,
+
+81 
+	mEfiGcdIoTy≥Maximum
+
+
+82 } 
+	tEFI_GCD_IO_TYPE
+;
+
+92 
+	mEfiGcdAŒoˇãAnySórchBŸtomUp
+,
+
+97 
+	mEfiGcdAŒoˇãMaxAddªssSórchBŸtomUp
+,
+
+102 
+	mEfiGcdAŒoˇãAddªss
+,
+
+107 
+	mEfiGcdAŒoˇãAnySórchT›Down
+,
+
+112 
+	mEfiGcdAŒoˇãMaxAddªssSórchT›Down
+,
+
+113 
+	mEfiGcdMaxAŒoˇãTy≥
+
+
+114 } 
+	tEFI_GCD_ALLOCATE_TYPE
+;
+
+125 
+EFI_PHYSICAL_ADDRESS
+ 
+	mBa£Addªss
+;
+
+130 
+UINT64
+ 
+	mLígth
+;
+
+137 
+UINT64
+ 
+	mC≠abûôõs
+;
+
+142 
+UINT64
+ 
+	mAâribuãs
+;
+
+147 
+EFI_GCD_MEMORY_TYPE
+ 
+	mGcdMem‹yTy≥
+;
+
+155 
+EFI_HANDLE
+ 
+	mImageH™dÀ
+;
+
+164 
+EFI_HANDLE
+ 
+	mDevi˚H™dÀ
+;
+
+165 } 
+	tEFI_GCD_MEMORY_SPACE_DESCRIPTOR
+;
+
+176 
+EFI_PHYSICAL_ADDRESS
+ 
+	mBa£Addªss
+;
+
+181 
+UINT64
+ 
+	mLígth
+;
+
+187 
+EFI_GCD_IO_TYPE
+ 
+	mGcdIoTy≥
+;
+
+195 
+EFI_HANDLE
+ 
+	mImageH™dÀ
+;
+
+204 
+EFI_HANDLE
+ 
+	mDevi˚H™dÀ
+;
+
+205 } 
+	tEFI_GCD_IO_SPACE_DESCRIPTOR
+;
+
+240 
+	gEFI_STATUS
+
+
+241 (
+	tEFIAPI
+ *
+	tEFI_ADD_MEMORY_SPACE
+)(
+
+242 
+	tIN
+ 
+	tEFI_GCD_MEMORY_TYPE
+ 
+	tGcdMem‹yTy≥
+,
+
+243 
+	tIN
+ 
+	tEFI_PHYSICAL_ADDRESS
+ 
+	tBa£Addªss
+,
+
+244 
+	tIN
+ 
+	tUINT64
+ 
+	tLígth
+,
+
+245 
+	tIN
+ 
+	tUINT64
+ 
+	tC≠abûôõs
+
+
+279 
+	gEFI_STATUS
+
+
+280 (
+	tEFIAPI
+ *
+	tEFI_ALLOCATE_MEMORY_SPACE
+)(
+
+281 
+	tIN
+ 
+	tEFI_GCD_ALLOCATE_TYPE
+ 
+	tGcdAŒoˇãTy≥
+,
+
+282 
+	tIN
+ 
+	tEFI_GCD_MEMORY_TYPE
+ 
+	tGcdMem‹yTy≥
+,
+
+283 
+	tIN
+ 
+	tUINTN
+ 
+	tAlignmít
+,
+
+284 
+	tIN
+ 
+	tUINT64
+ 
+	tLígth
+,
+
+285 
+	tIN
+ 
+	tOUT
+ 
+	tEFI_PHYSICAL_ADDRESS
+ *
+	tBa£Addªss
+,
+
+286 
+	tIN
+ 
+	tEFI_HANDLE
+ 
+	tImageH™dÀ
+,
+
+287 
+	tIN
+ 
+	tEFI_HANDLE
+ 
+	tDevi˚H™dÀ
+ 
+	tOPTIONAL
+
+
+309 
+	gEFI_STATUS
+
+
+310 (
+	tEFIAPI
+ *
+	tEFI_FREE_MEMORY_SPACE
+)(
+
+311 
+	tIN
+ 
+	tEFI_PHYSICAL_ADDRESS
+ 
+	tBa£Addªss
+,
+
+312 
+	tIN
+ 
+	tUINT64
+ 
+	tLígth
+
+
+337 
+	gEFI_STATUS
+
+
+338 (
+	tEFIAPI
+ *
+	tEFI_REMOVE_MEMORY_SPACE
+)(
+
+339 
+	tIN
+ 
+	tEFI_PHYSICAL_ADDRESS
+ 
+	tBa£Addªss
+,
+
+340 
+	tIN
+ 
+	tUINT64
+ 
+	tLígth
+
+
+356 
+	gEFI_STATUS
+
+
+357 (
+	tEFIAPI
+ *
+	tEFI_GET_MEMORY_SPACE_DESCRIPTOR
+)(
+
+358 
+	tIN
+ 
+	tEFI_PHYSICAL_ADDRESS
+ 
+	tBa£Addªss
+,
+
+359 
+	tOUT
+ 
+	tEFI_GCD_MEMORY_SPACE_DESCRIPTOR
+ *
+	tDes¸ùt‹
+
+
+384 
+	gEFI_STATUS
+
+
+385 (
+	tEFIAPI
+ *
+	tEFI_SET_MEMORY_SPACE_ATTRIBUTES
+)(
+
+386 
+	tIN
+ 
+	tEFI_PHYSICAL_ADDRESS
+ 
+	tBa£Addªss
+,
+
+387 
+	tIN
+ 
+	tUINT64
+ 
+	tLígth
+,
+
+388 
+	tIN
+ 
+	tUINT64
+ 
+	tAâribuãs
+
+
+409 
+	gEFI_STATUS
+
+
+410 (
+	tEFIAPI
+ *
+	tEFI_SET_MEMORY_SPACE_CAPABILITIES
+) (
+
+411 
+	tIN
+ 
+	tEFI_PHYSICAL_ADDRESS
+ 
+	tBa£Addªss
+,
+
+412 
+	tIN
+ 
+	tUINT64
+ 
+	tLígth
+,
+
+413 
+	tIN
+ 
+	tUINT64
+ 
+	tC≠abûôõs
+
+
+432 
+	gEFI_STATUS
+
+
+433 (
+	tEFIAPI
+ *
+	tEFI_GET_MEMORY_SPACE_MAP
+)(
+
+434 
+	tOUT
+ 
+	tUINTN
+ *
+	tNumbîOfDes¸ùt‹s
+,
+
+435 
+	tOUT
+ 
+	tEFI_GCD_MEMORY_SPACE_DESCRIPTOR
+ **
+	tMem‹yS∑˚M≠
+
+
+463 
+	gEFI_STATUS
+
+
+464 (
+	tEFIAPI
+ *
+	tEFI_ADD_IO_SPACE
+)(
+
+465 
+	tIN
+ 
+	tEFI_GCD_IO_TYPE
+ 
+	tGcdIoTy≥
+,
+
+466 
+	tIN
+ 
+	tEFI_PHYSICAL_ADDRESS
+ 
+	tBa£Addªss
+,
+
+467 
+	tIN
+ 
+	tUINT64
+ 
+	tLígth
+
+
+495 
+	gEFI_STATUS
+
+
+496 (
+	tEFIAPI
+ *
+	tEFI_ALLOCATE_IO_SPACE
+)(
+
+497 
+	tIN
+ 
+	tEFI_GCD_ALLOCATE_TYPE
+ 
+	tGcdAŒoˇãTy≥
+,
+
+498 
+	tIN
+ 
+	tEFI_GCD_IO_TYPE
+ 
+	tGcdIoTy≥
+,
+
+499 
+	tIN
+ 
+	tUINTN
+ 
+	tAlignmít
+,
+
+500 
+	tIN
+ 
+	tUINT64
+ 
+	tLígth
+,
+
+501 
+	tIN
+ 
+	tOUT
+ 
+	tEFI_PHYSICAL_ADDRESS
+ *
+	tBa£Addªss
+,
+
+502 
+	tIN
+ 
+	tEFI_HANDLE
+ 
+	tImageH™dÀ
+,
+
+503 
+	tIN
+ 
+	tEFI_HANDLE
+ 
+	tDevi˚H™dÀ
+ 
+	tOPTIONAL
+
+
+525 
+	gEFI_STATUS
+
+
+526 (
+	tEFIAPI
+ *
+	tEFI_FREE_IO_SPACE
+)(
+
+527 
+	tIN
+ 
+	tEFI_PHYSICAL_ADDRESS
+ 
+	tBa£Addªss
+,
+
+528 
+	tIN
+ 
+	tUINT64
+ 
+	tLígth
+
+
+555 
+	gEFI_STATUS
+
+
+556 (
+	tEFIAPI
+ *
+	tEFI_REMOVE_IO_SPACE
+)(
+
+557 
+	tIN
+ 
+	tEFI_PHYSICAL_ADDRESS
+ 
+	tBa£Addªss
+,
+
+558 
+	tIN
+ 
+	tUINT64
+ 
+	tLígth
+
+
+574 
+	gEFI_STATUS
+
+
+575 (
+	tEFIAPI
+ *
+	tEFI_GET_IO_SPACE_DESCRIPTOR
+)(
+
+576 
+	tIN
+ 
+	tEFI_PHYSICAL_ADDRESS
+ 
+	tBa£Addªss
+,
+
+577 
+	tOUT
+ 
+	tEFI_GCD_IO_SPACE_DESCRIPTOR
+ *
+	tDes¸ùt‹
+
+
+596 
+	gEFI_STATUS
+
+
+597 (
+	tEFIAPI
+ *
+	tEFI_GET_IO_SPACE_MAP
+)(
+
+598 
+	tOUT
+ 
+	tUINTN
+ *
+	tNumbîOfDes¸ùt‹s
+,
+
+599 
+	tOUT
+ 
+	tEFI_GCD_IO_SPACE_DESCRIPTOR
+ **
+	tIoS∑˚M≠
+
+
+621 
+	gEFI_STATUS
+
+
+622 (
+	tEFIAPI
+ *
+	tEFI_DISPATCH
+)(
+
+623 
+	tVOID
+
+
+638 
+	gEFI_STATUS
+
+
+639 (
+	tEFIAPI
+ *
+	tEFI_SCHEDULE
+)(
+
+640 
+	tIN
+ 
+	tEFI_HANDLE
+ 
+	tFúmw¨eVﬁumeH™dÀ
+,
+
+641 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_GUID
+ *
+	tFûeName
+
+
+656 
+	gEFI_STATUS
+
+
+657 (
+	tEFIAPI
+ *
+	tEFI_TRUST
+)(
+
+658 
+	tIN
+ 
+	tEFI_HANDLE
+ 
+	tFúmw¨eVﬁumeH™dÀ
+,
+
+659 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_GUID
+ *
+	tFûeName
+
+
+681 
+	gEFI_STATUS
+
+
+682 (
+	tEFIAPI
+ *
+	tEFI_PROCESS_FIRMWARE_VOLUME
+)(
+
+683 
+	tIN
+ 
+	tCONST
+ 
+	tVOID
+ *
+	tFúmw¨eVﬁumeHódî
+,
+
+684 
+	tIN
+ 
+	tUINTN
+ 
+	tSize
+,
+
+685 
+	tOUT
+ 
+	tEFI_HANDLE
+ *
+	tFúmw¨eVﬁumeH™dÀ
+
+
+691 
+	#DXE_SERVICES_SIGNATURE
+ 0x565245535f455844ULL
+
+	)
+
+692 
+	#DXE_SPECIFICATION_MAJOR_REVISION
+ 1
+
+	)
+
+693 
+	#DXE_SPECIFICATION_MINOR_REVISION
+ 70
+
+	)
+
+694 
+	#DXE_SERVICES_REVISION
+ ((
+DXE_SPECIFICATION_MAJOR_REVISION
+<<16Ë| (
+DXE_SPECIFICATION_MINOR_REVISION
+))
+
+	)
+
+701 
+EFI_TABLE_HEADER
+ 
+	mHdr
+;
+
+706 
+EFI_ADD_MEMORY_SPACE
+ 
+	mAddMem‹yS∑˚
+;
+
+707 
+EFI_ALLOCATE_MEMORY_SPACE
+ 
+	mAŒoˇãMem‹yS∑˚
+;
+
+708 
+EFI_FREE_MEMORY_SPACE
+ 
+	mFªeMem‹yS∑˚
+;
+
+709 
+EFI_REMOVE_MEMORY_SPACE
+ 
+	mRemoveMem‹yS∑˚
+;
+
+710 
+EFI_GET_MEMORY_SPACE_DESCRIPTOR
+ 
+	mGëMem‹yS∑˚Des¸ùt‹
+;
+
+711 
+EFI_SET_MEMORY_SPACE_ATTRIBUTES
+ 
+	mSëMem‹yS∑˚Aâribuãs
+;
+
+712 
+EFI_GET_MEMORY_SPACE_MAP
+ 
+	mGëMem‹yS∑˚M≠
+;
+
+713 
+EFI_ADD_IO_SPACE
+ 
+	mAddIoS∑˚
+;
+
+714 
+EFI_ALLOCATE_IO_SPACE
+ 
+	mAŒoˇãIoS∑˚
+;
+
+715 
+EFI_FREE_IO_SPACE
+ 
+	mFªeIoS∑˚
+;
+
+716 
+EFI_REMOVE_IO_SPACE
+ 
+	mRemoveIoS∑˚
+;
+
+717 
+EFI_GET_IO_SPACE_DESCRIPTOR
+ 
+	mGëIoS∑˚Des¸ùt‹
+;
+
+718 
+EFI_GET_IO_SPACE_MAP
+ 
+	mGëIoS∑˚M≠
+;
+
+723 
+EFI_DISPATCH
+ 
+	mDi•©ch
+;
+
+724 
+EFI_SCHEDULE
+ 
+	mScheduÀ
+;
+
+725 
+EFI_TRUST
+ 
+	mTru°
+;
+
+729 
+EFI_PROCESS_FIRMWARE_VOLUME
+ 
+	mPro˚ssFúmw¨eVﬁume
+;
+
+733 
+EFI_SET_MEMORY_SPACE_CAPABILITIES
+ 
+	mSëMem‹yS∑˚C≠abûôõs
+;
+
+734 } 
+	tDXE_SERVICES
+;
+
+736 
+DXE_SERVICES
+ 
+	tEFI_DXE_SERVICES
+;
+
+	@PiFirmwareFile.h
+
+13 #i‚de‡
+__PI_FIRMWARE_FILE_H__
+
+
+14 
+	#__PI_FIRMWARE_FILE_H__
+
+
+	)
+
+16 #¥agm®
+∑ck
+(1)
+
+27 
+UINT8
+ 
+	mHódî
+;
+
+37 
+UINT8
+ 
+	mFûe
+;
+
+38 } 
+	mChecksum
+;
+
+42 
+UINT16
+ 
+	mChecksum16
+;
+
+43 } 
+	tEFI_FFS_INTEGRITY_CHECK
+;
+
+49 
+	#FFS_FIXED_CHECKSUM
+ 0xAA
+
+	)
+
+51 
+UINT8
+ 
+	tEFI_FV_FILETYPE
+;
+
+52 
+UINT8
+ 
+	tEFI_FFS_FILE_ATTRIBUTES
+;
+
+53 
+UINT8
+ 
+	tEFI_FFS_FILE_STATE
+;
+
+58 
+	#EFI_FV_FILETYPE_ALL
+ 0x00
+
+	)
+
+59 
+	#EFI_FV_FILETYPE_RAW
+ 0x01
+
+	)
+
+60 
+	#EFI_FV_FILETYPE_FREEFORM
+ 0x02
+
+	)
+
+61 
+	#EFI_FV_FILETYPE_SECURITY_CORE
+ 0x03
+
+	)
+
+62 
+	#EFI_FV_FILETYPE_PEI_CORE
+ 0x04
+
+	)
+
+63 
+	#EFI_FV_FILETYPE_DXE_CORE
+ 0x05
+
+	)
+
+64 
+	#EFI_FV_FILETYPE_PEIM
+ 0x06
+
+	)
+
+65 
+	#EFI_FV_FILETYPE_DRIVER
+ 0x07
+
+	)
+
+66 
+	#EFI_FV_FILETYPE_COMBINED_PEIM_DRIVER
+ 0x08
+
+	)
+
+67 
+	#EFI_FV_FILETYPE_APPLICATION
+ 0x09
+
+	)
+
+68 
+	#EFI_FV_FILETYPE_MM
+ 0x0A
+
+	)
+
+69 
+	#EFI_FV_FILETYPE_SMM
+ 
+EFI_FV_FILETYPE_MM
+
+
+	)
+
+70 
+	#EFI_FV_FILETYPE_FIRMWARE_VOLUME_IMAGE
+ 0x0B
+
+	)
+
+71 
+	#EFI_FV_FILETYPE_COMBINED_MM_DXE
+ 0x0C
+
+	)
+
+72 
+	#EFI_FV_FILETYPE_COMBINED_SMM_DXE
+ 
+EFI_FV_FILETYPE_COMBINED_MM_DXE
+
+
+	)
+
+73 
+	#EFI_FV_FILETYPE_MM_CORE
+ 0x0D
+
+	)
+
+74 
+	#EFI_FV_FILETYPE_SMM_CORE
+ 
+EFI_FV_FILETYPE_MM_CORE
+
+
+	)
+
+75 
+	#EFI_FV_FILETYPE_MM_STANDALONE
+ 0x0E
+
+	)
+
+76 
+	#EFI_FV_FILETYPE_MM_CORE_STANDALONE
+ 0x0F
+
+	)
+
+77 
+	#EFI_FV_FILETYPE_OEM_MIN
+ 0xc0
+
+	)
+
+78 
+	#EFI_FV_FILETYPE_OEM_MAX
+ 0xdf
+
+	)
+
+79 
+	#EFI_FV_FILETYPE_DEBUG_MIN
+ 0xe0
+
+	)
+
+80 
+	#EFI_FV_FILETYPE_DEBUG_MAX
+ 0xef
+
+	)
+
+81 
+	#EFI_FV_FILETYPE_FFS_MIN
+ 0xf0
+
+	)
+
+82 
+	#EFI_FV_FILETYPE_FFS_MAX
+ 0xff
+
+	)
+
+83 
+	#EFI_FV_FILETYPE_FFS_PAD
+ 0xf0
+
+	)
+
+87 
+	#FFS_ATTRIB_LARGE_FILE
+ 0x01
+
+	)
+
+88 
+	#FFS_ATTRIB_DATA_ALIGNMENT_2
+ 0x02
+
+	)
+
+89 
+	#FFS_ATTRIB_FIXED
+ 0x04
+
+	)
+
+90 
+	#FFS_ATTRIB_DATA_ALIGNMENT
+ 0x38
+
+	)
+
+91 
+	#FFS_ATTRIB_CHECKSUM
+ 0x40
+
+	)
+
+96 
+	#EFI_FILE_HEADER_CONSTRUCTION
+ 0x01
+
+	)
+
+97 
+	#EFI_FILE_HEADER_VALID
+ 0x02
+
+	)
+
+98 
+	#EFI_FILE_DATA_VALID
+ 0x04
+
+	)
+
+99 
+	#EFI_FILE_MARKED_FOR_UPDATE
+ 0x08
+
+	)
+
+100 
+	#EFI_FILE_DELETED
+ 0x10
+
+	)
+
+101 
+	#EFI_FILE_HEADER_INVALID
+ 0x20
+
+	)
+
+112 
+EFI_GUID
+ 
+	mName
+;
+
+116 
+EFI_FFS_INTEGRITY_CHECK
+ 
+	mI¡egrôyCheck
+;
+
+120 
+EFI_FV_FILETYPE
+ 
+	mTy≥
+;
+
+124 
+EFI_FFS_FILE_ATTRIBUTES
+ 
+	mAâribuãs
+;
+
+128 
+UINT8
+ 
+	mSize
+[3];
+
+132 
+EFI_FFS_FILE_STATE
+ 
+	mSèã
+;
+
+133 } 
+	tEFI_FFS_FILE_HEADER
+;
+
+141 
+EFI_GUID
+ 
+	mName
+;
+
+146 
+EFI_FFS_INTEGRITY_CHECK
+ 
+	mI¡egrôyCheck
+;
+
+151 
+EFI_FV_FILETYPE
+ 
+	mTy≥
+;
+
+156 
+EFI_FFS_FILE_ATTRIBUTES
+ 
+	mAâribuãs
+;
+
+165 
+UINT8
+ 
+	mSize
+[3];
+
+170 
+EFI_FFS_FILE_STATE
+ 
+	mSèã
+;
+
+176 
+UINT64
+ 
+	mExãndedSize
+;
+
+177 } 
+	tEFI_FFS_FILE_HEADER2
+;
+
+179 
+	#IS_FFS_FILE2
+(
+FfsFûeHódîPå
+Ë\
+
+	)
+
+180 (((((
+	gEFI_FFS_FILE_HEADER
+ *Ë(
+	gUINTN
+Ë
+	gFfsFûeHódîPå
+)->
+	gAâribuãs
+Ë& 
+	gFFS_ATTRIB_LARGE_FILE
+Ë=
+FFS_ATTRIB_LARGE_FILE
+)
+
+187 
+	#FFS_FILE_SIZE
+(
+FfsFûeHódîPå
+Ë((
+UINT32
+Ë–\
+
+	)
+
+188 (((
+EFI_FFS_FILE_HEADER
+ *Ë(
+UINTN
+Ë(
+FfsFûeHódîPå
+))->
+Size
+[0] ) | \
+
+189 (((
+EFI_FFS_FILE_HEADER
+ *Ë(
+UINTN
+Ë(
+FfsFûeHódîPå
+))->
+Size
+[1] << 8) | \
+
+190 (((
+EFI_FFS_FILE_HEADER
+ *Ë(
+UINTN
+Ë(
+FfsFûeHódîPå
+))->
+Size
+[2] << 16)))
+
+192 
+	#FFS_FILE2_SIZE
+(
+FfsFûeHódîPå
+Ë\
+
+	)
+
+193 ((
+UINT32
+Ë(((
+EFI_FFS_FILE_HEADER2
+ *Ë(
+UINTN
+Ë
+FfsFûeHódîPå
+)->
+ExãndedSize
+))
+
+195 
+UINT8
+ 
+	tEFI_SECTION_TYPE
+;
+
+201 
+	#EFI_SECTION_ALL
+ 0x00
+
+	)
+
+206 
+	#EFI_SECTION_COMPRESSION
+ 0x01
+
+	)
+
+208 
+	#EFI_SECTION_GUID_DEFINED
+ 0x02
+
+	)
+
+210 
+	#EFI_SECTION_DISPOSABLE
+ 0x03
+
+	)
+
+215 
+	#EFI_SECTION_PE32
+ 0x10
+
+	)
+
+216 
+	#EFI_SECTION_PIC
+ 0x11
+
+	)
+
+217 
+	#EFI_SECTION_TE
+ 0x12
+
+	)
+
+218 
+	#EFI_SECTION_DXE_DEPEX
+ 0x13
+
+	)
+
+219 
+	#EFI_SECTION_VERSION
+ 0x14
+
+	)
+
+220 
+	#EFI_SECTION_USER_INTERFACE
+ 0x15
+
+	)
+
+221 
+	#EFI_SECTION_COMPATIBILITY16
+ 0x16
+
+	)
+
+222 
+	#EFI_SECTION_FIRMWARE_VOLUME_IMAGE
+ 0x17
+
+	)
+
+223 
+	#EFI_SECTION_FREEFORM_SUBTYPE_GUID
+ 0x18
+
+	)
+
+224 
+	#EFI_SECTION_RAW
+ 0x19
+
+	)
+
+225 
+	#EFI_SECTION_PEI_DEPEX
+ 0x1B
+
+	)
+
+226 
+	#EFI_SECTION_MM_DEPEX
+ 0x1C
+
+	)
+
+227 
+	#EFI_SECTION_SMM_DEPEX
+ 
+EFI_SECTION_MM_DEPEX
+
+
+	)
+
+237 
+UINT8
+ 
+	mSize
+[3];
+
+238 
+EFI_SECTION_TYPE
+ 
+	mTy≥
+;
+
+242 } 
+	tEFI_COMMON_SECTION_HEADER
+;
+
+249 
+UINT8
+ 
+	mSize
+[3];
+
+251 
+EFI_SECTION_TYPE
+ 
+	mTy≥
+;
+
+257 
+UINT32
+ 
+	mExãndedSize
+;
+
+258 } 
+	tEFI_COMMON_SECTION_HEADER2
+;
+
+264 
+EFI_COMMON_SECTION_HEADER
+ 
+	tEFI_COMPATIBILITY16_SECTION
+;
+
+265 
+EFI_COMMON_SECTION_HEADER2
+ 
+	tEFI_COMPATIBILITY16_SECTION2
+;
+
+270 
+	#EFI_NOT_COMPRESSED
+ 0x00
+
+	)
+
+271 
+	#EFI_STANDARD_COMPRESSION
+ 0x01
+
+	)
+
+280 
+EFI_COMMON_SECTION_HEADER
+ 
+	mComm⁄Hódî
+;
+
+284 
+UINT32
+ 
+	mUncom¥es£dLígth
+;
+
+288 
+UINT8
+ 
+	mCom¥essi⁄Ty≥
+;
+
+289 } 
+	tEFI_COMPRESSION_SECTION
+;
+
+295 
+EFI_COMMON_SECTION_HEADER2
+ 
+	mComm⁄Hódî
+;
+
+299 
+UINT32
+ 
+	mUncom¥es£dLígth
+;
+
+303 
+UINT8
+ 
+	mCom¥essi⁄Ty≥
+;
+
+304 } 
+	tEFI_COMPRESSION_SECTION2
+;
+
+315 
+EFI_COMMON_SECTION_HEADER
+ 
+	tEFI_DISPOSABLE_SECTION
+;
+
+316 
+EFI_COMMON_SECTION_HEADER2
+ 
+	tEFI_DISPOSABLE_SECTION2
+;
+
+321 
+EFI_COMMON_SECTION_HEADER
+ 
+	tEFI_DXE_DEPEX_SECTION
+;
+
+322 
+EFI_COMMON_SECTION_HEADER2
+ 
+	tEFI_DXE_DEPEX_SECTION2
+;
+
+327 
+EFI_COMMON_SECTION_HEADER
+ 
+	tEFI_FIRMWARE_VOLUME_IMAGE_SECTION
+;
+
+328 
+EFI_COMMON_SECTION_HEADER2
+ 
+	tEFI_FIRMWARE_VOLUME_IMAGE_SECTION2
+;
+
+337 
+EFI_COMMON_SECTION_HEADER
+ 
+	mComm⁄Hódî
+;
+
+341 
+EFI_GUID
+ 
+	mSubTy≥Guid
+;
+
+342 } 
+	tEFI_FREEFORM_SUBTYPE_GUID_SECTION
+;
+
+348 
+EFI_COMMON_SECTION_HEADER2
+ 
+	mComm⁄Hódî
+;
+
+352 
+EFI_GUID
+ 
+	mSubTy≥Guid
+;
+
+353 } 
+	tEFI_FREEFORM_SUBTYPE_GUID_SECTION2
+;
+
+358 
+	#EFI_GUIDED_SECTION_PROCESSING_REQUIRED
+ 0x01
+
+	)
+
+359 
+	#EFI_GUIDED_SECTION_AUTH_STATUS_VALID
+ 0x02
+
+	)
+
+367 
+EFI_COMMON_SECTION_HEADER
+ 
+	mComm⁄Hódî
+;
+
+371 
+EFI_GUID
+ 
+	mSe˘i⁄Deföôi⁄Guid
+;
+
+375 
+UINT16
+ 
+	mD©aOff£t
+;
+
+379 
+UINT16
+ 
+	mAâribuãs
+;
+
+380 } 
+	tEFI_GUID_DEFINED_SECTION
+;
+
+386 
+EFI_COMMON_SECTION_HEADER2
+ 
+	mComm⁄Hódî
+;
+
+390 
+EFI_GUID
+ 
+	mSe˘i⁄Deföôi⁄Guid
+;
+
+394 
+UINT16
+ 
+	mD©aOff£t
+;
+
+398 
+UINT16
+ 
+	mAâribuãs
+;
+
+399 } 
+	tEFI_GUID_DEFINED_SECTION2
+;
+
+404 
+EFI_COMMON_SECTION_HEADER
+ 
+	tEFI_PE32_SECTION
+;
+
+405 
+EFI_COMMON_SECTION_HEADER2
+ 
+	tEFI_PE32_SECTION2
+;
+
+410 
+EFI_COMMON_SECTION_HEADER
+ 
+	tEFI_PEI_DEPEX_SECTION
+;
+
+411 
+EFI_COMMON_SECTION_HEADER2
+ 
+	tEFI_PEI_DEPEX_SECTION2
+;
+
+422 
+EFI_COMMON_SECTION_HEADER
+ 
+	tEFI_PIC_SECTION
+;
+
+423 
+EFI_COMMON_SECTION_HEADER2
+ 
+	tEFI_PIC_SECTION2
+;
+
+428 
+EFI_COMMON_SECTION_HEADER
+ 
+	tEFI_TE_SECTION
+;
+
+429 
+EFI_COMMON_SECTION_HEADER2
+ 
+	tEFI_TE_SECTION2
+;
+
+434 
+EFI_COMMON_SECTION_HEADER
+ 
+	tEFI_RAW_SECTION
+;
+
+435 
+EFI_COMMON_SECTION_HEADER2
+ 
+	tEFI_RAW_SECTION2
+;
+
+445 
+EFI_COMMON_SECTION_HEADER
+ 
+	tEFI_SMM_DEPEX_SECTION
+;
+
+446 
+EFI_COMMON_SECTION_HEADER2
+ 
+	tEFI_SMM_DEPEX_SECTION2
+;
+
+453 
+EFI_COMMON_SECTION_HEADER
+ 
+	mComm⁄Hódî
+;
+
+458 
+CHAR16
+ 
+	mFûeNameSåög
+[1];
+
+459 } 
+	tEFI_USER_INTERFACE_SECTION
+;
+
+462 
+EFI_COMMON_SECTION_HEADER2
+ 
+	mComm⁄Hódî
+;
+
+463 
+CHAR16
+ 
+	mFûeNameSåög
+[1];
+
+464 } 
+	tEFI_USER_INTERFACE_SECTION2
+;
+
+471 
+EFI_COMMON_SECTION_HEADER
+ 
+	mComm⁄Hódî
+;
+
+472 
+UINT16
+ 
+	mBuûdNumbî
+;
+
+477 
+CHAR16
+ 
+	mVîsi⁄Såög
+[1];
+
+478 } 
+	tEFI_VERSION_SECTION
+;
+
+481 
+EFI_COMMON_SECTION_HEADER2
+ 
+	mComm⁄Hódî
+;
+
+486 
+UINT16
+ 
+	mBuûdNumbî
+;
+
+487 
+CHAR16
+ 
+	mVîsi⁄Såög
+[1];
+
+488 } 
+	tEFI_VERSION_SECTION2
+;
+
+495 
+	#SECTION_SIZE
+(
+Se˘i⁄HódîPå
+Ë((
+UINT32
+Ë–\
+
+	)
+
+496 (((
+	gEFI_COMMON_SECTION_HEADER
+ *Ë(
+	gUINTN
+Ë(
+	gSe˘i⁄HódîPå
+))->
+	gSize
+[0] ) | \
+
+497 (((
+	gEFI_COMMON_SECTION_HEADER
+ *Ë(
+	gUINTN
+Ë(
+	gSe˘i⁄HódîPå
+))->
+	gSize
+[1] << 8) | \
+
+498 (((
+	gEFI_COMMON_SECTION_HEADER
+ *Ë(
+	gUINTN
+Ë(
+	gSe˘i⁄HódîPå
+))->
+	gSize
+[2] << 16)))
+
+500 
+	#IS_SECTION2
+(
+Se˘i⁄HódîPå
+Ë\
+
+	)
+
+501 (
+SECTION_SIZE
+ (
+Se˘i⁄HódîPå
+) == 0x00ffffff)
+
+503 
+	#SECTION2_SIZE
+(
+Se˘i⁄HódîPå
+Ë\
+
+	)
+
+504 (((
+EFI_COMMON_SECTION_HEADER2
+ *Ë(
+UINTN
+Ë
+Se˘i⁄HódîPå
+)->
+ExãndedSize
+)
+
+506 #¥agm®
+∑ck
+()
+
+	@PiFirmwareVolume.h
+
+12 #i‚de‡
+__PI_FIRMWAREVOLUME_H__
+
+
+13 
+	#__PI_FIRMWAREVOLUME_H__
+
+
+	)
+
+18 
+UINT32
+ 
+	tEFI_FV_FILE_ATTRIBUTES
+;
+
+23 
+	#EFI_FV_FILE_ATTRIB_ALIGNMENT
+ 0x0000001F
+
+	)
+
+24 
+	#EFI_FV_FILE_ATTRIB_FIXED
+ 0x00000100
+
+	)
+
+25 
+	#EFI_FV_FILE_ATTRIB_MEMORY_MAPPED
+ 0x00000200
+
+	)
+
+30 
+UINT32
+ 
+	tEFI_FVB_ATTRIBUTES_2
+;
+
+35 
+	#EFI_FVB2_READ_DISABLED_CAP
+ 0x00000001
+
+	)
+
+36 
+	#EFI_FVB2_READ_ENABLED_CAP
+ 0x00000002
+
+	)
+
+37 
+	#EFI_FVB2_READ_STATUS
+ 0x00000004
+
+	)
+
+38 
+	#EFI_FVB2_WRITE_DISABLED_CAP
+ 0x00000008
+
+	)
+
+39 
+	#EFI_FVB2_WRITE_ENABLED_CAP
+ 0x00000010
+
+	)
+
+40 
+	#EFI_FVB2_WRITE_STATUS
+ 0x00000020
+
+	)
+
+41 
+	#EFI_FVB2_LOCK_CAP
+ 0x00000040
+
+	)
+
+42 
+	#EFI_FVB2_LOCK_STATUS
+ 0x00000080
+
+	)
+
+43 
+	#EFI_FVB2_STICKY_WRITE
+ 0x00000200
+
+	)
+
+44 
+	#EFI_FVB2_MEMORY_MAPPED
+ 0x00000400
+
+	)
+
+45 
+	#EFI_FVB2_ERASE_POLARITY
+ 0x00000800
+
+	)
+
+46 
+	#EFI_FVB2_READ_LOCK_CAP
+ 0x00001000
+
+	)
+
+47 
+	#EFI_FVB2_READ_LOCK_STATUS
+ 0x00002000
+
+	)
+
+48 
+	#EFI_FVB2_WRITE_LOCK_CAP
+ 0x00004000
+
+	)
+
+49 
+	#EFI_FVB2_WRITE_LOCK_STATUS
+ 0x00008000
+
+	)
+
+50 
+	#EFI_FVB2_ALIGNMENT
+ 0x001F0000
+
+	)
+
+51 
+	#EFI_FVB2_ALIGNMENT_1
+ 0x00000000
+
+	)
+
+52 
+	#EFI_FVB2_ALIGNMENT_2
+ 0x00010000
+
+	)
+
+53 
+	#EFI_FVB2_ALIGNMENT_4
+ 0x00020000
+
+	)
+
+54 
+	#EFI_FVB2_ALIGNMENT_8
+ 0x00030000
+
+	)
+
+55 
+	#EFI_FVB2_ALIGNMENT_16
+ 0x00040000
+
+	)
+
+56 
+	#EFI_FVB2_ALIGNMENT_32
+ 0x00050000
+
+	)
+
+57 
+	#EFI_FVB2_ALIGNMENT_64
+ 0x00060000
+
+	)
+
+58 
+	#EFI_FVB2_ALIGNMENT_128
+ 0x00070000
+
+	)
+
+59 
+	#EFI_FVB2_ALIGNMENT_256
+ 0x00080000
+
+	)
+
+60 
+	#EFI_FVB2_ALIGNMENT_512
+ 0x00090000
+
+	)
+
+61 
+	#EFI_FVB2_ALIGNMENT_1K
+ 0x000A0000
+
+	)
+
+62 
+	#EFI_FVB2_ALIGNMENT_2K
+ 0x000B0000
+
+	)
+
+63 
+	#EFI_FVB2_ALIGNMENT_4K
+ 0x000C0000
+
+	)
+
+64 
+	#EFI_FVB2_ALIGNMENT_8K
+ 0x000D0000
+
+	)
+
+65 
+	#EFI_FVB2_ALIGNMENT_16K
+ 0x000E0000
+
+	)
+
+66 
+	#EFI_FVB2_ALIGNMENT_32K
+ 0x000F0000
+
+	)
+
+67 
+	#EFI_FVB2_ALIGNMENT_64K
+ 0x00100000
+
+	)
+
+68 
+	#EFI_FVB2_ALIGNMENT_128K
+ 0x00110000
+
+	)
+
+69 
+	#EFI_FVB2_ALIGNMENT_256K
+ 0x00120000
+
+	)
+
+70 
+	#EFI_FVB2_ALIGNMENT_512K
+ 0x00130000
+
+	)
+
+71 
+	#EFI_FVB2_ALIGNMENT_1M
+ 0x00140000
+
+	)
+
+72 
+	#EFI_FVB2_ALIGNMENT_2M
+ 0x00150000
+
+	)
+
+73 
+	#EFI_FVB2_ALIGNMENT_4M
+ 0x00160000
+
+	)
+
+74 
+	#EFI_FVB2_ALIGNMENT_8M
+ 0x00170000
+
+	)
+
+75 
+	#EFI_FVB2_ALIGNMENT_16M
+ 0x00180000
+
+	)
+
+76 
+	#EFI_FVB2_ALIGNMENT_32M
+ 0x00190000
+
+	)
+
+77 
+	#EFI_FVB2_ALIGNMENT_64M
+ 0x001A0000
+
+	)
+
+78 
+	#EFI_FVB2_ALIGNMENT_128M
+ 0x001B0000
+
+	)
+
+79 
+	#EFI_FVB2_ALIGNMENT_256M
+ 0x001C0000
+
+	)
+
+80 
+	#EFI_FVB2_ALIGNMENT_512M
+ 0x001D0000
+
+	)
+
+81 
+	#EFI_FVB2_ALIGNMENT_1G
+ 0x001E0000
+
+	)
+
+82 
+	#EFI_FVB2_ALIGNMENT_2G
+ 0x001F0000
+
+	)
+
+83 
+	#EFI_FVB2_WEAK_ALIGNMENT
+ 0x80000000
+
+	)
+
+89 
+UINT32
+ 
+	mNumBlocks
+;
+
+93 
+UINT32
+ 
+	mLígth
+;
+
+94 } 
+	tEFI_FV_BLOCK_MAP_ENTRY
+;
+
+104 
+UINT8
+ 
+	mZîoVe˘‹
+[16];
+
+108 
+EFI_GUID
+ 
+	mFûeSy°emGuid
+;
+
+112 
+UINT64
+ 
+	mFvLígth
+;
+
+116 
+UINT32
+ 
+	mSig«tuª
+;
+
+120 
+EFI_FVB_ATTRIBUTES_2
+ 
+	mAâribuãs
+;
+
+124 
+UINT16
+ 
+	mHódîLígth
+;
+
+128 
+UINT16
+ 
+	mChecksum
+;
+
+133 
+UINT16
+ 
+	mExtHódîOff£t
+;
+
+137 
+UINT8
+ 
+	mRe£rved
+[1];
+
+142 
+UINT8
+ 
+	mRevisi⁄
+;
+
+147 
+EFI_FV_BLOCK_MAP_ENTRY
+ 
+	mBlockM≠
+[1];
+
+148 } 
+	tEFI_FIRMWARE_VOLUME_HEADER
+;
+
+150 
+	#EFI_FVH_SIGNATURE
+ 
+	`SIGNATURE_32
+ ('_', 'F', 'V', 'H')
+
+	)
+
+155 
+	#EFI_FVH_REVISION
+ 0x02
+
+	)
+
+164 
+EFI_GUID
+ 
+	mFvName
+;
+
+168 
+UINT32
+ 
+	mExtHódîSize
+;
+
+169 } 
+	tEFI_FIRMWARE_VOLUME_EXT_HEADER
+;
+
+178 
+UINT16
+ 
+	mExtE¡rySize
+;
+
+182 
+UINT16
+ 
+	mExtE¡ryTy≥
+;
+
+183 } 
+	tEFI_FIRMWARE_VOLUME_EXT_ENTRY
+;
+
+185 
+	#EFI_FV_EXT_TYPE_OEM_TYPE
+ 0x01
+
+	)
+
+193 
+EFI_FIRMWARE_VOLUME_EXT_ENTRY
+ 
+	mHdr
+;
+
+198 
+UINT32
+ 
+	mTy≥Mask
+;
+
+204 } 
+	tEFI_FIRMWARE_VOLUME_EXT_ENTRY_OEM_TYPE
+;
+
+206 
+	#EFI_FV_EXT_TYPE_GUID_TYPE
+ 0x0002
+
+	)
+
+216 
+EFI_FIRMWARE_VOLUME_EXT_ENTRY
+ 
+	mHdr
+;
+
+220 
+EFI_GUID
+ 
+	mF‹m©Ty≥
+;
+
+226 } 
+	tEFI_FIRMWARE_VOLUME_EXT_ENTRY_GUID_TYPE
+;
+
+228 
+	#EFI_FV_EXT_TYPE_USED_SIZE_TYPE
+ 0x03
+
+	)
+
+238 
+EFI_FIRMWARE_VOLUME_EXT_ENTRY
+ 
+	mHdr
+;
+
+244 
+UINT32
+ 
+	mU£dSize
+;
+
+245 } 
+	tEFI_FIRMWARE_VOLUME_EXT_ENTRY_USED_SIZE_TYPE
+;
+
+	@PiHob.h
+
+12 #i‚de‡
+__PI_HOB_H__
+
+
+13 
+	#__PI_HOB_H__
+
+
+	)
+
+18 
+	#EFI_HOB_TYPE_HANDOFF
+ 0x0001
+
+	)
+
+19 
+	#EFI_HOB_TYPE_MEMORY_ALLOCATION
+ 0x0002
+
+	)
+
+20 
+	#EFI_HOB_TYPE_RESOURCE_DESCRIPTOR
+ 0x0003
+
+	)
+
+21 
+	#EFI_HOB_TYPE_GUID_EXTENSION
+ 0x0004
+
+	)
+
+22 
+	#EFI_HOB_TYPE_FV
+ 0x0005
+
+	)
+
+23 
+	#EFI_HOB_TYPE_CPU
+ 0x0006
+
+	)
+
+24 
+	#EFI_HOB_TYPE_MEMORY_POOL
+ 0x0007
+
+	)
+
+25 
+	#EFI_HOB_TYPE_FV2
+ 0x0009
+
+	)
+
+26 
+	#EFI_HOB_TYPE_LOAD_PEIM_UNUSED
+ 0x000A
+
+	)
+
+27 
+	#EFI_HOB_TYPE_UEFI_CAPSULE
+ 0x000B
+
+	)
+
+28 
+	#EFI_HOB_TYPE_FV3
+ 0x000C
+
+	)
+
+29 
+	#EFI_HOB_TYPE_UNUSED
+ 0xFFFE
+
+	)
+
+30 
+	#EFI_HOB_TYPE_END_OF_HOB_LIST
+ 0xFFFF
+
+	)
+
+40 
+UINT16
+ 
+	mHobTy≥
+;
+
+44 
+UINT16
+ 
+	mHobLígth
+;
+
+48 
+UINT32
+ 
+	mRe£rved
+;
+
+49 } 
+	tEFI_HOB_GENERIC_HEADER
+;
+
+55 
+	#EFI_HOB_HANDOFF_TABLE_VERSION
+ 0x0009
+
+	)
+
+65 
+EFI_HOB_GENERIC_HEADER
+ 
+	mHódî
+;
+
+71 
+UINT32
+ 
+	mVîsi⁄
+;
+
+75 
+EFI_BOOT_MODE
+ 
+	mBoŸMode
+;
+
+80 
+EFI_PHYSICAL_ADDRESS
+ 
+	mEfiMem‹yT›
+;
+
+84 
+EFI_PHYSICAL_ADDRESS
+ 
+	mEfiMem‹yBŸtom
+;
+
+89 
+EFI_PHYSICAL_ADDRESS
+ 
+	mEfiFªeMem‹yT›
+;
+
+93 
+EFI_PHYSICAL_ADDRESS
+ 
+	mEfiFªeMem‹yBŸtom
+;
+
+97 
+EFI_PHYSICAL_ADDRESS
+ 
+	mEfiEndOfHobLi°
+;
+
+98 } 
+	tEFI_HOB_HANDOFF_INFO_TABLE
+;
+
+113 
+EFI_GUID
+ 
+	mName
+;
+
+120 
+EFI_PHYSICAL_ADDRESS
+ 
+	mMem‹yBa£Addªss
+;
+
+125 
+UINT64
+ 
+	mMem‹yLígth
+;
+
+132 
+EFI_MEMORY_TYPE
+ 
+	mMem‹yTy≥
+;
+
+137 
+UINT8
+ 
+	mRe£rved
+[4];
+
+138 } 
+	tEFI_HOB_MEMORY_ALLOCATION_HEADER
+;
+
+149 
+EFI_HOB_GENERIC_HEADER
+ 
+	mHódî
+;
+
+154 
+EFI_HOB_MEMORY_ALLOCATION_HEADER
+ 
+	mAŒocDes¸ùt‹
+;
+
+159 } 
+	tEFI_HOB_MEMORY_ALLOCATION
+;
+
+171 
+EFI_HOB_GENERIC_HEADER
+ 
+	mHódî
+;
+
+176 
+EFI_HOB_MEMORY_ALLOCATION_HEADER
+ 
+	mAŒocDes¸ùt‹
+;
+
+177 } 
+	tEFI_HOB_MEMORY_ALLOCATION_STACK
+;
+
+189 
+EFI_HOB_GENERIC_HEADER
+ 
+	mHódî
+;
+
+194 
+EFI_HOB_MEMORY_ALLOCATION_HEADER
+ 
+	mAŒocDes¸ùt‹
+;
+
+195 } 
+	tEFI_HOB_MEMORY_ALLOCATION_BSP_STORE
+;
+
+204 
+EFI_HOB_GENERIC_HEADER
+ 
+	mHódî
+;
+
+209 
+EFI_HOB_MEMORY_ALLOCATION_HEADER
+ 
+	mMem‹yAŒoˇti⁄Hódî
+;
+
+214 
+EFI_GUID
+ 
+	mModuÀName
+;
+
+219 
+EFI_PHYSICAL_ADDRESS
+ 
+	mE¡ryPoöt
+;
+
+220 } 
+	tEFI_HOB_MEMORY_ALLOCATION_MODULE
+;
+
+225 
+UINT32
+ 
+	tEFI_RESOURCE_TYPE
+;
+
+230 
+	#EFI_RESOURCE_SYSTEM_MEMORY
+ 0x00000000
+
+	)
+
+231 
+	#EFI_RESOURCE_MEMORY_MAPPED_IO
+ 0x00000001
+
+	)
+
+232 
+	#EFI_RESOURCE_IO
+ 0x00000002
+
+	)
+
+233 
+	#EFI_RESOURCE_FIRMWARE_DEVICE
+ 0x00000003
+
+	)
+
+234 
+	#EFI_RESOURCE_MEMORY_MAPPED_IO_PORT
+ 0x00000004
+
+	)
+
+235 
+	#EFI_RESOURCE_MEMORY_RESERVED
+ 0x00000005
+
+	)
+
+236 
+	#EFI_RESOURCE_IO_RESERVED
+ 0x00000006
+
+	)
+
+237 
+	#EFI_RESOURCE_MAX_MEMORY_TYPE
+ 0x00000007
+
+	)
+
+242 
+UINT32
+ 
+	tEFI_RESOURCE_ATTRIBUTE_TYPE
+;
+
+249 
+	#EFI_RESOURCE_ATTRIBUTE_PRESENT
+ 0x00000001
+
+	)
+
+250 
+	#EFI_RESOURCE_ATTRIBUTE_INITIALIZED
+ 0x00000002
+
+	)
+
+251 
+	#EFI_RESOURCE_ATTRIBUTE_TESTED
+ 0x00000004
+
+	)
+
+252 
+	#EFI_RESOURCE_ATTRIBUTE_READ_PROTECTED
+ 0x00000080
+
+	)
+
+260 
+	#EFI_RESOURCE_ATTRIBUTE_WRITE_PROTECTED
+ 0x00000100
+
+	)
+
+261 
+	#EFI_RESOURCE_ATTRIBUTE_EXECUTION_PROTECTED
+ 0x00000200
+
+	)
+
+262 
+	#EFI_RESOURCE_ATTRIBUTE_PERSISTENT
+ 0x00800000
+
+	)
+
+266 
+	#EFI_RESOURCE_ATTRIBUTE_SINGLE_BIT_ECC
+ 0x00000008
+
+	)
+
+267 
+	#EFI_RESOURCE_ATTRIBUTE_MULTIPLE_BIT_ECC
+ 0x00000010
+
+	)
+
+268 
+	#EFI_RESOURCE_ATTRIBUTE_ECC_RESERVED_1
+ 0x00000020
+
+	)
+
+269 
+	#EFI_RESOURCE_ATTRIBUTE_ECC_RESERVED_2
+ 0x00000040
+
+	)
+
+270 
+	#EFI_RESOURCE_ATTRIBUTE_UNCACHEABLE
+ 0x00000400
+
+	)
+
+271 
+	#EFI_RESOURCE_ATTRIBUTE_WRITE_COMBINEABLE
+ 0x00000800
+
+	)
+
+272 
+	#EFI_RESOURCE_ATTRIBUTE_WRITE_THROUGH_CACHEABLE
+ 0x00001000
+
+	)
+
+273 
+	#EFI_RESOURCE_ATTRIBUTE_WRITE_BACK_CACHEABLE
+ 0x00002000
+
+	)
+
+274 
+	#EFI_RESOURCE_ATTRIBUTE_16_BIT_IO
+ 0x00004000
+
+	)
+
+275 
+	#EFI_RESOURCE_ATTRIBUTE_32_BIT_IO
+ 0x00008000
+
+	)
+
+276 
+	#EFI_RESOURCE_ATTRIBUTE_64_BIT_IO
+ 0x00010000
+
+	)
+
+277 
+	#EFI_RESOURCE_ATTRIBUTE_UNCACHED_EXPORTED
+ 0x00020000
+
+	)
+
+278 
+	#EFI_RESOURCE_ATTRIBUTE_READ_PROTECTABLE
+ 0x00100000
+
+	)
+
+286 
+	#EFI_RESOURCE_ATTRIBUTE_WRITE_PROTECTABLE
+ 0x00200000
+
+	)
+
+287 
+	#EFI_RESOURCE_ATTRIBUTE_EXECUTION_PROTECTABLE
+ 0x00400000
+
+	)
+
+288 
+	#EFI_RESOURCE_ATTRIBUTE_PERSISTABLE
+ 0x01000000
+
+	)
+
+290 
+	#EFI_RESOURCE_ATTRIBUTE_READ_ONLY_PROTECTED
+ 0x00040000
+
+	)
+
+291 
+	#EFI_RESOURCE_ATTRIBUTE_READ_ONLY_PROTECTABLE
+ 0x00080000
+
+	)
+
+299 
+	#EFI_RESOURCE_ATTRIBUTE_MORE_RELIABLE
+ 0x02000000
+
+	)
+
+310 
+EFI_HOB_GENERIC_HEADER
+ 
+	mHódî
+;
+
+315 
+EFI_GUID
+ 
+	mOw√r
+;
+
+319 
+EFI_RESOURCE_TYPE
+ 
+	mResour˚Ty≥
+;
+
+323 
+EFI_RESOURCE_ATTRIBUTE_TYPE
+ 
+	mResour˚Aâribuã
+;
+
+327 
+EFI_PHYSICAL_ADDRESS
+ 
+	mPhysiˇlSèπ
+;
+
+331 
+UINT64
+ 
+	mResour˚Lígth
+;
+
+332 } 
+	tEFI_HOB_RESOURCE_DESCRIPTOR
+;
+
+342 
+EFI_HOB_GENERIC_HEADER
+ 
+	mHódî
+;
+
+346 
+EFI_GUID
+ 
+	mName
+;
+
+350 } 
+	tEFI_HOB_GUID_TYPE
+;
+
+359 
+EFI_HOB_GENERIC_HEADER
+ 
+	mHódî
+;
+
+363 
+EFI_PHYSICAL_ADDRESS
+ 
+	mBa£Addªss
+;
+
+367 
+UINT64
+ 
+	mLígth
+;
+
+368 } 
+	tEFI_HOB_FIRMWARE_VOLUME
+;
+
+378 
+EFI_HOB_GENERIC_HEADER
+ 
+	mHódî
+;
+
+382 
+EFI_PHYSICAL_ADDRESS
+ 
+	mBa£Addªss
+;
+
+386 
+UINT64
+ 
+	mLígth
+;
+
+390 
+EFI_GUID
+ 
+	mFvName
+;
+
+394 
+EFI_GUID
+ 
+	mFûeName
+;
+
+395 } 
+	tEFI_HOB_FIRMWARE_VOLUME2
+;
+
+405 
+EFI_HOB_GENERIC_HEADER
+ 
+	mHódî
+;
+
+409 
+EFI_PHYSICAL_ADDRESS
+ 
+	mBa£Addªss
+;
+
+413 
+UINT64
+ 
+	mLígth
+;
+
+417 
+UINT32
+ 
+	mAuthítiˇti⁄Sètus
+;
+
+422 
+BOOLEAN
+ 
+	mExåa˘edFv
+;
+
+427 
+EFI_GUID
+ 
+	mFvName
+;
+
+432 
+EFI_GUID
+ 
+	mFûeName
+;
+
+433 } 
+	tEFI_HOB_FIRMWARE_VOLUME3
+;
+
+442 
+EFI_HOB_GENERIC_HEADER
+ 
+	mHódî
+;
+
+446 
+UINT8
+ 
+	mSizeOfMem‹yS∑˚
+;
+
+450 
+UINT8
+ 
+	mSizeOfIoS∑˚
+;
+
+454 
+UINT8
+ 
+	mRe£rved
+[6];
+
+455 } 
+	tEFI_HOB_CPU
+;
+
+465 
+EFI_HOB_GENERIC_HEADER
+ 
+	mHódî
+;
+
+466 } 
+	tEFI_HOB_MEMORY_POOL
+;
+
+479 
+EFI_HOB_GENERIC_HEADER
+ 
+	mHódî
+;
+
+486 
+EFI_PHYSICAL_ADDRESS
+ 
+	mBa£Addªss
+;
+
+487 
+UINT64
+ 
+	mLígth
+;
+
+488 } 
+	tEFI_HOB_UEFI_CAPSULE
+;
+
+494 
+EFI_HOB_GENERIC_HEADER
+ *
+	mHódî
+;
+
+495 
+EFI_HOB_HANDOFF_INFO_TABLE
+ *
+	mH™doffInf‹m©i⁄TabÀ
+;
+
+496 
+EFI_HOB_MEMORY_ALLOCATION
+ *
+	mMem‹yAŒoˇti⁄
+;
+
+497 
+EFI_HOB_MEMORY_ALLOCATION_BSP_STORE
+ *
+	mMem‹yAŒoˇti⁄B•St‹e
+;
+
+498 
+EFI_HOB_MEMORY_ALLOCATION_STACK
+ *
+	mMem‹yAŒoˇti⁄Sèck
+;
+
+499 
+EFI_HOB_MEMORY_ALLOCATION_MODULE
+ *
+	mMem‹yAŒoˇti⁄ModuÀ
+;
+
+500 
+EFI_HOB_RESOURCE_DESCRIPTOR
+ *
+	mResour˚Des¸ùt‹
+;
+
+501 
+EFI_HOB_GUID_TYPE
+ *
+	mGuid
+;
+
+502 
+EFI_HOB_FIRMWARE_VOLUME
+ *
+	mFúmw¨eVﬁume
+;
+
+503 
+EFI_HOB_FIRMWARE_VOLUME2
+ *
+	mFúmw¨eVﬁume2
+;
+
+504 
+EFI_HOB_FIRMWARE_VOLUME3
+ *
+	mFúmw¨eVﬁume3
+;
+
+505 
+EFI_HOB_CPU
+ *
+	mCpu
+;
+
+506 
+EFI_HOB_MEMORY_POOL
+ *
+	mPoﬁ
+;
+
+507 
+EFI_HOB_UEFI_CAPSULE
+ *
+	mC≠suÀ
+;
+
+508 
+UINT8
+ *
+	mRaw
+;
+
+509 } 
+	tEFI_PEI_HOB_POINTERS
+;
+
+	@PiI2c.h
+
+12 #i‚de‡
+__PI_I2C_H__
+
+
+13 
+	#__PI_I2C_H__
+
+
+	)
+
+20 
+	#I2C_ADDRESSING_10_BIT
+ 0x80000000
+
+	)
+
+34 
+UINT32
+ 
+	mSåu˘uªSizeInByãs
+;
+
+40 
+UINT32
+ 
+	mMaximumRe˚iveByãs
+;
+
+46 
+UINT32
+ 
+	mMaximumTønsmôByãs
+;
+
+51 
+UINT32
+ 
+	mMaximumTŸÆByãs
+;
+
+52 } 
+	tEFI_I2C_CONTROLLER_CAPABILITIES
+;
+
+70 
+CONST
+ 
+EFI_GUID
+ *
+	mDevi˚Guid
+;
+
+75 
+UINT32
+ 
+	mDevi˚Index
+;
+
+86 
+UINT32
+ 
+	mH¨dw¨eRevisi⁄
+;
+
+91 
+UINT32
+ 
+	mI2cBusC⁄figuøti⁄
+;
+
+96 
+UINT32
+ 
+	mSœveAddªssCou¡
+;
+
+101 
+CONST
+ 
+UINT32
+ *
+	mSœveAddªssAºay
+;
+
+102 } 
+	tEFI_I2C_DEVICE
+;
+
+108 
+	#I2C_FLAG_READ
+ 0x00000001
+
+	)
+
+119 
+	#I2C_FLAG_SMBUS_OPERATION
+ 0x00010000
+
+	)
+
+130 
+	#I2C_FLAG_SMBUS_BLOCK
+ 0x00020000
+
+	)
+
+133 
+	#I2C_FLAG_SMBUS_PROCESS_CALL
+ 0x00040000
+
+	)
+
+140 
+	#I2C_FLAG_SMBUS_PEC
+ 0x00080000
+
+	)
+
+263 
+UINT32
+ 
+	mFœgs
+;
+
+270 
+UINT32
+ 
+	mLígthInByãs
+;
+
+276 
+UINT8
+ *
+	mBuf„r
+;
+
+277 } 
+	tEFI_I2C_OPERATION
+;
+
+293 
+UINTN
+ 
+	mO≥øti⁄Cou¡
+;
+
+298 
+EFI_I2C_OPERATION
+ 
+	mO≥øti⁄
+ [1];
+
+299 } 
+	tEFI_I2C_REQUEST_PACKET
+;
+
+	@PiMmCis.h
+
+10 #i‚de‡
+_PI_MMCIS_H_
+
+
+11 
+	#_PI_MMCIS_H_
+
+
+	)
+
+13 
+	~<Pi/PiMu…iPha£.h
+>
+
+14 
+	~<PrŸocﬁ/MmCpuIo.h
+>
+
+16 
+_EFI_MM_SYSTEM_TABLE
+ 
+	tEFI_MM_SYSTEM_TABLE
+;
+
+21 
+	#MM_MMST_SIGNATURE
+ 
+	`SIGNATURE_32
+ ('S', 'M', 'S', 'T')
+
+	)
+
+25 
+	#MM_SPECIFICATION_MAJOR_REVISION
+ 1
+
+	)
+
+26 
+	#MM_SPECIFICATION_MINOR_REVISION
+ 60
+
+	)
+
+27 
+	#EFI_MM_SYSTEM_TABLE_REVISION
+ ((
+MM_SPECIFICATION_MAJOR_REVISION
+<<16Ë| (
+MM_SPECIFICATION_MINOR_REVISION
+))
+
+	)
+
+48 
+	gEFI_STATUS
+
+
+49 (
+	tEFIAPI
+ *
+	tEFI_MM_INSTALL_CONFIGURATION_TABLE
+)(
+
+50 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_MM_SYSTEM_TABLE
+ *
+	tSy°emTabÀ
+,
+
+51 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_GUID
+ *
+	tGuid
+,
+
+52 
+	tIN
+ 
+	tVOID
+ *
+	tTabÀ
+,
+
+53 
+	tIN
+ 
+	tUINTN
+ 
+	tTabÀSize
+
+
+73 
+	gEFI_STATUS
+
+
+74 (
+	tEFIAPI
+ *
+	tEFI_MM_STARTUP_THIS_AP
+)(
+
+75 
+	tIN
+ 
+	tEFI_AP_PROCEDURE
+ 
+	tPro˚duª
+,
+
+76 
+	tIN
+ 
+	tUINTN
+ 
+	tCpuNumbî
+,
+
+77 
+	tIN
+ 
+	tOUT
+ 
+	tVOID
+ *
+	tProcArgumíts
+ 
+	tOPTIONAL
+
+
+90 
+	gEFI_STATUS
+
+
+91 (
+	tEFIAPI
+ *
+	tEFI_MM_NOTIFY_FN
+)(
+
+92 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_GUID
+ *
+	tPrŸocﬁ
+,
+
+93 
+	tIN
+ 
+	tVOID
+ *
+	tI¡îÁ˚
+,
+
+94 
+	tIN
+ 
+	tEFI_HANDLE
+ 
+	tH™dÀ
+
+
+116 
+	gEFI_STATUS
+
+
+117 (
+	tEFIAPI
+ *
+	tEFI_MM_REGISTER_PROTOCOL_NOTIFY
+)(
+
+118 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_GUID
+ *
+	tPrŸocﬁ
+,
+
+119 
+	tIN
+ 
+	tEFI_MM_NOTIFY_FN
+ 
+	tFun˘i⁄
+,
+
+120 
+	tOUT
+ 
+	tVOID
+ **
+	tRegi°øti⁄
+
+
+137 
+	gEFI_STATUS
+
+
+138 (
+	tEFIAPI
+ *
+	tEFI_MM_INTERRUPT_MANAGE
+)(
+
+139 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_GUID
+ *
+	tH™dÀrTy≥
+,
+
+140 
+	tIN
+ 
+	tCONST
+ 
+	tVOID
+ *
+	tC⁄ãxt
+ 
+	tOPTIONAL
+,
+
+141 
+	tIN
+ 
+	tOUT
+ 
+	tVOID
+ *
+	tCommBuf„r
+ 
+	tOPTIONAL
+,
+
+142 
+	tIN
+ 
+	tOUT
+ 
+	tUINTN
+ *
+	tCommBuf„rSize
+ 
+	tOPTIONAL
+
+
+164 
+	gEFI_STATUS
+
+
+165 (
+	tEFIAPI
+ *
+	tEFI_MM_HANDLER_ENTRY_POINT
+)(
+
+166 
+	tIN
+ 
+	tEFI_HANDLE
+ 
+	tDi•©chH™dÀ
+,
+
+167 
+	tIN
+ 
+	tCONST
+ 
+	tVOID
+ *
+	tC⁄ãxt
+ 
+	tOPTIONAL
+,
+
+168 
+	tIN
+ 
+	tOUT
+ 
+	tVOID
+ *
+	tCommBuf„r
+ 
+	tOPTIONAL
+,
+
+169 
+	tIN
+ 
+	tOUT
+ 
+	tUINTN
+ *
+	tCommBuf„rSize
+ 
+	tOPTIONAL
+
+
+184 
+	gEFI_STATUS
+
+
+185 (
+	tEFIAPI
+ *
+	tEFI_MM_INTERRUPT_REGISTER
+)(
+
+186 
+	tIN
+ 
+	tEFI_MM_HANDLER_ENTRY_POINT
+ 
+	tH™dÀr
+,
+
+187 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_GUID
+ *
+	tH™dÀrTy≥
+ 
+	tOPTIONAL
+,
+
+188 
+	tOUT
+ 
+	tEFI_HANDLE
+ *
+	tDi•©chH™dÀ
+
+
+200 
+	gEFI_STATUS
+
+
+201 (
+	tEFIAPI
+ *
+	tEFI_MM_INTERRUPT_UNREGISTER
+)(
+
+202 
+	tIN
+ 
+	tEFI_HANDLE
+ 
+	tDi•©chH™dÀ
+
+
+208 
+	s_EFI_MM_ENTRY_CONTEXT
+ {
+
+209 
+EFI_MM_STARTUP_THIS_AP
+ 
+	mMmSèπupThisAp
+;
+
+214 
+UINTN
+ 
+	mCuºíéyExecutögCpu
+;
+
+219 
+UINTN
+ 
+	mNumbîOfCpus
+;
+
+225 
+UINTN
+ *
+	mCpuSaveSèãSize
+;
+
+231 
+VOID
+ **
+	mCpuSaveSèã
+;
+
+232 } 
+	tEFI_MM_ENTRY_CONTEXT
+;
+
+240 
+	gVOID
+
+
+241 (
+	tEFIAPI
+ *
+	tEFI_MM_ENTRY_POINT
+)(
+
+242 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_MM_ENTRY_CONTEXT
+ *
+	tMmE¡ryC⁄ãxt
+
+
+252 
+	s_EFI_MM_SYSTEM_TABLE
+ {
+
+256 
+EFI_TABLE_HEADER
+ 
+	mHdr
+;
+
+261 
+CHAR16
+ *
+	mMmFúmw¨eVíd‹
+;
+
+265 
+UINT32
+ 
+	mMmFúmw¨eRevisi⁄
+;
+
+267 
+EFI_MM_INSTALL_CONFIGURATION_TABLE
+ 
+	mMmIn°ÆlC⁄figuøti⁄TabÀ
+;
+
+272 
+EFI_MM_CPU_IO_PROTOCOL
+ 
+	mMmIo
+;
+
+277 
+EFI_ALLOCATE_POOL
+ 
+	mMmAŒoˇãPoﬁ
+;
+
+278 
+EFI_FREE_POOL
+ 
+	mMmFªePoﬁ
+;
+
+279 
+EFI_ALLOCATE_PAGES
+ 
+	mMmAŒoˇãPages
+;
+
+280 
+EFI_FREE_PAGES
+ 
+	mMmFªePages
+;
+
+285 
+EFI_MM_STARTUP_THIS_AP
+ 
+	mMmSèπupThisAp
+;
+
+295 
+UINTN
+ 
+	mCuºíéyExecutögCpu
+;
+
+299 
+UINTN
+ 
+	mNumbîOfCpus
+;
+
+305 
+UINTN
+ *
+	mCpuSaveSèãSize
+;
+
+311 
+VOID
+ **
+	mCpuSaveSèã
+;
+
+320 
+UINTN
+ 
+	mNumbîOfTabÀE¡rõs
+;
+
+325 
+EFI_CONFIGURATION_TABLE
+ *
+	mMmC⁄figuøti⁄TabÀ
+;
+
+330 
+EFI_INSTALL_PROTOCOL_INTERFACE
+ 
+	mMmIn°ÆlPrŸocﬁI¡îÁ˚
+;
+
+331 
+EFI_UNINSTALL_PROTOCOL_INTERFACE
+ 
+	mMmUnö°ÆlPrŸocﬁI¡îÁ˚
+;
+
+332 
+EFI_HANDLE_PROTOCOL
+ 
+	mMmH™dÀPrŸocﬁ
+;
+
+333 
+EFI_MM_REGISTER_PROTOCOL_NOTIFY
+ 
+	mMmRegi°îPrŸocﬁNŸify
+;
+
+334 
+EFI_LOCATE_HANDLE
+ 
+	mMmLoˇãH™dÀ
+;
+
+335 
+EFI_LOCATE_PROTOCOL
+ 
+	mMmLoˇãPrŸocﬁ
+;
+
+340 
+EFI_MM_INTERRUPT_MANAGE
+ 
+	mMmiM™age
+;
+
+341 
+EFI_MM_INTERRUPT_REGISTER
+ 
+	mMmiH™dÀrRegi°î
+;
+
+342 
+EFI_MM_INTERRUPT_UNREGISTER
+ 
+	mMmiH™dÀrUnRegi°î
+;
+
+	@PiMultiPhase.h
+
+12 #i‚de‡
+__PI_MULTIPHASE_H__
+
+
+13 
+	#__PI_MULTIPHASE_H__
+
+
+	)
+
+15 
+	~<Pi/PiFúmw¨eVﬁume.h
+>
+
+16 
+	~<Pi/PiFúmw¨eFûe.h
+>
+
+17 
+	~<Pi/PiBoŸMode.h
+>
+
+18 
+	~<Pi/PiHob.h
+>
+
+19 
+	~<Pi/PiDïídícy.h
+>
+
+20 
+	~<Pi/PiSètusCode.h
+>
+
+21 
+	~<Pi/PiS3BoŸS¸ùt.h
+>
+
+36 
+	#DXE_ERROR
+(
+SètusCode
+Ë(
+MAX_BIT
+ | (MAX_BIT >> 2Ë| SètusCode)
+
+	)
+
+41 
+	#EFI_REQUEST_UNLOAD_IMAGE
+ 
+	`DXE_ERROR
+ (1)
+
+	)
+
+47 
+	#EFI_NOT_AVAILABLE_YET
+ 
+	`DXE_ERROR
+ (2)
+
+	)
+
+54 
+	#PI_ENCODE_WARNING
+(
+a
+Ë((
+MAX_BIT
+ >> 2Ë| (a))
+
+	)
+
+61 
+	#PI_ENCODE_ERROR
+(
+a
+Ë(
+MAX_BIT
+ | (MAX_BIT >> 2Ë| (a))
+
+	)
+
+66 
+	#EFI_INTERRUPT_PENDING
+ 
+	`PI_ENCODE_ERROR
+ (0)
+
+	)
+
+68 
+	#EFI_WARN_INTERRUPT_SOURCE_PENDING
+ 
+	`PI_ENCODE_WARNING
+ (0)
+
+	)
+
+69 
+	#EFI_WARN_INTERRUPT_SOURCE_QUIESCED
+ 
+	`PI_ENCODE_WARNING
+ (1)
+
+	)
+
+84 
+	#EFI_AUTH_STATUS_PLATFORM_OVERRIDE
+ 0x01
+
+	)
+
+85 
+	#EFI_AUTH_STATUS_IMAGE_SIGNED
+ 0x02
+
+	)
+
+86 
+	#EFI_AUTH_STATUS_NOT_TESTED
+ 0x04
+
+	)
+
+87 
+	#EFI_AUTH_STATUS_TEST_FAILED
+ 0x08
+
+	)
+
+88 
+	#EFI_AUTH_STATUS_ALL
+ 0x0f
+
+	)
+
+94 
+	#EFI_MMRAM_OPEN
+ 0x00000001
+
+	)
+
+95 
+	#EFI_MMRAM_CLOSED
+ 0x00000002
+
+	)
+
+96 
+	#EFI_MMRAM_LOCKED
+ 0x00000004
+
+	)
+
+97 
+	#EFI_CACHEABLE
+ 0x00000008
+
+	)
+
+98 
+	#EFI_ALLOCATED
+ 0x00000010
+
+	)
+
+99 
+	#EFI_NEEDS_TESTING
+ 0x00000020
+
+	)
+
+100 
+	#EFI_NEEDS_ECC_INITIALIZATION
+ 0x00000040
+
+	)
+
+102 
+	#EFI_SMRAM_OPEN
+ 
+EFI_MMRAM_OPEN
+
+
+	)
+
+103 
+	#EFI_SMRAM_CLOSED
+ 
+EFI_MMRAM_CLOSED
+
+
+	)
+
+104 
+	#EFI_SMRAM_LOCKED
+ 
+EFI_MMRAM_LOCKED
+
+
+	)
+
+115 
+EFI_PHYSICAL_ADDRESS
+ 
+	mPhysiˇlSèπ
+;
+
+120 
+EFI_PHYSICAL_ADDRESS
+ 
+	mCpuSèπ
+;
+
+124 
+UINT64
+ 
+	mPhysiˇlSize
+;
+
+131 
+UINT64
+ 
+	mRegi⁄Sèã
+;
+
+132 } 
+	tEFI_MMRAM_DESCRIPTOR
+;
+
+134 
+EFI_MMRAM_DESCRIPTOR
+ 
+	tEFI_SMRAM_DESCRIPTOR
+;
+
+137 
+	mEFI_PCD_TYPE_8
+,
+
+138 
+	mEFI_PCD_TYPE_16
+,
+
+139 
+	mEFI_PCD_TYPE_32
+,
+
+140 
+	mEFI_PCD_TYPE_64
+,
+
+141 
+	mEFI_PCD_TYPE_BOOL
+,
+
+142 
+	mEFI_PCD_TYPE_PTR
+
+
+143 } 
+	tEFI_PCD_TYPE
+;
+
+150 
+EFI_PCD_TYPE
+ 
+	mPcdTy≥
+;
+
+155 
+UINTN
+ 
+	mPcdSize
+;
+
+162 
+CHAR8
+ *
+	mPcdName
+;
+
+163 } 
+	tEFI_PCD_INFO
+;
+
+174 
+	gVOID
+
+
+175 (
+	tEFIAPI
+ *
+	tEFI_AP_PROCEDURE
+)(
+
+176 
+	tIN
+ 
+	tOUT
+ 
+	tVOID
+ *
+	tBuf„r
+
+
+190 
+	gEFI_STATUS
+
+
+191 (
+	tEFIAPI
+ *
+	tEFI_AP_PROCEDURE2
+)(
+
+192 
+	tIN
+ 
+	tVOID
+ *
+	tPro˚duªArgumít
+
+
+	@PiPeiCis.h
+
+12 #i‚de‡
+__PI_PEICIS_H__
+
+
+13 
+	#__PI_PEICIS_H__
+
+
+	)
+
+15 
+	~<Uefi/UefiMu…iPha£.h
+>
+
+16 
+	~<Pi/PiMu…iPha£.h
+>
+
+21 
+VOID
+ *
+	tEFI_PEI_FV_HANDLE
+;
+
+26 
+VOID
+ *
+	tEFI_PEI_FILE_HANDLE
+;
+
+31 
+_EFI_PEI_SERVICES
+ 
+	tEFI_PEI_SERVICES
+;
+
+36 
+_EFI_PEI_NOTIFY_DESCRIPTOR
+ 
+	tEFI_PEI_NOTIFY_DESCRIPTOR
+;
+
+39 
+	~<Ppi/CpuIo.h
+>
+
+40 
+	~<Ppi/PciCfg2.h
+>
+
+55 
+	gEFI_STATUS
+
+
+56 (
+	tEFIAPI
+ *
+	tEFI_PEIM_ENTRY_POINT2
+)(
+
+57 
+	tIN
+ 
+	tEFI_PEI_FILE_HANDLE
+ 
+	tFûeH™dÀ
+,
+
+58 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_PEI_SERVICES
+ **
+	tPeiSîvi˚s
+
+
+72 
+	gEFI_STATUS
+
+
+73 (
+	tEFIAPI
+ *
+	tEFI_PEIM_NOTIFY_ENTRY_POINT
+)(
+
+74 
+	tIN
+ 
+	tEFI_PEI_SERVICES
+ **
+	tPeiSîvi˚s
+,
+
+75 
+	tIN
+ 
+	tEFI_PEI_NOTIFY_DESCRIPTOR
+ *
+	tNŸifyDes¸ùt‹
+,
+
+76 
+	tIN
+ 
+	tVOID
+ *
+	tPpi
+
+
+82 
+	#EFI_PEI_PPI_DESCRIPTOR_PIC
+ 0x00000001
+
+	)
+
+83 
+	#EFI_PEI_PPI_DESCRIPTOR_PPI
+ 0x00000010
+
+	)
+
+84 
+	#EFI_PEI_PPI_DESCRIPTOR_NOTIFY_CALLBACK
+ 0x00000020
+
+	)
+
+85 
+	#EFI_PEI_PPI_DESCRIPTOR_NOTIFY_DISPATCH
+ 0x00000040
+
+	)
+
+86 
+	#EFI_PEI_PPI_DESCRIPTOR_NOTIFY_TYPES
+ 0x00000060
+
+	)
+
+87 
+	#EFI_PEI_PPI_DESCRIPTOR_TERMINATE_LIST
+ 0x80000000
+
+	)
+
+97 
+UINTN
+ 
+	mFœgs
+;
+
+101 
+EFI_GUID
+ *
+	mGuid
+;
+
+105 
+VOID
+ *
+	mPpi
+;
+
+106 } 
+	tEFI_PEI_PPI_DESCRIPTOR
+;
+
+112 
+	s_EFI_PEI_NOTIFY_DESCRIPTOR
+ {
+
+116 
+UINTN
+ 
+	mFœgs
+;
+
+120 
+EFI_GUID
+ *
+	mGuid
+;
+
+124 
+EFI_PEIM_NOTIFY_ENTRY_POINT
+ 
+	mNŸify
+;
+
+135 
+EFI_PEI_NOTIFY_DESCRIPTOR
+ 
+	mNŸify
+;
+
+139 
+EFI_PEI_PPI_DESCRIPTOR
+ 
+	mPpi
+;
+
+140 } 
+	tEFI_PEI_DESCRIPTOR
+;
+
+160 
+	gEFI_STATUS
+
+
+161 (
+	tEFIAPI
+ *
+	tEFI_PEI_INSTALL_PPI
+)(
+
+162 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_PEI_SERVICES
+ **
+	tPeiSîvi˚s
+,
+
+163 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_PEI_PPI_DESCRIPTOR
+ *
+	tPpiLi°
+
+
+185 
+	gEFI_STATUS
+
+
+186 (
+	tEFIAPI
+ *
+	tEFI_PEI_REINSTALL_PPI
+)(
+
+187 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_PEI_SERVICES
+ **
+	tPeiSîvi˚s
+,
+
+188 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_PEI_PPI_DESCRIPTOR
+ *
+	tOldPpi
+,
+
+189 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_PEI_PPI_DESCRIPTOR
+ *
+	tNewPpi
+
+
+206 
+	gEFI_STATUS
+
+
+207 (
+	tEFIAPI
+ *
+	tEFI_PEI_LOCATE_PPI
+)(
+
+208 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_PEI_SERVICES
+ **
+	tPeiSîvi˚s
+,
+
+209 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_GUID
+ *
+	tGuid
+,
+
+210 
+	tIN
+ 
+	tUINTN
+ 
+	tIn°™˚
+,
+
+211 
+	tIN
+ 
+	tOUT
+ 
+	tEFI_PEI_PPI_DESCRIPTOR
+ **
+	tPpiDes¸ùt‹
+ 
+	tOPTIONAL
+,
+
+212 
+	tIN
+ 
+	tOUT
+ 
+	tVOID
+ **
+	tPpi
+
+
+231 
+	gEFI_STATUS
+
+
+232 (
+	tEFIAPI
+ *
+	tEFI_PEI_NOTIFY_PPI
+)(
+
+233 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_PEI_SERVICES
+ **
+	tPeiSîvi˚s
+,
+
+234 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_PEI_NOTIFY_DESCRIPTOR
+ *
+	tNŸifyLi°
+
+
+247 
+	gEFI_STATUS
+
+
+248 (
+	tEFIAPI
+ *
+	tEFI_PEI_GET_BOOT_MODE
+)(
+
+249 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_PEI_SERVICES
+ **
+	tPeiSîvi˚s
+,
+
+250 
+	tOUT
+ 
+	tEFI_BOOT_MODE
+ *
+	tBoŸMode
+
+
+263 
+	gEFI_STATUS
+
+
+264 (
+	tEFIAPI
+ *
+	tEFI_PEI_SET_BOOT_MODE
+)(
+
+265 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_PEI_SERVICES
+ **
+	tPeiSîvi˚s
+,
+
+266 
+	tIN
+ 
+	tEFI_BOOT_MODE
+ 
+	tBoŸMode
+
+
+280 
+	gEFI_STATUS
+
+
+281 (
+	tEFIAPI
+ *
+	tEFI_PEI_GET_HOB_LIST
+)(
+
+282 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_PEI_SERVICES
+ **
+	tPeiSîvi˚s
+,
+
+283 
+	tOUT
+ 
+	tVOID
+ **
+	tHobLi°
+
+
+299 
+	gEFI_STATUS
+
+
+300 (
+	tEFIAPI
+ *
+	tEFI_PEI_CREATE_HOB
+)(
+
+301 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_PEI_SERVICES
+ **
+	tPeiSîvi˚s
+,
+
+302 
+	tIN
+ 
+	tUINT16
+ 
+	tTy≥
+,
+
+303 
+	tIN
+ 
+	tUINT16
+ 
+	tLígth
+,
+
+304 
+	tIN
+ 
+	tOUT
+ 
+	tVOID
+ **
+	tHob
+
+
+327 
+	gEFI_STATUS
+
+
+328 (
+	tEFIAPI
+ *
+	tEFI_PEI_FFS_FIND_NEXT_VOLUME2
+)(
+
+329 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_PEI_SERVICES
+ **
+	tPeiSîvi˚s
+,
+
+330 
+	tIN
+ 
+	tUINTN
+ 
+	tIn°™˚
+,
+
+331 
+	tOUT
+ 
+	tEFI_PEI_FV_HANDLE
+ *
+	tVﬁumeH™dÀ
+
+
+356 
+	gEFI_STATUS
+
+
+357 (
+	tEFIAPI
+ *
+	tEFI_PEI_FFS_FIND_NEXT_FILE2
+)(
+
+358 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_PEI_SERVICES
+ **
+	tPeiSîvi˚s
+,
+
+359 
+	tIN
+ 
+	tEFI_FV_FILETYPE
+ 
+	tSórchTy≥
+,
+
+360 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_PEI_FV_HANDLE
+ 
+	tFvH™dÀ
+,
+
+361 
+	tIN
+ 
+	tOUT
+ 
+	tEFI_PEI_FILE_HANDLE
+ *
+	tFûeH™dÀ
+
+
+384 
+	gEFI_STATUS
+
+
+385 (
+	tEFIAPI
+ *
+	tEFI_PEI_FFS_FIND_SECTION_DATA2
+)(
+
+386 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_PEI_SERVICES
+ **
+	tPeiSîvi˚s
+,
+
+387 
+	tIN
+ 
+	tEFI_SECTION_TYPE
+ 
+	tSe˘i⁄Ty≥
+,
+
+388 
+	tIN
+ 
+	tEFI_PEI_FILE_HANDLE
+ 
+	tFûeH™dÀ
+,
+
+389 
+	tOUT
+ 
+	tVOID
+ **
+	tSe˘i⁄D©a
+
+
+414 
+	gEFI_STATUS
+
+
+415 (
+	tEFIAPI
+ *
+	tEFI_PEI_FFS_FIND_SECTION_DATA3
+)(
+
+416 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_PEI_SERVICES
+ **
+	tPeiSîvi˚s
+,
+
+417 
+	tIN
+ 
+	tEFI_SECTION_TYPE
+ 
+	tSe˘i⁄Ty≥
+,
+
+418 
+	tIN
+ 
+	tUINTN
+ 
+	tSe˘i⁄In°™˚
+,
+
+419 
+	tIN
+ 
+	tEFI_PEI_FILE_HANDLE
+ 
+	tFûeH™dÀ
+,
+
+420 
+	tOUT
+ 
+	tVOID
+ **
+	tSe˘i⁄D©a
+,
+
+421 
+	tOUT
+ 
+	tUINT32
+ *
+	tAuthítiˇti⁄Sètus
+
+
+437 
+	gEFI_STATUS
+
+
+438 (
+	tEFIAPI
+ *
+	tEFI_PEI_INSTALL_PEI_MEMORY
+)(
+
+439 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_PEI_SERVICES
+ **
+	tPeiSîvi˚s
+,
+
+440 
+	tIN
+ 
+	tEFI_PHYSICAL_ADDRESS
+ 
+	tMem‹yBegö
+,
+
+441 
+	tIN
+ 
+	tUINT64
+ 
+	tMem‹yLígth
+
+
+467 
+	gEFI_STATUS
+
+
+468 (
+	tEFIAPI
+ *
+	tEFI_PEI_ALLOCATE_PAGES
+)(
+
+469 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_PEI_SERVICES
+ **
+	tPeiSîvi˚s
+,
+
+470 
+	tIN
+ 
+	tEFI_MEMORY_TYPE
+ 
+	tMem‹yTy≥
+,
+
+471 
+	tIN
+ 
+	tUINTN
+ 
+	tPages
+,
+
+472 
+	tOUT
+ 
+	tEFI_PHYSICAL_ADDRESS
+ *
+	tMem‹y
+
+
+489 
+	gEFI_STATUS
+
+
+490 (
+	tEFIAPI
+ *
+	tEFI_PEI_FREE_PAGES
+) (
+
+491 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_PEI_SERVICES
+ **
+	tPeiSîvi˚s
+,
+
+492 
+	tIN
+ 
+	tEFI_PHYSICAL_ADDRESS
+ 
+	tMem‹y
+,
+
+493 
+	tIN
+ 
+	tUINTN
+ 
+	tPages
+
+
+509 
+	gEFI_STATUS
+
+
+510 (
+	tEFIAPI
+ *
+	tEFI_PEI_ALLOCATE_POOL
+)(
+
+511 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_PEI_SERVICES
+ **
+	tPeiSîvi˚s
+,
+
+512 
+	tIN
+ 
+	tUINTN
+ 
+	tSize
+,
+
+513 
+	tOUT
+ 
+	tVOID
+ **
+	tBuf„r
+
+
+525 
+	gVOID
+
+
+526 (
+	tEFIAPI
+ *
+	tEFI_PEI_COPY_MEM
+)(
+
+527 
+	tIN
+ 
+	tVOID
+ *
+	tDe°ö©i⁄
+,
+
+528 
+	tIN
+ 
+	tVOID
+ *
+	tSour˚
+,
+
+529 
+	tIN
+ 
+	tUINTN
+ 
+	tLígth
+
+
+541 
+	gVOID
+
+
+542 (
+	tEFIAPI
+ *
+	tEFI_PEI_SET_MEM
+)(
+
+543 
+	tIN
+ 
+	tVOID
+ *
+	tBuf„r
+,
+
+544 
+	tIN
+ 
+	tUINTN
+ 
+	tSize
+,
+
+545 
+	tIN
+ 
+	tUINT8
+ 
+	tVÆue
+
+
+578 
+	gEFI_STATUS
+
+
+579 (
+	tEFIAPI
+ *
+	tEFI_PEI_REPORT_STATUS_CODE
+)(
+
+580 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_PEI_SERVICES
+ **
+	tPeiSîvi˚s
+,
+
+581 
+	tIN
+ 
+	tEFI_STATUS_CODE_TYPE
+ 
+	tTy≥
+,
+
+582 
+	tIN
+ 
+	tEFI_STATUS_CODE_VALUE
+ 
+	tVÆue
+,
+
+583 
+	tIN
+ 
+	tUINT32
+ 
+	tIn°™˚
+,
+
+584 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_GUID
+ *
+	tCÆÀrId
+ 
+	tOPTIONAL
+,
+
+585 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_STATUS_CODE_DATA
+ *
+	tD©a
+ 
+	tOPTIONAL
+
+
+602 
+	gEFI_STATUS
+
+
+603 (
+	tEFIAPI
+ *
+	tEFI_PEI_RESET_SYSTEM
+)(
+
+604 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_PEI_SERVICES
+ **
+	tPeiSîvi˚s
+
+
+621 
+	gVOID
+
+
+622 (
+	tEFIAPI
+ *
+	tEFI_PEI_RESET2_SYSTEM
+) (
+
+623 
+	tIN
+ 
+	tEFI_RESET_TYPE
+ 
+	tRe£tTy≥
+,
+
+624 
+	tIN
+ 
+	tEFI_STATUS
+ 
+	tRe£tSètus
+,
+
+625 
+	tIN
+ 
+	tUINTN
+ 
+	tD©aSize
+,
+
+626 
+	tIN
+ 
+	tVOID
+ *
+	tRe£tD©a
+ 
+	tOPTIONAL
+
+
+650 
+	gEFI_STATUS
+
+
+651 (
+	tEFIAPI
+ *
+	tEFI_PEI_FFS_FIND_BY_NAME
+)(
+
+652 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_GUID
+ *
+	tFûeName
+,
+
+653 
+	tIN
+ 
+	tEFI_PEI_FV_HANDLE
+ 
+	tVﬁumeH™dÀ
+,
+
+654 
+	tOUT
+ 
+	tEFI_PEI_FILE_HANDLE
+ *
+	tFûeH™dÀ
+
+
+664 
+EFI_GUID
+ 
+	mFûeName
+;
+
+668 
+EFI_FV_FILETYPE
+ 
+	mFûeTy≥
+;
+
+672 
+EFI_FV_FILE_ATTRIBUTES
+ 
+	mFûeAâribuãs
+;
+
+678 
+VOID
+ *
+	mBuf„r
+;
+
+682 
+UINT32
+ 
+	mBuf„rSize
+;
+
+683 } 
+	tEFI_FV_FILE_INFO
+;
+
+692 
+EFI_GUID
+ 
+	mFûeName
+;
+
+696 
+EFI_FV_FILETYPE
+ 
+	mFûeTy≥
+;
+
+700 
+EFI_FV_FILE_ATTRIBUTES
+ 
+	mFûeAâribuãs
+;
+
+706 
+VOID
+ *
+	mBuf„r
+;
+
+710 
+UINT32
+ 
+	mBuf„rSize
+;
+
+714 
+UINT32
+ 
+	mAuthítiˇti⁄Sètus
+;
+
+715 } 
+	tEFI_FV_FILE_INFO2
+;
+
+736 
+	gEFI_STATUS
+
+
+737 (
+	tEFIAPI
+ *
+	tEFI_PEI_FFS_GET_FILE_INFO
+)(
+
+738 
+	tIN
+ 
+	tEFI_PEI_FILE_HANDLE
+ 
+	tFûeH™dÀ
+,
+
+739 
+	tOUT
+ 
+	tEFI_FV_FILE_INFO
+ *
+	tFûeInfo
+
+
+760 
+	gEFI_STATUS
+
+
+761 (
+	tEFIAPI
+ *
+	tEFI_PEI_FFS_GET_FILE_INFO2
+)(
+
+762 
+	tIN
+ 
+	tEFI_PEI_FILE_HANDLE
+ 
+	tFûeH™dÀ
+,
+
+763 
+	tOUT
+ 
+	tEFI_FV_FILE_INFO2
+ *
+	tFûeInfo
+
+
+773 
+EFI_FVB_ATTRIBUTES_2
+ 
+	mFvAâribuãs
+;
+
+777 
+EFI_GUID
+ 
+	mFvF‹m©
+;
+
+781 
+EFI_GUID
+ 
+	mFvName
+;
+
+787 
+VOID
+ *
+	mFvSèπ
+;
+
+791 
+UINT64
+ 
+	mFvSize
+;
+
+792 } 
+	tEFI_FV_INFO
+;
+
+812 
+	gEFI_STATUS
+
+
+813 (
+	tEFIAPI
+ *
+	tEFI_PEI_FFS_GET_VOLUME_INFO
+)(
+
+814 
+	tIN
+ 
+	tEFI_PEI_FV_HANDLE
+ 
+	tVﬁumeH™dÀ
+,
+
+815 
+	tOUT
+ 
+	tEFI_FV_INFO
+ *
+	tVﬁumeInfo
+
+
+843 
+	gEFI_STATUS
+
+
+844 (
+	tEFIAPI
+ *
+	tEFI_PEI_REGISTER_FOR_SHADOW
+)(
+
+845 
+	tIN
+ 
+	tEFI_PEI_FILE_HANDLE
+ 
+	tFûeH™dÀ
+
+
+852 
+	#PEI_SPECIFICATION_MAJOR_REVISION
+ 1
+
+	)
+
+853 
+	#PEI_SPECIFICATION_MINOR_REVISION
+ 70
+
+	)
+
+862 
+	#PEI_SERVICES_SIGNATURE
+ 0x5652455320494550ULL
+
+	)
+
+869 
+	#PEI_SERVICES_REVISION
+ ((
+PEI_SPECIFICATION_MAJOR_REVISION
+<<16Ë| (
+PEI_SPECIFICATION_MINOR_REVISION
+))
+
+	)
+
+880 
+	s_EFI_PEI_SERVICES
+ {
+
+884 
+EFI_TABLE_HEADER
+ 
+	mHdr
+;
+
+889 
+EFI_PEI_INSTALL_PPI
+ 
+	mIn°ÆlPpi
+;
+
+890 
+EFI_PEI_REINSTALL_PPI
+ 
+	mReIn°ÆlPpi
+;
+
+891 
+EFI_PEI_LOCATE_PPI
+ 
+	mLoˇãPpi
+;
+
+892 
+EFI_PEI_NOTIFY_PPI
+ 
+	mNŸifyPpi
+;
+
+897 
+EFI_PEI_GET_BOOT_MODE
+ 
+	mGëBoŸMode
+;
+
+898 
+EFI_PEI_SET_BOOT_MODE
+ 
+	mSëBoŸMode
+;
+
+903 
+EFI_PEI_GET_HOB_LIST
+ 
+	mGëHobLi°
+;
+
+904 
+EFI_PEI_CREATE_HOB
+ 
+	mCª©eHob
+;
+
+909 
+EFI_PEI_FFS_FIND_NEXT_VOLUME2
+ 
+	mFfsFödNextVﬁume
+;
+
+910 
+EFI_PEI_FFS_FIND_NEXT_FILE2
+ 
+	mFfsFödNextFûe
+;
+
+911 
+EFI_PEI_FFS_FIND_SECTION_DATA2
+ 
+	mFfsFödSe˘i⁄D©a
+;
+
+916 
+EFI_PEI_INSTALL_PEI_MEMORY
+ 
+	mIn°ÆlPeiMem‹y
+;
+
+917 
+EFI_PEI_ALLOCATE_PAGES
+ 
+	mAŒoˇãPages
+;
+
+918 
+EFI_PEI_ALLOCATE_POOL
+ 
+	mAŒoˇãPoﬁ
+;
+
+919 
+EFI_PEI_COPY_MEM
+ 
+	mC›yMem
+;
+
+920 
+EFI_PEI_SET_MEM
+ 
+	mSëMem
+;
+
+925 
+EFI_PEI_REPORT_STATUS_CODE
+ 
+	mRï‹tSètusCode
+;
+
+930 
+EFI_PEI_RESET_SYSTEM
+ 
+	mRe£tSy°em
+;
+
+936 
+EFI_PEI_CPU_IO_PPI
+ *
+	mCpuIo
+;
+
+937 
+EFI_PEI_PCI_CFG2_PPI
+ *
+	mPciCfg
+;
+
+942 
+EFI_PEI_FFS_FIND_BY_NAME
+ 
+	mFfsFödFûeByName
+;
+
+943 
+EFI_PEI_FFS_GET_FILE_INFO
+ 
+	mFfsGëFûeInfo
+;
+
+944 
+EFI_PEI_FFS_GET_VOLUME_INFO
+ 
+	mFfsGëVﬁumeInfo
+;
+
+945 
+EFI_PEI_REGISTER_FOR_SHADOW
+ 
+	mRegi°îF‹Shadow
+;
+
+946 
+EFI_PEI_FFS_FIND_SECTION_DATA3
+ 
+	mFödSe˘i⁄D©a3
+;
+
+947 
+EFI_PEI_FFS_GET_FILE_INFO2
+ 
+	mFfsGëFûeInfo2
+;
+
+948 
+EFI_PEI_RESET2_SYSTEM
+ 
+	mRe£tSy°em2
+;
+
+949 
+EFI_PEI_FREE_PAGES
+ 
+	mFªePages
+;
+
+958 
+	s_EFI_SEC_PEI_HAND_OFF
+ {
+
+962 
+UINT16
+ 
+	mD©aSize
+;
+
+969 
+VOID
+ *
+	mBoŸFúmw¨eVﬁumeBa£
+;
+
+974 
+UINTN
+ 
+	mBoŸFúmw¨eVﬁumeSize
+;
+
+979 
+VOID
+ *
+	mTemp‹¨yRamBa£
+;
+
+984 
+UINTN
+ 
+	mTemp‹¨yRamSize
+;
+
+995 
+VOID
+ *
+	mPeiTemp‹¨yRamBa£
+;
+
+1001 
+UINTN
+ 
+	mPeiTemp‹¨yRamSize
+;
+
+1009 
+VOID
+ *
+	mSèckBa£
+;
+
+1014 
+UINTN
+ 
+	mSèckSize
+;
+
+1015 } 
+	tEFI_SEC_PEI_HAND_OFF
+;
+
+1055 
+	gVOID
+
+
+1056 (
+	tEFIAPI
+ *
+	tEFI_PEI_CORE_ENTRY_POINT
+)(
+
+1057 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_SEC_PEI_HAND_OFF
+ *
+	tSecC‹eD©a
+,
+
+1058 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_PEI_PPI_DESCRIPTOR
+ *
+	tPpiLi°
+
+
+	@PiS3BootScript.h
+
+10 #i‚de‡
+_PI_S3_BOOT_SCRIPT_H_
+
+
+11 
+	#_PI_S3_BOOT_SCRIPT_H_
+
+
+	)
+
+16 
+	#EFI_BOOT_SCRIPT_IO_WRITE_OPCODE
+ 0x00
+
+	)
+
+17 
+	#EFI_BOOT_SCRIPT_IO_READ_WRITE_OPCODE
+ 0x01
+
+	)
+
+18 
+	#EFI_BOOT_SCRIPT_MEM_WRITE_OPCODE
+ 0x02
+
+	)
+
+19 
+	#EFI_BOOT_SCRIPT_MEM_READ_WRITE_OPCODE
+ 0x03
+
+	)
+
+20 
+	#EFI_BOOT_SCRIPT_PCI_CONFIG_WRITE_OPCODE
+ 0x04
+
+	)
+
+21 
+	#EFI_BOOT_SCRIPT_PCI_CONFIG_READ_WRITE_OPCODE
+ 0x05
+
+	)
+
+22 
+	#EFI_BOOT_SCRIPT_SMBUS_EXECUTE_OPCODE
+ 0x06
+
+	)
+
+23 
+	#EFI_BOOT_SCRIPT_STALL_OPCODE
+ 0x07
+
+	)
+
+24 
+	#EFI_BOOT_SCRIPT_DISPATCH_OPCODE
+ 0x08
+
+	)
+
+25 
+	#EFI_BOOT_SCRIPT_DISPATCH_2_OPCODE
+ 0x09
+
+	)
+
+26 
+	#EFI_BOOT_SCRIPT_INFORMATION_OPCODE
+ 0x0A
+
+	)
+
+27 
+	#EFI_BOOT_SCRIPT_PCI_CONFIG2_WRITE_OPCODE
+ 0x0B
+
+	)
+
+28 
+	#EFI_BOOT_SCRIPT_PCI_CONFIG2_READ_WRITE_OPCODE
+ 0x0C
+
+	)
+
+29 
+	#EFI_BOOT_SCRIPT_IO_POLL_OPCODE
+ 0x0D
+
+	)
+
+30 
+	#EFI_BOOT_SCRIPT_MEM_POLL_OPCODE
+ 0x0E
+
+	)
+
+31 
+	#EFI_BOOT_SCRIPT_PCI_CONFIG_POLL_OPCODE
+ 0x0F
+
+	)
+
+32 
+	#EFI_BOOT_SCRIPT_PCI_CONFIG2_POLL_OPCODE
+ 0x10
+
+	)
+
+38 
+	mEfiBoŸS¸ùtWidthUöt8
+,
+
+39 
+	mEfiBoŸS¸ùtWidthUöt16
+,
+
+40 
+	mEfiBoŸS¸ùtWidthUöt32
+,
+
+41 
+	mEfiBoŸS¸ùtWidthUöt64
+,
+
+42 
+	mEfiBoŸS¸ùtWidthFifoUöt8
+,
+
+43 
+	mEfiBoŸS¸ùtWidthFifoUöt16
+,
+
+44 
+	mEfiBoŸS¸ùtWidthFifoUöt32
+,
+
+45 
+	mEfiBoŸS¸ùtWidthFifoUöt64
+,
+
+46 
+	mEfiBoŸS¸ùtWidthFûlUöt8
+,
+
+47 
+	mEfiBoŸS¸ùtWidthFûlUöt16
+,
+
+48 
+	mEfiBoŸS¸ùtWidthFûlUöt32
+,
+
+49 
+	mEfiBoŸS¸ùtWidthFûlUöt64
+,
+
+50 
+	mEfiBoŸS¸ùtWidthMaximum
+
+
+51 } 
+	tEFI_BOOT_SCRIPT_WIDTH
+;
+
+	@PiSmmCis.h
+
+10 #i‚de‡
+_PI_SMMCIS_H_
+
+
+11 
+	#_PI_SMMCIS_H_
+
+
+	)
+
+13 
+	~<Pi/PiMmCis.h
+>
+
+14 
+	~<PrŸocﬁ/SmmCpuIo2.h
+>
+
+16 
+_EFI_SMM_SYSTEM_TABLE2
+ 
+	tEFI_SMM_SYSTEM_TABLE2
+;
+
+20 
+	#SMM_SMST_SIGNATURE
+ 
+MM_MMST_SIGNATURE
+
+
+	)
+
+21 
+	#SMM_SPECIFICATION_MAJOR_REVISION
+ 
+MM_SPECIFICATION_MAJOR_REVISION
+
+
+	)
+
+22 
+	#SMM_SPECIFICATION_MINOR_REVISION
+ 
+MM_SPECIFICATION_MINOR_REVISION
+
+
+	)
+
+23 
+	#EFI_SMM_SYSTEM_TABLE2_REVISION
+ 
+EFI_MM_SYSTEM_TABLE_REVISION
+
+
+	)
+
+44 
+	gEFI_STATUS
+
+
+45 (
+	tEFIAPI
+ *
+	tEFI_SMM_INSTALL_CONFIGURATION_TABLE2
+)(
+
+46 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_SMM_SYSTEM_TABLE2
+ *
+	tSy°emTabÀ
+,
+
+47 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_GUID
+ *
+	tGuid
+,
+
+48 
+	tIN
+ 
+	tVOID
+ *
+	tTabÀ
+,
+
+49 
+	tIN
+ 
+	tUINTN
+ 
+	tTabÀSize
+
+
+52 
+EFI_MM_STARTUP_THIS_AP
+ 
+	tEFI_SMM_STARTUP_THIS_AP
+;
+
+53 
+EFI_MM_NOTIFY_FN
+ 
+	tEFI_SMM_NOTIFY_FN
+;
+
+54 
+EFI_MM_REGISTER_PROTOCOL_NOTIFY
+ 
+	tEFI_SMM_REGISTER_PROTOCOL_NOTIFY
+;
+
+55 
+EFI_MM_INTERRUPT_MANAGE
+ 
+	tEFI_SMM_INTERRUPT_MANAGE
+;
+
+56 
+EFI_MM_HANDLER_ENTRY_POINT
+ 
+	tEFI_SMM_HANDLER_ENTRY_POINT2
+;
+
+57 
+EFI_MM_INTERRUPT_REGISTER
+ 
+	tEFI_SMM_INTERRUPT_REGISTER
+;
+
+58 
+EFI_MM_INTERRUPT_UNREGISTER
+ 
+	tEFI_SMM_INTERRUPT_UNREGISTER
+;
+
+63 
+	s_EFI_SMM_ENTRY_CONTEXT
+ {
+
+64 
+EFI_SMM_STARTUP_THIS_AP
+ 
+	mSmmSèπupThisAp
+;
+
+69 
+UINTN
+ 
+	mCuºíéyExecutögCpu
+;
+
+74 
+UINTN
+ 
+	mNumbîOfCpus
+;
+
+80 
+UINTN
+ *
+	mCpuSaveSèãSize
+;
+
+86 
+VOID
+ **
+	mCpuSaveSèã
+;
+
+87 } 
+	tEFI_SMM_ENTRY_CONTEXT
+;
+
+95 
+	gVOID
+
+
+96 (
+	tEFIAPI
+ *
+	tEFI_SMM_ENTRY_POINT
+)(
+
+97 
+	tIN
+ 
+	tCONST
+ 
+	tEFI_SMM_ENTRY_CONTEXT
+ *
+	tSmmE¡ryC⁄ãxt
+
+
+107 
+	s_EFI_SMM_SYSTEM_TABLE2
+ {
+
+111 
+EFI_TABLE_HEADER
+ 
+	mHdr
+;
+
+116 
+CHAR16
+ *
+	mSmmFúmw¨eVíd‹
+;
+
+120 
+UINT32
+ 
+	mSmmFúmw¨eRevisi⁄
+;
+
+122 
+EFI_SMM_INSTALL_CONFIGURATION_TABLE2
+ 
+	mSmmIn°ÆlC⁄figuøti⁄TabÀ
+;
+
+127 
+EFI_SMM_CPU_IO2_PROTOCOL
+ 
+	mSmmIo
+;
+
+132 
+EFI_ALLOCATE_POOL
+ 
+	mSmmAŒoˇãPoﬁ
+;
+
+133 
+EFI_FREE_POOL
+ 
+	mSmmFªePoﬁ
+;
+
+134 
+EFI_ALLOCATE_PAGES
+ 
+	mSmmAŒoˇãPages
+;
+
+135 
+EFI_FREE_PAGES
+ 
+	mSmmFªePages
+;
+
+140 
+EFI_SMM_STARTUP_THIS_AP
+ 
+	mSmmSèπupThisAp
+;
+
+150 
+UINTN
+ 
+	mCuºíéyExecutögCpu
+;
+
+154 
+UINTN
+ 
+	mNumbîOfCpus
+;
+
+160 
+UINTN
+ *
+	mCpuSaveSèãSize
+;
+
+166 
+VOID
+ **
+	mCpuSaveSèã
+;
+
+175 
+UINTN
+ 
+	mNumbîOfTabÀE¡rõs
+;
+
+180 
+EFI_CONFIGURATION_TABLE
+ *
+	mSmmC⁄figuøti⁄TabÀ
+;
+
+185 
+EFI_INSTALL_PROTOCOL_INTERFACE
+ 
+	mSmmIn°ÆlPrŸocﬁI¡îÁ˚
+;
+
+186 
+EFI_UNINSTALL_PROTOCOL_INTERFACE
+ 
+	mSmmUnö°ÆlPrŸocﬁI¡îÁ˚
+;
+
+187 
+EFI_HANDLE_PROTOCOL
+ 
+	mSmmH™dÀPrŸocﬁ
+;
+
+188 
+EFI_SMM_REGISTER_PROTOCOL_NOTIFY
+ 
+	mSmmRegi°îPrŸocﬁNŸify
+;
+
+189 
+EFI_LOCATE_HANDLE
+ 
+	mSmmLoˇãH™dÀ
+;
+
+190 
+EFI_LOCATE_PROTOCOL
+ 
+	mSmmLoˇãPrŸocﬁ
+;
+
+195 
+EFI_SMM_INTERRUPT_MANAGE
+ 
+	mSmiM™age
+;
+
+196 
+EFI_SMM_INTERRUPT_REGISTER
+ 
+	mSmiH™dÀrRegi°î
+;
+
+197 
+EFI_SMM_INTERRUPT_UNREGISTER
+ 
+	mSmiH™dÀrUnRegi°î
+;
+
+	@PiStatusCode.h
+
+13 #i‚de‡
+__PI_STATUS_CODE_H__
+
+
+14 
+	#__PI_STATUS_CODE_H__
+
+
+	)
+
+19 
+	~<PrŸocﬁ/DebugSuµ‹t.h
+>
+
+24 
+UINT32
+ 
+	tEFI_STATUS_CODE_TYPE
+;
+
+32 
+	#EFI_STATUS_CODE_TYPE_MASK
+ 0x000000FF
+
+	)
+
+33 
+	#EFI_STATUS_CODE_SEVERITY_MASK
+ 0xFF000000
+
+	)
+
+34 
+	#EFI_STATUS_CODE_RESERVED_MASK
+ 0x00FFFF00
+
+	)
+
+43 
+	#EFI_PROGRESS_CODE
+ 0x00000001
+
+	)
+
+44 
+	#EFI_ERROR_CODE
+ 0x00000002
+
+	)
+
+45 
+	#EFI_DEBUG_CODE
+ 0x00000003
+
+	)
+
+58 
+	#EFI_ERROR_MINOR
+ 0x40000000
+
+	)
+
+59 
+	#EFI_ERROR_MAJOR
+ 0x80000000
+
+	)
+
+60 
+	#EFI_ERROR_UNRECOVERED
+ 0x90000000
+
+	)
+
+61 
+	#EFI_ERROR_UNCONTAINED
+ 0xa0000000
+
+	)
+
+67 
+UINT32
+ 
+	tEFI_STATUS_CODE_VALUE
+;
+
+74 
+	#EFI_STATUS_CODE_CLASS_MASK
+ 0xFF000000
+
+	)
+
+75 
+	#EFI_STATUS_CODE_SUBCLASS_MASK
+ 0x00FF0000
+
+	)
+
+76 
+	#EFI_STATUS_CODE_OPERATION_MASK
+ 0x0000FFFF
+
+	)
+
+88 
+UINT16
+ 
+	mHódîSize
+;
+
+92 
+UINT16
+ 
+	mSize
+;
+
+96 
+EFI_GUID
+ 
+	mTy≥
+;
+
+97 } 
+	tEFI_STATUS_CODE_DATA
+;
+
+105 
+	#EFI_SUBCLASS_SPECIFIC
+ 0x1000
+
+	)
+
+106 
+	#EFI_OEM_SPECIFIC
+ 0x8000
+
+	)
+
+115 
+	#EFI_DC_UNSPECIFIED
+ 0x0
+
+	)
+
+124 
+	#EFI_COMPUTING_UNIT
+ 0x00000000
+
+	)
+
+125 
+	#EFI_PERIPHERAL
+ 0x01000000
+
+	)
+
+126 
+	#EFI_IO_BUS
+ 0x02000000
+
+	)
+
+127 
+	#EFI_SOFTWARE
+ 0x03000000
+
+	)
+
+136 
+	#EFI_COMPUTING_UNIT_UNSPECIFIED
+ (
+EFI_COMPUTING_UNIT
+ | 0x00000000)
+
+	)
+
+137 
+	#EFI_COMPUTING_UNIT_HOST_PROCESSOR
+ (
+EFI_COMPUTING_UNIT
+ | 0x00010000)
+
+	)
+
+138 
+	#EFI_COMPUTING_UNIT_FIRMWARE_PROCESSOR
+ (
+EFI_COMPUTING_UNIT
+ | 0x00020000)
+
+	)
+
+139 
+	#EFI_COMPUTING_UNIT_IO_PROCESSOR
+ (
+EFI_COMPUTING_UNIT
+ | 0x00030000)
+
+	)
+
+140 
+	#EFI_COMPUTING_UNIT_CACHE
+ (
+EFI_COMPUTING_UNIT
+ | 0x00040000)
+
+	)
+
+141 
+	#EFI_COMPUTING_UNIT_MEMORY
+ (
+EFI_COMPUTING_UNIT
+ | 0x00050000)
+
+	)
+
+142 
+	#EFI_COMPUTING_UNIT_CHIPSET
+ (
+EFI_COMPUTING_UNIT
+ | 0x00060000)
+
+	)
+
+150 
+	#EFI_CU_PC_INIT_BEGIN
+ 0x00000000
+
+	)
+
+151 
+	#EFI_CU_PC_INIT_END
+ 0x00000001
+
+	)
+
+161 
+	#EFI_CU_HP_PC_POWER_ON_INIT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+162 
+	#EFI_CU_HP_PC_CACHE_INIT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+163 
+	#EFI_CU_HP_PC_RAM_INIT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000002)
+
+	)
+
+164 
+	#EFI_CU_HP_PC_MEMORY_CONTROLLER_INIT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000003)
+
+	)
+
+165 
+	#EFI_CU_HP_PC_IO_INIT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000004)
+
+	)
+
+166 
+	#EFI_CU_HP_PC_BSP_SELECT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000005)
+
+	)
+
+167 
+	#EFI_CU_HP_PC_BSP_RESELECT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000006)
+
+	)
+
+168 
+	#EFI_CU_HP_PC_AP_INIT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000007)
+
+	)
+
+169 
+	#EFI_CU_HP_PC_SMM_INIT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000008)
+
+	)
+
+184 
+	#EFI_CU_CACHE_PC_PRESENCE_DETECT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+185 
+	#EFI_CU_CACHE_PC_CONFIGURATION
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+192 
+	#EFI_CU_MEMORY_PC_SPD_READ
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+193 
+	#EFI_CU_MEMORY_PC_PRESENCE_DETECT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+194 
+	#EFI_CU_MEMORY_PC_TIMING
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000002)
+
+	)
+
+195 
+	#EFI_CU_MEMORY_PC_CONFIGURING
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000003)
+
+	)
+
+196 
+	#EFI_CU_MEMORY_PC_OPTIMIZING
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000004)
+
+	)
+
+197 
+	#EFI_CU_MEMORY_PC_INIT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000005)
+
+	)
+
+198 
+	#EFI_CU_MEMORY_PC_TEST
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000006)
+
+	)
+
+208 
+	#EFI_CHIPSET_PC_PEI_CAR_SB_INIT
+ (
+EFI_SUBCLASS_SPECIFIC
+|0x00000000)
+
+	)
+
+213 
+	#EFI_CHIPSET_PC_PEI_CAR_NB_INIT
+ (
+EFI_SUBCLASS_SPECIFIC
+|0x00000001)
+
+	)
+
+218 
+	#EFI_CHIPSET_PC_PEI_MEM_SB_INIT
+ (
+EFI_SUBCLASS_SPECIFIC
+|0x00000002)
+
+	)
+
+223 
+	#EFI_CHIPSET_PC_PEI_MEM_NB_INIT
+ (
+EFI_SUBCLASS_SPECIFIC
+|0x00000003)
+
+	)
+
+228 
+	#EFI_CHIPSET_PC_DXE_HB_INIT
+ (
+EFI_SUBCLASS_SPECIFIC
+|0x00000004)
+
+	)
+
+233 
+	#EFI_CHIPSET_PC_DXE_NB_INIT
+ (
+EFI_SUBCLASS_SPECIFIC
+|0x00000005)
+
+	)
+
+238 
+	#EFI_CHIPSET_PC_DXE_NB_SMM_INIT
+ (
+EFI_SUBCLASS_SPECIFIC
+|0x00000006)
+
+	)
+
+243 
+	#EFI_CHIPSET_PC_DXE_SB_RT_INIT
+ (
+EFI_SUBCLASS_SPECIFIC
+|0x00000007)
+
+	)
+
+248 
+	#EFI_CHIPSET_PC_DXE_SB_INIT
+ (
+EFI_SUBCLASS_SPECIFIC
+|0x00000008)
+
+	)
+
+253 
+	#EFI_CHIPSET_PC_DXE_SB_SMM_INIT
+ (
+EFI_SUBCLASS_SPECIFIC
+|0x00000009)
+
+	)
+
+258 
+	#EFI_CHIPSET_PC_DXE_SB_DEVICES_INIT
+ (
+EFI_SUBCLASS_SPECIFIC
+|0x0000000a)
+
+	)
+
+265 
+	#EFI_CU_EC_NON_SPECIFIC
+ 0x00000000
+
+	)
+
+266 
+	#EFI_CU_EC_DISABLED
+ 0x00000001
+
+	)
+
+267 
+	#EFI_CU_EC_NOT_SUPPORTED
+ 0x00000002
+
+	)
+
+268 
+	#EFI_CU_EC_NOT_DETECTED
+ 0x00000003
+
+	)
+
+269 
+	#EFI_CU_EC_NOT_CONFIGURED
+ 0x00000004
+
+	)
+
+280 
+	#EFI_CU_HP_EC_INVALID_TYPE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+281 
+	#EFI_CU_HP_EC_INVALID_SPEED
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+282 
+	#EFI_CU_HP_EC_MISMATCH
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000002)
+
+	)
+
+283 
+	#EFI_CU_HP_EC_TIMER_EXPIRED
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000003)
+
+	)
+
+284 
+	#EFI_CU_HP_EC_SELF_TEST
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000004)
+
+	)
+
+285 
+	#EFI_CU_HP_EC_INTERNAL
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000005)
+
+	)
+
+286 
+	#EFI_CU_HP_EC_THERMAL
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000006)
+
+	)
+
+287 
+	#EFI_CU_HP_EC_LOW_VOLTAGE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000007)
+
+	)
+
+288 
+	#EFI_CU_HP_EC_HIGH_VOLTAGE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000008)
+
+	)
+
+289 
+	#EFI_CU_HP_EC_CACHE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000009)
+
+	)
+
+290 
+	#EFI_CU_HP_EC_MICROCODE_UPDATE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000A)
+
+	)
+
+291 
+	#EFI_CU_HP_EC_CORRECTABLE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000B)
+
+	)
+
+292 
+	#EFI_CU_HP_EC_UNCORRECTABLE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000C)
+
+	)
+
+293 
+	#EFI_CU_HP_EC_NO_MICROCODE_UPDATE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000D)
+
+	)
+
+300 
+	#EFI_CU_FP_EC_HARD_FAIL
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+301 
+	#EFI_CU_FP_EC_SOFT_FAIL
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+302 
+	#EFI_CU_FP_EC_COMM_ERROR
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000002)
+
+	)
+
+313 
+	#EFI_CU_CACHE_EC_INVALID_TYPE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+314 
+	#EFI_CU_CACHE_EC_INVALID_SPEED
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+315 
+	#EFI_CU_CACHE_EC_INVALID_SIZE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000002)
+
+	)
+
+316 
+	#EFI_CU_CACHE_EC_MISMATCH
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000003)
+
+	)
+
+323 
+	#EFI_CU_MEMORY_EC_INVALID_TYPE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+324 
+	#EFI_CU_MEMORY_EC_INVALID_SPEED
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+325 
+	#EFI_CU_MEMORY_EC_CORRECTABLE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000002)
+
+	)
+
+326 
+	#EFI_CU_MEMORY_EC_UNCORRECTABLE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000003)
+
+	)
+
+327 
+	#EFI_CU_MEMORY_EC_SPD_FAIL
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000004)
+
+	)
+
+328 
+	#EFI_CU_MEMORY_EC_INVALID_SIZE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000005)
+
+	)
+
+329 
+	#EFI_CU_MEMORY_EC_MISMATCH
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000006)
+
+	)
+
+330 
+	#EFI_CU_MEMORY_EC_S3_RESUME_FAIL
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000007)
+
+	)
+
+331 
+	#EFI_CU_MEMORY_EC_UPDATE_FAIL
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000008)
+
+	)
+
+332 
+	#EFI_CU_MEMORY_EC_NONE_DETECTED
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000009)
+
+	)
+
+333 
+	#EFI_CU_MEMORY_EC_NONE_USEFUL
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000A)
+
+	)
+
+340 
+	#EFI_CHIPSET_EC_BAD_BATTERY
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+341 
+	#EFI_CHIPSET_EC_DXE_NB_ERROR
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+342 
+	#EFI_CHIPSET_EC_DXE_SB_ERROR
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000002)
+
+	)
+
+343 
+	#EFI_CHIPSET_EC_INTRUDER_DETECT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000003)
+
+	)
+
+352 
+	#EFI_PERIPHERAL_UNSPECIFIED
+ (
+EFI_PERIPHERAL
+ | 0x00000000)
+
+	)
+
+353 
+	#EFI_PERIPHERAL_KEYBOARD
+ (
+EFI_PERIPHERAL
+ | 0x00010000)
+
+	)
+
+354 
+	#EFI_PERIPHERAL_MOUSE
+ (
+EFI_PERIPHERAL
+ | 0x00020000)
+
+	)
+
+355 
+	#EFI_PERIPHERAL_LOCAL_CONSOLE
+ (
+EFI_PERIPHERAL
+ | 0x00030000)
+
+	)
+
+356 
+	#EFI_PERIPHERAL_REMOTE_CONSOLE
+ (
+EFI_PERIPHERAL
+ | 0x00040000)
+
+	)
+
+357 
+	#EFI_PERIPHERAL_SERIAL_PORT
+ (
+EFI_PERIPHERAL
+ | 0x00050000)
+
+	)
+
+358 
+	#EFI_PERIPHERAL_PARALLEL_PORT
+ (
+EFI_PERIPHERAL
+ | 0x00060000)
+
+	)
+
+359 
+	#EFI_PERIPHERAL_FIXED_MEDIA
+ (
+EFI_PERIPHERAL
+ | 0x00070000)
+
+	)
+
+360 
+	#EFI_PERIPHERAL_REMOVABLE_MEDIA
+ (
+EFI_PERIPHERAL
+ | 0x00080000)
+
+	)
+
+361 
+	#EFI_PERIPHERAL_AUDIO_INPUT
+ (
+EFI_PERIPHERAL
+ | 0x00090000)
+
+	)
+
+362 
+	#EFI_PERIPHERAL_AUDIO_OUTPUT
+ (
+EFI_PERIPHERAL
+ | 0x000A0000)
+
+	)
+
+363 
+	#EFI_PERIPHERAL_LCD_DEVICE
+ (
+EFI_PERIPHERAL
+ | 0x000B0000)
+
+	)
+
+364 
+	#EFI_PERIPHERAL_NETWORK
+ (
+EFI_PERIPHERAL
+ | 0x000C0000)
+
+	)
+
+365 
+	#EFI_PERIPHERAL_DOCKING
+ (
+EFI_PERIPHERAL
+ | 0x000D0000)
+
+	)
+
+373 
+	#EFI_P_PC_INIT
+ 0x00000000
+
+	)
+
+374 
+	#EFI_P_PC_RESET
+ 0x00000001
+
+	)
+
+375 
+	#EFI_P_PC_DISABLE
+ 0x00000002
+
+	)
+
+376 
+	#EFI_P_PC_PRESENCE_DETECT
+ 0x00000003
+
+	)
+
+377 
+	#EFI_P_PC_ENABLE
+ 0x00000004
+
+	)
+
+378 
+	#EFI_P_PC_RECONFIG
+ 0x00000005
+
+	)
+
+379 
+	#EFI_P_PC_DETECTED
+ 0x00000006
+
+	)
+
+380 
+	#EFI_P_PC_REMOVED
+ 0x00000007
+
+	)
+
+391 
+	#EFI_P_KEYBOARD_PC_CLEAR_BUFFER
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+392 
+	#EFI_P_KEYBOARD_PC_SELF_TEST
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+399 
+	#EFI_P_MOUSE_PC_SELF_TEST
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+414 
+	#EFI_P_SERIAL_PORT_PC_CLEAR_BUFFER
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+450 
+	#EFI_P_EC_NON_SPECIFIC
+ 0x00000000
+
+	)
+
+451 
+	#EFI_P_EC_DISABLED
+ 0x00000001
+
+	)
+
+452 
+	#EFI_P_EC_NOT_SUPPORTED
+ 0x00000002
+
+	)
+
+453 
+	#EFI_P_EC_NOT_DETECTED
+ 0x00000003
+
+	)
+
+454 
+	#EFI_P_EC_NOT_CONFIGURED
+ 0x00000004
+
+	)
+
+455 
+	#EFI_P_EC_INTERFACE_ERROR
+ 0x00000005
+
+	)
+
+456 
+	#EFI_P_EC_CONTROLLER_ERROR
+ 0x00000006
+
+	)
+
+457 
+	#EFI_P_EC_INPUT_ERROR
+ 0x00000007
+
+	)
+
+458 
+	#EFI_P_EC_OUTPUT_ERROR
+ 0x00000008
+
+	)
+
+459 
+	#EFI_P_EC_RESOURCE_CONFLICT
+ 0x00000009
+
+	)
+
+470 
+	#EFI_P_KEYBOARD_EC_LOCKED
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+471 
+	#EFI_P_KEYBOARD_EC_STUCK_KEY
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+472 
+	#EFI_P_KEYBOARD_EC_BUFFER_FULL
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000002)
+
+	)
+
+479 
+	#EFI_P_MOUSE_EC_LOCKED
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+528 
+	#EFI_IO_BUS_UNSPECIFIED
+ (
+EFI_IO_BUS
+ | 0x00000000)
+
+	)
+
+529 
+	#EFI_IO_BUS_PCI
+ (
+EFI_IO_BUS
+ | 0x00010000)
+
+	)
+
+530 
+	#EFI_IO_BUS_USB
+ (
+EFI_IO_BUS
+ | 0x00020000)
+
+	)
+
+531 
+	#EFI_IO_BUS_IBA
+ (
+EFI_IO_BUS
+ | 0x00030000)
+
+	)
+
+532 
+	#EFI_IO_BUS_AGP
+ (
+EFI_IO_BUS
+ | 0x00040000)
+
+	)
+
+533 
+	#EFI_IO_BUS_PC_CARD
+ (
+EFI_IO_BUS
+ | 0x00050000)
+
+	)
+
+534 
+	#EFI_IO_BUS_LPC
+ (
+EFI_IO_BUS
+ | 0x00060000)
+
+	)
+
+535 
+	#EFI_IO_BUS_SCSI
+ (
+EFI_IO_BUS
+ | 0x00070000)
+
+	)
+
+536 
+	#EFI_IO_BUS_ATA_ATAPI
+ (
+EFI_IO_BUS
+ | 0x00080000)
+
+	)
+
+537 
+	#EFI_IO_BUS_FC
+ (
+EFI_IO_BUS
+ | 0x00090000)
+
+	)
+
+538 
+	#EFI_IO_BUS_IP_NETWORK
+ (
+EFI_IO_BUS
+ | 0x000A0000)
+
+	)
+
+539 
+	#EFI_IO_BUS_SMBUS
+ (
+EFI_IO_BUS
+ | 0x000B0000)
+
+	)
+
+540 
+	#EFI_IO_BUS_I2C
+ (
+EFI_IO_BUS
+ | 0x000C0000)
+
+	)
+
+548 
+	#EFI_IOB_PC_INIT
+ 0x00000000
+
+	)
+
+549 
+	#EFI_IOB_PC_RESET
+ 0x00000001
+
+	)
+
+550 
+	#EFI_IOB_PC_DISABLE
+ 0x00000002
+
+	)
+
+551 
+	#EFI_IOB_PC_DETECT
+ 0x00000003
+
+	)
+
+552 
+	#EFI_IOB_PC_ENABLE
+ 0x00000004
+
+	)
+
+553 
+	#EFI_IOB_PC_RECONFIG
+ 0x00000005
+
+	)
+
+554 
+	#EFI_IOB_PC_HOTPLUG
+ 0x00000006
+
+	)
+
+565 
+	#EFI_IOB_PCI_BUS_ENUM
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+566 
+	#EFI_IOB_PCI_RES_ALLOC
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+567 
+	#EFI_IOB_PCI_HPC_INIT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000002)
+
+	)
+
+597 
+	#EFI_IOB_ATA_BUS_SMART_ENABLE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+598 
+	#EFI_IOB_ATA_BUS_SMART_DISABLE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+599 
+	#EFI_IOB_ATA_BUS_SMART_OVERTHRESHOLD
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000002)
+
+	)
+
+600 
+	#EFI_IOB_ATA_BUS_SMART_UNDERTHRESHOLD
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000003)
+
+	)
+
+622 
+	#EFI_IOB_EC_NON_SPECIFIC
+ 0x00000000
+
+	)
+
+623 
+	#EFI_IOB_EC_DISABLED
+ 0x00000001
+
+	)
+
+624 
+	#EFI_IOB_EC_NOT_SUPPORTED
+ 0x00000002
+
+	)
+
+625 
+	#EFI_IOB_EC_NOT_DETECTED
+ 0x00000003
+
+	)
+
+626 
+	#EFI_IOB_EC_NOT_CONFIGURED
+ 0x00000004
+
+	)
+
+627 
+	#EFI_IOB_EC_INTERFACE_ERROR
+ 0x00000005
+
+	)
+
+628 
+	#EFI_IOB_EC_CONTROLLER_ERROR
+ 0x00000006
+
+	)
+
+629 
+	#EFI_IOB_EC_READ_ERROR
+ 0x00000007
+
+	)
+
+630 
+	#EFI_IOB_EC_WRITE_ERROR
+ 0x00000008
+
+	)
+
+631 
+	#EFI_IOB_EC_RESOURCE_CONFLICT
+ 0x00000009
+
+	)
+
+642 
+	#EFI_IOB_PCI_EC_PERR
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+643 
+	#EFI_IOB_PCI_EC_SERR
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+673 
+	#EFI_IOB_ATA_BUS_SMART_NOTSUPPORTED
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+674 
+	#EFI_IOB_ATA_BUS_SMART_DISABLED
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+698 
+	#EFI_SOFTWARE_UNSPECIFIED
+ (
+EFI_SOFTWARE
+ | 0x00000000)
+
+	)
+
+699 
+	#EFI_SOFTWARE_SEC
+ (
+EFI_SOFTWARE
+ | 0x00010000)
+
+	)
+
+700 
+	#EFI_SOFTWARE_PEI_CORE
+ (
+EFI_SOFTWARE
+ | 0x00020000)
+
+	)
+
+701 
+	#EFI_SOFTWARE_PEI_MODULE
+ (
+EFI_SOFTWARE
+ | 0x00030000)
+
+	)
+
+702 
+	#EFI_SOFTWARE_DXE_CORE
+ (
+EFI_SOFTWARE
+ | 0x00040000)
+
+	)
+
+703 
+	#EFI_SOFTWARE_DXE_BS_DRIVER
+ (
+EFI_SOFTWARE
+ | 0x00050000)
+
+	)
+
+704 
+	#EFI_SOFTWARE_DXE_RT_DRIVER
+ (
+EFI_SOFTWARE
+ | 0x00060000)
+
+	)
+
+705 
+	#EFI_SOFTWARE_SMM_DRIVER
+ (
+EFI_SOFTWARE
+ | 0x00070000)
+
+	)
+
+706 
+	#EFI_SOFTWARE_EFI_APPLICATION
+ (
+EFI_SOFTWARE
+ | 0x00080000)
+
+	)
+
+707 
+	#EFI_SOFTWARE_EFI_OS_LOADER
+ (
+EFI_SOFTWARE
+ | 0x00090000)
+
+	)
+
+708 
+	#EFI_SOFTWARE_RT
+ (
+EFI_SOFTWARE
+ | 0x000A0000)
+
+	)
+
+709 
+	#EFI_SOFTWARE_AL
+ (
+EFI_SOFTWARE
+ | 0x000B0000)
+
+	)
+
+710 
+	#EFI_SOFTWARE_EBC_EXCEPTION
+ (
+EFI_SOFTWARE
+ | 0x000C0000)
+
+	)
+
+711 
+	#EFI_SOFTWARE_IA32_EXCEPTION
+ (
+EFI_SOFTWARE
+ | 0x000D0000)
+
+	)
+
+712 
+	#EFI_SOFTWARE_IPF_EXCEPTION
+ (
+EFI_SOFTWARE
+ | 0x000E0000)
+
+	)
+
+713 
+	#EFI_SOFTWARE_PEI_SERVICE
+ (
+EFI_SOFTWARE
+ | 0x000F0000)
+
+	)
+
+714 
+	#EFI_SOFTWARE_EFI_BOOT_SERVICE
+ (
+EFI_SOFTWARE
+ | 0x00100000)
+
+	)
+
+715 
+	#EFI_SOFTWARE_EFI_RUNTIME_SERVICE
+ (
+EFI_SOFTWARE
+ | 0x00110000)
+
+	)
+
+716 
+	#EFI_SOFTWARE_EFI_DXE_SERVICE
+ (
+EFI_SOFTWARE
+ | 0x00120000)
+
+	)
+
+717 
+	#EFI_SOFTWARE_X64_EXCEPTION
+ (
+EFI_SOFTWARE
+ | 0x00130000)
+
+	)
+
+718 
+	#EFI_SOFTWARE_ARM_EXCEPTION
+ (
+EFI_SOFTWARE
+ | 0x00140000)
+
+	)
+
+727 
+	#EFI_SW_PC_INIT
+ 0x00000000
+
+	)
+
+728 
+	#EFI_SW_PC_LOAD
+ 0x00000001
+
+	)
+
+729 
+	#EFI_SW_PC_INIT_BEGIN
+ 0x00000002
+
+	)
+
+730 
+	#EFI_SW_PC_INIT_END
+ 0x00000003
+
+	)
+
+731 
+	#EFI_SW_PC_AUTHENTICATE_BEGIN
+ 0x00000004
+
+	)
+
+732 
+	#EFI_SW_PC_AUTHENTICATE_END
+ 0x00000005
+
+	)
+
+733 
+	#EFI_SW_PC_INPUT_WAIT
+ 0x00000006
+
+	)
+
+734 
+	#EFI_SW_PC_USER_SETUP
+ 0x00000007
+
+	)
+
+745 
+	#EFI_SW_SEC_PC_ENTRY_POINT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+746 
+	#EFI_SW_SEC_PC_HANDOFF_TO_NEXT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+753 
+	#EFI_SW_PEI_CORE_PC_ENTRY_POINT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+754 
+	#EFI_SW_PEI_CORE_PC_HANDOFF_TO_NEXT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+755 
+	#EFI_SW_PEI_CORE_PC_RETURN_TO_LAST
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000002)
+
+	)
+
+762 
+	#EFI_SW_PEI_PC_RECOVERY_BEGIN
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+763 
+	#EFI_SW_PEI_PC_CAPSULE_LOAD
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+764 
+	#EFI_SW_PEI_PC_CAPSULE_START
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000002)
+
+	)
+
+765 
+	#EFI_SW_PEI_PC_RECOVERY_USER
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000003)
+
+	)
+
+766 
+	#EFI_SW_PEI_PC_RECOVERY_AUTO
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000004)
+
+	)
+
+767 
+	#EFI_SW_PEI_PC_S3_BOOT_SCRIPT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000005)
+
+	)
+
+768 
+	#EFI_SW_PEI_PC_OS_WAKE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000006)
+
+	)
+
+769 
+	#EFI_SW_PEI_PC_S3_STARTED
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000007)
+
+	)
+
+776 
+	#EFI_SW_DXE_CORE_PC_ENTRY_POINT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+777 
+	#EFI_SW_DXE_CORE_PC_HANDOFF_TO_NEXT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+778 
+	#EFI_SW_DXE_CORE_PC_RETURN_TO_LAST
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000002)
+
+	)
+
+779 
+	#EFI_SW_DXE_CORE_PC_START_DRIVER
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000003)
+
+	)
+
+780 
+	#EFI_SW_DXE_CORE_PC_ARCH_READY
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000004)
+
+	)
+
+787 
+	#EFI_SW_DXE_BS_PC_LEGACY_OPROM_INIT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+788 
+	#EFI_SW_DXE_BS_PC_READY_TO_BOOT_EVENT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+789 
+	#EFI_SW_DXE_BS_PC_LEGACY_BOOT_EVENT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000002)
+
+	)
+
+790 
+	#EFI_SW_DXE_BS_PC_EXIT_BOOT_SERVICES_EVENT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000003)
+
+	)
+
+791 
+	#EFI_SW_DXE_BS_PC_VIRTUAL_ADDRESS_CHANGE_EVENT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000004)
+
+	)
+
+792 
+	#EFI_SW_DXE_BS_PC_VARIABLE_SERVICES_INIT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000005)
+
+	)
+
+793 
+	#EFI_SW_DXE_BS_PC_VARIABLE_RECLAIM
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000006)
+
+	)
+
+794 
+	#EFI_SW_DXE_BS_PC_ATTEMPT_BOOT_ORDER_EVENT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000007)
+
+	)
+
+795 
+	#EFI_SW_DXE_BS_PC_CONFIG_RESET
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000008)
+
+	)
+
+796 
+	#EFI_SW_DXE_BS_PC_CSM_INIT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000009)
+
+	)
+
+815 
+	#EFI_SW_RT_PC_ENTRY_POINT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+816 
+	#EFI_SW_RT_PC_HANDOFF_TO_NEXT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+817 
+	#EFI_SW_RT_PC_RETURN_TO_LAST
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000002)
+
+	)
+
+848 
+	#EFI_SW_PS_PC_INSTALL_PPI
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+849 
+	#EFI_SW_PS_PC_REINSTALL_PPI
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+850 
+	#EFI_SW_PS_PC_LOCATE_PPI
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000002)
+
+	)
+
+851 
+	#EFI_SW_PS_PC_NOTIFY_PPI
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000003)
+
+	)
+
+852 
+	#EFI_SW_PS_PC_GET_BOOT_MODE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000004)
+
+	)
+
+853 
+	#EFI_SW_PS_PC_SET_BOOT_MODE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000005)
+
+	)
+
+854 
+	#EFI_SW_PS_PC_GET_HOB_LIST
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000006)
+
+	)
+
+855 
+	#EFI_SW_PS_PC_CREATE_HOB
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000007)
+
+	)
+
+856 
+	#EFI_SW_PS_PC_FFS_FIND_NEXT_VOLUME
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000008)
+
+	)
+
+857 
+	#EFI_SW_PS_PC_FFS_FIND_NEXT_FILE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000009)
+
+	)
+
+858 
+	#EFI_SW_PS_PC_FFS_FIND_SECTION_DATA
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000A)
+
+	)
+
+859 
+	#EFI_SW_PS_PC_INSTALL_PEI_MEMORY
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000B)
+
+	)
+
+860 
+	#EFI_SW_PS_PC_ALLOCATE_PAGES
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000C)
+
+	)
+
+861 
+	#EFI_SW_PS_PC_ALLOCATE_POOL
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000D)
+
+	)
+
+862 
+	#EFI_SW_PS_PC_COPY_MEM
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000E)
+
+	)
+
+863 
+	#EFI_SW_PS_PC_SET_MEM
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000F)
+
+	)
+
+864 
+	#EFI_SW_PS_PC_RESET_SYSTEM
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000010)
+
+	)
+
+865 
+	#EFI_SW_PS_PC_FFS_FIND_FILE_BY_NAME
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000013)
+
+	)
+
+866 
+	#EFI_SW_PS_PC_FFS_GET_FILE_INFO
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000014)
+
+	)
+
+867 
+	#EFI_SW_PS_PC_FFS_GET_VOLUME_INFO
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000015)
+
+	)
+
+868 
+	#EFI_SW_PS_PC_FFS_REGISTER_FOR_SHADOW
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000016)
+
+	)
+
+875 
+	#EFI_SW_BS_PC_RAISE_TPL
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+876 
+	#EFI_SW_BS_PC_RESTORE_TPL
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+877 
+	#EFI_SW_BS_PC_ALLOCATE_PAGES
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000002)
+
+	)
+
+878 
+	#EFI_SW_BS_PC_FREE_PAGES
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000003)
+
+	)
+
+879 
+	#EFI_SW_BS_PC_GET_MEMORY_MAP
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000004)
+
+	)
+
+880 
+	#EFI_SW_BS_PC_ALLOCATE_POOL
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000005)
+
+	)
+
+881 
+	#EFI_SW_BS_PC_FREE_POOL
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000006)
+
+	)
+
+882 
+	#EFI_SW_BS_PC_CREATE_EVENT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000007)
+
+	)
+
+883 
+	#EFI_SW_BS_PC_SET_TIMER
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000008)
+
+	)
+
+884 
+	#EFI_SW_BS_PC_WAIT_FOR_EVENT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000009)
+
+	)
+
+885 
+	#EFI_SW_BS_PC_SIGNAL_EVENT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000A)
+
+	)
+
+886 
+	#EFI_SW_BS_PC_CLOSE_EVENT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000B)
+
+	)
+
+887 
+	#EFI_SW_BS_PC_CHECK_EVENT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000C)
+
+	)
+
+888 
+	#EFI_SW_BS_PC_INSTALL_PROTOCOL_INTERFACE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000D)
+
+	)
+
+889 
+	#EFI_SW_BS_PC_REINSTALL_PROTOCOL_INTERFACE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000E)
+
+	)
+
+890 
+	#EFI_SW_BS_PC_UNINSTALL_PROTOCOL_INTERFACE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000F)
+
+	)
+
+891 
+	#EFI_SW_BS_PC_HANDLE_PROTOCOL
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000010)
+
+	)
+
+892 
+	#EFI_SW_BS_PC_PC_HANDLE_PROTOCOL
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000011)
+
+	)
+
+893 
+	#EFI_SW_BS_PC_REGISTER_PROTOCOL_NOTIFY
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000012)
+
+	)
+
+894 
+	#EFI_SW_BS_PC_LOCATE_HANDLE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000013)
+
+	)
+
+895 
+	#EFI_SW_BS_PC_INSTALL_CONFIGURATION_TABLE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000014)
+
+	)
+
+896 
+	#EFI_SW_BS_PC_LOAD_IMAGE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000015)
+
+	)
+
+897 
+	#EFI_SW_BS_PC_START_IMAGE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000016)
+
+	)
+
+898 
+	#EFI_SW_BS_PC_EXIT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000017)
+
+	)
+
+899 
+	#EFI_SW_BS_PC_UNLOAD_IMAGE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000018)
+
+	)
+
+900 
+	#EFI_SW_BS_PC_EXIT_BOOT_SERVICES
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000019)
+
+	)
+
+901 
+	#EFI_SW_BS_PC_GET_NEXT_MONOTONIC_COUNT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000001A)
+
+	)
+
+902 
+	#EFI_SW_BS_PC_STALL
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000001B)
+
+	)
+
+903 
+	#EFI_SW_BS_PC_SET_WATCHDOG_TIMER
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000001C)
+
+	)
+
+904 
+	#EFI_SW_BS_PC_CONNECT_CONTROLLER
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000001D)
+
+	)
+
+905 
+	#EFI_SW_BS_PC_DISCONNECT_CONTROLLER
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000001E)
+
+	)
+
+906 
+	#EFI_SW_BS_PC_OPEN_PROTOCOL
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000001F)
+
+	)
+
+907 
+	#EFI_SW_BS_PC_CLOSE_PROTOCOL
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000020)
+
+	)
+
+908 
+	#EFI_SW_BS_PC_OPEN_PROTOCOL_INFORMATION
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000021)
+
+	)
+
+909 
+	#EFI_SW_BS_PC_PROTOCOLS_PER_HANDLE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000022)
+
+	)
+
+910 
+	#EFI_SW_BS_PC_LOCATE_HANDLE_BUFFER
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000023)
+
+	)
+
+911 
+	#EFI_SW_BS_PC_LOCATE_PROTOCOL
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000024)
+
+	)
+
+912 
+	#EFI_SW_BS_PC_INSTALL_MULTIPLE_INTERFACES
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000025)
+
+	)
+
+913 
+	#EFI_SW_BS_PC_UNINSTALL_MULTIPLE_INTERFACES
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000026)
+
+	)
+
+914 
+	#EFI_SW_BS_PC_CALCULATE_CRC_32
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000027)
+
+	)
+
+915 
+	#EFI_SW_BS_PC_COPY_MEM
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000028)
+
+	)
+
+916 
+	#EFI_SW_BS_PC_SET_MEM
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000029)
+
+	)
+
+917 
+	#EFI_SW_BS_PC_CREATE_EVENT_EX
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000002A)
+
+	)
+
+924 
+	#EFI_SW_RS_PC_GET_TIME
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+925 
+	#EFI_SW_RS_PC_SET_TIME
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+926 
+	#EFI_SW_RS_PC_GET_WAKEUP_TIME
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000002)
+
+	)
+
+927 
+	#EFI_SW_RS_PC_SET_WAKEUP_TIME
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000003)
+
+	)
+
+928 
+	#EFI_SW_RS_PC_SET_VIRTUAL_ADDRESS_MAP
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000004)
+
+	)
+
+929 
+	#EFI_SW_RS_PC_CONVERT_POINTER
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000005)
+
+	)
+
+930 
+	#EFI_SW_RS_PC_GET_VARIABLE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000006)
+
+	)
+
+931 
+	#EFI_SW_RS_PC_GET_NEXT_VARIABLE_NAME
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000007)
+
+	)
+
+932 
+	#EFI_SW_RS_PC_SET_VARIABLE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000008)
+
+	)
+
+933 
+	#EFI_SW_RS_PC_GET_NEXT_HIGH_MONOTONIC_COUNT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000009)
+
+	)
+
+934 
+	#EFI_SW_RS_PC_RESET_SYSTEM
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000A)
+
+	)
+
+935 
+	#EFI_SW_RS_PC_UPDATE_CAPSULE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000B)
+
+	)
+
+936 
+	#EFI_SW_RS_PC_QUERY_CAPSULE_CAPABILITIES
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000C)
+
+	)
+
+937 
+	#EFI_SW_RS_PC_QUERY_VARIABLE_INFO
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000D)
+
+	)
+
+944 
+	#EFI_SW_DS_PC_ADD_MEMORY_SPACE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+945 
+	#EFI_SW_DS_PC_ALLOCATE_MEMORY_SPACE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+946 
+	#EFI_SW_DS_PC_FREE_MEMORY_SPACE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000002)
+
+	)
+
+947 
+	#EFI_SW_DS_PC_REMOVE_MEMORY_SPACE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000003)
+
+	)
+
+948 
+	#EFI_SW_DS_PC_GET_MEMORY_SPACE_DESCRIPTOR
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000004)
+
+	)
+
+949 
+	#EFI_SW_DS_PC_SET_MEMORY_SPACE_ATTRIBUTES
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000005)
+
+	)
+
+950 
+	#EFI_SW_DS_PC_GET_MEMORY_SPACE_MAP
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000006)
+
+	)
+
+951 
+	#EFI_SW_DS_PC_ADD_IO_SPACE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000007)
+
+	)
+
+952 
+	#EFI_SW_DS_PC_ALLOCATE_IO_SPACE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000008)
+
+	)
+
+953 
+	#EFI_SW_DS_PC_FREE_IO_SPACE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000009)
+
+	)
+
+954 
+	#EFI_SW_DS_PC_REMOVE_IO_SPACE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000A)
+
+	)
+
+955 
+	#EFI_SW_DS_PC_GET_IO_SPACE_DESCRIPTOR
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000B)
+
+	)
+
+956 
+	#EFI_SW_DS_PC_GET_IO_SPACE_MAP
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000C)
+
+	)
+
+957 
+	#EFI_SW_DS_PC_DISPATCH
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000D)
+
+	)
+
+958 
+	#EFI_SW_DS_PC_SCHEDULE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000E)
+
+	)
+
+959 
+	#EFI_SW_DS_PC_TRUST
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x0000000F)
+
+	)
+
+960 
+	#EFI_SW_DS_PC_PROCESS_FIRMWARE_VOLUME
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000010)
+
+	)
+
+968 
+	#EFI_SW_EC_NON_SPECIFIC
+ 0x00000000
+
+	)
+
+969 
+	#EFI_SW_EC_LOAD_ERROR
+ 0x00000001
+
+	)
+
+970 
+	#EFI_SW_EC_INVALID_PARAMETER
+ 0x00000002
+
+	)
+
+971 
+	#EFI_SW_EC_UNSUPPORTED
+ 0x00000003
+
+	)
+
+972 
+	#EFI_SW_EC_INVALID_BUFFER
+ 0x00000004
+
+	)
+
+973 
+	#EFI_SW_EC_OUT_OF_RESOURCES
+ 0x00000005
+
+	)
+
+974 
+	#EFI_SW_EC_ABORTED
+ 0x00000006
+
+	)
+
+975 
+	#EFI_SW_EC_ILLEGAL_SOFTWARE_STATE
+ 0x00000007
+
+	)
+
+976 
+	#EFI_SW_EC_ILLEGAL_HARDWARE_STATE
+ 0x00000008
+
+	)
+
+977 
+	#EFI_SW_EC_START_ERROR
+ 0x00000009
+
+	)
+
+978 
+	#EFI_SW_EC_BAD_DATE_TIME
+ 0x0000000A
+
+	)
+
+979 
+	#EFI_SW_EC_CFG_INVALID
+ 0x0000000B
+
+	)
+
+980 
+	#EFI_SW_EC_CFG_CLR_REQUEST
+ 0x0000000C
+
+	)
+
+981 
+	#EFI_SW_EC_CFG_DEFAULT
+ 0x0000000D
+
+	)
+
+982 
+	#EFI_SW_EC_PWD_INVALID
+ 0x0000000E
+
+	)
+
+983 
+	#EFI_SW_EC_PWD_CLR_REQUEST
+ 0x0000000F
+
+	)
+
+984 
+	#EFI_SW_EC_PWD_CLEARED
+ 0x00000010
+
+	)
+
+985 
+	#EFI_SW_EC_EVENT_LOG_FULL
+ 0x00000011
+
+	)
+
+986 
+	#EFI_SW_EC_WRITE_PROTECTED
+ 0x00000012
+
+	)
+
+987 
+	#EFI_SW_EC_FV_CORRUPTED
+ 0x00000013
+
+	)
+
+1002 
+	#EFI_SW_PEI_CORE_EC_DXE_CORRUPT
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+1003 
+	#EFI_SW_PEI_CORE_EC_DXEIPL_NOT_FOUND
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+1004 
+	#EFI_SW_PEI_CORE_EC_MEMORY_NOT_INSTALLED
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000002)
+
+	)
+
+1011 
+	#EFI_SW_PEI_EC_NO_RECOVERY_CAPSULE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+1012 
+	#EFI_SW_PEI_EC_INVALID_CAPSULE_DESCRIPTOR
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+1013 
+	#EFI_SW_PEI_EC_S3_RESUME_PPI_NOT_FOUND
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000002)
+
+	)
+
+1014 
+	#EFI_SW_PEI_EC_S3_BOOT_SCRIPT_ERROR
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000003)
+
+	)
+
+1015 
+	#EFI_SW_PEI_EC_S3_OS_WAKE_ERROR
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000004)
+
+	)
+
+1016 
+	#EFI_SW_PEI_EC_S3_RESUME_FAILED
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000005)
+
+	)
+
+1017 
+	#EFI_SW_PEI_EC_RECOVERY_PPI_NOT_FOUND
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000006)
+
+	)
+
+1018 
+	#EFI_SW_PEI_EC_RECOVERY_FAILED
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000007)
+
+	)
+
+1019 
+	#EFI_SW_PEI_EC_S3_RESUME_ERROR
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000008)
+
+	)
+
+1020 
+	#EFI_SW_PEI_EC_INVALID_CAPSULE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000009)
+
+	)
+
+1027 
+	#EFI_SW_DXE_CORE_EC_NO_ARCH
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+1035 
+	#EFI_SW_DXE_BS_EC_LEGACY_OPROM_NO_SPACE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+1036 
+	#EFI_SW_DXE_BS_EC_INVALID_PASSWORD
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+1037 
+	#EFI_SW_DXE_BS_EC_BOOT_OPTION_LOAD_ERROR
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000002)
+
+	)
+
+1038 
+	#EFI_SW_DXE_BS_EC_BOOT_OPTION_FAILED
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000003)
+
+	)
+
+1039 
+	#EFI_SW_DXE_BS_EC_INVALID_IDE_PASSWORD
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000004)
+
+	)
+
+1072 
+	#EFI_SW_EC_EBC_UNDEFINED
+ 0x00000000
+
+	)
+
+1073 
+	#EFI_SW_EC_EBC_DIVIDE_ERROR
+ 
+EXCEPT_EBC_DIVIDE_ERROR
+
+
+	)
+
+1074 
+	#EFI_SW_EC_EBC_DEBUG
+ 
+EXCEPT_EBC_DEBUG
+
+
+	)
+
+1075 
+	#EFI_SW_EC_EBC_BREAKPOINT
+ 
+EXCEPT_EBC_BREAKPOINT
+
+
+	)
+
+1076 
+	#EFI_SW_EC_EBC_OVERFLOW
+ 
+EXCEPT_EBC_OVERFLOW
+
+
+	)
+
+1077 
+	#EFI_SW_EC_EBC_INVALID_OPCODE
+ 
+EXCEPT_EBC_INVALID_OPCODE
+
+
+	)
+
+1078 
+	#EFI_SW_EC_EBC_STACK_FAULT
+ 
+EXCEPT_EBC_STACK_FAULT
+
+
+	)
+
+1079 
+	#EFI_SW_EC_EBC_ALIGNMENT_CHECK
+ 
+EXCEPT_EBC_ALIGNMENT_CHECK
+
+
+	)
+
+1080 
+	#EFI_SW_EC_EBC_INSTRUCTION_ENCODING
+ 
+EXCEPT_EBC_INSTRUCTION_ENCODING
+
+
+	)
+
+1081 
+	#EFI_SW_EC_EBC_BAD_BREAK
+ 
+EXCEPT_EBC_BAD_BREAK
+
+
+	)
+
+1082 
+	#EFI_SW_EC_EBC_STEP
+ 
+EXCEPT_EBC_STEP
+
+
+	)
+
+1091 
+	#EFI_SW_EC_IA32_DIVIDE_ERROR
+ 
+EXCEPT_IA32_DIVIDE_ERROR
+
+
+	)
+
+1092 
+	#EFI_SW_EC_IA32_DEBUG
+ 
+EXCEPT_IA32_DEBUG
+
+
+	)
+
+1093 
+	#EFI_SW_EC_IA32_NMI
+ 
+EXCEPT_IA32_NMI
+
+
+	)
+
+1094 
+	#EFI_SW_EC_IA32_BREAKPOINT
+ 
+EXCEPT_IA32_BREAKPOINT
+
+
+	)
+
+1095 
+	#EFI_SW_EC_IA32_OVERFLOW
+ 
+EXCEPT_IA32_OVERFLOW
+
+
+	)
+
+1096 
+	#EFI_SW_EC_IA32_BOUND
+ 
+EXCEPT_IA32_BOUND
+
+
+	)
+
+1097 
+	#EFI_SW_EC_IA32_INVALID_OPCODE
+ 
+EXCEPT_IA32_INVALID_OPCODE
+
+
+	)
+
+1098 
+	#EFI_SW_EC_IA32_DOUBLE_FAULT
+ 
+EXCEPT_IA32_DOUBLE_FAULT
+
+
+	)
+
+1099 
+	#EFI_SW_EC_IA32_INVALID_TSS
+ 
+EXCEPT_IA32_INVALID_TSS
+
+
+	)
+
+1100 
+	#EFI_SW_EC_IA32_SEG_NOT_PRESENT
+ 
+EXCEPT_IA32_SEG_NOT_PRESENT
+
+
+	)
+
+1101 
+	#EFI_SW_EC_IA32_STACK_FAULT
+ 
+EXCEPT_IA32_STACK_FAULT
+
+
+	)
+
+1102 
+	#EFI_SW_EC_IA32_GP_FAULT
+ 
+EXCEPT_IA32_GP_FAULT
+
+
+	)
+
+1103 
+	#EFI_SW_EC_IA32_PAGE_FAULT
+ 
+EXCEPT_IA32_PAGE_FAULT
+
+
+	)
+
+1104 
+	#EFI_SW_EC_IA32_FP_ERROR
+ 
+EXCEPT_IA32_FP_ERROR
+
+
+	)
+
+1105 
+	#EFI_SW_EC_IA32_ALIGNMENT_CHECK
+ 
+EXCEPT_IA32_ALIGNMENT_CHECK
+
+
+	)
+
+1106 
+	#EFI_SW_EC_IA32_MACHINE_CHECK
+ 
+EXCEPT_IA32_MACHINE_CHECK
+
+
+	)
+
+1107 
+	#EFI_SW_EC_IA32_SIMD
+ 
+EXCEPT_IA32_SIMD
+
+
+	)
+
+1116 
+	#EFI_SW_EC_IPF_ALT_DTLB
+ 
+EXCEPT_IPF_ALT_DTLB
+
+
+	)
+
+1117 
+	#EFI_SW_EC_IPF_DNESTED_TLB
+ 
+EXCEPT_IPF_DNESTED_TLB
+
+
+	)
+
+1118 
+	#EFI_SW_EC_IPF_BREAKPOINT
+ 
+EXCEPT_IPF_BREAKPOINT
+
+
+	)
+
+1119 
+	#EFI_SW_EC_IPF_EXTERNAL_INTERRUPT
+ 
+EXCEPT_IPF_EXTERNAL_INTERRUPT
+
+
+	)
+
+1120 
+	#EFI_SW_EC_IPF_GEN_EXCEPT
+ 
+EXCEPT_IPF_GEN_EXCEPT
+
+
+	)
+
+1121 
+	#EFI_SW_EC_IPF_NAT_CONSUMPTION
+ 
+EXCEPT_IPF_NAT_CONSUMPTION
+
+
+	)
+
+1122 
+	#EFI_SW_EC_IPF_DEBUG_EXCEPT
+ 
+EXCEPT_IPF_DEBUG_EXCEPT
+
+
+	)
+
+1123 
+	#EFI_SW_EC_IPF_UNALIGNED_ACCESS
+ 
+EXCEPT_IPF_UNALIGNED_ACCESS
+
+
+	)
+
+1124 
+	#EFI_SW_EC_IPF_FP_FAULT
+ 
+EXCEPT_IPF_FP_FAULT
+
+
+	)
+
+1125 
+	#EFI_SW_EC_IPF_FP_TRAP
+ 
+EXCEPT_IPF_FP_TRAP
+
+
+	)
+
+1126 
+	#EFI_SW_EC_IPF_TAKEN_BRANCH
+ 
+EXCEPT_IPF_TAKEN_BRANCH
+
+
+	)
+
+1127 
+	#EFI_SW_EC_IPF_SINGLE_STEP
+ 
+EXCEPT_IPF_SINGLE_STEP
+
+
+	)
+
+1134 
+	#EFI_SW_PS_EC_RESET_NOT_AVAILABLE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+1135 
+	#EFI_SW_PS_EC_MEMORY_INSTALLED_TWICE
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+1150 
+	#EFI_SW_DXE_BS_PC_BEGIN_CONNECTING_DRIVERS
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000005)
+
+	)
+
+1151 
+	#EFI_SW_DXE_BS_PC_VERIFYING_PASSWORD
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000006)
+
+	)
+
+1158 
+	#EFI_SW_DXE_RT_PC_S0
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000000)
+
+	)
+
+1159 
+	#EFI_SW_DXE_RT_PC_S1
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000001)
+
+	)
+
+1160 
+	#EFI_SW_DXE_RT_PC_S2
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000002)
+
+	)
+
+1161 
+	#EFI_SW_DXE_RT_PC_S3
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000003)
+
+	)
+
+1162 
+	#EFI_SW_DXE_RT_PC_S4
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000004)
+
+	)
+
+1163 
+	#EFI_SW_DXE_RT_PC_S5
+ (
+EFI_SUBCLASS_SPECIFIC
+ | 0x00000005)
+
+	)
+
+1172 
+	#EFI_SW_EC_X64_DIVIDE_ERROR
+ 
+EXCEPT_X64_DIVIDE_ERROR
+
+
+	)
+
+1173 
+	#EFI_SW_EC_X64_DEBUG
+ 
+EXCEPT_X64_DEBUG
+
+
+	)
+
+1174 
+	#EFI_SW_EC_X64_NMI
+ 
+EXCEPT_X64_NMI
+
+
+	)
+
+1175 
+	#EFI_SW_EC_X64_BREAKPOINT
+ 
+EXCEPT_X64_BREAKPOINT
+
+
+	)
+
+1176 
+	#EFI_SW_EC_X64_OVERFLOW
+ 
+EXCEPT_X64_OVERFLOW
+
+
+	)
+
+1177 
+	#EFI_SW_EC_X64_BOUND
+ 
+EXCEPT_X64_BOUND
+
+
+	)
+
+1178 
+	#EFI_SW_EC_X64_INVALID_OPCODE
+ 
+EXCEPT_X64_INVALID_OPCODE
+
+
+	)
+
+1179 
+	#EFI_SW_EC_X64_DOUBLE_FAULT
+ 
+EXCEPT_X64_DOUBLE_FAULT
+
+
+	)
+
+1180 
+	#EFI_SW_EC_X64_INVALID_TSS
+ 
+EXCEPT_X64_INVALID_TSS
+
+
+	)
+
+1181 
+	#EFI_SW_EC_X64_SEG_NOT_PRESENT
+ 
+EXCEPT_X64_SEG_NOT_PRESENT
+
+
+	)
+
+1182 
+	#EFI_SW_EC_X64_STACK_FAULT
+ 
+EXCEPT_X64_STACK_FAULT
+
+
+	)
+
+1183 
+	#EFI_SW_EC_X64_GP_FAULT
+ 
+EXCEPT_X64_GP_FAULT
+
+
+	)
+
+1184 
+	#EFI_SW_EC_X64_PAGE_FAULT
+ 
+EXCEPT_X64_PAGE_FAULT
+
+
+	)
+
+1185 
+	#EFI_SW_EC_X64_FP_ERROR
+ 
+EXCEPT_X64_FP_ERROR
+
+
+	)
+
+1186 
+	#EFI_SW_EC_X64_ALIGNMENT_CHECK
+ 
+EXCEPT_X64_ALIGNMENT_CHECK
+
+
+	)
+
+1187 
+	#EFI_SW_EC_X64_MACHINE_CHECK
+ 
+EXCEPT_X64_MACHINE_CHECK
+
+
+	)
+
+1188 
+	#EFI_SW_EC_X64_SIMD
+ 
+EXCEPT_X64_SIMD
+
+
+	)
+
+1197 
+	#EFI_SW_EC_ARM_RESET
+ 
+EXCEPT_ARM_RESET
+
+
+	)
+
+1198 
+	#EFI_SW_EC_ARM_UNDEFINED_INSTRUCTION
+ 
+EXCEPT_ARM_UNDEFINED_INSTRUCTION
+
+
+	)
+
+1199 
+	#EFI_SW_EC_ARM_SOFTWARE_INTERRUPT
+ 
+EXCEPT_ARM_SOFTWARE_INTERRUPT
+
+
+	)
+
+1200 
+	#EFI_SW_EC_ARM_PREFETCH_ABORT
+ 
+EXCEPT_ARM_PREFETCH_ABORT
+
+
+	)
+
+1201 
+	#EFI_SW_EC_ARM_DATA_ABORT
+ 
+EXCEPT_ARM_DATA_ABORT
+
+
+	)
+
+1202 
+	#EFI_SW_EC_ARM_RESERVED
+ 
+EXCEPT_ARM_RESERVED
+
+
+	)
+
+1203 
+	#EFI_SW_EC_ARM_IRQ
+ 
+EXCEPT_ARM_IRQ
+
+
+	)
+
+1204 
+	#EFI_SW_EC_ARM_FIQ
+ 
+EXCEPT_ARM_FIQ
+
+
+	)
+
+	@
+1
+.
+1
+/usr/include
+13
+170
+PiBootMode.h
+PiDependency.h
+PiDxeCis.h
+PiFirmwareFile.h
+PiFirmwareVolume.h
+PiHob.h
+PiI2c.h
+PiMmCis.h
+PiMultiPhase.h
+PiPeiCis.h
+PiS3BootScript.h
+PiSmmCis.h
+PiStatusCode.h

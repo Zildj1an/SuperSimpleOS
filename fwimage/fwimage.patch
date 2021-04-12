@@ -1,0 +1,222 @@
+diff -urN orig/fwimage.c new/fwimage.c
+--- orig/fwimage.c	2013-05-28 21:37:22.803965273 -0400
++++ new/fwimage.c	2013-05-28 21:37:36.819965862 -0400
+@@ -1,5 +1,11 @@
+ /*++
+ 
++This code is based on the FwImage sample code from EdkCompatibilityPkg. It has
++been modified to avoid unnecessary Edk and Windows dependencies.
++Changes are by Ruslan Nikolaev.
++
++Original Notice:
++
+ Copyright (c) 2004 - 2010, Intel Corporation. All rights reserved.<BR>
+ This program and the accompanying materials                          
+ are licensed and made available under the terms and conditions of the BSD License         
+@@ -19,16 +25,14 @@
+ 
+ --*/
+ 
+-#include <windows.h>
++#include "base.h"
++#include "PeImage.h"
++#include "fwimage.h"
+ #include <stdio.h>
+ #include <stdlib.h>
+ #include <string.h>
+ #include <time.h>
+ 
+-#include "TianoCommon.h"
+-#include "EfiImage.h"
+-#include "EfiUtilityMsgs.c"
+-
+ #define UTILITY_NAME    "FwImage"
+ #define UTILITY_VERSION "v1.0"
+ 
+@@ -83,7 +87,10 @@
+   *Length = ftell (in);
+   *Buffer = malloc (*Length);
+   fseek (in, 0, SEEK_SET);
+-  fread (*Buffer, *Length, 1, in);
++  if (fread (*Buffer, *Length, 1, in) != 1) {
++    fprintf (stderr, "read error\n");
++    return STATUS_ERROR;
++  }
+   return STATUS_SUCCESS;
+ }
+ 
+@@ -98,7 +105,7 @@
+   fseek (out, 0, SEEK_SET);
+   fwrite (Buffer, Length, 1, out);
+   if ((ULONG) ftell (out) != Length) {
+-    Error (NULL, 0, 0, "write error", NULL);
++    fprintf (stderr, "write error\n");
+     return STATUS_ERROR;
+   }
+   free (Buffer);
+@@ -164,7 +171,7 @@
+     SectionNameSize = sizeof(Section->Name);
+     while (SectionNumber > 0) {
+       Section = (EFI_IMAGE_SECTION_HEADER *) &FileBuffer[DosHdr->e_lfanew + SectionOffset];
+-      if (strcmp (Section->Name, ".pdata") == 0) {
++      if (strcmp ((char *) Section->Name, ".pdata") == 0) {
+         //
+         // Zero .pdata Section Header Name
+         //
+@@ -212,7 +219,7 @@
+         //
+         // Look for the Section Header that starts as the same virtual address as the Base Relocation Data Directory
+         //
+-        if (strcmp (SectionHeader->Name, ".reloc") == 0) {
++        if (strcmp ((char *) SectionHeader->Name, ".reloc") == 0) {
+           SectionHeader->Misc.VirtualSize = Optional32->DataDirectory[EFI_IMAGE_DIRECTORY_ENTRY_BASERELOC].Size;
+ 
+           AllignedRelocSize = (Optional32->DataDirectory[EFI_IMAGE_DIRECTORY_ENTRY_BASERELOC].Size +
+@@ -246,7 +253,7 @@
+         //
+         // Look for the Section Header that starts as the same virtual address as the Base Relocation Data Directory
+         //
+-        if (strcmp (SectionHeader->Name, ".reloc") == 0) {
++        if (strcmp ((char *) SectionHeader->Name, ".reloc") == 0) {
+           SectionHeader->Misc.VirtualSize = Optional64->DataDirectory[EFI_IMAGE_DIRECTORY_ENTRY_BASERELOC].Size;
+ 
+           AllignedRelocSize = (Optional64->DataDirectory[EFI_IMAGE_DIRECTORY_ENTRY_BASERELOC].Size +
+@@ -319,7 +326,6 @@
+   EFI_IMAGE_OPTIONAL_HEADER32  *Optional32;
+   EFI_IMAGE_OPTIONAL_HEADER64  *Optional64;
+ 
+-  SetUtilityName (UTILITY_NAME);
+   //
+   // Assign to fix compile warning
+   //
+@@ -352,7 +358,7 @@
+           &TimeStruct.tm_min,   /* minutes after the hour - [0,59] */
+           &TimeStruct.tm_sec    /* seconds after the minute - [0,59] */
+             ) != 6) {
+-        Error (NULL, 0, 0, argv[2], "failed to convert to mm/dd/yyyy,hh:mm:ss format");
++        fprintf (stderr, "%s: failed to convert to mm/dd/yyyy,hh:mm:ss format\n", argv[2]);
+         return STATUS_ERROR;
+       }
+       //
+@@ -366,7 +372,7 @@
+       //
+       TimeStamp = mktime (&TimeStruct);
+       if (TimeStamp == (time_t) - 1) {
+-        Error (NULL, 0, 0, argv[2], "failed to convert time");
++        fprintf (stderr, "%s: failed to convert time\n", argv[2]);
+         return STATUS_ERROR;
+       }
+     }
+@@ -410,34 +416,34 @@
+   }
+ 
+   if (argc == 4) {
+-    OutImageName = argv[3];
++    OutImageName = (unsigned char *) argv[3];
+   }
+   //
+   // Get new image type
+   //
+-  p = argv[1];
++  p = (unsigned char *) argv[1];
+   if (*p == '/' || *p == '\\') {
+     p += 1;
+   }
+ 
+   if (_stricmp (p, "app") == 0 || _stricmp (p, "APPLICATION") == 0) {
+     Type  = EFI_IMAGE_SUBSYSTEM_EFI_APPLICATION;
+-    Ext   = ".efi";
++    Ext   = (unsigned char *) ".efi";
+ 
+   } else if (_stricmp (p, "bsdrv") == 0 || _stricmp (p, "BS_DRIVER") == 0) {
+     Type  = EFI_IMAGE_SUBSYSTEM_EFI_BOOT_SERVICE_DRIVER;
+-    Ext   = ".efi";
++    Ext   = (unsigned char *) ".efi";
+ 
+   } else if (_stricmp (p, "rtdrv") == 0 || _stricmp (p, "RT_DRIVER") == 0) {
+     Type  = EFI_IMAGE_SUBSYSTEM_EFI_RUNTIME_DRIVER;
+-    Ext   = ".efi";
++    Ext   = (unsigned char *) ".efi";
+ 
+   } else if (_stricmp (p, "rtdrv") == 0 || _stricmp (p, "SAL_RT_DRIVER") == 0) {
+     Type  = EFI_IMAGE_SUBSYSTEM_SAL_RUNTIME_DRIVER;
+-    Ext   = ".efi";
++    Ext   = (unsigned char *) ".efi";
+   } else if (_stricmp (p, "SECURITY_CORE") == 0) {
+     Type  = EFI_IMAGE_SUBSYSTEM_EFI_BOOT_SERVICE_DRIVER;
+-    Ext   = ".sec";
++    Ext   = (unsigned char *) ".sec";
+   } else if (_stricmp (p, "peim") == 0 ||
+            _stricmp (p, "PEI_CORE") == 0 ||
+            _stricmp (p, "PE32_PEIM") == 0 ||
+@@ -445,7 +451,7 @@
+            _stricmp (p, "combined_peim_driver") == 0
+           ) {
+     Type  = EFI_IMAGE_SUBSYSTEM_EFI_BOOT_SERVICE_DRIVER;
+-    Ext   = ".pei";
++    Ext   = (unsigned char *) ".pei";
+   } else {
+     Usage ();
+     return STATUS_ERROR;
+@@ -455,7 +461,7 @@
+   //
+   fpIn = fopen (argv[2], "rb");
+   if (!fpIn) {
+-    Error (NULL, 0, 0, argv[2], "failed to open input file for reading");
++    fprintf (stderr, "%s: failed to open input file for reading\n", argv[2]);
+     return STATUS_ERROR;
+   }
+   FReadFile (fpIn, (VOID **)&FileBuffer, &FileLength);
+@@ -464,21 +470,21 @@
+   //
+   DosHdr = (EFI_IMAGE_DOS_HEADER *) FileBuffer;
+   if (DosHdr->e_magic != IMAGE_DOS_SIGNATURE) {
+-    Error (NULL, 0, 0, argv[2], "DOS header signature not found in source image");
++    fprintf (stderr, "%s: DOS header signature not found in source image\n", argv[2]);
+     fclose (fpIn);
+     return STATUS_ERROR;
+   }
+ 
+   PeHdr = (PE_HEADER *)(FileBuffer + DosHdr->e_lfanew);
+   if (PeHdr->PeHeader32.Signature != IMAGE_NT_SIGNATURE) {
+-    Error (NULL, 0, 0, argv[2], "PE header signature not found in source image");
++    fprintf (stderr, "%s: PE header signature not found in source image\n", argv[2]);
+     fclose (fpIn);
+     return STATUS_ERROR;
+   }
+   //
+   // open output file
+   //
+-  strcpy (outname, argv[2]);
++  strcpy ((char *) outname, argv[2]);
+   pe = NULL;
+   for (p = outname; *p; p++) {
+     if (*p == '.') {
+@@ -490,15 +496,15 @@
+     pe = p;
+   }
+ 
+-  strcpy (pe, Ext);
++  strcpy ((char *) pe, (const char *) Ext);
+ 
+   if (!OutImageName) {
+     OutImageName = outname;
+   }
+ 
+-  fpOut = fopen (OutImageName, "w+b");
++  fpOut = fopen ((const char *) OutImageName, "w+b");
+   if (!fpOut) {
+-    Error (NULL, 0, 0, OutImageName, "could not open output file for writing");
++    fprintf (stderr, "%s: could not open output file for writing\n", (const char *) OutImageName);
+     fclose (fpIn);
+     return STATUS_ERROR;
+   }
+@@ -586,7 +592,7 @@
+       StripZeroPendingReloc (FileBuffer, &FileLength, DosHdr, PeHdr);
+     }
+   } else {
+-    Error (NULL, 0, 0, argv[2], "Unsupported PE image");
++    fprintf (stderr, "%s: Unsupported PE image\n", argv[2]);
+     fclose (fpIn);
+     fclose (fpOut);
+     return STATUS_ERROR;

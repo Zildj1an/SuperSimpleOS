@@ -1,0 +1,1262 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddIoSpace	PiDxeCis.h	/^  EFI_ADD_IO_SPACE                AddIoSpace;$/;"	m	struct:__anon39
+AddMemorySpace	PiDxeCis.h	/^  EFI_ADD_MEMORY_SPACE            AddMemorySpace;$/;"	m	struct:__anon39
+AllocDescriptor	PiHob.h	/^  EFI_HOB_MEMORY_ALLOCATION_HEADER  AllocDescriptor;$/;"	m	struct:__anon4
+AllocDescriptor	PiHob.h	/^  EFI_HOB_MEMORY_ALLOCATION_HEADER  AllocDescriptor;$/;"	m	struct:__anon5
+AllocDescriptor	PiHob.h	/^  EFI_HOB_MEMORY_ALLOCATION_HEADER  AllocDescriptor;$/;"	m	struct:__anon6
+AllocateIoSpace	PiDxeCis.h	/^  EFI_ALLOCATE_IO_SPACE           AllocateIoSpace;$/;"	m	struct:__anon39
+AllocateMemorySpace	PiDxeCis.h	/^  EFI_ALLOCATE_MEMORY_SPACE       AllocateMemorySpace;$/;"	m	struct:__anon39
+AllocatePages	PiPeiCis.h	/^  EFI_PEI_ALLOCATE_PAGES          AllocatePages;$/;"	m	struct:_EFI_PEI_SERVICES
+AllocatePool	PiPeiCis.h	/^  EFI_PEI_ALLOCATE_POOL           AllocatePool;$/;"	m	struct:_EFI_PEI_SERVICES
+Attributes	PiDxeCis.h	/^  UINT64                Attributes;$/;"	m	struct:__anon37
+Attributes	PiFirmwareFile.h	/^  EFI_FFS_FILE_ATTRIBUTES   Attributes;$/;"	m	struct:__anon20
+Attributes	PiFirmwareFile.h	/^  EFI_FFS_FILE_ATTRIBUTES Attributes;$/;"	m	struct:__anon19
+Attributes	PiFirmwareFile.h	/^  UINT16                        Attributes;$/;"	m	struct:__anon28
+Attributes	PiFirmwareFile.h	/^  UINT16                      Attributes;$/;"	m	struct:__anon27
+Attributes	PiFirmwareVolume.h	/^  EFI_FVB_ATTRIBUTES_2      Attributes;$/;"	m	struct:__anon41
+AuthenticationStatus	PiHob.h	/^  UINT32                  AuthenticationStatus;$/;"	m	struct:__anon12
+AuthenticationStatus	PiPeiCis.h	/^  UINT32                  AuthenticationStatus;$/;"	m	struct:__anon57
+BOOT_ASSUMING_NO_CONFIGURATION_CHANGES	PiBootMode.h	25;"	d
+BOOT_IN_RECOVERY_MODE	PiBootMode.h	34;"	d
+BOOT_ON_FLASH_UPDATE	PiBootMode.h	33;"	d
+BOOT_ON_S2_RESUME	PiBootMode.h	31;"	d
+BOOT_ON_S3_RESUME	PiBootMode.h	32;"	d
+BOOT_ON_S4_RESUME	PiBootMode.h	28;"	d
+BOOT_ON_S5_RESUME	PiBootMode.h	29;"	d
+BOOT_WITH_DEFAULT_SETTINGS	PiBootMode.h	27;"	d
+BOOT_WITH_FULL_CONFIGURATION	PiBootMode.h	23;"	d
+BOOT_WITH_FULL_CONFIGURATION_PLUS_DIAGNOSTICS	PiBootMode.h	26;"	d
+BOOT_WITH_MFG_MODE_SETTINGS	PiBootMode.h	30;"	d
+BOOT_WITH_MINIMAL_CONFIGURATION	PiBootMode.h	24;"	d
+BaseAddress	PiDxeCis.h	/^  EFI_PHYSICAL_ADDRESS  BaseAddress;$/;"	m	struct:__anon37
+BaseAddress	PiDxeCis.h	/^  EFI_PHYSICAL_ADDRESS  BaseAddress;$/;"	m	struct:__anon38
+BaseAddress	PiHob.h	/^  EFI_PHYSICAL_ADDRESS    BaseAddress;$/;"	m	struct:__anon11
+BaseAddress	PiHob.h	/^  EFI_PHYSICAL_ADDRESS    BaseAddress;$/;"	m	struct:__anon12
+BaseAddress	PiHob.h	/^  EFI_PHYSICAL_ADDRESS   BaseAddress;$/;"	m	struct:__anon10
+BaseAddress	PiHob.h	/^  EFI_PHYSICAL_ADDRESS   BaseAddress;$/;"	m	struct:__anon15
+BlockMap	PiFirmwareVolume.h	/^  EFI_FV_BLOCK_MAP_ENTRY    BlockMap[1];$/;"	m	struct:__anon41
+BootFirmwareVolumeBase	PiPeiCis.h	/^  VOID    *BootFirmwareVolumeBase;$/;"	m	struct:_EFI_SEC_PEI_HAND_OFF
+BootFirmwareVolumeSize	PiPeiCis.h	/^  UINTN   BootFirmwareVolumeSize;$/;"	m	struct:_EFI_SEC_PEI_HAND_OFF
+BootMode	PiHob.h	/^  EFI_BOOT_MODE           BootMode;$/;"	m	struct:__anon2
+Buffer	PiI2c.h	/^  UINT8 *Buffer;$/;"	m	struct:__anon52
+Buffer	PiPeiCis.h	/^  VOID                    *Buffer;$/;"	m	struct:__anon56
+Buffer	PiPeiCis.h	/^  VOID                    *Buffer;$/;"	m	struct:__anon57
+BufferSize	PiPeiCis.h	/^  UINT32                  BufferSize;$/;"	m	struct:__anon56
+BufferSize	PiPeiCis.h	/^  UINT32                  BufferSize;$/;"	m	struct:__anon57
+BuildNumber	PiFirmwareFile.h	/^  UINT16                        BuildNumber;$/;"	m	struct:__anon32
+BuildNumber	PiFirmwareFile.h	/^  UINT16                      BuildNumber;$/;"	m	struct:__anon31
+Capabilities	PiDxeCis.h	/^  UINT64                Capabilities;$/;"	m	struct:__anon37
+Capsule	PiHob.h	/^  EFI_HOB_UEFI_CAPSULE                *Capsule;$/;"	m	union:__anon16
+Checksum	PiFirmwareFile.h	/^  } Checksum;$/;"	m	union:__anon17	typeref:struct:__anon17::__anon18
+Checksum	PiFirmwareVolume.h	/^  UINT16                    Checksum;$/;"	m	struct:__anon41
+Checksum16	PiFirmwareFile.h	/^  UINT16    Checksum16;$/;"	m	union:__anon17
+CommonHeader	PiFirmwareFile.h	/^  EFI_COMMON_SECTION_HEADER   CommonHeader;$/;"	m	struct:__anon23
+CommonHeader	PiFirmwareFile.h	/^  EFI_COMMON_SECTION_HEADER   CommonHeader;$/;"	m	struct:__anon25
+CommonHeader	PiFirmwareFile.h	/^  EFI_COMMON_SECTION_HEADER   CommonHeader;$/;"	m	struct:__anon27
+CommonHeader	PiFirmwareFile.h	/^  EFI_COMMON_SECTION_HEADER   CommonHeader;$/;"	m	struct:__anon29
+CommonHeader	PiFirmwareFile.h	/^  EFI_COMMON_SECTION_HEADER   CommonHeader;$/;"	m	struct:__anon31
+CommonHeader	PiFirmwareFile.h	/^  EFI_COMMON_SECTION_HEADER2    CommonHeader;$/;"	m	struct:__anon24
+CommonHeader	PiFirmwareFile.h	/^  EFI_COMMON_SECTION_HEADER2    CommonHeader;$/;"	m	struct:__anon26
+CommonHeader	PiFirmwareFile.h	/^  EFI_COMMON_SECTION_HEADER2    CommonHeader;$/;"	m	struct:__anon28
+CommonHeader	PiFirmwareFile.h	/^  EFI_COMMON_SECTION_HEADER2    CommonHeader;$/;"	m	struct:__anon30
+CommonHeader	PiFirmwareFile.h	/^  EFI_COMMON_SECTION_HEADER2    CommonHeader;$/;"	m	struct:__anon32
+CompressionType	PiFirmwareFile.h	/^  UINT8                         CompressionType;$/;"	m	struct:__anon24
+CompressionType	PiFirmwareFile.h	/^  UINT8                       CompressionType;$/;"	m	struct:__anon23
+CopyMem	PiPeiCis.h	/^  EFI_PEI_COPY_MEM                CopyMem;$/;"	m	struct:_EFI_PEI_SERVICES
+Cpu	PiHob.h	/^  EFI_HOB_CPU                         *Cpu;$/;"	m	union:__anon16
+CpuIo	PiPeiCis.h	/^  EFI_PEI_CPU_IO_PPI              *CpuIo;$/;"	m	struct:_EFI_PEI_SERVICES
+CpuSaveState	PiMmCis.h	/^  VOID                                 **CpuSaveState;$/;"	m	struct:_EFI_MM_SYSTEM_TABLE
+CpuSaveState	PiMmCis.h	/^  VOID                     **CpuSaveState;$/;"	m	struct:_EFI_MM_ENTRY_CONTEXT
+CpuSaveState	PiSmmCis.h	/^  VOID                                 **CpuSaveState;$/;"	m	struct:_EFI_SMM_SYSTEM_TABLE2
+CpuSaveState	PiSmmCis.h	/^  VOID                     **CpuSaveState;$/;"	m	struct:_EFI_SMM_ENTRY_CONTEXT
+CpuSaveStateSize	PiMmCis.h	/^  UINTN                                *CpuSaveStateSize;$/;"	m	struct:_EFI_MM_SYSTEM_TABLE
+CpuSaveStateSize	PiMmCis.h	/^  UINTN                    *CpuSaveStateSize;$/;"	m	struct:_EFI_MM_ENTRY_CONTEXT
+CpuSaveStateSize	PiSmmCis.h	/^  UINTN                                *CpuSaveStateSize;$/;"	m	struct:_EFI_SMM_SYSTEM_TABLE2
+CpuSaveStateSize	PiSmmCis.h	/^  UINTN                    *CpuSaveStateSize;$/;"	m	struct:_EFI_SMM_ENTRY_CONTEXT
+CpuStart	PiMultiPhase.h	/^  EFI_PHYSICAL_ADDRESS  CpuStart;$/;"	m	struct:__anon47
+CreateHob	PiPeiCis.h	/^  EFI_PEI_CREATE_HOB              CreateHob;$/;"	m	struct:_EFI_PEI_SERVICES
+CurrentlyExecutingCpu	PiMmCis.h	/^  UINTN                                CurrentlyExecutingCpu;$/;"	m	struct:_EFI_MM_SYSTEM_TABLE
+CurrentlyExecutingCpu	PiMmCis.h	/^  UINTN                    CurrentlyExecutingCpu;$/;"	m	struct:_EFI_MM_ENTRY_CONTEXT
+CurrentlyExecutingCpu	PiSmmCis.h	/^  UINTN                                CurrentlyExecutingCpu;$/;"	m	struct:_EFI_SMM_SYSTEM_TABLE2
+CurrentlyExecutingCpu	PiSmmCis.h	/^  UINTN                    CurrentlyExecutingCpu;$/;"	m	struct:_EFI_SMM_ENTRY_CONTEXT
+DXE_ERROR	PiMultiPhase.h	36;"	d
+DXE_SERVICES	PiDxeCis.h	/^} DXE_SERVICES;$/;"	t	typeref:struct:__anon39
+DXE_SERVICES_REVISION	PiDxeCis.h	694;"	d
+DXE_SERVICES_SIGNATURE	PiDxeCis.h	691;"	d
+DXE_SPECIFICATION_MAJOR_REVISION	PiDxeCis.h	692;"	d
+DXE_SPECIFICATION_MINOR_REVISION	PiDxeCis.h	693;"	d
+DataOffset	PiFirmwareFile.h	/^  UINT16                        DataOffset;$/;"	m	struct:__anon28
+DataOffset	PiFirmwareFile.h	/^  UINT16                      DataOffset;$/;"	m	struct:__anon27
+DataSize	PiPeiCis.h	/^  UINT16  DataSize;$/;"	m	struct:_EFI_SEC_PEI_HAND_OFF
+DeviceGuid	PiI2c.h	/^  CONST EFI_GUID *DeviceGuid;$/;"	m	struct:__anon51
+DeviceHandle	PiDxeCis.h	/^  EFI_HANDLE            DeviceHandle;$/;"	m	struct:__anon37
+DeviceHandle	PiDxeCis.h	/^  EFI_HANDLE            DeviceHandle;$/;"	m	struct:__anon38
+DeviceIndex	PiI2c.h	/^  UINT32 DeviceIndex;$/;"	m	struct:__anon51
+Dispatch	PiDxeCis.h	/^  EFI_DISPATCH                    Dispatch;$/;"	m	struct:__anon39
+EFI_ADD_IO_SPACE	PiDxeCis.h	/^(EFIAPI *EFI_ADD_IO_SPACE)($/;"	t
+EFI_ADD_MEMORY_SPACE	PiDxeCis.h	/^(EFIAPI *EFI_ADD_MEMORY_SPACE)($/;"	t
+EFI_ALLOCATED	PiMultiPhase.h	98;"	d
+EFI_ALLOCATE_IO_SPACE	PiDxeCis.h	/^(EFIAPI *EFI_ALLOCATE_IO_SPACE)($/;"	t
+EFI_ALLOCATE_MEMORY_SPACE	PiDxeCis.h	/^(EFIAPI *EFI_ALLOCATE_MEMORY_SPACE)($/;"	t
+EFI_AP_PROCEDURE	PiMultiPhase.h	/^(EFIAPI *EFI_AP_PROCEDURE)($/;"	t
+EFI_AP_PROCEDURE2	PiMultiPhase.h	/^(EFIAPI *EFI_AP_PROCEDURE2)($/;"	t
+EFI_AUTH_STATUS_ALL	PiMultiPhase.h	88;"	d
+EFI_AUTH_STATUS_IMAGE_SIGNED	PiMultiPhase.h	85;"	d
+EFI_AUTH_STATUS_NOT_TESTED	PiMultiPhase.h	86;"	d
+EFI_AUTH_STATUS_PLATFORM_OVERRIDE	PiMultiPhase.h	84;"	d
+EFI_AUTH_STATUS_TEST_FAILED	PiMultiPhase.h	87;"	d
+EFI_BOOT_MODE	PiBootMode.h	/^typedef UINT32  EFI_BOOT_MODE;$/;"	t
+EFI_BOOT_SCRIPT_DISPATCH_2_OPCODE	PiS3BootScript.h	25;"	d
+EFI_BOOT_SCRIPT_DISPATCH_OPCODE	PiS3BootScript.h	24;"	d
+EFI_BOOT_SCRIPT_INFORMATION_OPCODE	PiS3BootScript.h	26;"	d
+EFI_BOOT_SCRIPT_IO_POLL_OPCODE	PiS3BootScript.h	29;"	d
+EFI_BOOT_SCRIPT_IO_READ_WRITE_OPCODE	PiS3BootScript.h	17;"	d
+EFI_BOOT_SCRIPT_IO_WRITE_OPCODE	PiS3BootScript.h	16;"	d
+EFI_BOOT_SCRIPT_MEM_POLL_OPCODE	PiS3BootScript.h	30;"	d
+EFI_BOOT_SCRIPT_MEM_READ_WRITE_OPCODE	PiS3BootScript.h	19;"	d
+EFI_BOOT_SCRIPT_MEM_WRITE_OPCODE	PiS3BootScript.h	18;"	d
+EFI_BOOT_SCRIPT_PCI_CONFIG2_POLL_OPCODE	PiS3BootScript.h	32;"	d
+EFI_BOOT_SCRIPT_PCI_CONFIG2_READ_WRITE_OPCODE	PiS3BootScript.h	28;"	d
+EFI_BOOT_SCRIPT_PCI_CONFIG2_WRITE_OPCODE	PiS3BootScript.h	27;"	d
+EFI_BOOT_SCRIPT_PCI_CONFIG_POLL_OPCODE	PiS3BootScript.h	31;"	d
+EFI_BOOT_SCRIPT_PCI_CONFIG_READ_WRITE_OPCODE	PiS3BootScript.h	21;"	d
+EFI_BOOT_SCRIPT_PCI_CONFIG_WRITE_OPCODE	PiS3BootScript.h	20;"	d
+EFI_BOOT_SCRIPT_SMBUS_EXECUTE_OPCODE	PiS3BootScript.h	22;"	d
+EFI_BOOT_SCRIPT_STALL_OPCODE	PiS3BootScript.h	23;"	d
+EFI_BOOT_SCRIPT_WIDTH	PiS3BootScript.h	/^} EFI_BOOT_SCRIPT_WIDTH;$/;"	t	typeref:enum:__anon33
+EFI_CACHEABLE	PiMultiPhase.h	97;"	d
+EFI_CHIPSET_EC_BAD_BATTERY	PiStatusCode.h	340;"	d
+EFI_CHIPSET_EC_DXE_NB_ERROR	PiStatusCode.h	341;"	d
+EFI_CHIPSET_EC_DXE_SB_ERROR	PiStatusCode.h	342;"	d
+EFI_CHIPSET_EC_INTRUDER_DETECT	PiStatusCode.h	343;"	d
+EFI_CHIPSET_PC_DXE_HB_INIT	PiStatusCode.h	228;"	d
+EFI_CHIPSET_PC_DXE_NB_INIT	PiStatusCode.h	233;"	d
+EFI_CHIPSET_PC_DXE_NB_SMM_INIT	PiStatusCode.h	238;"	d
+EFI_CHIPSET_PC_DXE_SB_DEVICES_INIT	PiStatusCode.h	258;"	d
+EFI_CHIPSET_PC_DXE_SB_INIT	PiStatusCode.h	248;"	d
+EFI_CHIPSET_PC_DXE_SB_RT_INIT	PiStatusCode.h	243;"	d
+EFI_CHIPSET_PC_DXE_SB_SMM_INIT	PiStatusCode.h	253;"	d
+EFI_CHIPSET_PC_PEI_CAR_NB_INIT	PiStatusCode.h	213;"	d
+EFI_CHIPSET_PC_PEI_CAR_SB_INIT	PiStatusCode.h	208;"	d
+EFI_CHIPSET_PC_PEI_MEM_NB_INIT	PiStatusCode.h	223;"	d
+EFI_CHIPSET_PC_PEI_MEM_SB_INIT	PiStatusCode.h	218;"	d
+EFI_COMMON_SECTION_HEADER	PiFirmwareFile.h	/^} EFI_COMMON_SECTION_HEADER;$/;"	t	typeref:struct:__anon21
+EFI_COMMON_SECTION_HEADER2	PiFirmwareFile.h	/^} EFI_COMMON_SECTION_HEADER2;$/;"	t	typeref:struct:__anon22
+EFI_COMPATIBILITY16_SECTION	PiFirmwareFile.h	/^typedef EFI_COMMON_SECTION_HEADER  EFI_COMPATIBILITY16_SECTION;$/;"	t
+EFI_COMPATIBILITY16_SECTION2	PiFirmwareFile.h	/^typedef EFI_COMMON_SECTION_HEADER2 EFI_COMPATIBILITY16_SECTION2;$/;"	t
+EFI_COMPRESSION_SECTION	PiFirmwareFile.h	/^} EFI_COMPRESSION_SECTION;$/;"	t	typeref:struct:__anon23
+EFI_COMPRESSION_SECTION2	PiFirmwareFile.h	/^} EFI_COMPRESSION_SECTION2;$/;"	t	typeref:struct:__anon24
+EFI_COMPUTING_UNIT	PiStatusCode.h	124;"	d
+EFI_COMPUTING_UNIT_CACHE	PiStatusCode.h	140;"	d
+EFI_COMPUTING_UNIT_CHIPSET	PiStatusCode.h	142;"	d
+EFI_COMPUTING_UNIT_FIRMWARE_PROCESSOR	PiStatusCode.h	138;"	d
+EFI_COMPUTING_UNIT_HOST_PROCESSOR	PiStatusCode.h	137;"	d
+EFI_COMPUTING_UNIT_IO_PROCESSOR	PiStatusCode.h	139;"	d
+EFI_COMPUTING_UNIT_MEMORY	PiStatusCode.h	141;"	d
+EFI_COMPUTING_UNIT_UNSPECIFIED	PiStatusCode.h	136;"	d
+EFI_CU_CACHE_EC_INVALID_SIZE	PiStatusCode.h	315;"	d
+EFI_CU_CACHE_EC_INVALID_SPEED	PiStatusCode.h	314;"	d
+EFI_CU_CACHE_EC_INVALID_TYPE	PiStatusCode.h	313;"	d
+EFI_CU_CACHE_EC_MISMATCH	PiStatusCode.h	316;"	d
+EFI_CU_CACHE_PC_CONFIGURATION	PiStatusCode.h	185;"	d
+EFI_CU_CACHE_PC_PRESENCE_DETECT	PiStatusCode.h	184;"	d
+EFI_CU_EC_DISABLED	PiStatusCode.h	266;"	d
+EFI_CU_EC_NON_SPECIFIC	PiStatusCode.h	265;"	d
+EFI_CU_EC_NOT_CONFIGURED	PiStatusCode.h	269;"	d
+EFI_CU_EC_NOT_DETECTED	PiStatusCode.h	268;"	d
+EFI_CU_EC_NOT_SUPPORTED	PiStatusCode.h	267;"	d
+EFI_CU_FP_EC_COMM_ERROR	PiStatusCode.h	302;"	d
+EFI_CU_FP_EC_HARD_FAIL	PiStatusCode.h	300;"	d
+EFI_CU_FP_EC_SOFT_FAIL	PiStatusCode.h	301;"	d
+EFI_CU_HP_EC_CACHE	PiStatusCode.h	289;"	d
+EFI_CU_HP_EC_CORRECTABLE	PiStatusCode.h	291;"	d
+EFI_CU_HP_EC_HIGH_VOLTAGE	PiStatusCode.h	288;"	d
+EFI_CU_HP_EC_INTERNAL	PiStatusCode.h	285;"	d
+EFI_CU_HP_EC_INVALID_SPEED	PiStatusCode.h	281;"	d
+EFI_CU_HP_EC_INVALID_TYPE	PiStatusCode.h	280;"	d
+EFI_CU_HP_EC_LOW_VOLTAGE	PiStatusCode.h	287;"	d
+EFI_CU_HP_EC_MICROCODE_UPDATE	PiStatusCode.h	290;"	d
+EFI_CU_HP_EC_MISMATCH	PiStatusCode.h	282;"	d
+EFI_CU_HP_EC_NO_MICROCODE_UPDATE	PiStatusCode.h	293;"	d
+EFI_CU_HP_EC_SELF_TEST	PiStatusCode.h	284;"	d
+EFI_CU_HP_EC_THERMAL	PiStatusCode.h	286;"	d
+EFI_CU_HP_EC_TIMER_EXPIRED	PiStatusCode.h	283;"	d
+EFI_CU_HP_EC_UNCORRECTABLE	PiStatusCode.h	292;"	d
+EFI_CU_HP_PC_AP_INIT	PiStatusCode.h	168;"	d
+EFI_CU_HP_PC_BSP_RESELECT	PiStatusCode.h	167;"	d
+EFI_CU_HP_PC_BSP_SELECT	PiStatusCode.h	166;"	d
+EFI_CU_HP_PC_CACHE_INIT	PiStatusCode.h	162;"	d
+EFI_CU_HP_PC_IO_INIT	PiStatusCode.h	165;"	d
+EFI_CU_HP_PC_MEMORY_CONTROLLER_INIT	PiStatusCode.h	164;"	d
+EFI_CU_HP_PC_POWER_ON_INIT	PiStatusCode.h	161;"	d
+EFI_CU_HP_PC_RAM_INIT	PiStatusCode.h	163;"	d
+EFI_CU_HP_PC_SMM_INIT	PiStatusCode.h	169;"	d
+EFI_CU_MEMORY_EC_CORRECTABLE	PiStatusCode.h	325;"	d
+EFI_CU_MEMORY_EC_INVALID_SIZE	PiStatusCode.h	328;"	d
+EFI_CU_MEMORY_EC_INVALID_SPEED	PiStatusCode.h	324;"	d
+EFI_CU_MEMORY_EC_INVALID_TYPE	PiStatusCode.h	323;"	d
+EFI_CU_MEMORY_EC_MISMATCH	PiStatusCode.h	329;"	d
+EFI_CU_MEMORY_EC_NONE_DETECTED	PiStatusCode.h	332;"	d
+EFI_CU_MEMORY_EC_NONE_USEFUL	PiStatusCode.h	333;"	d
+EFI_CU_MEMORY_EC_S3_RESUME_FAIL	PiStatusCode.h	330;"	d
+EFI_CU_MEMORY_EC_SPD_FAIL	PiStatusCode.h	327;"	d
+EFI_CU_MEMORY_EC_UNCORRECTABLE	PiStatusCode.h	326;"	d
+EFI_CU_MEMORY_EC_UPDATE_FAIL	PiStatusCode.h	331;"	d
+EFI_CU_MEMORY_PC_CONFIGURING	PiStatusCode.h	195;"	d
+EFI_CU_MEMORY_PC_INIT	PiStatusCode.h	197;"	d
+EFI_CU_MEMORY_PC_OPTIMIZING	PiStatusCode.h	196;"	d
+EFI_CU_MEMORY_PC_PRESENCE_DETECT	PiStatusCode.h	193;"	d
+EFI_CU_MEMORY_PC_SPD_READ	PiStatusCode.h	192;"	d
+EFI_CU_MEMORY_PC_TEST	PiStatusCode.h	198;"	d
+EFI_CU_MEMORY_PC_TIMING	PiStatusCode.h	194;"	d
+EFI_CU_PC_INIT_BEGIN	PiStatusCode.h	150;"	d
+EFI_CU_PC_INIT_END	PiStatusCode.h	151;"	d
+EFI_DC_UNSPECIFIED	PiStatusCode.h	115;"	d
+EFI_DEBUG_CODE	PiStatusCode.h	45;"	d
+EFI_DEP_AFTER	PiDependency.h	24;"	d
+EFI_DEP_AND	PiDependency.h	27;"	d
+EFI_DEP_BEFORE	PiDependency.h	18;"	d
+EFI_DEP_END	PiDependency.h	32;"	d
+EFI_DEP_FALSE	PiDependency.h	31;"	d
+EFI_DEP_NOT	PiDependency.h	29;"	d
+EFI_DEP_OR	PiDependency.h	28;"	d
+EFI_DEP_PUSH	PiDependency.h	26;"	d
+EFI_DEP_SOR	PiDependency.h	39;"	d
+EFI_DEP_TRUE	PiDependency.h	30;"	d
+EFI_DISPATCH	PiDxeCis.h	/^(EFIAPI *EFI_DISPATCH)($/;"	t
+EFI_DISPOSABLE_SECTION	PiFirmwareFile.h	/^typedef EFI_COMMON_SECTION_HEADER   EFI_DISPOSABLE_SECTION;$/;"	t
+EFI_DISPOSABLE_SECTION2	PiFirmwareFile.h	/^typedef EFI_COMMON_SECTION_HEADER2  EFI_DISPOSABLE_SECTION2;$/;"	t
+EFI_DXE_DEPEX_SECTION	PiFirmwareFile.h	/^typedef EFI_COMMON_SECTION_HEADER   EFI_DXE_DEPEX_SECTION;$/;"	t
+EFI_DXE_DEPEX_SECTION2	PiFirmwareFile.h	/^typedef EFI_COMMON_SECTION_HEADER2  EFI_DXE_DEPEX_SECTION2;$/;"	t
+EFI_DXE_SERVICES	PiDxeCis.h	/^typedef DXE_SERVICES EFI_DXE_SERVICES;$/;"	t
+EFI_ERROR_CODE	PiStatusCode.h	44;"	d
+EFI_ERROR_MAJOR	PiStatusCode.h	59;"	d
+EFI_ERROR_MINOR	PiStatusCode.h	58;"	d
+EFI_ERROR_UNCONTAINED	PiStatusCode.h	61;"	d
+EFI_ERROR_UNRECOVERED	PiStatusCode.h	60;"	d
+EFI_FFS_FILE_ATTRIBUTES	PiFirmwareFile.h	/^typedef UINT8 EFI_FFS_FILE_ATTRIBUTES;$/;"	t
+EFI_FFS_FILE_HEADER	PiFirmwareFile.h	/^} EFI_FFS_FILE_HEADER;$/;"	t	typeref:struct:__anon19
+EFI_FFS_FILE_HEADER2	PiFirmwareFile.h	/^} EFI_FFS_FILE_HEADER2;$/;"	t	typeref:struct:__anon20
+EFI_FFS_FILE_STATE	PiFirmwareFile.h	/^typedef UINT8 EFI_FFS_FILE_STATE;$/;"	t
+EFI_FFS_INTEGRITY_CHECK	PiFirmwareFile.h	/^} EFI_FFS_INTEGRITY_CHECK;$/;"	t	typeref:union:__anon17
+EFI_FILE_DATA_VALID	PiFirmwareFile.h	98;"	d
+EFI_FILE_DELETED	PiFirmwareFile.h	100;"	d
+EFI_FILE_HEADER_CONSTRUCTION	PiFirmwareFile.h	96;"	d
+EFI_FILE_HEADER_INVALID	PiFirmwareFile.h	101;"	d
+EFI_FILE_HEADER_VALID	PiFirmwareFile.h	97;"	d
+EFI_FILE_MARKED_FOR_UPDATE	PiFirmwareFile.h	99;"	d
+EFI_FIRMWARE_VOLUME_EXT_ENTRY	PiFirmwareVolume.h	/^} EFI_FIRMWARE_VOLUME_EXT_ENTRY;$/;"	t	typeref:struct:__anon43
+EFI_FIRMWARE_VOLUME_EXT_ENTRY_GUID_TYPE	PiFirmwareVolume.h	/^} EFI_FIRMWARE_VOLUME_EXT_ENTRY_GUID_TYPE;$/;"	t	typeref:struct:__anon45
+EFI_FIRMWARE_VOLUME_EXT_ENTRY_OEM_TYPE	PiFirmwareVolume.h	/^} EFI_FIRMWARE_VOLUME_EXT_ENTRY_OEM_TYPE;$/;"	t	typeref:struct:__anon44
+EFI_FIRMWARE_VOLUME_EXT_ENTRY_USED_SIZE_TYPE	PiFirmwareVolume.h	/^} EFI_FIRMWARE_VOLUME_EXT_ENTRY_USED_SIZE_TYPE;$/;"	t	typeref:struct:__anon46
+EFI_FIRMWARE_VOLUME_EXT_HEADER	PiFirmwareVolume.h	/^} EFI_FIRMWARE_VOLUME_EXT_HEADER;$/;"	t	typeref:struct:__anon42
+EFI_FIRMWARE_VOLUME_HEADER	PiFirmwareVolume.h	/^} EFI_FIRMWARE_VOLUME_HEADER;$/;"	t	typeref:struct:__anon41
+EFI_FIRMWARE_VOLUME_IMAGE_SECTION	PiFirmwareFile.h	/^typedef EFI_COMMON_SECTION_HEADER   EFI_FIRMWARE_VOLUME_IMAGE_SECTION;$/;"	t
+EFI_FIRMWARE_VOLUME_IMAGE_SECTION2	PiFirmwareFile.h	/^typedef EFI_COMMON_SECTION_HEADER2  EFI_FIRMWARE_VOLUME_IMAGE_SECTION2;$/;"	t
+EFI_FREEFORM_SUBTYPE_GUID_SECTION	PiFirmwareFile.h	/^} EFI_FREEFORM_SUBTYPE_GUID_SECTION;$/;"	t	typeref:struct:__anon25
+EFI_FREEFORM_SUBTYPE_GUID_SECTION2	PiFirmwareFile.h	/^} EFI_FREEFORM_SUBTYPE_GUID_SECTION2;$/;"	t	typeref:struct:__anon26
+EFI_FREE_IO_SPACE	PiDxeCis.h	/^(EFIAPI *EFI_FREE_IO_SPACE)($/;"	t
+EFI_FREE_MEMORY_SPACE	PiDxeCis.h	/^(EFIAPI *EFI_FREE_MEMORY_SPACE)($/;"	t
+EFI_FVB2_ALIGNMENT	PiFirmwareVolume.h	50;"	d
+EFI_FVB2_ALIGNMENT_1	PiFirmwareVolume.h	51;"	d
+EFI_FVB2_ALIGNMENT_128	PiFirmwareVolume.h	58;"	d
+EFI_FVB2_ALIGNMENT_128K	PiFirmwareVolume.h	68;"	d
+EFI_FVB2_ALIGNMENT_128M	PiFirmwareVolume.h	78;"	d
+EFI_FVB2_ALIGNMENT_16	PiFirmwareVolume.h	55;"	d
+EFI_FVB2_ALIGNMENT_16K	PiFirmwareVolume.h	65;"	d
+EFI_FVB2_ALIGNMENT_16M	PiFirmwareVolume.h	75;"	d
+EFI_FVB2_ALIGNMENT_1G	PiFirmwareVolume.h	81;"	d
+EFI_FVB2_ALIGNMENT_1K	PiFirmwareVolume.h	61;"	d
+EFI_FVB2_ALIGNMENT_1M	PiFirmwareVolume.h	71;"	d
+EFI_FVB2_ALIGNMENT_2	PiFirmwareVolume.h	52;"	d
+EFI_FVB2_ALIGNMENT_256	PiFirmwareVolume.h	59;"	d
+EFI_FVB2_ALIGNMENT_256K	PiFirmwareVolume.h	69;"	d
+EFI_FVB2_ALIGNMENT_256M	PiFirmwareVolume.h	79;"	d
+EFI_FVB2_ALIGNMENT_2G	PiFirmwareVolume.h	82;"	d
+EFI_FVB2_ALIGNMENT_2K	PiFirmwareVolume.h	62;"	d
+EFI_FVB2_ALIGNMENT_2M	PiFirmwareVolume.h	72;"	d
+EFI_FVB2_ALIGNMENT_32	PiFirmwareVolume.h	56;"	d
+EFI_FVB2_ALIGNMENT_32K	PiFirmwareVolume.h	66;"	d
+EFI_FVB2_ALIGNMENT_32M	PiFirmwareVolume.h	76;"	d
+EFI_FVB2_ALIGNMENT_4	PiFirmwareVolume.h	53;"	d
+EFI_FVB2_ALIGNMENT_4K	PiFirmwareVolume.h	63;"	d
+EFI_FVB2_ALIGNMENT_4M	PiFirmwareVolume.h	73;"	d
+EFI_FVB2_ALIGNMENT_512	PiFirmwareVolume.h	60;"	d
+EFI_FVB2_ALIGNMENT_512K	PiFirmwareVolume.h	70;"	d
+EFI_FVB2_ALIGNMENT_512M	PiFirmwareVolume.h	80;"	d
+EFI_FVB2_ALIGNMENT_64	PiFirmwareVolume.h	57;"	d
+EFI_FVB2_ALIGNMENT_64K	PiFirmwareVolume.h	67;"	d
+EFI_FVB2_ALIGNMENT_64M	PiFirmwareVolume.h	77;"	d
+EFI_FVB2_ALIGNMENT_8	PiFirmwareVolume.h	54;"	d
+EFI_FVB2_ALIGNMENT_8K	PiFirmwareVolume.h	64;"	d
+EFI_FVB2_ALIGNMENT_8M	PiFirmwareVolume.h	74;"	d
+EFI_FVB2_ERASE_POLARITY	PiFirmwareVolume.h	45;"	d
+EFI_FVB2_LOCK_CAP	PiFirmwareVolume.h	41;"	d
+EFI_FVB2_LOCK_STATUS	PiFirmwareVolume.h	42;"	d
+EFI_FVB2_MEMORY_MAPPED	PiFirmwareVolume.h	44;"	d
+EFI_FVB2_READ_DISABLED_CAP	PiFirmwareVolume.h	35;"	d
+EFI_FVB2_READ_ENABLED_CAP	PiFirmwareVolume.h	36;"	d
+EFI_FVB2_READ_LOCK_CAP	PiFirmwareVolume.h	46;"	d
+EFI_FVB2_READ_LOCK_STATUS	PiFirmwareVolume.h	47;"	d
+EFI_FVB2_READ_STATUS	PiFirmwareVolume.h	37;"	d
+EFI_FVB2_STICKY_WRITE	PiFirmwareVolume.h	43;"	d
+EFI_FVB2_WEAK_ALIGNMENT	PiFirmwareVolume.h	83;"	d
+EFI_FVB2_WRITE_DISABLED_CAP	PiFirmwareVolume.h	38;"	d
+EFI_FVB2_WRITE_ENABLED_CAP	PiFirmwareVolume.h	39;"	d
+EFI_FVB2_WRITE_LOCK_CAP	PiFirmwareVolume.h	48;"	d
+EFI_FVB2_WRITE_LOCK_STATUS	PiFirmwareVolume.h	49;"	d
+EFI_FVB2_WRITE_STATUS	PiFirmwareVolume.h	40;"	d
+EFI_FVB_ATTRIBUTES_2	PiFirmwareVolume.h	/^typedef UINT32  EFI_FVB_ATTRIBUTES_2;$/;"	t
+EFI_FVH_REVISION	PiFirmwareVolume.h	155;"	d
+EFI_FVH_SIGNATURE	PiFirmwareVolume.h	150;"	d
+EFI_FV_BLOCK_MAP_ENTRY	PiFirmwareVolume.h	/^} EFI_FV_BLOCK_MAP_ENTRY;$/;"	t	typeref:struct:__anon40
+EFI_FV_EXT_TYPE_GUID_TYPE	PiFirmwareVolume.h	206;"	d
+EFI_FV_EXT_TYPE_OEM_TYPE	PiFirmwareVolume.h	185;"	d
+EFI_FV_EXT_TYPE_USED_SIZE_TYPE	PiFirmwareVolume.h	228;"	d
+EFI_FV_FILETYPE	PiFirmwareFile.h	/^typedef UINT8 EFI_FV_FILETYPE;$/;"	t
+EFI_FV_FILETYPE_ALL	PiFirmwareFile.h	58;"	d
+EFI_FV_FILETYPE_APPLICATION	PiFirmwareFile.h	67;"	d
+EFI_FV_FILETYPE_COMBINED_MM_DXE	PiFirmwareFile.h	71;"	d
+EFI_FV_FILETYPE_COMBINED_PEIM_DRIVER	PiFirmwareFile.h	66;"	d
+EFI_FV_FILETYPE_COMBINED_SMM_DXE	PiFirmwareFile.h	72;"	d
+EFI_FV_FILETYPE_DEBUG_MAX	PiFirmwareFile.h	80;"	d
+EFI_FV_FILETYPE_DEBUG_MIN	PiFirmwareFile.h	79;"	d
+EFI_FV_FILETYPE_DRIVER	PiFirmwareFile.h	65;"	d
+EFI_FV_FILETYPE_DXE_CORE	PiFirmwareFile.h	63;"	d
+EFI_FV_FILETYPE_FFS_MAX	PiFirmwareFile.h	82;"	d
+EFI_FV_FILETYPE_FFS_MIN	PiFirmwareFile.h	81;"	d
+EFI_FV_FILETYPE_FFS_PAD	PiFirmwareFile.h	83;"	d
+EFI_FV_FILETYPE_FIRMWARE_VOLUME_IMAGE	PiFirmwareFile.h	70;"	d
+EFI_FV_FILETYPE_FREEFORM	PiFirmwareFile.h	60;"	d
+EFI_FV_FILETYPE_MM	PiFirmwareFile.h	68;"	d
+EFI_FV_FILETYPE_MM_CORE	PiFirmwareFile.h	73;"	d
+EFI_FV_FILETYPE_MM_CORE_STANDALONE	PiFirmwareFile.h	76;"	d
+EFI_FV_FILETYPE_MM_STANDALONE	PiFirmwareFile.h	75;"	d
+EFI_FV_FILETYPE_OEM_MAX	PiFirmwareFile.h	78;"	d
+EFI_FV_FILETYPE_OEM_MIN	PiFirmwareFile.h	77;"	d
+EFI_FV_FILETYPE_PEIM	PiFirmwareFile.h	64;"	d
+EFI_FV_FILETYPE_PEI_CORE	PiFirmwareFile.h	62;"	d
+EFI_FV_FILETYPE_RAW	PiFirmwareFile.h	59;"	d
+EFI_FV_FILETYPE_SECURITY_CORE	PiFirmwareFile.h	61;"	d
+EFI_FV_FILETYPE_SMM	PiFirmwareFile.h	69;"	d
+EFI_FV_FILETYPE_SMM_CORE	PiFirmwareFile.h	74;"	d
+EFI_FV_FILE_ATTRIBUTES	PiFirmwareVolume.h	/^typedef UINT32  EFI_FV_FILE_ATTRIBUTES;$/;"	t
+EFI_FV_FILE_ATTRIB_ALIGNMENT	PiFirmwareVolume.h	23;"	d
+EFI_FV_FILE_ATTRIB_FIXED	PiFirmwareVolume.h	24;"	d
+EFI_FV_FILE_ATTRIB_MEMORY_MAPPED	PiFirmwareVolume.h	25;"	d
+EFI_FV_FILE_INFO	PiPeiCis.h	/^} EFI_FV_FILE_INFO;$/;"	t	typeref:struct:__anon56
+EFI_FV_FILE_INFO2	PiPeiCis.h	/^} EFI_FV_FILE_INFO2;$/;"	t	typeref:struct:__anon57
+EFI_FV_INFO	PiPeiCis.h	/^} EFI_FV_INFO;$/;"	t	typeref:struct:__anon58
+EFI_GCD_ALLOCATE_TYPE	PiDxeCis.h	/^} EFI_GCD_ALLOCATE_TYPE;$/;"	t	typeref:enum:__anon36
+EFI_GCD_IO_SPACE_DESCRIPTOR	PiDxeCis.h	/^} EFI_GCD_IO_SPACE_DESCRIPTOR;$/;"	t	typeref:struct:__anon38
+EFI_GCD_IO_TYPE	PiDxeCis.h	/^} EFI_GCD_IO_TYPE;$/;"	t	typeref:enum:__anon35
+EFI_GCD_MEMORY_SPACE_DESCRIPTOR	PiDxeCis.h	/^} EFI_GCD_MEMORY_SPACE_DESCRIPTOR;$/;"	t	typeref:struct:__anon37
+EFI_GCD_MEMORY_TYPE	PiDxeCis.h	/^} EFI_GCD_MEMORY_TYPE;$/;"	t	typeref:enum:__anon34
+EFI_GET_IO_SPACE_DESCRIPTOR	PiDxeCis.h	/^(EFIAPI *EFI_GET_IO_SPACE_DESCRIPTOR)($/;"	t
+EFI_GET_IO_SPACE_MAP	PiDxeCis.h	/^(EFIAPI *EFI_GET_IO_SPACE_MAP)($/;"	t
+EFI_GET_MEMORY_SPACE_DESCRIPTOR	PiDxeCis.h	/^(EFIAPI *EFI_GET_MEMORY_SPACE_DESCRIPTOR)($/;"	t
+EFI_GET_MEMORY_SPACE_MAP	PiDxeCis.h	/^(EFIAPI *EFI_GET_MEMORY_SPACE_MAP)($/;"	t
+EFI_GUIDED_SECTION_AUTH_STATUS_VALID	PiFirmwareFile.h	359;"	d
+EFI_GUIDED_SECTION_PROCESSING_REQUIRED	PiFirmwareFile.h	358;"	d
+EFI_GUID_DEFINED_SECTION	PiFirmwareFile.h	/^} EFI_GUID_DEFINED_SECTION;$/;"	t	typeref:struct:__anon27
+EFI_GUID_DEFINED_SECTION2	PiFirmwareFile.h	/^} EFI_GUID_DEFINED_SECTION2;$/;"	t	typeref:struct:__anon28
+EFI_HOB_CPU	PiHob.h	/^} EFI_HOB_CPU;$/;"	t	typeref:struct:__anon13
+EFI_HOB_FIRMWARE_VOLUME	PiHob.h	/^} EFI_HOB_FIRMWARE_VOLUME;$/;"	t	typeref:struct:__anon10
+EFI_HOB_FIRMWARE_VOLUME2	PiHob.h	/^} EFI_HOB_FIRMWARE_VOLUME2;$/;"	t	typeref:struct:__anon11
+EFI_HOB_FIRMWARE_VOLUME3	PiHob.h	/^} EFI_HOB_FIRMWARE_VOLUME3;$/;"	t	typeref:struct:__anon12
+EFI_HOB_GENERIC_HEADER	PiHob.h	/^} EFI_HOB_GENERIC_HEADER;$/;"	t	typeref:struct:__anon1
+EFI_HOB_GUID_TYPE	PiHob.h	/^} EFI_HOB_GUID_TYPE;$/;"	t	typeref:struct:__anon9
+EFI_HOB_HANDOFF_INFO_TABLE	PiHob.h	/^} EFI_HOB_HANDOFF_INFO_TABLE;$/;"	t	typeref:struct:__anon2
+EFI_HOB_HANDOFF_TABLE_VERSION	PiHob.h	55;"	d
+EFI_HOB_MEMORY_ALLOCATION	PiHob.h	/^} EFI_HOB_MEMORY_ALLOCATION;$/;"	t	typeref:struct:__anon4
+EFI_HOB_MEMORY_ALLOCATION_BSP_STORE	PiHob.h	/^} EFI_HOB_MEMORY_ALLOCATION_BSP_STORE;$/;"	t	typeref:struct:__anon6
+EFI_HOB_MEMORY_ALLOCATION_HEADER	PiHob.h	/^} EFI_HOB_MEMORY_ALLOCATION_HEADER;$/;"	t	typeref:struct:__anon3
+EFI_HOB_MEMORY_ALLOCATION_MODULE	PiHob.h	/^} EFI_HOB_MEMORY_ALLOCATION_MODULE;$/;"	t	typeref:struct:__anon7
+EFI_HOB_MEMORY_ALLOCATION_STACK	PiHob.h	/^} EFI_HOB_MEMORY_ALLOCATION_STACK;$/;"	t	typeref:struct:__anon5
+EFI_HOB_MEMORY_POOL	PiHob.h	/^} EFI_HOB_MEMORY_POOL;$/;"	t	typeref:struct:__anon14
+EFI_HOB_RESOURCE_DESCRIPTOR	PiHob.h	/^} EFI_HOB_RESOURCE_DESCRIPTOR;$/;"	t	typeref:struct:__anon8
+EFI_HOB_TYPE_CPU	PiHob.h	23;"	d
+EFI_HOB_TYPE_END_OF_HOB_LIST	PiHob.h	30;"	d
+EFI_HOB_TYPE_FV	PiHob.h	22;"	d
+EFI_HOB_TYPE_FV2	PiHob.h	25;"	d
+EFI_HOB_TYPE_FV3	PiHob.h	28;"	d
+EFI_HOB_TYPE_GUID_EXTENSION	PiHob.h	21;"	d
+EFI_HOB_TYPE_HANDOFF	PiHob.h	18;"	d
+EFI_HOB_TYPE_LOAD_PEIM_UNUSED	PiHob.h	26;"	d
+EFI_HOB_TYPE_MEMORY_ALLOCATION	PiHob.h	19;"	d
+EFI_HOB_TYPE_MEMORY_POOL	PiHob.h	24;"	d
+EFI_HOB_TYPE_RESOURCE_DESCRIPTOR	PiHob.h	20;"	d
+EFI_HOB_TYPE_UEFI_CAPSULE	PiHob.h	27;"	d
+EFI_HOB_TYPE_UNUSED	PiHob.h	29;"	d
+EFI_HOB_UEFI_CAPSULE	PiHob.h	/^} EFI_HOB_UEFI_CAPSULE;$/;"	t	typeref:struct:__anon15
+EFI_I2C_CONTROLLER_CAPABILITIES	PiI2c.h	/^} EFI_I2C_CONTROLLER_CAPABILITIES;$/;"	t	typeref:struct:__anon50
+EFI_I2C_DEVICE	PiI2c.h	/^} EFI_I2C_DEVICE;$/;"	t	typeref:struct:__anon51
+EFI_I2C_OPERATION	PiI2c.h	/^} EFI_I2C_OPERATION;$/;"	t	typeref:struct:__anon52
+EFI_I2C_REQUEST_PACKET	PiI2c.h	/^} EFI_I2C_REQUEST_PACKET;$/;"	t	typeref:struct:__anon53
+EFI_INTERRUPT_PENDING	PiMultiPhase.h	66;"	d
+EFI_IOB_ATA_BUS_SMART_DISABLE	PiStatusCode.h	598;"	d
+EFI_IOB_ATA_BUS_SMART_DISABLED	PiStatusCode.h	674;"	d
+EFI_IOB_ATA_BUS_SMART_ENABLE	PiStatusCode.h	597;"	d
+EFI_IOB_ATA_BUS_SMART_NOTSUPPORTED	PiStatusCode.h	673;"	d
+EFI_IOB_ATA_BUS_SMART_OVERTHRESHOLD	PiStatusCode.h	599;"	d
+EFI_IOB_ATA_BUS_SMART_UNDERTHRESHOLD	PiStatusCode.h	600;"	d
+EFI_IOB_EC_CONTROLLER_ERROR	PiStatusCode.h	628;"	d
+EFI_IOB_EC_DISABLED	PiStatusCode.h	623;"	d
+EFI_IOB_EC_INTERFACE_ERROR	PiStatusCode.h	627;"	d
+EFI_IOB_EC_NON_SPECIFIC	PiStatusCode.h	622;"	d
+EFI_IOB_EC_NOT_CONFIGURED	PiStatusCode.h	626;"	d
+EFI_IOB_EC_NOT_DETECTED	PiStatusCode.h	625;"	d
+EFI_IOB_EC_NOT_SUPPORTED	PiStatusCode.h	624;"	d
+EFI_IOB_EC_READ_ERROR	PiStatusCode.h	629;"	d
+EFI_IOB_EC_RESOURCE_CONFLICT	PiStatusCode.h	631;"	d
+EFI_IOB_EC_WRITE_ERROR	PiStatusCode.h	630;"	d
+EFI_IOB_PCI_BUS_ENUM	PiStatusCode.h	565;"	d
+EFI_IOB_PCI_EC_PERR	PiStatusCode.h	642;"	d
+EFI_IOB_PCI_EC_SERR	PiStatusCode.h	643;"	d
+EFI_IOB_PCI_HPC_INIT	PiStatusCode.h	567;"	d
+EFI_IOB_PCI_RES_ALLOC	PiStatusCode.h	566;"	d
+EFI_IOB_PC_DETECT	PiStatusCode.h	551;"	d
+EFI_IOB_PC_DISABLE	PiStatusCode.h	550;"	d
+EFI_IOB_PC_ENABLE	PiStatusCode.h	552;"	d
+EFI_IOB_PC_HOTPLUG	PiStatusCode.h	554;"	d
+EFI_IOB_PC_INIT	PiStatusCode.h	548;"	d
+EFI_IOB_PC_RECONFIG	PiStatusCode.h	553;"	d
+EFI_IOB_PC_RESET	PiStatusCode.h	549;"	d
+EFI_IO_BUS	PiStatusCode.h	126;"	d
+EFI_IO_BUS_AGP	PiStatusCode.h	532;"	d
+EFI_IO_BUS_ATA_ATAPI	PiStatusCode.h	536;"	d
+EFI_IO_BUS_FC	PiStatusCode.h	537;"	d
+EFI_IO_BUS_I2C	PiStatusCode.h	540;"	d
+EFI_IO_BUS_IBA	PiStatusCode.h	531;"	d
+EFI_IO_BUS_IP_NETWORK	PiStatusCode.h	538;"	d
+EFI_IO_BUS_LPC	PiStatusCode.h	534;"	d
+EFI_IO_BUS_PCI	PiStatusCode.h	529;"	d
+EFI_IO_BUS_PC_CARD	PiStatusCode.h	533;"	d
+EFI_IO_BUS_SCSI	PiStatusCode.h	535;"	d
+EFI_IO_BUS_SMBUS	PiStatusCode.h	539;"	d
+EFI_IO_BUS_UNSPECIFIED	PiStatusCode.h	528;"	d
+EFI_IO_BUS_USB	PiStatusCode.h	530;"	d
+EFI_MMRAM_CLOSED	PiMultiPhase.h	95;"	d
+EFI_MMRAM_DESCRIPTOR	PiMultiPhase.h	/^} EFI_MMRAM_DESCRIPTOR;$/;"	t	typeref:struct:__anon47
+EFI_MMRAM_LOCKED	PiMultiPhase.h	96;"	d
+EFI_MMRAM_OPEN	PiMultiPhase.h	94;"	d
+EFI_MM_ENTRY_CONTEXT	PiMmCis.h	/^} EFI_MM_ENTRY_CONTEXT;$/;"	t	typeref:struct:_EFI_MM_ENTRY_CONTEXT
+EFI_MM_ENTRY_POINT	PiMmCis.h	/^(EFIAPI *EFI_MM_ENTRY_POINT)($/;"	t
+EFI_MM_HANDLER_ENTRY_POINT	PiMmCis.h	/^(EFIAPI *EFI_MM_HANDLER_ENTRY_POINT)($/;"	t
+EFI_MM_INSTALL_CONFIGURATION_TABLE	PiMmCis.h	/^(EFIAPI *EFI_MM_INSTALL_CONFIGURATION_TABLE)($/;"	t
+EFI_MM_INTERRUPT_MANAGE	PiMmCis.h	/^(EFIAPI *EFI_MM_INTERRUPT_MANAGE)($/;"	t
+EFI_MM_INTERRUPT_REGISTER	PiMmCis.h	/^(EFIAPI *EFI_MM_INTERRUPT_REGISTER)($/;"	t
+EFI_MM_INTERRUPT_UNREGISTER	PiMmCis.h	/^(EFIAPI *EFI_MM_INTERRUPT_UNREGISTER)($/;"	t
+EFI_MM_NOTIFY_FN	PiMmCis.h	/^(EFIAPI *EFI_MM_NOTIFY_FN)($/;"	t
+EFI_MM_REGISTER_PROTOCOL_NOTIFY	PiMmCis.h	/^(EFIAPI *EFI_MM_REGISTER_PROTOCOL_NOTIFY)($/;"	t
+EFI_MM_STARTUP_THIS_AP	PiMmCis.h	/^(EFIAPI *EFI_MM_STARTUP_THIS_AP)($/;"	t
+EFI_MM_SYSTEM_TABLE	PiMmCis.h	/^typedef struct _EFI_MM_SYSTEM_TABLE  EFI_MM_SYSTEM_TABLE;$/;"	t	typeref:struct:_EFI_MM_SYSTEM_TABLE
+EFI_MM_SYSTEM_TABLE_REVISION	PiMmCis.h	27;"	d
+EFI_NEEDS_ECC_INITIALIZATION	PiMultiPhase.h	100;"	d
+EFI_NEEDS_TESTING	PiMultiPhase.h	99;"	d
+EFI_NOT_AVAILABLE_YET	PiMultiPhase.h	47;"	d
+EFI_NOT_COMPRESSED	PiFirmwareFile.h	270;"	d
+EFI_OEM_SPECIFIC	PiStatusCode.h	106;"	d
+EFI_PCD_INFO	PiMultiPhase.h	/^} EFI_PCD_INFO;$/;"	t	typeref:struct:__anon49
+EFI_PCD_TYPE	PiMultiPhase.h	/^} EFI_PCD_TYPE;$/;"	t	typeref:enum:__anon48
+EFI_PCD_TYPE_16	PiMultiPhase.h	/^  EFI_PCD_TYPE_16,$/;"	e	enum:__anon48
+EFI_PCD_TYPE_32	PiMultiPhase.h	/^  EFI_PCD_TYPE_32,$/;"	e	enum:__anon48
+EFI_PCD_TYPE_64	PiMultiPhase.h	/^  EFI_PCD_TYPE_64,$/;"	e	enum:__anon48
+EFI_PCD_TYPE_8	PiMultiPhase.h	/^  EFI_PCD_TYPE_8,$/;"	e	enum:__anon48
+EFI_PCD_TYPE_BOOL	PiMultiPhase.h	/^  EFI_PCD_TYPE_BOOL,$/;"	e	enum:__anon48
+EFI_PCD_TYPE_PTR	PiMultiPhase.h	/^  EFI_PCD_TYPE_PTR$/;"	e	enum:__anon48
+EFI_PE32_SECTION	PiFirmwareFile.h	/^typedef EFI_COMMON_SECTION_HEADER   EFI_PE32_SECTION;$/;"	t
+EFI_PE32_SECTION2	PiFirmwareFile.h	/^typedef EFI_COMMON_SECTION_HEADER2  EFI_PE32_SECTION2;$/;"	t
+EFI_PEIM_ENTRY_POINT2	PiPeiCis.h	/^(EFIAPI *EFI_PEIM_ENTRY_POINT2)($/;"	t
+EFI_PEIM_NOTIFY_ENTRY_POINT	PiPeiCis.h	/^(EFIAPI *EFI_PEIM_NOTIFY_ENTRY_POINT)($/;"	t
+EFI_PEI_ALLOCATE_PAGES	PiPeiCis.h	/^(EFIAPI *EFI_PEI_ALLOCATE_PAGES)($/;"	t
+EFI_PEI_ALLOCATE_POOL	PiPeiCis.h	/^(EFIAPI *EFI_PEI_ALLOCATE_POOL)($/;"	t
+EFI_PEI_COPY_MEM	PiPeiCis.h	/^(EFIAPI *EFI_PEI_COPY_MEM)($/;"	t
+EFI_PEI_CORE_ENTRY_POINT	PiPeiCis.h	/^(EFIAPI *EFI_PEI_CORE_ENTRY_POINT)($/;"	t
+EFI_PEI_CREATE_HOB	PiPeiCis.h	/^(EFIAPI *EFI_PEI_CREATE_HOB)($/;"	t
+EFI_PEI_DEPEX_SECTION	PiFirmwareFile.h	/^typedef EFI_COMMON_SECTION_HEADER   EFI_PEI_DEPEX_SECTION;$/;"	t
+EFI_PEI_DEPEX_SECTION2	PiFirmwareFile.h	/^typedef EFI_COMMON_SECTION_HEADER2  EFI_PEI_DEPEX_SECTION2;$/;"	t
+EFI_PEI_DESCRIPTOR	PiPeiCis.h	/^} EFI_PEI_DESCRIPTOR;$/;"	t	typeref:union:__anon55
+EFI_PEI_FFS_FIND_BY_NAME	PiPeiCis.h	/^(EFIAPI *EFI_PEI_FFS_FIND_BY_NAME)($/;"	t
+EFI_PEI_FFS_FIND_NEXT_FILE2	PiPeiCis.h	/^(EFIAPI *EFI_PEI_FFS_FIND_NEXT_FILE2)($/;"	t
+EFI_PEI_FFS_FIND_NEXT_VOLUME2	PiPeiCis.h	/^(EFIAPI *EFI_PEI_FFS_FIND_NEXT_VOLUME2)($/;"	t
+EFI_PEI_FFS_FIND_SECTION_DATA2	PiPeiCis.h	/^(EFIAPI *EFI_PEI_FFS_FIND_SECTION_DATA2)($/;"	t
+EFI_PEI_FFS_FIND_SECTION_DATA3	PiPeiCis.h	/^(EFIAPI *EFI_PEI_FFS_FIND_SECTION_DATA3)($/;"	t
+EFI_PEI_FFS_GET_FILE_INFO	PiPeiCis.h	/^(EFIAPI *EFI_PEI_FFS_GET_FILE_INFO)($/;"	t
+EFI_PEI_FFS_GET_FILE_INFO2	PiPeiCis.h	/^(EFIAPI *EFI_PEI_FFS_GET_FILE_INFO2)($/;"	t
+EFI_PEI_FFS_GET_VOLUME_INFO	PiPeiCis.h	/^(EFIAPI *EFI_PEI_FFS_GET_VOLUME_INFO)($/;"	t
+EFI_PEI_FILE_HANDLE	PiPeiCis.h	/^typedef VOID    *EFI_PEI_FILE_HANDLE;$/;"	t
+EFI_PEI_FREE_PAGES	PiPeiCis.h	/^(EFIAPI *EFI_PEI_FREE_PAGES) ($/;"	t
+EFI_PEI_FV_HANDLE	PiPeiCis.h	/^typedef VOID    *EFI_PEI_FV_HANDLE;$/;"	t
+EFI_PEI_GET_BOOT_MODE	PiPeiCis.h	/^(EFIAPI *EFI_PEI_GET_BOOT_MODE)($/;"	t
+EFI_PEI_GET_HOB_LIST	PiPeiCis.h	/^(EFIAPI *EFI_PEI_GET_HOB_LIST)($/;"	t
+EFI_PEI_HOB_POINTERS	PiHob.h	/^} EFI_PEI_HOB_POINTERS;$/;"	t	typeref:union:__anon16
+EFI_PEI_INSTALL_PEI_MEMORY	PiPeiCis.h	/^(EFIAPI *EFI_PEI_INSTALL_PEI_MEMORY)($/;"	t
+EFI_PEI_INSTALL_PPI	PiPeiCis.h	/^(EFIAPI *EFI_PEI_INSTALL_PPI)($/;"	t
+EFI_PEI_LOCATE_PPI	PiPeiCis.h	/^(EFIAPI *EFI_PEI_LOCATE_PPI)($/;"	t
+EFI_PEI_NOTIFY_DESCRIPTOR	PiPeiCis.h	/^typedef struct _EFI_PEI_NOTIFY_DESCRIPTOR EFI_PEI_NOTIFY_DESCRIPTOR;$/;"	t	typeref:struct:_EFI_PEI_NOTIFY_DESCRIPTOR
+EFI_PEI_NOTIFY_PPI	PiPeiCis.h	/^(EFIAPI *EFI_PEI_NOTIFY_PPI)($/;"	t
+EFI_PEI_PPI_DESCRIPTOR	PiPeiCis.h	/^} EFI_PEI_PPI_DESCRIPTOR;$/;"	t	typeref:struct:__anon54
+EFI_PEI_PPI_DESCRIPTOR_NOTIFY_CALLBACK	PiPeiCis.h	84;"	d
+EFI_PEI_PPI_DESCRIPTOR_NOTIFY_DISPATCH	PiPeiCis.h	85;"	d
+EFI_PEI_PPI_DESCRIPTOR_NOTIFY_TYPES	PiPeiCis.h	86;"	d
+EFI_PEI_PPI_DESCRIPTOR_PIC	PiPeiCis.h	82;"	d
+EFI_PEI_PPI_DESCRIPTOR_PPI	PiPeiCis.h	83;"	d
+EFI_PEI_PPI_DESCRIPTOR_TERMINATE_LIST	PiPeiCis.h	87;"	d
+EFI_PEI_REGISTER_FOR_SHADOW	PiPeiCis.h	/^(EFIAPI *EFI_PEI_REGISTER_FOR_SHADOW)($/;"	t
+EFI_PEI_REINSTALL_PPI	PiPeiCis.h	/^(EFIAPI *EFI_PEI_REINSTALL_PPI)($/;"	t
+EFI_PEI_REPORT_STATUS_CODE	PiPeiCis.h	/^(EFIAPI *EFI_PEI_REPORT_STATUS_CODE)($/;"	t
+EFI_PEI_RESET2_SYSTEM	PiPeiCis.h	/^(EFIAPI *EFI_PEI_RESET2_SYSTEM) ($/;"	t
+EFI_PEI_RESET_SYSTEM	PiPeiCis.h	/^(EFIAPI *EFI_PEI_RESET_SYSTEM)($/;"	t
+EFI_PEI_SERVICES	PiPeiCis.h	/^typedef struct _EFI_PEI_SERVICES          EFI_PEI_SERVICES;$/;"	t	typeref:struct:_EFI_PEI_SERVICES
+EFI_PEI_SET_BOOT_MODE	PiPeiCis.h	/^(EFIAPI *EFI_PEI_SET_BOOT_MODE)($/;"	t
+EFI_PEI_SET_MEM	PiPeiCis.h	/^(EFIAPI *EFI_PEI_SET_MEM)($/;"	t
+EFI_PERIPHERAL	PiStatusCode.h	125;"	d
+EFI_PERIPHERAL_AUDIO_INPUT	PiStatusCode.h	361;"	d
+EFI_PERIPHERAL_AUDIO_OUTPUT	PiStatusCode.h	362;"	d
+EFI_PERIPHERAL_DOCKING	PiStatusCode.h	365;"	d
+EFI_PERIPHERAL_FIXED_MEDIA	PiStatusCode.h	359;"	d
+EFI_PERIPHERAL_KEYBOARD	PiStatusCode.h	353;"	d
+EFI_PERIPHERAL_LCD_DEVICE	PiStatusCode.h	363;"	d
+EFI_PERIPHERAL_LOCAL_CONSOLE	PiStatusCode.h	355;"	d
+EFI_PERIPHERAL_MOUSE	PiStatusCode.h	354;"	d
+EFI_PERIPHERAL_NETWORK	PiStatusCode.h	364;"	d
+EFI_PERIPHERAL_PARALLEL_PORT	PiStatusCode.h	358;"	d
+EFI_PERIPHERAL_REMOTE_CONSOLE	PiStatusCode.h	356;"	d
+EFI_PERIPHERAL_REMOVABLE_MEDIA	PiStatusCode.h	360;"	d
+EFI_PERIPHERAL_SERIAL_PORT	PiStatusCode.h	357;"	d
+EFI_PERIPHERAL_UNSPECIFIED	PiStatusCode.h	352;"	d
+EFI_PIC_SECTION	PiFirmwareFile.h	/^typedef EFI_COMMON_SECTION_HEADER   EFI_PIC_SECTION;$/;"	t
+EFI_PIC_SECTION2	PiFirmwareFile.h	/^typedef EFI_COMMON_SECTION_HEADER2  EFI_PIC_SECTION2;$/;"	t
+EFI_PROCESS_FIRMWARE_VOLUME	PiDxeCis.h	/^(EFIAPI *EFI_PROCESS_FIRMWARE_VOLUME)($/;"	t
+EFI_PROGRESS_CODE	PiStatusCode.h	43;"	d
+EFI_P_EC_CONTROLLER_ERROR	PiStatusCode.h	456;"	d
+EFI_P_EC_DISABLED	PiStatusCode.h	451;"	d
+EFI_P_EC_INPUT_ERROR	PiStatusCode.h	457;"	d
+EFI_P_EC_INTERFACE_ERROR	PiStatusCode.h	455;"	d
+EFI_P_EC_NON_SPECIFIC	PiStatusCode.h	450;"	d
+EFI_P_EC_NOT_CONFIGURED	PiStatusCode.h	454;"	d
+EFI_P_EC_NOT_DETECTED	PiStatusCode.h	453;"	d
+EFI_P_EC_NOT_SUPPORTED	PiStatusCode.h	452;"	d
+EFI_P_EC_OUTPUT_ERROR	PiStatusCode.h	458;"	d
+EFI_P_EC_RESOURCE_CONFLICT	PiStatusCode.h	459;"	d
+EFI_P_KEYBOARD_EC_BUFFER_FULL	PiStatusCode.h	472;"	d
+EFI_P_KEYBOARD_EC_LOCKED	PiStatusCode.h	470;"	d
+EFI_P_KEYBOARD_EC_STUCK_KEY	PiStatusCode.h	471;"	d
+EFI_P_KEYBOARD_PC_CLEAR_BUFFER	PiStatusCode.h	391;"	d
+EFI_P_KEYBOARD_PC_SELF_TEST	PiStatusCode.h	392;"	d
+EFI_P_MOUSE_EC_LOCKED	PiStatusCode.h	479;"	d
+EFI_P_MOUSE_PC_SELF_TEST	PiStatusCode.h	399;"	d
+EFI_P_PC_DETECTED	PiStatusCode.h	379;"	d
+EFI_P_PC_DISABLE	PiStatusCode.h	375;"	d
+EFI_P_PC_ENABLE	PiStatusCode.h	377;"	d
+EFI_P_PC_INIT	PiStatusCode.h	373;"	d
+EFI_P_PC_PRESENCE_DETECT	PiStatusCode.h	376;"	d
+EFI_P_PC_RECONFIG	PiStatusCode.h	378;"	d
+EFI_P_PC_REMOVED	PiStatusCode.h	380;"	d
+EFI_P_PC_RESET	PiStatusCode.h	374;"	d
+EFI_P_SERIAL_PORT_PC_CLEAR_BUFFER	PiStatusCode.h	414;"	d
+EFI_RAW_SECTION	PiFirmwareFile.h	/^typedef EFI_COMMON_SECTION_HEADER   EFI_RAW_SECTION;$/;"	t
+EFI_RAW_SECTION2	PiFirmwareFile.h	/^typedef EFI_COMMON_SECTION_HEADER2  EFI_RAW_SECTION2;$/;"	t
+EFI_REMOVE_IO_SPACE	PiDxeCis.h	/^(EFIAPI *EFI_REMOVE_IO_SPACE)($/;"	t
+EFI_REMOVE_MEMORY_SPACE	PiDxeCis.h	/^(EFIAPI *EFI_REMOVE_MEMORY_SPACE)($/;"	t
+EFI_REQUEST_UNLOAD_IMAGE	PiMultiPhase.h	41;"	d
+EFI_RESOURCE_ATTRIBUTE_16_BIT_IO	PiHob.h	274;"	d
+EFI_RESOURCE_ATTRIBUTE_32_BIT_IO	PiHob.h	275;"	d
+EFI_RESOURCE_ATTRIBUTE_64_BIT_IO	PiHob.h	276;"	d
+EFI_RESOURCE_ATTRIBUTE_ECC_RESERVED_1	PiHob.h	268;"	d
+EFI_RESOURCE_ATTRIBUTE_ECC_RESERVED_2	PiHob.h	269;"	d
+EFI_RESOURCE_ATTRIBUTE_EXECUTION_PROTECTABLE	PiHob.h	287;"	d
+EFI_RESOURCE_ATTRIBUTE_EXECUTION_PROTECTED	PiHob.h	261;"	d
+EFI_RESOURCE_ATTRIBUTE_INITIALIZED	PiHob.h	250;"	d
+EFI_RESOURCE_ATTRIBUTE_MORE_RELIABLE	PiHob.h	299;"	d
+EFI_RESOURCE_ATTRIBUTE_MULTIPLE_BIT_ECC	PiHob.h	267;"	d
+EFI_RESOURCE_ATTRIBUTE_PERSISTABLE	PiHob.h	288;"	d
+EFI_RESOURCE_ATTRIBUTE_PERSISTENT	PiHob.h	262;"	d
+EFI_RESOURCE_ATTRIBUTE_PRESENT	PiHob.h	249;"	d
+EFI_RESOURCE_ATTRIBUTE_READ_ONLY_PROTECTABLE	PiHob.h	291;"	d
+EFI_RESOURCE_ATTRIBUTE_READ_ONLY_PROTECTED	PiHob.h	290;"	d
+EFI_RESOURCE_ATTRIBUTE_READ_PROTECTABLE	PiHob.h	278;"	d
+EFI_RESOURCE_ATTRIBUTE_READ_PROTECTED	PiHob.h	252;"	d
+EFI_RESOURCE_ATTRIBUTE_SINGLE_BIT_ECC	PiHob.h	266;"	d
+EFI_RESOURCE_ATTRIBUTE_TESTED	PiHob.h	251;"	d
+EFI_RESOURCE_ATTRIBUTE_TYPE	PiHob.h	/^typedef UINT32 EFI_RESOURCE_ATTRIBUTE_TYPE;$/;"	t
+EFI_RESOURCE_ATTRIBUTE_UNCACHEABLE	PiHob.h	270;"	d
+EFI_RESOURCE_ATTRIBUTE_UNCACHED_EXPORTED	PiHob.h	277;"	d
+EFI_RESOURCE_ATTRIBUTE_WRITE_BACK_CACHEABLE	PiHob.h	273;"	d
+EFI_RESOURCE_ATTRIBUTE_WRITE_COMBINEABLE	PiHob.h	271;"	d
+EFI_RESOURCE_ATTRIBUTE_WRITE_PROTECTABLE	PiHob.h	286;"	d
+EFI_RESOURCE_ATTRIBUTE_WRITE_PROTECTED	PiHob.h	260;"	d
+EFI_RESOURCE_ATTRIBUTE_WRITE_THROUGH_CACHEABLE	PiHob.h	272;"	d
+EFI_RESOURCE_FIRMWARE_DEVICE	PiHob.h	233;"	d
+EFI_RESOURCE_IO	PiHob.h	232;"	d
+EFI_RESOURCE_IO_RESERVED	PiHob.h	236;"	d
+EFI_RESOURCE_MAX_MEMORY_TYPE	PiHob.h	237;"	d
+EFI_RESOURCE_MEMORY_MAPPED_IO	PiHob.h	231;"	d
+EFI_RESOURCE_MEMORY_MAPPED_IO_PORT	PiHob.h	234;"	d
+EFI_RESOURCE_MEMORY_RESERVED	PiHob.h	235;"	d
+EFI_RESOURCE_SYSTEM_MEMORY	PiHob.h	230;"	d
+EFI_RESOURCE_TYPE	PiHob.h	/^typedef UINT32 EFI_RESOURCE_TYPE;$/;"	t
+EFI_SCHEDULE	PiDxeCis.h	/^(EFIAPI *EFI_SCHEDULE)($/;"	t
+EFI_SECTION_ALL	PiFirmwareFile.h	201;"	d
+EFI_SECTION_COMPATIBILITY16	PiFirmwareFile.h	221;"	d
+EFI_SECTION_COMPRESSION	PiFirmwareFile.h	206;"	d
+EFI_SECTION_DISPOSABLE	PiFirmwareFile.h	210;"	d
+EFI_SECTION_DXE_DEPEX	PiFirmwareFile.h	218;"	d
+EFI_SECTION_FIRMWARE_VOLUME_IMAGE	PiFirmwareFile.h	222;"	d
+EFI_SECTION_FREEFORM_SUBTYPE_GUID	PiFirmwareFile.h	223;"	d
+EFI_SECTION_GUID_DEFINED	PiFirmwareFile.h	208;"	d
+EFI_SECTION_MM_DEPEX	PiFirmwareFile.h	226;"	d
+EFI_SECTION_PE32	PiFirmwareFile.h	215;"	d
+EFI_SECTION_PEI_DEPEX	PiFirmwareFile.h	225;"	d
+EFI_SECTION_PIC	PiFirmwareFile.h	216;"	d
+EFI_SECTION_RAW	PiFirmwareFile.h	224;"	d
+EFI_SECTION_SMM_DEPEX	PiFirmwareFile.h	227;"	d
+EFI_SECTION_TE	PiFirmwareFile.h	217;"	d
+EFI_SECTION_TYPE	PiFirmwareFile.h	/^typedef UINT8 EFI_SECTION_TYPE;$/;"	t
+EFI_SECTION_USER_INTERFACE	PiFirmwareFile.h	220;"	d
+EFI_SECTION_VERSION	PiFirmwareFile.h	219;"	d
+EFI_SEC_PEI_HAND_OFF	PiPeiCis.h	/^} EFI_SEC_PEI_HAND_OFF;$/;"	t	typeref:struct:_EFI_SEC_PEI_HAND_OFF
+EFI_SET_MEMORY_SPACE_ATTRIBUTES	PiDxeCis.h	/^(EFIAPI *EFI_SET_MEMORY_SPACE_ATTRIBUTES)($/;"	t
+EFI_SET_MEMORY_SPACE_CAPABILITIES	PiDxeCis.h	/^(EFIAPI *EFI_SET_MEMORY_SPACE_CAPABILITIES) ($/;"	t
+EFI_SMM_DEPEX_SECTION	PiFirmwareFile.h	/^typedef EFI_COMMON_SECTION_HEADER EFI_SMM_DEPEX_SECTION;$/;"	t
+EFI_SMM_DEPEX_SECTION2	PiFirmwareFile.h	/^typedef EFI_COMMON_SECTION_HEADER2 EFI_SMM_DEPEX_SECTION2;$/;"	t
+EFI_SMM_ENTRY_CONTEXT	PiSmmCis.h	/^} EFI_SMM_ENTRY_CONTEXT;$/;"	t	typeref:struct:_EFI_SMM_ENTRY_CONTEXT
+EFI_SMM_ENTRY_POINT	PiSmmCis.h	/^(EFIAPI *EFI_SMM_ENTRY_POINT)($/;"	t
+EFI_SMM_HANDLER_ENTRY_POINT2	PiSmmCis.h	/^typedef  EFI_MM_HANDLER_ENTRY_POINT            EFI_SMM_HANDLER_ENTRY_POINT2;$/;"	t
+EFI_SMM_INSTALL_CONFIGURATION_TABLE2	PiSmmCis.h	/^(EFIAPI *EFI_SMM_INSTALL_CONFIGURATION_TABLE2)($/;"	t
+EFI_SMM_INTERRUPT_MANAGE	PiSmmCis.h	/^typedef  EFI_MM_INTERRUPT_MANAGE               EFI_SMM_INTERRUPT_MANAGE;$/;"	t
+EFI_SMM_INTERRUPT_REGISTER	PiSmmCis.h	/^typedef  EFI_MM_INTERRUPT_REGISTER             EFI_SMM_INTERRUPT_REGISTER;$/;"	t
+EFI_SMM_INTERRUPT_UNREGISTER	PiSmmCis.h	/^typedef  EFI_MM_INTERRUPT_UNREGISTER           EFI_SMM_INTERRUPT_UNREGISTER;$/;"	t
+EFI_SMM_NOTIFY_FN	PiSmmCis.h	/^typedef  EFI_MM_NOTIFY_FN                      EFI_SMM_NOTIFY_FN;$/;"	t
+EFI_SMM_REGISTER_PROTOCOL_NOTIFY	PiSmmCis.h	/^typedef  EFI_MM_REGISTER_PROTOCOL_NOTIFY       EFI_SMM_REGISTER_PROTOCOL_NOTIFY;$/;"	t
+EFI_SMM_STARTUP_THIS_AP	PiSmmCis.h	/^typedef  EFI_MM_STARTUP_THIS_AP                EFI_SMM_STARTUP_THIS_AP;$/;"	t
+EFI_SMM_SYSTEM_TABLE2	PiSmmCis.h	/^typedef struct _EFI_SMM_SYSTEM_TABLE2  EFI_SMM_SYSTEM_TABLE2;$/;"	t	typeref:struct:_EFI_SMM_SYSTEM_TABLE2
+EFI_SMM_SYSTEM_TABLE2_REVISION	PiSmmCis.h	23;"	d
+EFI_SMRAM_CLOSED	PiMultiPhase.h	103;"	d
+EFI_SMRAM_DESCRIPTOR	PiMultiPhase.h	/^typedef EFI_MMRAM_DESCRIPTOR  EFI_SMRAM_DESCRIPTOR;$/;"	t
+EFI_SMRAM_LOCKED	PiMultiPhase.h	104;"	d
+EFI_SMRAM_OPEN	PiMultiPhase.h	102;"	d
+EFI_SOFTWARE	PiStatusCode.h	127;"	d
+EFI_SOFTWARE_AL	PiStatusCode.h	709;"	d
+EFI_SOFTWARE_ARM_EXCEPTION	PiStatusCode.h	718;"	d
+EFI_SOFTWARE_DXE_BS_DRIVER	PiStatusCode.h	703;"	d
+EFI_SOFTWARE_DXE_CORE	PiStatusCode.h	702;"	d
+EFI_SOFTWARE_DXE_RT_DRIVER	PiStatusCode.h	704;"	d
+EFI_SOFTWARE_EBC_EXCEPTION	PiStatusCode.h	710;"	d
+EFI_SOFTWARE_EFI_APPLICATION	PiStatusCode.h	706;"	d
+EFI_SOFTWARE_EFI_BOOT_SERVICE	PiStatusCode.h	714;"	d
+EFI_SOFTWARE_EFI_DXE_SERVICE	PiStatusCode.h	716;"	d
+EFI_SOFTWARE_EFI_OS_LOADER	PiStatusCode.h	707;"	d
+EFI_SOFTWARE_EFI_RUNTIME_SERVICE	PiStatusCode.h	715;"	d
+EFI_SOFTWARE_IA32_EXCEPTION	PiStatusCode.h	711;"	d
+EFI_SOFTWARE_IPF_EXCEPTION	PiStatusCode.h	712;"	d
+EFI_SOFTWARE_PEI_CORE	PiStatusCode.h	700;"	d
+EFI_SOFTWARE_PEI_MODULE	PiStatusCode.h	701;"	d
+EFI_SOFTWARE_PEI_SERVICE	PiStatusCode.h	713;"	d
+EFI_SOFTWARE_RT	PiStatusCode.h	708;"	d
+EFI_SOFTWARE_SEC	PiStatusCode.h	699;"	d
+EFI_SOFTWARE_SMM_DRIVER	PiStatusCode.h	705;"	d
+EFI_SOFTWARE_UNSPECIFIED	PiStatusCode.h	698;"	d
+EFI_SOFTWARE_X64_EXCEPTION	PiStatusCode.h	717;"	d
+EFI_STANDARD_COMPRESSION	PiFirmwareFile.h	271;"	d
+EFI_STATUS_CODE_CLASS_MASK	PiStatusCode.h	74;"	d
+EFI_STATUS_CODE_DATA	PiStatusCode.h	/^} EFI_STATUS_CODE_DATA;$/;"	t	typeref:struct:__anon59
+EFI_STATUS_CODE_OPERATION_MASK	PiStatusCode.h	76;"	d
+EFI_STATUS_CODE_RESERVED_MASK	PiStatusCode.h	34;"	d
+EFI_STATUS_CODE_SEVERITY_MASK	PiStatusCode.h	33;"	d
+EFI_STATUS_CODE_SUBCLASS_MASK	PiStatusCode.h	75;"	d
+EFI_STATUS_CODE_TYPE	PiStatusCode.h	/^typedef UINT32  EFI_STATUS_CODE_TYPE;$/;"	t
+EFI_STATUS_CODE_TYPE_MASK	PiStatusCode.h	32;"	d
+EFI_STATUS_CODE_VALUE	PiStatusCode.h	/^typedef UINT32 EFI_STATUS_CODE_VALUE;$/;"	t
+EFI_SUBCLASS_SPECIFIC	PiStatusCode.h	105;"	d
+EFI_SW_BS_PC_ALLOCATE_PAGES	PiStatusCode.h	877;"	d
+EFI_SW_BS_PC_ALLOCATE_POOL	PiStatusCode.h	880;"	d
+EFI_SW_BS_PC_CALCULATE_CRC_32	PiStatusCode.h	914;"	d
+EFI_SW_BS_PC_CHECK_EVENT	PiStatusCode.h	887;"	d
+EFI_SW_BS_PC_CLOSE_EVENT	PiStatusCode.h	886;"	d
+EFI_SW_BS_PC_CLOSE_PROTOCOL	PiStatusCode.h	907;"	d
+EFI_SW_BS_PC_CONNECT_CONTROLLER	PiStatusCode.h	904;"	d
+EFI_SW_BS_PC_COPY_MEM	PiStatusCode.h	915;"	d
+EFI_SW_BS_PC_CREATE_EVENT	PiStatusCode.h	882;"	d
+EFI_SW_BS_PC_CREATE_EVENT_EX	PiStatusCode.h	917;"	d
+EFI_SW_BS_PC_DISCONNECT_CONTROLLER	PiStatusCode.h	905;"	d
+EFI_SW_BS_PC_EXIT	PiStatusCode.h	898;"	d
+EFI_SW_BS_PC_EXIT_BOOT_SERVICES	PiStatusCode.h	900;"	d
+EFI_SW_BS_PC_FREE_PAGES	PiStatusCode.h	878;"	d
+EFI_SW_BS_PC_FREE_POOL	PiStatusCode.h	881;"	d
+EFI_SW_BS_PC_GET_MEMORY_MAP	PiStatusCode.h	879;"	d
+EFI_SW_BS_PC_GET_NEXT_MONOTONIC_COUNT	PiStatusCode.h	901;"	d
+EFI_SW_BS_PC_HANDLE_PROTOCOL	PiStatusCode.h	891;"	d
+EFI_SW_BS_PC_INSTALL_CONFIGURATION_TABLE	PiStatusCode.h	895;"	d
+EFI_SW_BS_PC_INSTALL_MULTIPLE_INTERFACES	PiStatusCode.h	912;"	d
+EFI_SW_BS_PC_INSTALL_PROTOCOL_INTERFACE	PiStatusCode.h	888;"	d
+EFI_SW_BS_PC_LOAD_IMAGE	PiStatusCode.h	896;"	d
+EFI_SW_BS_PC_LOCATE_HANDLE	PiStatusCode.h	894;"	d
+EFI_SW_BS_PC_LOCATE_HANDLE_BUFFER	PiStatusCode.h	910;"	d
+EFI_SW_BS_PC_LOCATE_PROTOCOL	PiStatusCode.h	911;"	d
+EFI_SW_BS_PC_OPEN_PROTOCOL	PiStatusCode.h	906;"	d
+EFI_SW_BS_PC_OPEN_PROTOCOL_INFORMATION	PiStatusCode.h	908;"	d
+EFI_SW_BS_PC_PC_HANDLE_PROTOCOL	PiStatusCode.h	892;"	d
+EFI_SW_BS_PC_PROTOCOLS_PER_HANDLE	PiStatusCode.h	909;"	d
+EFI_SW_BS_PC_RAISE_TPL	PiStatusCode.h	875;"	d
+EFI_SW_BS_PC_REGISTER_PROTOCOL_NOTIFY	PiStatusCode.h	893;"	d
+EFI_SW_BS_PC_REINSTALL_PROTOCOL_INTERFACE	PiStatusCode.h	889;"	d
+EFI_SW_BS_PC_RESTORE_TPL	PiStatusCode.h	876;"	d
+EFI_SW_BS_PC_SET_MEM	PiStatusCode.h	916;"	d
+EFI_SW_BS_PC_SET_TIMER	PiStatusCode.h	883;"	d
+EFI_SW_BS_PC_SET_WATCHDOG_TIMER	PiStatusCode.h	903;"	d
+EFI_SW_BS_PC_SIGNAL_EVENT	PiStatusCode.h	885;"	d
+EFI_SW_BS_PC_STALL	PiStatusCode.h	902;"	d
+EFI_SW_BS_PC_START_IMAGE	PiStatusCode.h	897;"	d
+EFI_SW_BS_PC_UNINSTALL_MULTIPLE_INTERFACES	PiStatusCode.h	913;"	d
+EFI_SW_BS_PC_UNINSTALL_PROTOCOL_INTERFACE	PiStatusCode.h	890;"	d
+EFI_SW_BS_PC_UNLOAD_IMAGE	PiStatusCode.h	899;"	d
+EFI_SW_BS_PC_WAIT_FOR_EVENT	PiStatusCode.h	884;"	d
+EFI_SW_DS_PC_ADD_IO_SPACE	PiStatusCode.h	951;"	d
+EFI_SW_DS_PC_ADD_MEMORY_SPACE	PiStatusCode.h	944;"	d
+EFI_SW_DS_PC_ALLOCATE_IO_SPACE	PiStatusCode.h	952;"	d
+EFI_SW_DS_PC_ALLOCATE_MEMORY_SPACE	PiStatusCode.h	945;"	d
+EFI_SW_DS_PC_DISPATCH	PiStatusCode.h	957;"	d
+EFI_SW_DS_PC_FREE_IO_SPACE	PiStatusCode.h	953;"	d
+EFI_SW_DS_PC_FREE_MEMORY_SPACE	PiStatusCode.h	946;"	d
+EFI_SW_DS_PC_GET_IO_SPACE_DESCRIPTOR	PiStatusCode.h	955;"	d
+EFI_SW_DS_PC_GET_IO_SPACE_MAP	PiStatusCode.h	956;"	d
+EFI_SW_DS_PC_GET_MEMORY_SPACE_DESCRIPTOR	PiStatusCode.h	948;"	d
+EFI_SW_DS_PC_GET_MEMORY_SPACE_MAP	PiStatusCode.h	950;"	d
+EFI_SW_DS_PC_PROCESS_FIRMWARE_VOLUME	PiStatusCode.h	960;"	d
+EFI_SW_DS_PC_REMOVE_IO_SPACE	PiStatusCode.h	954;"	d
+EFI_SW_DS_PC_REMOVE_MEMORY_SPACE	PiStatusCode.h	947;"	d
+EFI_SW_DS_PC_SCHEDULE	PiStatusCode.h	958;"	d
+EFI_SW_DS_PC_SET_MEMORY_SPACE_ATTRIBUTES	PiStatusCode.h	949;"	d
+EFI_SW_DS_PC_TRUST	PiStatusCode.h	959;"	d
+EFI_SW_DXE_BS_EC_BOOT_OPTION_FAILED	PiStatusCode.h	1038;"	d
+EFI_SW_DXE_BS_EC_BOOT_OPTION_LOAD_ERROR	PiStatusCode.h	1037;"	d
+EFI_SW_DXE_BS_EC_INVALID_IDE_PASSWORD	PiStatusCode.h	1039;"	d
+EFI_SW_DXE_BS_EC_INVALID_PASSWORD	PiStatusCode.h	1036;"	d
+EFI_SW_DXE_BS_EC_LEGACY_OPROM_NO_SPACE	PiStatusCode.h	1035;"	d
+EFI_SW_DXE_BS_PC_ATTEMPT_BOOT_ORDER_EVENT	PiStatusCode.h	794;"	d
+EFI_SW_DXE_BS_PC_BEGIN_CONNECTING_DRIVERS	PiStatusCode.h	1150;"	d
+EFI_SW_DXE_BS_PC_CONFIG_RESET	PiStatusCode.h	795;"	d
+EFI_SW_DXE_BS_PC_CSM_INIT	PiStatusCode.h	796;"	d
+EFI_SW_DXE_BS_PC_EXIT_BOOT_SERVICES_EVENT	PiStatusCode.h	790;"	d
+EFI_SW_DXE_BS_PC_LEGACY_BOOT_EVENT	PiStatusCode.h	789;"	d
+EFI_SW_DXE_BS_PC_LEGACY_OPROM_INIT	PiStatusCode.h	787;"	d
+EFI_SW_DXE_BS_PC_READY_TO_BOOT_EVENT	PiStatusCode.h	788;"	d
+EFI_SW_DXE_BS_PC_VARIABLE_RECLAIM	PiStatusCode.h	793;"	d
+EFI_SW_DXE_BS_PC_VARIABLE_SERVICES_INIT	PiStatusCode.h	792;"	d
+EFI_SW_DXE_BS_PC_VERIFYING_PASSWORD	PiStatusCode.h	1151;"	d
+EFI_SW_DXE_BS_PC_VIRTUAL_ADDRESS_CHANGE_EVENT	PiStatusCode.h	791;"	d
+EFI_SW_DXE_CORE_EC_NO_ARCH	PiStatusCode.h	1027;"	d
+EFI_SW_DXE_CORE_PC_ARCH_READY	PiStatusCode.h	780;"	d
+EFI_SW_DXE_CORE_PC_ENTRY_POINT	PiStatusCode.h	776;"	d
+EFI_SW_DXE_CORE_PC_HANDOFF_TO_NEXT	PiStatusCode.h	777;"	d
+EFI_SW_DXE_CORE_PC_RETURN_TO_LAST	PiStatusCode.h	778;"	d
+EFI_SW_DXE_CORE_PC_START_DRIVER	PiStatusCode.h	779;"	d
+EFI_SW_DXE_RT_PC_S0	PiStatusCode.h	1158;"	d
+EFI_SW_DXE_RT_PC_S1	PiStatusCode.h	1159;"	d
+EFI_SW_DXE_RT_PC_S2	PiStatusCode.h	1160;"	d
+EFI_SW_DXE_RT_PC_S3	PiStatusCode.h	1161;"	d
+EFI_SW_DXE_RT_PC_S4	PiStatusCode.h	1162;"	d
+EFI_SW_DXE_RT_PC_S5	PiStatusCode.h	1163;"	d
+EFI_SW_EC_ABORTED	PiStatusCode.h	974;"	d
+EFI_SW_EC_ARM_DATA_ABORT	PiStatusCode.h	1201;"	d
+EFI_SW_EC_ARM_FIQ	PiStatusCode.h	1204;"	d
+EFI_SW_EC_ARM_IRQ	PiStatusCode.h	1203;"	d
+EFI_SW_EC_ARM_PREFETCH_ABORT	PiStatusCode.h	1200;"	d
+EFI_SW_EC_ARM_RESERVED	PiStatusCode.h	1202;"	d
+EFI_SW_EC_ARM_RESET	PiStatusCode.h	1197;"	d
+EFI_SW_EC_ARM_SOFTWARE_INTERRUPT	PiStatusCode.h	1199;"	d
+EFI_SW_EC_ARM_UNDEFINED_INSTRUCTION	PiStatusCode.h	1198;"	d
+EFI_SW_EC_BAD_DATE_TIME	PiStatusCode.h	978;"	d
+EFI_SW_EC_CFG_CLR_REQUEST	PiStatusCode.h	980;"	d
+EFI_SW_EC_CFG_DEFAULT	PiStatusCode.h	981;"	d
+EFI_SW_EC_CFG_INVALID	PiStatusCode.h	979;"	d
+EFI_SW_EC_EBC_ALIGNMENT_CHECK	PiStatusCode.h	1079;"	d
+EFI_SW_EC_EBC_BAD_BREAK	PiStatusCode.h	1081;"	d
+EFI_SW_EC_EBC_BREAKPOINT	PiStatusCode.h	1075;"	d
+EFI_SW_EC_EBC_DEBUG	PiStatusCode.h	1074;"	d
+EFI_SW_EC_EBC_DIVIDE_ERROR	PiStatusCode.h	1073;"	d
+EFI_SW_EC_EBC_INSTRUCTION_ENCODING	PiStatusCode.h	1080;"	d
+EFI_SW_EC_EBC_INVALID_OPCODE	PiStatusCode.h	1077;"	d
+EFI_SW_EC_EBC_OVERFLOW	PiStatusCode.h	1076;"	d
+EFI_SW_EC_EBC_STACK_FAULT	PiStatusCode.h	1078;"	d
+EFI_SW_EC_EBC_STEP	PiStatusCode.h	1082;"	d
+EFI_SW_EC_EBC_UNDEFINED	PiStatusCode.h	1072;"	d
+EFI_SW_EC_EVENT_LOG_FULL	PiStatusCode.h	985;"	d
+EFI_SW_EC_FV_CORRUPTED	PiStatusCode.h	987;"	d
+EFI_SW_EC_IA32_ALIGNMENT_CHECK	PiStatusCode.h	1105;"	d
+EFI_SW_EC_IA32_BOUND	PiStatusCode.h	1096;"	d
+EFI_SW_EC_IA32_BREAKPOINT	PiStatusCode.h	1094;"	d
+EFI_SW_EC_IA32_DEBUG	PiStatusCode.h	1092;"	d
+EFI_SW_EC_IA32_DIVIDE_ERROR	PiStatusCode.h	1091;"	d
+EFI_SW_EC_IA32_DOUBLE_FAULT	PiStatusCode.h	1098;"	d
+EFI_SW_EC_IA32_FP_ERROR	PiStatusCode.h	1104;"	d
+EFI_SW_EC_IA32_GP_FAULT	PiStatusCode.h	1102;"	d
+EFI_SW_EC_IA32_INVALID_OPCODE	PiStatusCode.h	1097;"	d
+EFI_SW_EC_IA32_INVALID_TSS	PiStatusCode.h	1099;"	d
+EFI_SW_EC_IA32_MACHINE_CHECK	PiStatusCode.h	1106;"	d
+EFI_SW_EC_IA32_NMI	PiStatusCode.h	1093;"	d
+EFI_SW_EC_IA32_OVERFLOW	PiStatusCode.h	1095;"	d
+EFI_SW_EC_IA32_PAGE_FAULT	PiStatusCode.h	1103;"	d
+EFI_SW_EC_IA32_SEG_NOT_PRESENT	PiStatusCode.h	1100;"	d
+EFI_SW_EC_IA32_SIMD	PiStatusCode.h	1107;"	d
+EFI_SW_EC_IA32_STACK_FAULT	PiStatusCode.h	1101;"	d
+EFI_SW_EC_ILLEGAL_HARDWARE_STATE	PiStatusCode.h	976;"	d
+EFI_SW_EC_ILLEGAL_SOFTWARE_STATE	PiStatusCode.h	975;"	d
+EFI_SW_EC_INVALID_BUFFER	PiStatusCode.h	972;"	d
+EFI_SW_EC_INVALID_PARAMETER	PiStatusCode.h	970;"	d
+EFI_SW_EC_IPF_ALT_DTLB	PiStatusCode.h	1116;"	d
+EFI_SW_EC_IPF_BREAKPOINT	PiStatusCode.h	1118;"	d
+EFI_SW_EC_IPF_DEBUG_EXCEPT	PiStatusCode.h	1122;"	d
+EFI_SW_EC_IPF_DNESTED_TLB	PiStatusCode.h	1117;"	d
+EFI_SW_EC_IPF_EXTERNAL_INTERRUPT	PiStatusCode.h	1119;"	d
+EFI_SW_EC_IPF_FP_FAULT	PiStatusCode.h	1124;"	d
+EFI_SW_EC_IPF_FP_TRAP	PiStatusCode.h	1125;"	d
+EFI_SW_EC_IPF_GEN_EXCEPT	PiStatusCode.h	1120;"	d
+EFI_SW_EC_IPF_NAT_CONSUMPTION	PiStatusCode.h	1121;"	d
+EFI_SW_EC_IPF_SINGLE_STEP	PiStatusCode.h	1127;"	d
+EFI_SW_EC_IPF_TAKEN_BRANCH	PiStatusCode.h	1126;"	d
+EFI_SW_EC_IPF_UNALIGNED_ACCESS	PiStatusCode.h	1123;"	d
+EFI_SW_EC_LOAD_ERROR	PiStatusCode.h	969;"	d
+EFI_SW_EC_NON_SPECIFIC	PiStatusCode.h	968;"	d
+EFI_SW_EC_OUT_OF_RESOURCES	PiStatusCode.h	973;"	d
+EFI_SW_EC_PWD_CLEARED	PiStatusCode.h	984;"	d
+EFI_SW_EC_PWD_CLR_REQUEST	PiStatusCode.h	983;"	d
+EFI_SW_EC_PWD_INVALID	PiStatusCode.h	982;"	d
+EFI_SW_EC_START_ERROR	PiStatusCode.h	977;"	d
+EFI_SW_EC_UNSUPPORTED	PiStatusCode.h	971;"	d
+EFI_SW_EC_WRITE_PROTECTED	PiStatusCode.h	986;"	d
+EFI_SW_EC_X64_ALIGNMENT_CHECK	PiStatusCode.h	1186;"	d
+EFI_SW_EC_X64_BOUND	PiStatusCode.h	1177;"	d
+EFI_SW_EC_X64_BREAKPOINT	PiStatusCode.h	1175;"	d
+EFI_SW_EC_X64_DEBUG	PiStatusCode.h	1173;"	d
+EFI_SW_EC_X64_DIVIDE_ERROR	PiStatusCode.h	1172;"	d
+EFI_SW_EC_X64_DOUBLE_FAULT	PiStatusCode.h	1179;"	d
+EFI_SW_EC_X64_FP_ERROR	PiStatusCode.h	1185;"	d
+EFI_SW_EC_X64_GP_FAULT	PiStatusCode.h	1183;"	d
+EFI_SW_EC_X64_INVALID_OPCODE	PiStatusCode.h	1178;"	d
+EFI_SW_EC_X64_INVALID_TSS	PiStatusCode.h	1180;"	d
+EFI_SW_EC_X64_MACHINE_CHECK	PiStatusCode.h	1187;"	d
+EFI_SW_EC_X64_NMI	PiStatusCode.h	1174;"	d
+EFI_SW_EC_X64_OVERFLOW	PiStatusCode.h	1176;"	d
+EFI_SW_EC_X64_PAGE_FAULT	PiStatusCode.h	1184;"	d
+EFI_SW_EC_X64_SEG_NOT_PRESENT	PiStatusCode.h	1181;"	d
+EFI_SW_EC_X64_SIMD	PiStatusCode.h	1188;"	d
+EFI_SW_EC_X64_STACK_FAULT	PiStatusCode.h	1182;"	d
+EFI_SW_PC_AUTHENTICATE_BEGIN	PiStatusCode.h	731;"	d
+EFI_SW_PC_AUTHENTICATE_END	PiStatusCode.h	732;"	d
+EFI_SW_PC_INIT	PiStatusCode.h	727;"	d
+EFI_SW_PC_INIT_BEGIN	PiStatusCode.h	729;"	d
+EFI_SW_PC_INIT_END	PiStatusCode.h	730;"	d
+EFI_SW_PC_INPUT_WAIT	PiStatusCode.h	733;"	d
+EFI_SW_PC_LOAD	PiStatusCode.h	728;"	d
+EFI_SW_PC_USER_SETUP	PiStatusCode.h	734;"	d
+EFI_SW_PEI_CORE_EC_DXEIPL_NOT_FOUND	PiStatusCode.h	1003;"	d
+EFI_SW_PEI_CORE_EC_DXE_CORRUPT	PiStatusCode.h	1002;"	d
+EFI_SW_PEI_CORE_EC_MEMORY_NOT_INSTALLED	PiStatusCode.h	1004;"	d
+EFI_SW_PEI_CORE_PC_ENTRY_POINT	PiStatusCode.h	753;"	d
+EFI_SW_PEI_CORE_PC_HANDOFF_TO_NEXT	PiStatusCode.h	754;"	d
+EFI_SW_PEI_CORE_PC_RETURN_TO_LAST	PiStatusCode.h	755;"	d
+EFI_SW_PEI_EC_INVALID_CAPSULE	PiStatusCode.h	1020;"	d
+EFI_SW_PEI_EC_INVALID_CAPSULE_DESCRIPTOR	PiStatusCode.h	1012;"	d
+EFI_SW_PEI_EC_NO_RECOVERY_CAPSULE	PiStatusCode.h	1011;"	d
+EFI_SW_PEI_EC_RECOVERY_FAILED	PiStatusCode.h	1018;"	d
+EFI_SW_PEI_EC_RECOVERY_PPI_NOT_FOUND	PiStatusCode.h	1017;"	d
+EFI_SW_PEI_EC_S3_BOOT_SCRIPT_ERROR	PiStatusCode.h	1014;"	d
+EFI_SW_PEI_EC_S3_OS_WAKE_ERROR	PiStatusCode.h	1015;"	d
+EFI_SW_PEI_EC_S3_RESUME_ERROR	PiStatusCode.h	1019;"	d
+EFI_SW_PEI_EC_S3_RESUME_FAILED	PiStatusCode.h	1016;"	d
+EFI_SW_PEI_EC_S3_RESUME_PPI_NOT_FOUND	PiStatusCode.h	1013;"	d
+EFI_SW_PEI_PC_CAPSULE_LOAD	PiStatusCode.h	763;"	d
+EFI_SW_PEI_PC_CAPSULE_START	PiStatusCode.h	764;"	d
+EFI_SW_PEI_PC_OS_WAKE	PiStatusCode.h	768;"	d
+EFI_SW_PEI_PC_RECOVERY_AUTO	PiStatusCode.h	766;"	d
+EFI_SW_PEI_PC_RECOVERY_BEGIN	PiStatusCode.h	762;"	d
+EFI_SW_PEI_PC_RECOVERY_USER	PiStatusCode.h	765;"	d
+EFI_SW_PEI_PC_S3_BOOT_SCRIPT	PiStatusCode.h	767;"	d
+EFI_SW_PEI_PC_S3_STARTED	PiStatusCode.h	769;"	d
+EFI_SW_PS_EC_MEMORY_INSTALLED_TWICE	PiStatusCode.h	1135;"	d
+EFI_SW_PS_EC_RESET_NOT_AVAILABLE	PiStatusCode.h	1134;"	d
+EFI_SW_PS_PC_ALLOCATE_PAGES	PiStatusCode.h	860;"	d
+EFI_SW_PS_PC_ALLOCATE_POOL	PiStatusCode.h	861;"	d
+EFI_SW_PS_PC_COPY_MEM	PiStatusCode.h	862;"	d
+EFI_SW_PS_PC_CREATE_HOB	PiStatusCode.h	855;"	d
+EFI_SW_PS_PC_FFS_FIND_FILE_BY_NAME	PiStatusCode.h	865;"	d
+EFI_SW_PS_PC_FFS_FIND_NEXT_FILE	PiStatusCode.h	857;"	d
+EFI_SW_PS_PC_FFS_FIND_NEXT_VOLUME	PiStatusCode.h	856;"	d
+EFI_SW_PS_PC_FFS_FIND_SECTION_DATA	PiStatusCode.h	858;"	d
+EFI_SW_PS_PC_FFS_GET_FILE_INFO	PiStatusCode.h	866;"	d
+EFI_SW_PS_PC_FFS_GET_VOLUME_INFO	PiStatusCode.h	867;"	d
+EFI_SW_PS_PC_FFS_REGISTER_FOR_SHADOW	PiStatusCode.h	868;"	d
+EFI_SW_PS_PC_GET_BOOT_MODE	PiStatusCode.h	852;"	d
+EFI_SW_PS_PC_GET_HOB_LIST	PiStatusCode.h	854;"	d
+EFI_SW_PS_PC_INSTALL_PEI_MEMORY	PiStatusCode.h	859;"	d
+EFI_SW_PS_PC_INSTALL_PPI	PiStatusCode.h	848;"	d
+EFI_SW_PS_PC_LOCATE_PPI	PiStatusCode.h	850;"	d
+EFI_SW_PS_PC_NOTIFY_PPI	PiStatusCode.h	851;"	d
+EFI_SW_PS_PC_REINSTALL_PPI	PiStatusCode.h	849;"	d
+EFI_SW_PS_PC_RESET_SYSTEM	PiStatusCode.h	864;"	d
+EFI_SW_PS_PC_SET_BOOT_MODE	PiStatusCode.h	853;"	d
+EFI_SW_PS_PC_SET_MEM	PiStatusCode.h	863;"	d
+EFI_SW_RS_PC_CONVERT_POINTER	PiStatusCode.h	929;"	d
+EFI_SW_RS_PC_GET_NEXT_HIGH_MONOTONIC_COUNT	PiStatusCode.h	933;"	d
+EFI_SW_RS_PC_GET_NEXT_VARIABLE_NAME	PiStatusCode.h	931;"	d
+EFI_SW_RS_PC_GET_TIME	PiStatusCode.h	924;"	d
+EFI_SW_RS_PC_GET_VARIABLE	PiStatusCode.h	930;"	d
+EFI_SW_RS_PC_GET_WAKEUP_TIME	PiStatusCode.h	926;"	d
+EFI_SW_RS_PC_QUERY_CAPSULE_CAPABILITIES	PiStatusCode.h	936;"	d
+EFI_SW_RS_PC_QUERY_VARIABLE_INFO	PiStatusCode.h	937;"	d
+EFI_SW_RS_PC_RESET_SYSTEM	PiStatusCode.h	934;"	d
+EFI_SW_RS_PC_SET_TIME	PiStatusCode.h	925;"	d
+EFI_SW_RS_PC_SET_VARIABLE	PiStatusCode.h	932;"	d
+EFI_SW_RS_PC_SET_VIRTUAL_ADDRESS_MAP	PiStatusCode.h	928;"	d
+EFI_SW_RS_PC_SET_WAKEUP_TIME	PiStatusCode.h	927;"	d
+EFI_SW_RS_PC_UPDATE_CAPSULE	PiStatusCode.h	935;"	d
+EFI_SW_RT_PC_ENTRY_POINT	PiStatusCode.h	815;"	d
+EFI_SW_RT_PC_HANDOFF_TO_NEXT	PiStatusCode.h	816;"	d
+EFI_SW_RT_PC_RETURN_TO_LAST	PiStatusCode.h	817;"	d
+EFI_SW_SEC_PC_ENTRY_POINT	PiStatusCode.h	745;"	d
+EFI_SW_SEC_PC_HANDOFF_TO_NEXT	PiStatusCode.h	746;"	d
+EFI_TE_SECTION	PiFirmwareFile.h	/^typedef EFI_COMMON_SECTION_HEADER   EFI_TE_SECTION;$/;"	t
+EFI_TE_SECTION2	PiFirmwareFile.h	/^typedef EFI_COMMON_SECTION_HEADER2  EFI_TE_SECTION2;$/;"	t
+EFI_TRUST	PiDxeCis.h	/^(EFIAPI *EFI_TRUST)($/;"	t
+EFI_USER_INTERFACE_SECTION	PiFirmwareFile.h	/^} EFI_USER_INTERFACE_SECTION;$/;"	t	typeref:struct:__anon29
+EFI_USER_INTERFACE_SECTION2	PiFirmwareFile.h	/^} EFI_USER_INTERFACE_SECTION2;$/;"	t	typeref:struct:__anon30
+EFI_VERSION_SECTION	PiFirmwareFile.h	/^} EFI_VERSION_SECTION;$/;"	t	typeref:struct:__anon31
+EFI_VERSION_SECTION2	PiFirmwareFile.h	/^} EFI_VERSION_SECTION2;$/;"	t	typeref:struct:__anon32
+EFI_WARN_INTERRUPT_SOURCE_PENDING	PiMultiPhase.h	68;"	d
+EFI_WARN_INTERRUPT_SOURCE_QUIESCED	PiMultiPhase.h	69;"	d
+EfiBootScriptWidthFifoUint16	PiS3BootScript.h	/^  EfiBootScriptWidthFifoUint16,$/;"	e	enum:__anon33
+EfiBootScriptWidthFifoUint32	PiS3BootScript.h	/^  EfiBootScriptWidthFifoUint32,$/;"	e	enum:__anon33
+EfiBootScriptWidthFifoUint64	PiS3BootScript.h	/^  EfiBootScriptWidthFifoUint64,$/;"	e	enum:__anon33
+EfiBootScriptWidthFifoUint8	PiS3BootScript.h	/^  EfiBootScriptWidthFifoUint8,$/;"	e	enum:__anon33
+EfiBootScriptWidthFillUint16	PiS3BootScript.h	/^  EfiBootScriptWidthFillUint16,$/;"	e	enum:__anon33
+EfiBootScriptWidthFillUint32	PiS3BootScript.h	/^  EfiBootScriptWidthFillUint32,$/;"	e	enum:__anon33
+EfiBootScriptWidthFillUint64	PiS3BootScript.h	/^  EfiBootScriptWidthFillUint64,$/;"	e	enum:__anon33
+EfiBootScriptWidthFillUint8	PiS3BootScript.h	/^  EfiBootScriptWidthFillUint8,$/;"	e	enum:__anon33
+EfiBootScriptWidthMaximum	PiS3BootScript.h	/^  EfiBootScriptWidthMaximum$/;"	e	enum:__anon33
+EfiBootScriptWidthUint16	PiS3BootScript.h	/^  EfiBootScriptWidthUint16,$/;"	e	enum:__anon33
+EfiBootScriptWidthUint32	PiS3BootScript.h	/^  EfiBootScriptWidthUint32,$/;"	e	enum:__anon33
+EfiBootScriptWidthUint64	PiS3BootScript.h	/^  EfiBootScriptWidthUint64,$/;"	e	enum:__anon33
+EfiBootScriptWidthUint8	PiS3BootScript.h	/^  EfiBootScriptWidthUint8,$/;"	e	enum:__anon33
+EfiEndOfHobList	PiHob.h	/^  EFI_PHYSICAL_ADDRESS    EfiEndOfHobList;$/;"	m	struct:__anon2
+EfiFreeMemoryBottom	PiHob.h	/^  EFI_PHYSICAL_ADDRESS    EfiFreeMemoryBottom;$/;"	m	struct:__anon2
+EfiFreeMemoryTop	PiHob.h	/^  EFI_PHYSICAL_ADDRESS    EfiFreeMemoryTop;$/;"	m	struct:__anon2
+EfiGcdAllocateAddress	PiDxeCis.h	/^  EfiGcdAllocateAddress,$/;"	e	enum:__anon36
+EfiGcdAllocateAnySearchBottomUp	PiDxeCis.h	/^  EfiGcdAllocateAnySearchBottomUp,$/;"	e	enum:__anon36
+EfiGcdAllocateAnySearchTopDown	PiDxeCis.h	/^  EfiGcdAllocateAnySearchTopDown,$/;"	e	enum:__anon36
+EfiGcdAllocateMaxAddressSearchBottomUp	PiDxeCis.h	/^  EfiGcdAllocateMaxAddressSearchBottomUp,$/;"	e	enum:__anon36
+EfiGcdAllocateMaxAddressSearchTopDown	PiDxeCis.h	/^  EfiGcdAllocateMaxAddressSearchTopDown,$/;"	e	enum:__anon36
+EfiGcdIoTypeIo	PiDxeCis.h	/^  EfiGcdIoTypeIo,$/;"	e	enum:__anon35
+EfiGcdIoTypeMaximum	PiDxeCis.h	/^  EfiGcdIoTypeMaximum$/;"	e	enum:__anon35
+EfiGcdIoTypeNonExistent	PiDxeCis.h	/^  EfiGcdIoTypeNonExistent,$/;"	e	enum:__anon35
+EfiGcdIoTypeReserved	PiDxeCis.h	/^  EfiGcdIoTypeReserved,$/;"	e	enum:__anon35
+EfiGcdMaxAllocateType	PiDxeCis.h	/^  EfiGcdMaxAllocateType$/;"	e	enum:__anon36
+EfiGcdMemoryTypeMaximum	PiDxeCis.h	/^  EfiGcdMemoryTypeMaximum$/;"	e	enum:__anon34
+EfiGcdMemoryTypeMemoryMappedIo	PiDxeCis.h	/^  EfiGcdMemoryTypeMemoryMappedIo,$/;"	e	enum:__anon34
+EfiGcdMemoryTypeMoreReliable	PiDxeCis.h	/^  EfiGcdMemoryTypeMoreReliable,$/;"	e	enum:__anon34
+EfiGcdMemoryTypeNonExistent	PiDxeCis.h	/^  EfiGcdMemoryTypeNonExistent,$/;"	e	enum:__anon34
+EfiGcdMemoryTypePersistent	PiDxeCis.h	/^  EfiGcdMemoryTypePersistent,$/;"	e	enum:__anon34
+EfiGcdMemoryTypePersistentMemory	PiDxeCis.h	/^  EfiGcdMemoryTypePersistentMemory = EfiGcdMemoryTypePersistent,$/;"	e	enum:__anon34
+EfiGcdMemoryTypeReserved	PiDxeCis.h	/^  EfiGcdMemoryTypeReserved,$/;"	e	enum:__anon34
+EfiGcdMemoryTypeSystemMemory	PiDxeCis.h	/^  EfiGcdMemoryTypeSystemMemory,$/;"	e	enum:__anon34
+EfiMemoryBottom	PiHob.h	/^  EFI_PHYSICAL_ADDRESS    EfiMemoryBottom;$/;"	m	struct:__anon2
+EfiMemoryTop	PiHob.h	/^  EFI_PHYSICAL_ADDRESS    EfiMemoryTop;$/;"	m	struct:__anon2
+EntryPoint	PiHob.h	/^  EFI_PHYSICAL_ADDRESS              EntryPoint;$/;"	m	struct:__anon7
+ExtEntrySize	PiFirmwareVolume.h	/^  UINT16    ExtEntrySize;$/;"	m	struct:__anon43
+ExtEntryType	PiFirmwareVolume.h	/^  UINT16    ExtEntryType;$/;"	m	struct:__anon43
+ExtHeaderOffset	PiFirmwareVolume.h	/^  UINT16                    ExtHeaderOffset;$/;"	m	struct:__anon41
+ExtHeaderSize	PiFirmwareVolume.h	/^  UINT32    ExtHeaderSize;$/;"	m	struct:__anon42
+ExtendedSize	PiFirmwareFile.h	/^  UINT32            ExtendedSize;$/;"	m	struct:__anon22
+ExtendedSize	PiFirmwareFile.h	/^  UINT64                    ExtendedSize;$/;"	m	struct:__anon20
+ExtractedFv	PiHob.h	/^  BOOLEAN                 ExtractedFv;$/;"	m	struct:__anon12
+FFS_ATTRIB_CHECKSUM	PiFirmwareFile.h	91;"	d
+FFS_ATTRIB_DATA_ALIGNMENT	PiFirmwareFile.h	90;"	d
+FFS_ATTRIB_DATA_ALIGNMENT_2	PiFirmwareFile.h	88;"	d
+FFS_ATTRIB_FIXED	PiFirmwareFile.h	89;"	d
+FFS_ATTRIB_LARGE_FILE	PiFirmwareFile.h	87;"	d
+FFS_FILE2_SIZE	PiFirmwareFile.h	192;"	d
+FFS_FILE_SIZE	PiFirmwareFile.h	187;"	d
+FFS_FIXED_CHECKSUM	PiFirmwareFile.h	49;"	d
+FfsFindFileByName	PiPeiCis.h	/^  EFI_PEI_FFS_FIND_BY_NAME        FfsFindFileByName;$/;"	m	struct:_EFI_PEI_SERVICES
+FfsFindNextFile	PiPeiCis.h	/^  EFI_PEI_FFS_FIND_NEXT_FILE2     FfsFindNextFile;$/;"	m	struct:_EFI_PEI_SERVICES
+FfsFindNextVolume	PiPeiCis.h	/^  EFI_PEI_FFS_FIND_NEXT_VOLUME2   FfsFindNextVolume;$/;"	m	struct:_EFI_PEI_SERVICES
+FfsFindSectionData	PiPeiCis.h	/^  EFI_PEI_FFS_FIND_SECTION_DATA2  FfsFindSectionData;$/;"	m	struct:_EFI_PEI_SERVICES
+FfsGetFileInfo	PiPeiCis.h	/^  EFI_PEI_FFS_GET_FILE_INFO       FfsGetFileInfo;$/;"	m	struct:_EFI_PEI_SERVICES
+FfsGetFileInfo2	PiPeiCis.h	/^  EFI_PEI_FFS_GET_FILE_INFO2      FfsGetFileInfo2;$/;"	m	struct:_EFI_PEI_SERVICES
+FfsGetVolumeInfo	PiPeiCis.h	/^  EFI_PEI_FFS_GET_VOLUME_INFO     FfsGetVolumeInfo;$/;"	m	struct:_EFI_PEI_SERVICES
+File	PiFirmwareFile.h	/^    UINT8   File;$/;"	m	struct:__anon17::__anon18
+FileAttributes	PiPeiCis.h	/^  EFI_FV_FILE_ATTRIBUTES  FileAttributes;$/;"	m	struct:__anon56
+FileAttributes	PiPeiCis.h	/^  EFI_FV_FILE_ATTRIBUTES  FileAttributes;$/;"	m	struct:__anon57
+FileName	PiHob.h	/^  EFI_GUID                FileName;$/;"	m	struct:__anon11
+FileName	PiHob.h	/^  EFI_GUID                FileName;$/;"	m	struct:__anon12
+FileName	PiPeiCis.h	/^  EFI_GUID                FileName;$/;"	m	struct:__anon56
+FileName	PiPeiCis.h	/^  EFI_GUID                FileName;$/;"	m	struct:__anon57
+FileNameString	PiFirmwareFile.h	/^  CHAR16                        FileNameString[1];$/;"	m	struct:__anon30
+FileNameString	PiFirmwareFile.h	/^  CHAR16                      FileNameString[1];$/;"	m	struct:__anon29
+FileSystemGuid	PiFirmwareVolume.h	/^  EFI_GUID                  FileSystemGuid;$/;"	m	struct:__anon41
+FileType	PiPeiCis.h	/^  EFI_FV_FILETYPE         FileType;$/;"	m	struct:__anon56
+FileType	PiPeiCis.h	/^  EFI_FV_FILETYPE         FileType;$/;"	m	struct:__anon57
+FindSectionData3	PiPeiCis.h	/^  EFI_PEI_FFS_FIND_SECTION_DATA3  FindSectionData3;$/;"	m	struct:_EFI_PEI_SERVICES
+FirmwareVolume	PiHob.h	/^  EFI_HOB_FIRMWARE_VOLUME             *FirmwareVolume;$/;"	m	union:__anon16
+FirmwareVolume2	PiHob.h	/^  EFI_HOB_FIRMWARE_VOLUME2            *FirmwareVolume2;$/;"	m	union:__anon16
+FirmwareVolume3	PiHob.h	/^  EFI_HOB_FIRMWARE_VOLUME3            *FirmwareVolume3;$/;"	m	union:__anon16
+Flags	PiI2c.h	/^  UINT32 Flags;$/;"	m	struct:__anon52
+Flags	PiPeiCis.h	/^  UINTN                       Flags;$/;"	m	struct:_EFI_PEI_NOTIFY_DESCRIPTOR
+Flags	PiPeiCis.h	/^  UINTN     Flags;$/;"	m	struct:__anon54
+FormatType	PiFirmwareVolume.h	/^  EFI_GUID                          FormatType;$/;"	m	struct:__anon45
+FreeIoSpace	PiDxeCis.h	/^  EFI_FREE_IO_SPACE               FreeIoSpace;$/;"	m	struct:__anon39
+FreeMemorySpace	PiDxeCis.h	/^  EFI_FREE_MEMORY_SPACE           FreeMemorySpace;$/;"	m	struct:__anon39
+FreePages	PiPeiCis.h	/^  EFI_PEI_FREE_PAGES              FreePages;$/;"	m	struct:_EFI_PEI_SERVICES
+FvAttributes	PiPeiCis.h	/^  EFI_FVB_ATTRIBUTES_2  FvAttributes;$/;"	m	struct:__anon58
+FvFormat	PiPeiCis.h	/^  EFI_GUID              FvFormat;$/;"	m	struct:__anon58
+FvLength	PiFirmwareVolume.h	/^  UINT64                    FvLength;$/;"	m	struct:__anon41
+FvName	PiFirmwareVolume.h	/^  EFI_GUID  FvName;$/;"	m	struct:__anon42
+FvName	PiHob.h	/^  EFI_GUID                FvName;$/;"	m	struct:__anon11
+FvName	PiHob.h	/^  EFI_GUID                FvName;$/;"	m	struct:__anon12
+FvName	PiPeiCis.h	/^  EFI_GUID              FvName;$/;"	m	struct:__anon58
+FvSize	PiPeiCis.h	/^  UINT64                FvSize;$/;"	m	struct:__anon58
+FvStart	PiPeiCis.h	/^  VOID                  *FvStart;$/;"	m	struct:__anon58
+GcdIoType	PiDxeCis.h	/^  EFI_GCD_IO_TYPE       GcdIoType;$/;"	m	struct:__anon38
+GcdMemoryType	PiDxeCis.h	/^  EFI_GCD_MEMORY_TYPE   GcdMemoryType;$/;"	m	struct:__anon37
+GetBootMode	PiPeiCis.h	/^  EFI_PEI_GET_BOOT_MODE           GetBootMode;$/;"	m	struct:_EFI_PEI_SERVICES
+GetHobList	PiPeiCis.h	/^  EFI_PEI_GET_HOB_LIST            GetHobList;$/;"	m	struct:_EFI_PEI_SERVICES
+GetIoSpaceDescriptor	PiDxeCis.h	/^  EFI_GET_IO_SPACE_DESCRIPTOR     GetIoSpaceDescriptor;$/;"	m	struct:__anon39
+GetIoSpaceMap	PiDxeCis.h	/^  EFI_GET_IO_SPACE_MAP            GetIoSpaceMap;$/;"	m	struct:__anon39
+GetMemorySpaceDescriptor	PiDxeCis.h	/^  EFI_GET_MEMORY_SPACE_DESCRIPTOR GetMemorySpaceDescriptor;$/;"	m	struct:__anon39
+GetMemorySpaceMap	PiDxeCis.h	/^  EFI_GET_MEMORY_SPACE_MAP        GetMemorySpaceMap;$/;"	m	struct:__anon39
+Guid	PiHob.h	/^  EFI_HOB_GUID_TYPE                   *Guid;$/;"	m	union:__anon16
+Guid	PiPeiCis.h	/^  EFI_GUID                    *Guid;$/;"	m	struct:_EFI_PEI_NOTIFY_DESCRIPTOR
+Guid	PiPeiCis.h	/^  EFI_GUID  *Guid;$/;"	m	struct:__anon54
+HandoffInformationTable	PiHob.h	/^  EFI_HOB_HANDOFF_INFO_TABLE          *HandoffInformationTable;$/;"	m	union:__anon16
+HardwareRevision	PiI2c.h	/^  UINT32 HardwareRevision;$/;"	m	struct:__anon51
+Hdr	PiDxeCis.h	/^  EFI_TABLE_HEADER                Hdr;$/;"	m	struct:__anon39
+Hdr	PiFirmwareVolume.h	/^  EFI_FIRMWARE_VOLUME_EXT_ENTRY     Hdr;$/;"	m	struct:__anon45
+Hdr	PiFirmwareVolume.h	/^  EFI_FIRMWARE_VOLUME_EXT_ENTRY     Hdr;$/;"	m	struct:__anon46
+Hdr	PiFirmwareVolume.h	/^  EFI_FIRMWARE_VOLUME_EXT_ENTRY Hdr;$/;"	m	struct:__anon44
+Hdr	PiMmCis.h	/^  EFI_TABLE_HEADER                     Hdr;$/;"	m	struct:_EFI_MM_SYSTEM_TABLE
+Hdr	PiPeiCis.h	/^  EFI_TABLE_HEADER                Hdr;$/;"	m	struct:_EFI_PEI_SERVICES
+Hdr	PiSmmCis.h	/^  EFI_TABLE_HEADER                     Hdr;$/;"	m	struct:_EFI_SMM_SYSTEM_TABLE2
+Header	PiFirmwareFile.h	/^    UINT8   Header;$/;"	m	struct:__anon17::__anon18
+Header	PiHob.h	/^  EFI_HOB_GENERIC_HEADER              *Header;$/;"	m	union:__anon16
+Header	PiHob.h	/^  EFI_HOB_GENERIC_HEADER            Header;$/;"	m	struct:__anon4
+Header	PiHob.h	/^  EFI_HOB_GENERIC_HEADER            Header;$/;"	m	struct:__anon5
+Header	PiHob.h	/^  EFI_HOB_GENERIC_HEADER            Header;$/;"	m	struct:__anon6
+Header	PiHob.h	/^  EFI_HOB_GENERIC_HEADER            Header;$/;"	m	struct:__anon7
+Header	PiHob.h	/^  EFI_HOB_GENERIC_HEADER      Header;$/;"	m	struct:__anon8
+Header	PiHob.h	/^  EFI_HOB_GENERIC_HEADER      Header;$/;"	m	struct:__anon9
+Header	PiHob.h	/^  EFI_HOB_GENERIC_HEADER  Header;$/;"	m	struct:__anon11
+Header	PiHob.h	/^  EFI_HOB_GENERIC_HEADER  Header;$/;"	m	struct:__anon12
+Header	PiHob.h	/^  EFI_HOB_GENERIC_HEADER  Header;$/;"	m	struct:__anon13
+Header	PiHob.h	/^  EFI_HOB_GENERIC_HEADER  Header;$/;"	m	struct:__anon14
+Header	PiHob.h	/^  EFI_HOB_GENERIC_HEADER  Header;$/;"	m	struct:__anon2
+Header	PiHob.h	/^  EFI_HOB_GENERIC_HEADER Header;$/;"	m	struct:__anon10
+Header	PiHob.h	/^  EFI_HOB_GENERIC_HEADER Header;$/;"	m	struct:__anon15
+HeaderLength	PiFirmwareVolume.h	/^  UINT16                    HeaderLength;$/;"	m	struct:__anon41
+HeaderSize	PiStatusCode.h	/^  UINT16    HeaderSize;$/;"	m	struct:__anon59
+HobLength	PiHob.h	/^  UINT16    HobLength;$/;"	m	struct:__anon1
+HobType	PiHob.h	/^  UINT16    HobType;$/;"	m	struct:__anon1
+I2C_ADDRESSING_10_BIT	PiI2c.h	20;"	d
+I2C_FLAG_READ	PiI2c.h	108;"	d
+I2C_FLAG_SMBUS_BLOCK	PiI2c.h	130;"	d
+I2C_FLAG_SMBUS_OPERATION	PiI2c.h	119;"	d
+I2C_FLAG_SMBUS_PEC	PiI2c.h	140;"	d
+I2C_FLAG_SMBUS_PROCESS_CALL	PiI2c.h	133;"	d
+I2cBusConfiguration	PiI2c.h	/^  UINT32 I2cBusConfiguration;$/;"	m	struct:__anon51
+IS_FFS_FILE2	PiFirmwareFile.h	179;"	d
+IS_SECTION2	PiFirmwareFile.h	500;"	d
+ImageHandle	PiDxeCis.h	/^  EFI_HANDLE            ImageHandle;$/;"	m	struct:__anon37
+ImageHandle	PiDxeCis.h	/^  EFI_HANDLE            ImageHandle;$/;"	m	struct:__anon38
+InstallPeiMemory	PiPeiCis.h	/^  EFI_PEI_INSTALL_PEI_MEMORY      InstallPeiMemory;$/;"	m	struct:_EFI_PEI_SERVICES
+InstallPpi	PiPeiCis.h	/^  EFI_PEI_INSTALL_PPI             InstallPpi;$/;"	m	struct:_EFI_PEI_SERVICES
+IntegrityCheck	PiFirmwareFile.h	/^  EFI_FFS_INTEGRITY_CHECK   IntegrityCheck;$/;"	m	struct:__anon20
+IntegrityCheck	PiFirmwareFile.h	/^  EFI_FFS_INTEGRITY_CHECK IntegrityCheck;$/;"	m	struct:__anon19
+Length	PiDxeCis.h	/^  UINT64                Length;$/;"	m	struct:__anon37
+Length	PiDxeCis.h	/^  UINT64                Length;$/;"	m	struct:__anon38
+Length	PiFirmwareVolume.h	/^  UINT32 Length;$/;"	m	struct:__anon40
+Length	PiHob.h	/^  UINT64                  Length;$/;"	m	struct:__anon11
+Length	PiHob.h	/^  UINT64                  Length;$/;"	m	struct:__anon12
+Length	PiHob.h	/^  UINT64                 Length;$/;"	m	struct:__anon10
+Length	PiHob.h	/^  UINT64                 Length;$/;"	m	struct:__anon15
+LengthInBytes	PiI2c.h	/^  UINT32 LengthInBytes;$/;"	m	struct:__anon52
+LocatePpi	PiPeiCis.h	/^  EFI_PEI_LOCATE_PPI              LocatePpi;$/;"	m	struct:_EFI_PEI_SERVICES
+MM_MMST_SIGNATURE	PiMmCis.h	21;"	d
+MM_SPECIFICATION_MAJOR_REVISION	PiMmCis.h	25;"	d
+MM_SPECIFICATION_MINOR_REVISION	PiMmCis.h	26;"	d
+MaximumReceiveBytes	PiI2c.h	/^  UINT32 MaximumReceiveBytes;$/;"	m	struct:__anon50
+MaximumTotalBytes	PiI2c.h	/^  UINT32 MaximumTotalBytes;$/;"	m	struct:__anon50
+MaximumTransmitBytes	PiI2c.h	/^  UINT32 MaximumTransmitBytes;$/;"	m	struct:__anon50
+MemoryAllocation	PiHob.h	/^  EFI_HOB_MEMORY_ALLOCATION           *MemoryAllocation;$/;"	m	union:__anon16
+MemoryAllocationBspStore	PiHob.h	/^  EFI_HOB_MEMORY_ALLOCATION_BSP_STORE *MemoryAllocationBspStore;$/;"	m	union:__anon16
+MemoryAllocationHeader	PiHob.h	/^  EFI_HOB_MEMORY_ALLOCATION_HEADER  MemoryAllocationHeader;$/;"	m	struct:__anon7
+MemoryAllocationModule	PiHob.h	/^  EFI_HOB_MEMORY_ALLOCATION_MODULE    *MemoryAllocationModule;$/;"	m	union:__anon16
+MemoryAllocationStack	PiHob.h	/^  EFI_HOB_MEMORY_ALLOCATION_STACK     *MemoryAllocationStack;$/;"	m	union:__anon16
+MemoryBaseAddress	PiHob.h	/^  EFI_PHYSICAL_ADDRESS  MemoryBaseAddress;$/;"	m	struct:__anon3
+MemoryLength	PiHob.h	/^  UINT64                MemoryLength;$/;"	m	struct:__anon3
+MemoryType	PiHob.h	/^  EFI_MEMORY_TYPE       MemoryType;$/;"	m	struct:__anon3
+MmAllocatePages	PiMmCis.h	/^  EFI_ALLOCATE_PAGES                   MmAllocatePages;$/;"	m	struct:_EFI_MM_SYSTEM_TABLE
+MmAllocatePool	PiMmCis.h	/^  EFI_ALLOCATE_POOL                    MmAllocatePool;$/;"	m	struct:_EFI_MM_SYSTEM_TABLE
+MmConfigurationTable	PiMmCis.h	/^  EFI_CONFIGURATION_TABLE              *MmConfigurationTable;$/;"	m	struct:_EFI_MM_SYSTEM_TABLE
+MmFirmwareRevision	PiMmCis.h	/^  UINT32                               MmFirmwareRevision;$/;"	m	struct:_EFI_MM_SYSTEM_TABLE
+MmFirmwareVendor	PiMmCis.h	/^  CHAR16                               *MmFirmwareVendor;$/;"	m	struct:_EFI_MM_SYSTEM_TABLE
+MmFreePages	PiMmCis.h	/^  EFI_FREE_PAGES                       MmFreePages;$/;"	m	struct:_EFI_MM_SYSTEM_TABLE
+MmFreePool	PiMmCis.h	/^  EFI_FREE_POOL                        MmFreePool;$/;"	m	struct:_EFI_MM_SYSTEM_TABLE
+MmHandleProtocol	PiMmCis.h	/^  EFI_HANDLE_PROTOCOL                  MmHandleProtocol;$/;"	m	struct:_EFI_MM_SYSTEM_TABLE
+MmInstallConfigurationTable	PiMmCis.h	/^  EFI_MM_INSTALL_CONFIGURATION_TABLE   MmInstallConfigurationTable;$/;"	m	struct:_EFI_MM_SYSTEM_TABLE
+MmInstallProtocolInterface	PiMmCis.h	/^  EFI_INSTALL_PROTOCOL_INTERFACE       MmInstallProtocolInterface;$/;"	m	struct:_EFI_MM_SYSTEM_TABLE
+MmIo	PiMmCis.h	/^  EFI_MM_CPU_IO_PROTOCOL               MmIo;$/;"	m	struct:_EFI_MM_SYSTEM_TABLE
+MmLocateHandle	PiMmCis.h	/^  EFI_LOCATE_HANDLE                    MmLocateHandle;$/;"	m	struct:_EFI_MM_SYSTEM_TABLE
+MmLocateProtocol	PiMmCis.h	/^  EFI_LOCATE_PROTOCOL                  MmLocateProtocol;$/;"	m	struct:_EFI_MM_SYSTEM_TABLE
+MmRegisterProtocolNotify	PiMmCis.h	/^  EFI_MM_REGISTER_PROTOCOL_NOTIFY      MmRegisterProtocolNotify;$/;"	m	struct:_EFI_MM_SYSTEM_TABLE
+MmStartupThisAp	PiMmCis.h	/^  EFI_MM_STARTUP_THIS_AP               MmStartupThisAp;$/;"	m	struct:_EFI_MM_SYSTEM_TABLE
+MmStartupThisAp	PiMmCis.h	/^  EFI_MM_STARTUP_THIS_AP   MmStartupThisAp;$/;"	m	struct:_EFI_MM_ENTRY_CONTEXT
+MmUninstallProtocolInterface	PiMmCis.h	/^  EFI_UNINSTALL_PROTOCOL_INTERFACE     MmUninstallProtocolInterface;$/;"	m	struct:_EFI_MM_SYSTEM_TABLE
+MmiHandlerRegister	PiMmCis.h	/^  EFI_MM_INTERRUPT_REGISTER            MmiHandlerRegister;$/;"	m	struct:_EFI_MM_SYSTEM_TABLE
+MmiHandlerUnRegister	PiMmCis.h	/^  EFI_MM_INTERRUPT_UNREGISTER          MmiHandlerUnRegister;$/;"	m	struct:_EFI_MM_SYSTEM_TABLE
+MmiManage	PiMmCis.h	/^  EFI_MM_INTERRUPT_MANAGE              MmiManage;$/;"	m	struct:_EFI_MM_SYSTEM_TABLE
+ModuleName	PiHob.h	/^  EFI_GUID                          ModuleName;$/;"	m	struct:__anon7
+Name	PiFirmwareFile.h	/^  EFI_GUID                  Name;$/;"	m	struct:__anon20
+Name	PiFirmwareFile.h	/^  EFI_GUID                Name;$/;"	m	struct:__anon19
+Name	PiHob.h	/^  EFI_GUID                    Name;$/;"	m	struct:__anon9
+Name	PiHob.h	/^  EFI_GUID              Name;$/;"	m	struct:__anon3
+Notify	PiPeiCis.h	/^  EFI_PEIM_NOTIFY_ENTRY_POINT Notify;$/;"	m	struct:_EFI_PEI_NOTIFY_DESCRIPTOR
+Notify	PiPeiCis.h	/^  EFI_PEI_NOTIFY_DESCRIPTOR   Notify;$/;"	m	union:__anon55
+NotifyPpi	PiPeiCis.h	/^  EFI_PEI_NOTIFY_PPI              NotifyPpi;$/;"	m	struct:_EFI_PEI_SERVICES
+NumBlocks	PiFirmwareVolume.h	/^  UINT32 NumBlocks;$/;"	m	struct:__anon40
+NumberOfCpus	PiMmCis.h	/^  UINTN                                NumberOfCpus;$/;"	m	struct:_EFI_MM_SYSTEM_TABLE
+NumberOfCpus	PiMmCis.h	/^  UINTN                    NumberOfCpus;$/;"	m	struct:_EFI_MM_ENTRY_CONTEXT
+NumberOfCpus	PiSmmCis.h	/^  UINTN                                NumberOfCpus;$/;"	m	struct:_EFI_SMM_SYSTEM_TABLE2
+NumberOfCpus	PiSmmCis.h	/^  UINTN                    NumberOfCpus;$/;"	m	struct:_EFI_SMM_ENTRY_CONTEXT
+NumberOfTableEntries	PiMmCis.h	/^  UINTN                                NumberOfTableEntries;$/;"	m	struct:_EFI_MM_SYSTEM_TABLE
+NumberOfTableEntries	PiSmmCis.h	/^  UINTN                                NumberOfTableEntries;$/;"	m	struct:_EFI_SMM_SYSTEM_TABLE2
+Operation	PiI2c.h	/^  EFI_I2C_OPERATION Operation [1];$/;"	m	struct:__anon53
+OperationCount	PiI2c.h	/^  UINTN OperationCount;$/;"	m	struct:__anon53
+Owner	PiHob.h	/^  EFI_GUID                    Owner;$/;"	m	struct:__anon8
+PEI_SERVICES_REVISION	PiPeiCis.h	869;"	d
+PEI_SERVICES_SIGNATURE	PiPeiCis.h	862;"	d
+PEI_SPECIFICATION_MAJOR_REVISION	PiPeiCis.h	852;"	d
+PEI_SPECIFICATION_MINOR_REVISION	PiPeiCis.h	853;"	d
+PI_ENCODE_ERROR	PiMultiPhase.h	61;"	d
+PI_ENCODE_WARNING	PiMultiPhase.h	54;"	d
+PcdName	PiMultiPhase.h	/^  CHAR8             *PcdName;$/;"	m	struct:__anon49
+PcdSize	PiMultiPhase.h	/^  UINTN             PcdSize;$/;"	m	struct:__anon49
+PcdType	PiMultiPhase.h	/^  EFI_PCD_TYPE      PcdType;$/;"	m	struct:__anon49
+PciCfg	PiPeiCis.h	/^  EFI_PEI_PCI_CFG2_PPI            *PciCfg;$/;"	m	struct:_EFI_PEI_SERVICES
+PeiTemporaryRamBase	PiPeiCis.h	/^  VOID    *PeiTemporaryRamBase;$/;"	m	struct:_EFI_SEC_PEI_HAND_OFF
+PeiTemporaryRamSize	PiPeiCis.h	/^  UINTN   PeiTemporaryRamSize;$/;"	m	struct:_EFI_SEC_PEI_HAND_OFF
+PhysicalSize	PiMultiPhase.h	/^  UINT64                PhysicalSize;$/;"	m	struct:__anon47
+PhysicalStart	PiHob.h	/^  EFI_PHYSICAL_ADDRESS        PhysicalStart;$/;"	m	struct:__anon8
+PhysicalStart	PiMultiPhase.h	/^  EFI_PHYSICAL_ADDRESS  PhysicalStart;$/;"	m	struct:__anon47
+Pool	PiHob.h	/^  EFI_HOB_MEMORY_POOL                 *Pool;$/;"	m	union:__anon16
+Ppi	PiPeiCis.h	/^  EFI_PEI_PPI_DESCRIPTOR      Ppi;$/;"	m	union:__anon55
+Ppi	PiPeiCis.h	/^  VOID      *Ppi;$/;"	m	struct:__anon54
+ProcessFirmwareVolume	PiDxeCis.h	/^  EFI_PROCESS_FIRMWARE_VOLUME     ProcessFirmwareVolume;$/;"	m	struct:__anon39
+Raw	PiHob.h	/^  UINT8                               *Raw;$/;"	m	union:__anon16
+ReInstallPpi	PiPeiCis.h	/^  EFI_PEI_REINSTALL_PPI           ReInstallPpi;$/;"	m	struct:_EFI_PEI_SERVICES
+RegionState	PiMultiPhase.h	/^  UINT64                RegionState;$/;"	m	struct:__anon47
+RegisterForShadow	PiPeiCis.h	/^  EFI_PEI_REGISTER_FOR_SHADOW     RegisterForShadow;$/;"	m	struct:_EFI_PEI_SERVICES
+RemoveIoSpace	PiDxeCis.h	/^  EFI_REMOVE_IO_SPACE             RemoveIoSpace;$/;"	m	struct:__anon39
+RemoveMemorySpace	PiDxeCis.h	/^  EFI_REMOVE_MEMORY_SPACE         RemoveMemorySpace;$/;"	m	struct:__anon39
+ReportStatusCode	PiPeiCis.h	/^  EFI_PEI_REPORT_STATUS_CODE      ReportStatusCode;$/;"	m	struct:_EFI_PEI_SERVICES
+Reserved	PiFirmwareVolume.h	/^  UINT8                     Reserved[1];$/;"	m	struct:__anon41
+Reserved	PiHob.h	/^  UINT32    Reserved;$/;"	m	struct:__anon1
+Reserved	PiHob.h	/^  UINT8                   Reserved[6];$/;"	m	struct:__anon13
+Reserved	PiHob.h	/^  UINT8                 Reserved[4];$/;"	m	struct:__anon3
+ResetSystem	PiPeiCis.h	/^  EFI_PEI_RESET_SYSTEM            ResetSystem;$/;"	m	struct:_EFI_PEI_SERVICES
+ResetSystem2	PiPeiCis.h	/^  EFI_PEI_RESET2_SYSTEM           ResetSystem2;$/;"	m	struct:_EFI_PEI_SERVICES
+ResourceAttribute	PiHob.h	/^  EFI_RESOURCE_ATTRIBUTE_TYPE ResourceAttribute;$/;"	m	struct:__anon8
+ResourceDescriptor	PiHob.h	/^  EFI_HOB_RESOURCE_DESCRIPTOR         *ResourceDescriptor;$/;"	m	union:__anon16
+ResourceLength	PiHob.h	/^  UINT64                      ResourceLength;$/;"	m	struct:__anon8
+ResourceType	PiHob.h	/^  EFI_RESOURCE_TYPE           ResourceType;$/;"	m	struct:__anon8
+Revision	PiFirmwareVolume.h	/^  UINT8                     Revision;$/;"	m	struct:__anon41
+SECTION2_SIZE	PiFirmwareFile.h	503;"	d
+SECTION_SIZE	PiFirmwareFile.h	495;"	d
+SMM_SMST_SIGNATURE	PiSmmCis.h	20;"	d
+SMM_SPECIFICATION_MAJOR_REVISION	PiSmmCis.h	21;"	d
+SMM_SPECIFICATION_MINOR_REVISION	PiSmmCis.h	22;"	d
+Schedule	PiDxeCis.h	/^  EFI_SCHEDULE                    Schedule;$/;"	m	struct:__anon39
+SectionDefinitionGuid	PiFirmwareFile.h	/^  EFI_GUID                      SectionDefinitionGuid;$/;"	m	struct:__anon28
+SectionDefinitionGuid	PiFirmwareFile.h	/^  EFI_GUID                    SectionDefinitionGuid;$/;"	m	struct:__anon27
+SetBootMode	PiPeiCis.h	/^  EFI_PEI_SET_BOOT_MODE           SetBootMode;$/;"	m	struct:_EFI_PEI_SERVICES
+SetMem	PiPeiCis.h	/^  EFI_PEI_SET_MEM                 SetMem;$/;"	m	struct:_EFI_PEI_SERVICES
+SetMemorySpaceAttributes	PiDxeCis.h	/^  EFI_SET_MEMORY_SPACE_ATTRIBUTES SetMemorySpaceAttributes;$/;"	m	struct:__anon39
+SetMemorySpaceCapabilities	PiDxeCis.h	/^  EFI_SET_MEMORY_SPACE_CAPABILITIES SetMemorySpaceCapabilities;$/;"	m	struct:__anon39
+Signature	PiFirmwareVolume.h	/^  UINT32                    Signature;$/;"	m	struct:__anon41
+Size	PiFirmwareFile.h	/^  UINT8                     Size[3];$/;"	m	struct:__anon20
+Size	PiFirmwareFile.h	/^  UINT8                   Size[3];$/;"	m	struct:__anon19
+Size	PiFirmwareFile.h	/^  UINT8             Size[3];$/;"	m	struct:__anon21
+Size	PiFirmwareFile.h	/^  UINT8             Size[3];$/;"	m	struct:__anon22
+Size	PiStatusCode.h	/^  UINT16    Size;$/;"	m	struct:__anon59
+SizeOfIoSpace	PiHob.h	/^  UINT8                   SizeOfIoSpace;$/;"	m	struct:__anon13
+SizeOfMemorySpace	PiHob.h	/^  UINT8                   SizeOfMemorySpace;$/;"	m	struct:__anon13
+SlaveAddressArray	PiI2c.h	/^  CONST UINT32 *SlaveAddressArray;$/;"	m	struct:__anon51
+SlaveAddressCount	PiI2c.h	/^  UINT32 SlaveAddressCount;$/;"	m	struct:__anon51
+SmiHandlerRegister	PiSmmCis.h	/^  EFI_SMM_INTERRUPT_REGISTER           SmiHandlerRegister;$/;"	m	struct:_EFI_SMM_SYSTEM_TABLE2
+SmiHandlerUnRegister	PiSmmCis.h	/^  EFI_SMM_INTERRUPT_UNREGISTER         SmiHandlerUnRegister;$/;"	m	struct:_EFI_SMM_SYSTEM_TABLE2
+SmiManage	PiSmmCis.h	/^  EFI_SMM_INTERRUPT_MANAGE             SmiManage;$/;"	m	struct:_EFI_SMM_SYSTEM_TABLE2
+SmmAllocatePages	PiSmmCis.h	/^  EFI_ALLOCATE_PAGES                   SmmAllocatePages;$/;"	m	struct:_EFI_SMM_SYSTEM_TABLE2
+SmmAllocatePool	PiSmmCis.h	/^  EFI_ALLOCATE_POOL                    SmmAllocatePool;$/;"	m	struct:_EFI_SMM_SYSTEM_TABLE2
+SmmConfigurationTable	PiSmmCis.h	/^  EFI_CONFIGURATION_TABLE              *SmmConfigurationTable;$/;"	m	struct:_EFI_SMM_SYSTEM_TABLE2
+SmmFirmwareRevision	PiSmmCis.h	/^  UINT32                               SmmFirmwareRevision;$/;"	m	struct:_EFI_SMM_SYSTEM_TABLE2
+SmmFirmwareVendor	PiSmmCis.h	/^  CHAR16                               *SmmFirmwareVendor;$/;"	m	struct:_EFI_SMM_SYSTEM_TABLE2
+SmmFreePages	PiSmmCis.h	/^  EFI_FREE_PAGES                       SmmFreePages;$/;"	m	struct:_EFI_SMM_SYSTEM_TABLE2
+SmmFreePool	PiSmmCis.h	/^  EFI_FREE_POOL                        SmmFreePool;$/;"	m	struct:_EFI_SMM_SYSTEM_TABLE2
+SmmHandleProtocol	PiSmmCis.h	/^  EFI_HANDLE_PROTOCOL                  SmmHandleProtocol;$/;"	m	struct:_EFI_SMM_SYSTEM_TABLE2
+SmmInstallConfigurationTable	PiSmmCis.h	/^  EFI_SMM_INSTALL_CONFIGURATION_TABLE2 SmmInstallConfigurationTable;$/;"	m	struct:_EFI_SMM_SYSTEM_TABLE2
+SmmInstallProtocolInterface	PiSmmCis.h	/^  EFI_INSTALL_PROTOCOL_INTERFACE       SmmInstallProtocolInterface;$/;"	m	struct:_EFI_SMM_SYSTEM_TABLE2
+SmmIo	PiSmmCis.h	/^  EFI_SMM_CPU_IO2_PROTOCOL             SmmIo;$/;"	m	struct:_EFI_SMM_SYSTEM_TABLE2
+SmmLocateHandle	PiSmmCis.h	/^  EFI_LOCATE_HANDLE                    SmmLocateHandle;$/;"	m	struct:_EFI_SMM_SYSTEM_TABLE2
+SmmLocateProtocol	PiSmmCis.h	/^  EFI_LOCATE_PROTOCOL                  SmmLocateProtocol;$/;"	m	struct:_EFI_SMM_SYSTEM_TABLE2
+SmmRegisterProtocolNotify	PiSmmCis.h	/^  EFI_SMM_REGISTER_PROTOCOL_NOTIFY     SmmRegisterProtocolNotify;$/;"	m	struct:_EFI_SMM_SYSTEM_TABLE2
+SmmStartupThisAp	PiSmmCis.h	/^  EFI_SMM_STARTUP_THIS_AP              SmmStartupThisAp;$/;"	m	struct:_EFI_SMM_SYSTEM_TABLE2
+SmmStartupThisAp	PiSmmCis.h	/^  EFI_SMM_STARTUP_THIS_AP  SmmStartupThisAp;$/;"	m	struct:_EFI_SMM_ENTRY_CONTEXT
+SmmUninstallProtocolInterface	PiSmmCis.h	/^  EFI_UNINSTALL_PROTOCOL_INTERFACE     SmmUninstallProtocolInterface;$/;"	m	struct:_EFI_SMM_SYSTEM_TABLE2
+StackBase	PiPeiCis.h	/^  VOID    *StackBase;$/;"	m	struct:_EFI_SEC_PEI_HAND_OFF
+StackSize	PiPeiCis.h	/^  UINTN   StackSize;$/;"	m	struct:_EFI_SEC_PEI_HAND_OFF
+State	PiFirmwareFile.h	/^  EFI_FFS_FILE_STATE        State;$/;"	m	struct:__anon20
+State	PiFirmwareFile.h	/^  EFI_FFS_FILE_STATE      State;$/;"	m	struct:__anon19
+StructureSizeInBytes	PiI2c.h	/^  UINT32 StructureSizeInBytes;$/;"	m	struct:__anon50
+SubTypeGuid	PiFirmwareFile.h	/^  EFI_GUID                      SubTypeGuid;$/;"	m	struct:__anon26
+SubTypeGuid	PiFirmwareFile.h	/^  EFI_GUID                    SubTypeGuid;$/;"	m	struct:__anon25
+TemporaryRamBase	PiPeiCis.h	/^  VOID    *TemporaryRamBase;$/;"	m	struct:_EFI_SEC_PEI_HAND_OFF
+TemporaryRamSize	PiPeiCis.h	/^  UINTN   TemporaryRamSize;$/;"	m	struct:_EFI_SEC_PEI_HAND_OFF
+Trust	PiDxeCis.h	/^  EFI_TRUST                       Trust;$/;"	m	struct:__anon39
+Type	PiFirmwareFile.h	/^  EFI_FV_FILETYPE           Type;$/;"	m	struct:__anon20
+Type	PiFirmwareFile.h	/^  EFI_FV_FILETYPE         Type;$/;"	m	struct:__anon19
+Type	PiFirmwareFile.h	/^  EFI_SECTION_TYPE  Type;$/;"	m	struct:__anon21
+Type	PiFirmwareFile.h	/^  EFI_SECTION_TYPE  Type;$/;"	m	struct:__anon22
+Type	PiStatusCode.h	/^  EFI_GUID  Type;$/;"	m	struct:__anon59
+TypeMask	PiFirmwareVolume.h	/^  UINT32    TypeMask;$/;"	m	struct:__anon44
+UncompressedLength	PiFirmwareFile.h	/^  UINT32                        UncompressedLength;$/;"	m	struct:__anon24
+UncompressedLength	PiFirmwareFile.h	/^  UINT32                      UncompressedLength;$/;"	m	struct:__anon23
+UsedSize	PiFirmwareVolume.h	/^  UINT32                            UsedSize;$/;"	m	struct:__anon46
+Version	PiHob.h	/^  UINT32                  Version;$/;"	m	struct:__anon2
+VersionString	PiFirmwareFile.h	/^  CHAR16                        VersionString[1];$/;"	m	struct:__anon32
+VersionString	PiFirmwareFile.h	/^  CHAR16                      VersionString[1];$/;"	m	struct:__anon31
+ZeroVector	PiFirmwareVolume.h	/^  UINT8                     ZeroVector[16];$/;"	m	struct:__anon41
+_EFI_MM_ENTRY_CONTEXT	PiMmCis.h	/^typedef struct _EFI_MM_ENTRY_CONTEXT {$/;"	s
+_EFI_MM_SYSTEM_TABLE	PiMmCis.h	/^struct _EFI_MM_SYSTEM_TABLE {$/;"	s
+_EFI_PEI_NOTIFY_DESCRIPTOR	PiPeiCis.h	/^struct _EFI_PEI_NOTIFY_DESCRIPTOR {$/;"	s
+_EFI_PEI_SERVICES	PiPeiCis.h	/^struct _EFI_PEI_SERVICES {$/;"	s
+_EFI_SEC_PEI_HAND_OFF	PiPeiCis.h	/^typedef struct _EFI_SEC_PEI_HAND_OFF {$/;"	s
+_EFI_SMM_ENTRY_CONTEXT	PiSmmCis.h	/^typedef struct _EFI_SMM_ENTRY_CONTEXT {$/;"	s
+_EFI_SMM_SYSTEM_TABLE2	PiSmmCis.h	/^struct _EFI_SMM_SYSTEM_TABLE2 {$/;"	s
+_PI_MMCIS_H_	PiMmCis.h	11;"	d
+_PI_S3_BOOT_SCRIPT_H_	PiS3BootScript.h	11;"	d
+_PI_SMMCIS_H_	PiSmmCis.h	11;"	d
+__PI_BOOT_MODE_H__	PiBootMode.h	13;"	d
+__PI_DEPENDENCY_H__	PiDependency.h	12;"	d
+__PI_DXECIS_H__	PiDxeCis.h	13;"	d
+__PI_FIRMWAREVOLUME_H__	PiFirmwareVolume.h	13;"	d
+__PI_FIRMWARE_FILE_H__	PiFirmwareFile.h	14;"	d
+__PI_HOB_H__	PiHob.h	13;"	d
+__PI_I2C_H__	PiI2c.h	13;"	d
+__PI_MULTIPHASE_H__	PiMultiPhase.h	13;"	d
+__PI_PEICIS_H__	PiPeiCis.h	13;"	d
+__PI_STATUS_CODE_H__	PiStatusCode.h	14;"	d

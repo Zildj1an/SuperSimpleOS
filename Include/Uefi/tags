@@ -1,0 +1,2305 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Accuracy	UefiSpec.h	/^  UINT32    Accuracy;$/;"	m	struct:__anon31
+Addr	UefiBaseType.h	/^  UINT32            Addr[4];$/;"	m	union:__anon26
+Addr	UefiBaseType.h	/^  UINT8 Addr[32];$/;"	m	struct:__anon25
+Addr	UefiPxe.h	/^    PXE_UINT32  Addr;$/;"	m	struct:s_pxe_cpb_nvdata_sparse::__anon54
+AdvanceX	UefiInternalFormRepresentation.h	/^  INT16                  AdvanceX;$/;"	m	struct:_EFI_HII_GLYPH_INFO
+AffectedAttribute	UefiInternalFormRepresentation.h	/^  UINT16                  AffectedAttribute;$/;"	m	struct:__anon19
+AgentHandle	UefiSpec.h	/^  EFI_HANDLE  AgentHandle;$/;"	m	struct:__anon33
+AllHandles	UefiSpec.h	/^  AllHandles,$/;"	e	enum:__anon34
+AllocateAddress	UefiSpec.h	/^  AllocateAddress,$/;"	e	enum:__anon28
+AllocateAnyPages	UefiSpec.h	/^  AllocateAnyPages,$/;"	e	enum:__anon28
+AllocateMaxAddress	UefiSpec.h	/^  AllocateMaxAddress,$/;"	e	enum:__anon28
+AllocatePages	UefiSpec.h	/^  EFI_ALLOCATE_PAGES              AllocatePages;$/;"	m	struct:__anon40
+AllocatePool	UefiSpec.h	/^  EFI_ALLOCATE_POOL               AllocatePool;$/;"	m	struct:__anon40
+AltGrUnicode	UefiInternalFormRepresentation.h	/^  CHAR16                  AltGrUnicode;$/;"	m	struct:__anon19
+AltPressed	UefiSpec.h	/^    UINT32  AltPressed      : 1;$/;"	m	struct:__anon43::__anon44
+AlternateLBA	UefiGpt.h	/^  EFI_LBA           AlternateLBA;$/;"	m	struct:__anon22
+AnimationCell	UefiInternalFormRepresentation.h	/^  EFI_HII_ANIMATION_CELL  AnimationCell[1];$/;"	m	struct:_EFI_HII_AIBT_OVERLAY_IMAGES_BLOCK
+AnimationCell	UefiInternalFormRepresentation.h	/^  EFI_HII_ANIMATION_CELL  AnimationCell[1];$/;"	m	struct:_EFI_HII_AIBT_RESTORE_SCRN_BLOCK
+AnimationCell	UefiInternalFormRepresentation.h	/^  EFI_HII_ANIMATION_CELL AnimationCell[1];$/;"	m	struct:_EFI_HII_AIBT_CLEAR_IMAGES_BLOCK
+AnimationId	UefiInternalFormRepresentation.h	/^  EFI_ANIMATION_ID  AnimationId;$/;"	m	struct:_EFI_HII_AIBT_DUPLICATE_BLOCK
+AnimationInfoOffset	UefiInternalFormRepresentation.h	/^  UINT32                  AnimationInfoOffset;$/;"	m	struct:_EFI_HII_ANIMATION_PACKAGE_HDR
+Attribute	UefiSpec.h	/^  UINT64                Attribute;$/;"	m	struct:__anon29
+Attributes	UefiGpt.h	/^  UINT64    Attributes;$/;"	m	struct:__anon23
+Attributes	UefiInternalFormRepresentation.h	/^  UINT32                   Attributes;$/;"	m	struct:_EFI_IFR_VARSTORE_EFI
+Attributes	UefiInternalFormRepresentation.h	/^  UINT8                  Attributes;$/;"	m	struct:__anon3
+Attributes	UefiInternalFormRepresentation.h	/^  UINT8                  Attributes;$/;"	m	struct:__anon4
+Attributes	UefiSpec.h	/^  UINT32                           Attributes;$/;"	m	struct:_EFI_LOAD_OPTION
+Attributes	UefiSpec.h	/^  UINT32      Attributes;$/;"	m	struct:__anon33
+AuthInfo	UefiMultiPhase.h	/^  WIN_CERTIFICATE_UEFI_GUID   AuthInfo;$/;"	m	struct:__anon49
+AuthInfo	UefiMultiPhase.h	/^  WIN_CERTIFICATE_UEFI_GUID   AuthInfo;$/;"	m	struct:__anon50
+BackgndColor	UefiInternalFormRepresentation.h	/^  EFI_HII_RGB_PIXEL  BackgndColor;$/;"	m	struct:_EFI_HII_AIBT_CLEAR_IMAGES_BLOCK
+Bitmap	UefiInternalFormRepresentation.h	/^  EFI_HII_IIBT_IMAGE_1BIT_BASE Bitmap;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_1BIT_BLOCK
+Bitmap	UefiInternalFormRepresentation.h	/^  EFI_HII_IIBT_IMAGE_1BIT_BASE Bitmap;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_1BIT_TRANS_BLOCK
+Bitmap	UefiInternalFormRepresentation.h	/^  EFI_HII_IIBT_IMAGE_24BIT_BASE Bitmap;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_24BIT_BLOCK
+Bitmap	UefiInternalFormRepresentation.h	/^  EFI_HII_IIBT_IMAGE_24BIT_BASE Bitmap;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_24BIT_TRANS_BLOCK
+Bitmap	UefiInternalFormRepresentation.h	/^  EFI_HII_IIBT_IMAGE_4BIT_BASE Bitmap;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_4BIT_BLOCK
+Bitmap	UefiInternalFormRepresentation.h	/^  EFI_HII_IIBT_IMAGE_4BIT_BASE Bitmap;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_4BIT_TRANS_BLOCK
+Bitmap	UefiInternalFormRepresentation.h	/^  EFI_HII_IIBT_IMAGE_8BIT_BASE Bitmap;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_8BIT_PALETTE_BLOCK
+Bitmap	UefiInternalFormRepresentation.h	/^  EFI_HII_IIBT_IMAGE_8BIT_BASE Bitmap;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_8BIT_TRANS_BLOCK
+Bitmap	UefiInternalFormRepresentation.h	/^  EFI_HII_RGB_PIXEL            Bitmap[1];$/;"	m	struct:_EFI_HII_IIBT_IMAGE_24BIT_BASE
+BitmapData	UefiInternalFormRepresentation.h	/^  UINT8                  BitmapData [1];$/;"	m	struct:_EFI_HII_GIBT_VARIABILITY_BLOCK
+BitmapData	UefiInternalFormRepresentation.h	/^  UINT8                  BitmapData[1];$/;"	m	struct:_EFI_HII_GIBT_GLYPHS_BLOCK
+BitmapData	UefiInternalFormRepresentation.h	/^  UINT8                  BitmapData[1];$/;"	m	struct:_EFI_HII_GIBT_GLYPHS_DEFAULT_BLOCK
+BitmapData	UefiInternalFormRepresentation.h	/^  UINT8                  BitmapData[1];$/;"	m	struct:_EFI_HII_GIBT_GLYPH_BLOCK
+BitmapData	UefiInternalFormRepresentation.h	/^  UINT8                  BitmapData[1];$/;"	m	struct:_EFI_HII_GIBT_GLYPH_DEFAULT_BLOCK
+Block	UefiPxe.h	/^  UINT64  Block;$/;"	m	struct:s_pxe_cpb_start_30
+Block	UefiPxe.h	/^  UINT64  Block;$/;"	m	struct:s_pxe_cpb_start_31
+BlockType	UefiInternalFormRepresentation.h	/^  UINT8                   BlockType;$/;"	m	struct:_EFI_HII_IMAGE_BLOCK
+BlockType	UefiInternalFormRepresentation.h	/^  UINT8                   BlockType;$/;"	m	struct:__anon5
+BlockType	UefiInternalFormRepresentation.h	/^  UINT8                  BlockType;$/;"	m	struct:_EFI_HII_GLYPH_BLOCK
+BlockType	UefiInternalFormRepresentation.h	/^  UINT8  BlockType;$/;"	m	struct:_EFI_HII_ANIMATION_BLOCK
+BlockType2	UefiInternalFormRepresentation.h	/^  UINT8                        BlockType2;$/;"	m	struct:_EFI_HII_IIBT_EXT1_BLOCK
+BlockType2	UefiInternalFormRepresentation.h	/^  UINT8                        BlockType2;$/;"	m	struct:_EFI_HII_IIBT_EXT2_BLOCK
+BlockType2	UefiInternalFormRepresentation.h	/^  UINT8                        BlockType2;$/;"	m	struct:_EFI_HII_IIBT_EXT4_BLOCK
+BlockType2	UefiInternalFormRepresentation.h	/^  UINT8                    BlockType2;$/;"	m	struct:_EFI_HII_AIBT_EXT1_BLOCK
+BlockType2	UefiInternalFormRepresentation.h	/^  UINT8                    BlockType2;$/;"	m	struct:_EFI_HII_AIBT_EXT2_BLOCK
+BlockType2	UefiInternalFormRepresentation.h	/^  UINT8                    BlockType2;$/;"	m	struct:_EFI_HII_AIBT_EXT4_BLOCK
+BlockType2	UefiInternalFormRepresentation.h	/^  UINT8                   BlockType2;$/;"	m	struct:_EFI_HII_SIBT_EXT1_BLOCK
+BlockType2	UefiInternalFormRepresentation.h	/^  UINT8                   BlockType2;$/;"	m	struct:_EFI_HII_SIBT_EXT2_BLOCK
+BlockType2	UefiInternalFormRepresentation.h	/^  UINT8                   BlockType2;$/;"	m	struct:_EFI_HII_SIBT_EXT4_BLOCK
+BlockType2	UefiInternalFormRepresentation.h	/^  UINT8                  BlockType2;$/;"	m	struct:_EFI_HII_GIBT_EXT1_BLOCK
+BlockType2	UefiInternalFormRepresentation.h	/^  UINT8                  BlockType2;$/;"	m	struct:_EFI_HII_GIBT_EXT2_BLOCK
+BlockType2	UefiInternalFormRepresentation.h	/^  UINT8                  BlockType2;$/;"	m	struct:_EFI_HII_GIBT_EXT4_BLOCK
+BootOption	UefiSpec.h	/^  UINT16             BootOption;$/;"	m	struct:__anon45
+BootOptionCrc	UefiSpec.h	/^  UINT32             BootOptionCrc;$/;"	m	struct:__anon45
+BootServices	UefiSpec.h	/^  EFI_BOOT_SERVICES                 *BootServices;$/;"	m	struct:__anon42
+BroadcastAddr	UefiPxe.h	/^  PXE_MAC_ADDR  BroadcastAddr;$/;"	m	struct:s_pxe_dpb_station_address
+BufferAddr	UefiPxe.h	/^  PXE_UINT64  BufferAddr;$/;"	m	struct:s_pxe_cpb_receive
+BufferLen	UefiPxe.h	/^  PXE_UINT32  BufferLen;$/;"	m	struct:s_pxe_cpb_receive
+Bus	UefiPxe.h	/^    PXE_UINT16  Bus;$/;"	m	struct:pxe_device::__anon51
+Bus	UefiPxe.h	/^  PXE_UINT16  Bus;$/;"	m	struct:s_pxe_pcc_config_info
+Bus	UefiPxe.h	/^  UINT16  Bus;$/;"	m	struct:s_pxe_pci_config_info
+BusCnt	UefiPxe.h	/^  PXE_UINT8   BusCnt;         \/\/\/< number of bustypes supported.$/;"	m	struct:s_pxe_sw_undi
+BusType	UefiPxe.h	/^    PXE_UINT32  BusType;$/;"	m	struct:pxe_device::__anon51
+BusType	UefiPxe.h	/^  PXE_UINT32  BusType;$/;"	m	struct:s_pxe_pcc_config_info
+BusType	UefiPxe.h	/^  PXE_UINT32  BusType[1];     \/\/\/< list of supported bustypes.$/;"	m	struct:s_pxe_sw_undi
+BusType	UefiPxe.h	/^  UINT32  BusType;$/;"	m	struct:s_pxe_pci_config_info
+ByProtocol	UefiSpec.h	/^  ByProtocol$/;"	e	enum:__anon34
+ByRegisterNotify	UefiSpec.h	/^  ByRegisterNotify,$/;"	e	enum:__anon34
+Byte	UefiPxe.h	/^      PXE_UINT8   Byte;$/;"	m	union:s_pxe_cpb_nvdata_sparse::__anon54::__anon55
+Byte	UefiPxe.h	/^    PXE_UINT8   Byte[256];$/;"	m	union:s_pxe_pcc_config_info::__anon53
+Byte	UefiPxe.h	/^    PXE_UINT8   Byte[MAX_EEPROM_LEN << 2];$/;"	m	union:s_pxe_db_nvdata::__anon56
+Byte	UefiPxe.h	/^    UINT8   Byte[256];$/;"	m	union:s_pxe_pci_config_info::__anon52
+Byte	UefiPxe.h	/^  PXE_UINT8   Byte[MAX_EEPROM_LEN << 2];$/;"	m	union:u_pxe_cpb_nvdata_bulk
+CAPSULE_FLAGS_INITIATE_RESET	UefiSpec.h	1681;"	d
+CAPSULE_FLAGS_PERSIST_ACROSS_RESET	UefiSpec.h	1679;"	d
+CAPSULE_FLAGS_POPULATE_SYSTEM_TABLE	UefiSpec.h	1680;"	d
+CPBaddr	UefiPxe.h	/^  PXE_UINT64    CPBaddr;$/;"	m	struct:s_pxe_cdb
+CPBsize	UefiPxe.h	/^  PXE_UINT16    CPBsize;$/;"	m	struct:s_pxe_cdb
+CRC32	UefiMultiPhase.h	/^  UINT32  CRC32;$/;"	m	struct:__anon48
+CalculateCrc32	UefiSpec.h	/^  EFI_CALCULATE_CRC32               CalculateCrc32;$/;"	m	struct:__anon40
+CapsuleArrayNumber	UefiSpec.h	/^  UINT32   CapsuleArrayNumber;$/;"	m	struct:__anon38
+CapsuleGuid	UefiSpec.h	/^  EFI_GUID          CapsuleGuid;$/;"	m	struct:__anon37
+CapsuleImageSize	UefiSpec.h	/^  UINT32            CapsuleImageSize;$/;"	m	struct:__anon37
+CapsulePtr	UefiSpec.h	/^  VOID*    CapsulePtr[1];$/;"	m	struct:__anon38
+Cell	UefiInternalFormRepresentation.h	/^  EFI_HII_GLYPH_INFO     Cell;$/;"	m	struct:_EFI_HII_FONT_PACKAGE_HDR
+Cell	UefiInternalFormRepresentation.h	/^  EFI_HII_GLYPH_INFO     Cell;$/;"	m	struct:_EFI_HII_GIBT_DEFAULTS_BLOCK
+Cell	UefiInternalFormRepresentation.h	/^  EFI_HII_GLYPH_INFO     Cell;$/;"	m	struct:_EFI_HII_GIBT_GLYPHS_BLOCK
+Cell	UefiInternalFormRepresentation.h	/^  EFI_HII_GLYPH_INFO     Cell;$/;"	m	struct:_EFI_HII_GIBT_GLYPH_BLOCK
+Cell	UefiInternalFormRepresentation.h	/^  EFI_HII_GLYPH_INFO     Cell;$/;"	m	struct:_EFI_HII_GIBT_VARIABILITY_BLOCK
+CellCount	UefiInternalFormRepresentation.h	/^  UINT16                  CellCount;$/;"	m	struct:_EFI_HII_AIBT_OVERLAY_IMAGES_BLOCK
+CellCount	UefiInternalFormRepresentation.h	/^  UINT16                  CellCount;$/;"	m	struct:_EFI_HII_AIBT_RESTORE_SCRN_BLOCK
+CellCount	UefiInternalFormRepresentation.h	/^  UINT16             CellCount;$/;"	m	struct:_EFI_HII_AIBT_CLEAR_IMAGES_BLOCK
+CharValue	UefiInternalFormRepresentation.h	/^  CHAR16                 CharValue;$/;"	m	struct:_EFI_HII_GIBT_DUPLICATE_BLOCK
+CheckEvent	UefiSpec.h	/^  EFI_CHECK_EVENT                   CheckEvent;$/;"	m	struct:__anon40
+CloseEvent	UefiSpec.h	/^  EFI_CLOSE_EVENT                   CloseEvent;$/;"	m	struct:__anon40
+CloseProtocol	UefiSpec.h	/^  EFI_CLOSE_PROTOCOL                CloseProtocol;$/;"	m	struct:__anon40
+ConIn	UefiSpec.h	/^  EFI_SIMPLE_TEXT_INPUT_PROTOCOL    *ConIn;$/;"	m	struct:__anon42
+ConOut	UefiSpec.h	/^  EFI_SIMPLE_TEXT_OUTPUT_PROTOCOL   *ConOut;$/;"	m	struct:__anon42
+Config	UefiPxe.h	/^  } Config;$/;"	m	struct:s_pxe_pcc_config_info	typeref:union:s_pxe_pcc_config_info::__anon53
+Config	UefiPxe.h	/^  } Config;$/;"	m	struct:s_pxe_pci_config_info	typeref:union:s_pxe_pci_config_info::__anon52
+ConfigurationTable	UefiSpec.h	/^  EFI_CONFIGURATION_TABLE           *ConfigurationTable;$/;"	m	struct:__anon42
+ConnectController	UefiSpec.h	/^  EFI_CONNECT_CONTROLLER            ConnectController;$/;"	m	struct:__anon40
+ConsoleInHandle	UefiSpec.h	/^  EFI_HANDLE                        ConsoleInHandle;$/;"	m	struct:__anon42
+ConsoleOutHandle	UefiSpec.h	/^  EFI_HANDLE                        ConsoleOutHandle;$/;"	m	struct:__anon42
+ContinuationPointer	UefiSpec.h	/^    EFI_PHYSICAL_ADDRESS  ContinuationPointer;$/;"	m	union:__anon35::__anon36
+Control	UefiPxe.h	/^  PXE_CONTROL   Control;$/;"	m	struct:s_pxe_cdb
+ControlPressed	UefiSpec.h	/^    UINT32  ControlPressed  : 1;$/;"	m	struct:__anon43::__anon44
+ControllerHandle	UefiSpec.h	/^  EFI_HANDLE  ControllerHandle;$/;"	m	struct:__anon33
+ConvertPointer	UefiSpec.h	/^  EFI_CONVERT_POINTER             ConvertPointer;$/;"	m	struct:__anon39
+CopyMem	UefiSpec.h	/^  EFI_COPY_MEM                      CopyMem;$/;"	m	struct:__anon40
+Count	UefiInternalFormRepresentation.h	/^  UINT16                 Count;$/;"	m	struct:_EFI_HII_GIBT_GLYPHS_BLOCK
+Count	UefiInternalFormRepresentation.h	/^  UINT16                 Count;$/;"	m	struct:_EFI_HII_GIBT_GLYPHS_DEFAULT_BLOCK
+CreateEvent	UefiSpec.h	/^  EFI_CREATE_EVENT                  CreateEvent;$/;"	m	struct:__anon40
+CreateEventEx	UefiSpec.h	/^  EFI_CREATE_EVENT_EX               CreateEventEx;$/;"	m	struct:__anon40
+DBaddr	UefiPxe.h	/^  PXE_UINT64    DBaddr;$/;"	m	struct:s_pxe_cdb
+DBsize	UefiPxe.h	/^  PXE_UINT16    DBsize;$/;"	m	struct:s_pxe_cdb
+Data	UefiInternalFormRepresentation.h	/^  UINT8                        Data[1];$/;"	m	struct:_EFI_HII_IIBT_IMAGE_1BIT_BASE
+Data	UefiInternalFormRepresentation.h	/^  UINT8                        Data[1];$/;"	m	struct:_EFI_HII_IIBT_IMAGE_4BIT_BASE
+Data	UefiInternalFormRepresentation.h	/^  UINT8                        Data[1];$/;"	m	struct:_EFI_HII_IIBT_IMAGE_8BIT_BASE
+Data	UefiInternalFormRepresentation.h	/^  UINT8                        Data[1];$/;"	m	struct:_EFI_HII_IIBT_JPEG_BLOCK
+Data	UefiInternalFormRepresentation.h	/^  UINT8                        Data[1];$/;"	m	struct:_EFI_HII_IIBT_PNG_BLOCK
+Data	UefiPxe.h	/^    } Data;$/;"	m	struct:s_pxe_cpb_nvdata_sparse::__anon54	typeref:union:s_pxe_cpb_nvdata_sparse::__anon54::__anon55
+Data	UefiPxe.h	/^  PXE_UINT64  Data[64];$/;"	m	struct:s_pxe_db_statistics
+Data	UefiPxe.h	/^  } Data;$/;"	m	struct:s_pxe_db_nvdata	typeref:union:s_pxe_db_nvdata::__anon56
+DataBlock	UefiSpec.h	/^    EFI_PHYSICAL_ADDRESS  DataBlock;$/;"	m	union:__anon35::__anon36
+DataLen	UefiPxe.h	/^  PXE_UINT32  DataLen;$/;"	m	struct:s_pxe_cpb_transmit
+DataOffset	UefiAcpiDataTable.h	/^  UINT16                        DataOffset;$/;"	m	struct:__anon27
+Day	UefiBaseType.h	/^  UINT8   Day;$/;"	m	struct:__anon24
+Day	UefiInternalFormRepresentation.h	/^  UINT8  Day;$/;"	m	struct:__anon7
+Daylight	UefiBaseType.h	/^  UINT8   Daylight;$/;"	m	struct:__anon24
+DefaultId	UefiInternalFormRepresentation.h	/^  EFI_DEFAULT_ID           DefaultId;$/;"	m	struct:_EFI_IFR_RESET_BUTTON
+DefaultId	UefiInternalFormRepresentation.h	/^  UINT16                   DefaultId;$/;"	m	struct:_EFI_IFR_DEFAULT
+DefaultId	UefiInternalFormRepresentation.h	/^  UINT16                   DefaultId;$/;"	m	struct:_EFI_IFR_DEFAULTSTORE
+DefaultId	UefiInternalFormRepresentation.h	/^  UINT16                   DefaultId;$/;"	m	struct:_EFI_IFR_DEFAULT_2
+DefaultName	UefiInternalFormRepresentation.h	/^  EFI_STRING_ID            DefaultName;$/;"	m	struct:_EFI_IFR_DEFAULTSTORE
+Delay	UefiInternalFormRepresentation.h	/^  UINT16                    Delay;$/;"	m	struct:_EFI_HII_ANIMATION_CELL
+Delay	UefiPxe.h	/^  UINT64  Delay;$/;"	m	struct:s_pxe_cpb_start_30
+Delay	UefiPxe.h	/^  UINT64  Delay;$/;"	m	struct:s_pxe_cpb_start_31
+DescriptorCount	UefiInternalFormRepresentation.h	/^  UINT8                   DescriptorCount;$/;"	m	struct:__anon20
+DestAddr	UefiPxe.h	/^  PXE_MAC_ADDR        DestAddr;$/;"	m	struct:s_pxe_cpb_fill_header_fragmented
+DestAddr	UefiPxe.h	/^  PXE_MAC_ADDR        DestAddr;$/;"	m	struct:s_pxe_db_receive
+DestAddr	UefiPxe.h	/^  PXE_MAC_ADDR  DestAddr;$/;"	m	struct:s_pxe_cpb_fill_header
+Device	UefiPxe.h	/^    PXE_UINT8   Device;$/;"	m	struct:pxe_device::__anon51
+Device	UefiPxe.h	/^  PXE_UINT8   Device;$/;"	m	struct:s_pxe_pcc_config_info
+Device	UefiPxe.h	/^  UINT8   Device;$/;"	m	struct:s_pxe_pci_config_info
+DevicePath	UefiInternalFormRepresentation.h	/^  EFI_STRING_ID            DevicePath;$/;"	m	struct:_EFI_IFR_QUESTION_REF3_2
+DevicePath	UefiInternalFormRepresentation.h	/^  EFI_STRING_ID            DevicePath;$/;"	m	struct:_EFI_IFR_QUESTION_REF3_3
+DevicePath	UefiInternalFormRepresentation.h	/^  EFI_STRING_ID            DevicePath;$/;"	m	struct:_EFI_IFR_REF4
+DevicePath	UefiInternalFormRepresentation.h	/^  EFI_STRING_ID            DevicePath;$/;"	m	struct:_EFI_IFR_VARSTORE_DEVICE
+DevicePath	UefiInternalFormRepresentation.h	/^  EFI_STRING_ID   DevicePath;$/;"	m	struct:__anon8
+DftImageId	UefiInternalFormRepresentation.h	/^  EFI_IMAGE_ID            DftImageId;$/;"	m	struct:_EFI_HII_AIBT_OVERLAY_IMAGES_BLOCK
+DftImageId	UefiInternalFormRepresentation.h	/^  EFI_IMAGE_ID            DftImageId;$/;"	m	struct:_EFI_HII_AIBT_RESTORE_SCRN_BLOCK
+DftImageId	UefiInternalFormRepresentation.h	/^  EFI_IMAGE_ID       DftImageId;$/;"	m	struct:_EFI_HII_AIBT_CLEAR_IMAGES_BLOCK
+DisconnectController	UefiSpec.h	/^  EFI_DISCONNECT_CONTROLLER         DisconnectController;$/;"	m	struct:__anon40
+DiskGUID	UefiGpt.h	/^  EFI_GUID          DiskGUID;$/;"	m	struct:__anon22
+DuplexMode	UefiPxe.h	/^  PXE_UINT8   DuplexMode;$/;"	m	struct:s_pxe_cpb_initialize
+Dword	UefiPxe.h	/^      PXE_UINT32  Dword;$/;"	m	union:s_pxe_cpb_nvdata_sparse::__anon54::__anon55
+Dword	UefiPxe.h	/^    PXE_UINT32  Dword[64];$/;"	m	union:s_pxe_pcc_config_info::__anon53
+Dword	UefiPxe.h	/^    PXE_UINT32  Dword[MAX_EEPROM_LEN];$/;"	m	union:s_pxe_db_nvdata::__anon56
+Dword	UefiPxe.h	/^    UINT32  Dword[64];$/;"	m	union:s_pxe_pci_config_info::__anon52
+Dword	UefiPxe.h	/^  PXE_UINT32  Dword[MAX_EEPROM_LEN];$/;"	m	union:u_pxe_cpb_nvdata_bulk
+EFIERR	UefiBaseType.h	158;"	d
+EFI_1_02_SYSTEM_TABLE_REVISION	UefiSpec.h	1810;"	d
+EFI_1_10_SYSTEM_TABLE_REVISION	UefiSpec.h	1809;"	d
+EFI_2_00_SYSTEM_TABLE_REVISION	UefiSpec.h	1808;"	d
+EFI_2_10_SYSTEM_TABLE_REVISION	UefiSpec.h	1807;"	d
+EFI_2_20_SYSTEM_TABLE_REVISION	UefiSpec.h	1806;"	d
+EFI_2_30_SYSTEM_TABLE_REVISION	UefiSpec.h	1805;"	d
+EFI_2_31_SYSTEM_TABLE_REVISION	UefiSpec.h	1804;"	d
+EFI_2_40_SYSTEM_TABLE_REVISION	UefiSpec.h	1803;"	d
+EFI_2_50_SYSTEM_TABLE_REVISION	UefiSpec.h	1802;"	d
+EFI_2_60_SYSTEM_TABLE_REVISION	UefiSpec.h	1801;"	d
+EFI_2_70_SYSTEM_TABLE_REVISION	UefiSpec.h	1800;"	d
+EFI_2_80_SYSTEM_TABLE_REVISION	UefiSpec.h	1799;"	d
+EFI_ABORTED	UefiBaseType.h	134;"	d
+EFI_ACCESS_DENIED	UefiBaseType.h	128;"	d
+EFI_ACPI_DATA_TABLE	UefiAcpiDataTable.h	/^} EFI_ACPI_DATA_TABLE;$/;"	t	typeref:struct:__anon27
+EFI_AFFECTED_BY_CAPS_LOCK	UefiInternalFormRepresentation.h	1746;"	d
+EFI_AFFECTED_BY_NUM_LOCK	UefiInternalFormRepresentation.h	1752;"	d
+EFI_AFFECTED_BY_STANDARD_SHIFT	UefiInternalFormRepresentation.h	1738;"	d
+EFI_ALLOCATE_PAGES	UefiSpec.h	/^(EFIAPI *EFI_ALLOCATE_PAGES)($/;"	t
+EFI_ALLOCATE_POOL	UefiSpec.h	/^(EFIAPI *EFI_ALLOCATE_POOL)($/;"	t
+EFI_ALLOCATE_TYPE	UefiSpec.h	/^} EFI_ALLOCATE_TYPE;$/;"	t	typeref:enum:__anon28
+EFI_ALREADY_STARTED	UefiBaseType.h	133;"	d
+EFI_ALT_GR_MODIFIER	UefiInternalFormRepresentation.h	1776;"	d
+EFI_ANIMATION_ID	UefiInternalFormRepresentation.h	/^typedef UINT16  EFI_ANIMATION_ID;$/;"	t
+EFI_BAD_BUFFER_SIZE	UefiBaseType.h	117;"	d
+EFI_BOOT_KEY_DATA	UefiSpec.h	/^} EFI_BOOT_KEY_DATA;$/;"	t	typeref:union:__anon43
+EFI_BOOT_OPTION_SUPPORT_APP	UefiSpec.h	2127;"	d
+EFI_BOOT_OPTION_SUPPORT_COUNT	UefiSpec.h	2129;"	d
+EFI_BOOT_OPTION_SUPPORT_KEY	UefiSpec.h	2126;"	d
+EFI_BOOT_OPTION_SUPPORT_SYSPREP	UefiSpec.h	2128;"	d
+EFI_BOOT_SERVICES	UefiSpec.h	/^} EFI_BOOT_SERVICES;$/;"	t	typeref:struct:__anon40
+EFI_BOOT_SERVICES_REVISION	UefiSpec.h	1867;"	d
+EFI_BOOT_SERVICES_SIGNATURE	UefiSpec.h	1866;"	d
+EFI_BREAK_MODIFIER	UefiInternalFormRepresentation.h	1817;"	d
+EFI_BUFFER_TOO_SMALL	UefiBaseType.h	118;"	d
+EFI_CACHE_ATTRIBUTE_MASK	UefiSpec.h	115;"	d
+EFI_CALCULATE_CRC32	UefiSpec.h	/^(EFIAPI *EFI_CALCULATE_CRC32)($/;"	t
+EFI_CAPSULE_BLOCK_DESCRIPTOR	UefiSpec.h	/^} EFI_CAPSULE_BLOCK_DESCRIPTOR;$/;"	t	typeref:struct:__anon35
+EFI_CAPSULE_FILE_DIRECTORY	UefiSpec.h	2232;"	d
+EFI_CAPSULE_HEADER	UefiSpec.h	/^} EFI_CAPSULE_HEADER;$/;"	t	typeref:struct:__anon37
+EFI_CAPSULE_TABLE	UefiSpec.h	/^} EFI_CAPSULE_TABLE;$/;"	t	typeref:struct:__anon38
+EFI_CAPS_LOCK_MODIFIER	UefiInternalFormRepresentation.h	1785;"	d
+EFI_CHECK_EVENT	UefiSpec.h	/^(EFIAPI *EFI_CHECK_EVENT)($/;"	t
+EFI_CLOSE_EVENT	UefiSpec.h	/^(EFIAPI *EFI_CLOSE_EVENT)($/;"	t
+EFI_CLOSE_PROTOCOL	UefiSpec.h	/^(EFIAPI *EFI_CLOSE_PROTOCOL)($/;"	t
+EFI_COMPROMISED_DATA	UefiBaseType.h	144;"	d
+EFI_CONFIGURATION_TABLE	UefiSpec.h	/^} EFI_CONFIGURATION_TABLE;$/;"	t	typeref:struct:__anon41
+EFI_CONNECTION_FIN	UefiBaseType.h	174;"	d
+EFI_CONNECTION_REFUSED	UefiBaseType.h	176;"	d
+EFI_CONNECTION_RESET	UefiBaseType.h	175;"	d
+EFI_CONNECT_CONTROLLER	UefiSpec.h	/^(EFIAPI *EFI_CONNECT_CONTROLLER)($/;"	t
+EFI_CONVERT_POINTER	UefiSpec.h	/^(EFIAPI *EFI_CONVERT_POINTER)($/;"	t
+EFI_COPY_MEM	UefiSpec.h	/^(EFIAPI *EFI_COPY_MEM)($/;"	t
+EFI_CRC_ERROR	UefiBaseType.h	140;"	d
+EFI_CREATE_EVENT	UefiSpec.h	/^(EFIAPI *EFI_CREATE_EVENT)($/;"	t
+EFI_CREATE_EVENT_EX	UefiSpec.h	/^(EFIAPI *EFI_CREATE_EVENT_EX)($/;"	t
+EFI_DEFAULT_ID	UefiInternalFormRepresentation.h	/^typedef UINT16  EFI_DEFAULT_ID;$/;"	t
+EFI_DELETE_MODIFIER	UefiInternalFormRepresentation.h	1778;"	d
+EFI_DEVICE_ERROR	UefiBaseType.h	120;"	d
+EFI_DISCONNECT_CONTROLLER	UefiSpec.h	/^(EFIAPI *EFI_DISCONNECT_CONTROLLER)($/;"	t
+EFI_DOWN_ARROW_MODIFIER	UefiInternalFormRepresentation.h	1789;"	d
+EFI_END_MODIFIER	UefiInternalFormRepresentation.h	1782;"	d
+EFI_END_OF_FILE	UefiBaseType.h	142;"	d
+EFI_END_OF_MEDIA	UefiBaseType.h	141;"	d
+EFI_ERROR	UefiBaseType.h	160;"	d
+EFI_EVENT	UefiBaseType.h	/^typedef VOID                      *EFI_EVENT;$/;"	t
+EFI_EVENT_NOTIFY	UefiSpec.h	/^(EFIAPI *EFI_EVENT_NOTIFY)($/;"	t
+EFI_EXIT	UefiSpec.h	/^(EFIAPI *EFI_EXIT)($/;"	t
+EFI_EXIT_BOOT_SERVICES	UefiSpec.h	/^(EFIAPI *EFI_EXIT_BOOT_SERVICES)($/;"	t
+EFI_FORM_ID	UefiInternalFormRepresentation.h	/^typedef UINT16  EFI_FORM_ID;$/;"	t
+EFI_FREE_PAGES	UefiSpec.h	/^(EFIAPI *EFI_FREE_PAGES)($/;"	t
+EFI_FREE_POOL	UefiSpec.h	/^(EFIAPI *EFI_FREE_POOL)($/;"	t
+EFI_FUNCTION_KEY_EIGHT_MODIFIER	UefiInternalFormRepresentation.h	1800;"	d
+EFI_FUNCTION_KEY_ELEVEN_MODIFIER	UefiInternalFormRepresentation.h	1803;"	d
+EFI_FUNCTION_KEY_FIVE_MODIFIER	UefiInternalFormRepresentation.h	1797;"	d
+EFI_FUNCTION_KEY_FOUR_MODIFIER	UefiInternalFormRepresentation.h	1796;"	d
+EFI_FUNCTION_KEY_NINE_MODIFIER	UefiInternalFormRepresentation.h	1801;"	d
+EFI_FUNCTION_KEY_ONE_MODIFIER	UefiInternalFormRepresentation.h	1793;"	d
+EFI_FUNCTION_KEY_SEVEN_MODIFIER	UefiInternalFormRepresentation.h	1799;"	d
+EFI_FUNCTION_KEY_SIX_MODIFIER	UefiInternalFormRepresentation.h	1798;"	d
+EFI_FUNCTION_KEY_TEN_MODIFIER	UefiInternalFormRepresentation.h	1802;"	d
+EFI_FUNCTION_KEY_THREE_MODIFIER	UefiInternalFormRepresentation.h	1795;"	d
+EFI_FUNCTION_KEY_TWELVE_MODIFIER	UefiInternalFormRepresentation.h	1804;"	d
+EFI_FUNCTION_KEY_TWO_MODIFIER	UefiInternalFormRepresentation.h	1794;"	d
+EFI_GET_MEMORY_MAP	UefiSpec.h	/^(EFIAPI *EFI_GET_MEMORY_MAP)($/;"	t
+EFI_GET_NEXT_HIGH_MONO_COUNT	UefiSpec.h	/^(EFIAPI *EFI_GET_NEXT_HIGH_MONO_COUNT)($/;"	t
+EFI_GET_NEXT_MONOTONIC_COUNT	UefiSpec.h	/^(EFIAPI *EFI_GET_NEXT_MONOTONIC_COUNT)($/;"	t
+EFI_GET_NEXT_VARIABLE_NAME	UefiSpec.h	/^(EFIAPI *EFI_GET_NEXT_VARIABLE_NAME)($/;"	t
+EFI_GET_TIME	UefiSpec.h	/^(EFIAPI *EFI_GET_TIME)($/;"	t
+EFI_GET_VARIABLE	UefiSpec.h	/^(EFIAPI *EFI_GET_VARIABLE)($/;"	t
+EFI_GET_WAKEUP_TIME	UefiSpec.h	/^(EFIAPI *EFI_GET_WAKEUP_TIME)($/;"	t
+EFI_GLYPH_GIBT_END_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_GLYPH_GIBT_END_BLOCK;$/;"	t	typeref:struct:_EFI_GLYPH_GIBT_END_BLOCK
+EFI_GLYPH_HEIGHT	UefiInternalFormRepresentation.h	88;"	d
+EFI_GLYPH_NON_SPACING	UefiInternalFormRepresentation.h	86;"	d
+EFI_GLYPH_WIDE	UefiInternalFormRepresentation.h	87;"	d
+EFI_GLYPH_WIDTH	UefiInternalFormRepresentation.h	89;"	d
+EFI_GPT_PART_ENTRY_MIN_SIZE	UefiGpt.h	24;"	d
+EFI_GUID	UefiBaseType.h	/^typedef GUID                      EFI_GUID;$/;"	t
+EFI_HANDLE	UefiBaseType.h	/^typedef VOID                      *EFI_HANDLE;$/;"	t
+EFI_HANDLE_PROTOCOL	UefiSpec.h	/^(EFIAPI *EFI_HANDLE_PROTOCOL)($/;"	t
+EFI_HII_AIBT_CLEAR_IMAGES	UefiInternalFormRepresentation.h	1867;"	d
+EFI_HII_AIBT_CLEAR_IMAGES_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_AIBT_CLEAR_IMAGES_BLOCK;$/;"	t	typeref:struct:_EFI_HII_AIBT_CLEAR_IMAGES_BLOCK
+EFI_HII_AIBT_CLEAR_IMAGES_LOOP	UefiInternalFormRepresentation.h	1870;"	d
+EFI_HII_AIBT_CLEAR_IMAGES_LOOP_BLOCK	UefiInternalFormRepresentation.h	/^typedef EFI_HII_AIBT_CLEAR_IMAGES_BLOCK    EFI_HII_AIBT_CLEAR_IMAGES_LOOP_BLOCK;$/;"	t
+EFI_HII_AIBT_DUPLICATE	UefiInternalFormRepresentation.h	1872;"	d
+EFI_HII_AIBT_DUPLICATE_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_AIBT_DUPLICATE_BLOCK;$/;"	t	typeref:struct:_EFI_HII_AIBT_DUPLICATE_BLOCK
+EFI_HII_AIBT_END	UefiInternalFormRepresentation.h	1865;"	d
+EFI_HII_AIBT_EXT1	UefiInternalFormRepresentation.h	1875;"	d
+EFI_HII_AIBT_EXT1_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_AIBT_EXT1_BLOCK;$/;"	t	typeref:struct:_EFI_HII_AIBT_EXT1_BLOCK
+EFI_HII_AIBT_EXT2	UefiInternalFormRepresentation.h	1876;"	d
+EFI_HII_AIBT_EXT2_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_AIBT_EXT2_BLOCK;$/;"	t	typeref:struct:_EFI_HII_AIBT_EXT2_BLOCK
+EFI_HII_AIBT_EXT4	UefiInternalFormRepresentation.h	1877;"	d
+EFI_HII_AIBT_EXT4_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_AIBT_EXT4_BLOCK;$/;"	t	typeref:struct:_EFI_HII_AIBT_EXT4_BLOCK
+EFI_HII_AIBT_OVERLAY_IMAGES	UefiInternalFormRepresentation.h	1866;"	d
+EFI_HII_AIBT_OVERLAY_IMAGES_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_AIBT_OVERLAY_IMAGES_BLOCK;$/;"	t	typeref:struct:_EFI_HII_AIBT_OVERLAY_IMAGES_BLOCK
+EFI_HII_AIBT_OVERLAY_IMAGES_LOOP	UefiInternalFormRepresentation.h	1869;"	d
+EFI_HII_AIBT_OVERLAY_IMAGES_LOOP_BLOCK	UefiInternalFormRepresentation.h	/^typedef EFI_HII_AIBT_OVERLAY_IMAGES_BLOCK  EFI_HII_AIBT_OVERLAY_IMAGES_LOOP_BLOCK;$/;"	t
+EFI_HII_AIBT_RESTORE_SCRN	UefiInternalFormRepresentation.h	1868;"	d
+EFI_HII_AIBT_RESTORE_SCRN_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_AIBT_RESTORE_SCRN_BLOCK;$/;"	t	typeref:struct:_EFI_HII_AIBT_RESTORE_SCRN_BLOCK
+EFI_HII_AIBT_RESTORE_SCRN_LOOP	UefiInternalFormRepresentation.h	1871;"	d
+EFI_HII_AIBT_RESTORE_SCRN_LOOP_BLOCK	UefiInternalFormRepresentation.h	/^typedef EFI_HII_AIBT_RESTORE_SCRN_BLOCK    EFI_HII_AIBT_RESTORE_SCRN_LOOP_BLOCK;$/;"	t
+EFI_HII_AIBT_SKIP1	UefiInternalFormRepresentation.h	1874;"	d
+EFI_HII_AIBT_SKIP1_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_AIBT_SKIP1_BLOCK;$/;"	t	typeref:struct:_EFI_HII_AIBT_SKIP1_BLOCK
+EFI_HII_AIBT_SKIP2	UefiInternalFormRepresentation.h	1873;"	d
+EFI_HII_AIBT_SKIP2_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_AIBT_SKIP2_BLOCK;$/;"	t	typeref:struct:_EFI_HII_AIBT_SKIP2_BLOCK
+EFI_HII_ANIMATION_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_ANIMATION_BLOCK;$/;"	t	typeref:struct:_EFI_HII_ANIMATION_BLOCK
+EFI_HII_ANIMATION_CELL	UefiInternalFormRepresentation.h	/^} EFI_HII_ANIMATION_CELL;$/;"	t	typeref:struct:_EFI_HII_ANIMATION_CELL
+EFI_HII_ANIMATION_PACKAGE_HDR	UefiInternalFormRepresentation.h	/^} EFI_HII_ANIMATION_PACKAGE_HDR;$/;"	t	typeref:struct:_EFI_HII_ANIMATION_PACKAGE_HDR
+EFI_HII_DATE	UefiInternalFormRepresentation.h	/^} EFI_HII_DATE;$/;"	t	typeref:struct:__anon7
+EFI_HII_DEFAULT_CLASS_FIRMWARE_BEGIN	UefiInternalFormRepresentation.h	852;"	d
+EFI_HII_DEFAULT_CLASS_FIRMWARE_END	UefiInternalFormRepresentation.h	853;"	d
+EFI_HII_DEFAULT_CLASS_HARDWARE_BEGIN	UefiInternalFormRepresentation.h	850;"	d
+EFI_HII_DEFAULT_CLASS_HARDWARE_END	UefiInternalFormRepresentation.h	851;"	d
+EFI_HII_DEFAULT_CLASS_MANUFACTURING	UefiInternalFormRepresentation.h	846;"	d
+EFI_HII_DEFAULT_CLASS_PLATFORM_BEGIN	UefiInternalFormRepresentation.h	848;"	d
+EFI_HII_DEFAULT_CLASS_PLATFORM_END	UefiInternalFormRepresentation.h	849;"	d
+EFI_HII_DEFAULT_CLASS_SAFE	UefiInternalFormRepresentation.h	847;"	d
+EFI_HII_DEFAULT_CLASS_STANDARD	UefiInternalFormRepresentation.h	845;"	d
+EFI_HII_DEVICE_PATH_PACKAGE_HDR	UefiInternalFormRepresentation.h	/^} EFI_HII_DEVICE_PATH_PACKAGE_HDR;$/;"	t	typeref:struct:_EFI_HII_DEVICE_PATH_PACKAGE_HDR
+EFI_HII_FONT_PACKAGE_HDR	UefiInternalFormRepresentation.h	/^} EFI_HII_FONT_PACKAGE_HDR;$/;"	t	typeref:struct:_EFI_HII_FONT_PACKAGE_HDR
+EFI_HII_FONT_STYLE	UefiInternalFormRepresentation.h	/^typedef UINT32  EFI_HII_FONT_STYLE;$/;"	t
+EFI_HII_FONT_STYLE_BOLD	UefiInternalFormRepresentation.h	168;"	d
+EFI_HII_FONT_STYLE_DBL_UNDER	UefiInternalFormRepresentation.h	174;"	d
+EFI_HII_FONT_STYLE_EMBOSS	UefiInternalFormRepresentation.h	170;"	d
+EFI_HII_FONT_STYLE_ITALIC	UefiInternalFormRepresentation.h	169;"	d
+EFI_HII_FONT_STYLE_NORMAL	UefiInternalFormRepresentation.h	167;"	d
+EFI_HII_FONT_STYLE_OUTLINE	UefiInternalFormRepresentation.h	171;"	d
+EFI_HII_FONT_STYLE_SHADOW	UefiInternalFormRepresentation.h	172;"	d
+EFI_HII_FONT_STYLE_UNDERLINE	UefiInternalFormRepresentation.h	173;"	d
+EFI_HII_FORM_PACKAGE_HDR	UefiInternalFormRepresentation.h	/^} EFI_HII_FORM_PACKAGE_HDR;$/;"	t	typeref:struct:_EFI_HII_FORM_PACKAGE_HDR
+EFI_HII_GIBT_DEFAULTS	UefiInternalFormRepresentation.h	211;"	d
+EFI_HII_GIBT_DEFAULTS_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_GIBT_DEFAULTS_BLOCK;$/;"	t	typeref:struct:_EFI_HII_GIBT_DEFAULTS_BLOCK
+EFI_HII_GIBT_DUPLICATE	UefiInternalFormRepresentation.h	208;"	d
+EFI_HII_GIBT_DUPLICATE_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_GIBT_DUPLICATE_BLOCK;$/;"	t	typeref:struct:_EFI_HII_GIBT_DUPLICATE_BLOCK
+EFI_HII_GIBT_END	UefiInternalFormRepresentation.h	202;"	d
+EFI_HII_GIBT_EXT1	UefiInternalFormRepresentation.h	212;"	d
+EFI_HII_GIBT_EXT1_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_GIBT_EXT1_BLOCK;$/;"	t	typeref:struct:_EFI_HII_GIBT_EXT1_BLOCK
+EFI_HII_GIBT_EXT2	UefiInternalFormRepresentation.h	213;"	d
+EFI_HII_GIBT_EXT2_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_GIBT_EXT2_BLOCK;$/;"	t	typeref:struct:_EFI_HII_GIBT_EXT2_BLOCK
+EFI_HII_GIBT_EXT4	UefiInternalFormRepresentation.h	214;"	d
+EFI_HII_GIBT_EXT4_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_GIBT_EXT4_BLOCK;$/;"	t	typeref:struct:_EFI_HII_GIBT_EXT4_BLOCK
+EFI_HII_GIBT_GLYPH	UefiInternalFormRepresentation.h	203;"	d
+EFI_HII_GIBT_GLYPHS	UefiInternalFormRepresentation.h	204;"	d
+EFI_HII_GIBT_GLYPHS_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_GIBT_GLYPHS_BLOCK;$/;"	t	typeref:struct:_EFI_HII_GIBT_GLYPHS_BLOCK
+EFI_HII_GIBT_GLYPHS_DEFAULT	UefiInternalFormRepresentation.h	206;"	d
+EFI_HII_GIBT_GLYPHS_DEFAULT_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_GIBT_GLYPHS_DEFAULT_BLOCK;$/;"	t	typeref:struct:_EFI_HII_GIBT_GLYPHS_DEFAULT_BLOCK
+EFI_HII_GIBT_GLYPH_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_GIBT_GLYPH_BLOCK;$/;"	t	typeref:struct:_EFI_HII_GIBT_GLYPH_BLOCK
+EFI_HII_GIBT_GLYPH_DEFAULT	UefiInternalFormRepresentation.h	205;"	d
+EFI_HII_GIBT_GLYPH_DEFAULT_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_GIBT_GLYPH_DEFAULT_BLOCK;$/;"	t	typeref:struct:_EFI_HII_GIBT_GLYPH_DEFAULT_BLOCK
+EFI_HII_GIBT_GLYPH_VARIABILITY	UefiInternalFormRepresentation.h	207;"	d
+EFI_HII_GIBT_SKIP1	UefiInternalFormRepresentation.h	210;"	d
+EFI_HII_GIBT_SKIP1_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_GIBT_SKIP1_BLOCK;$/;"	t	typeref:struct:_EFI_HII_GIBT_SKIP1_BLOCK
+EFI_HII_GIBT_SKIP2	UefiInternalFormRepresentation.h	209;"	d
+EFI_HII_GIBT_SKIP2_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_GIBT_SKIP2_BLOCK;$/;"	t	typeref:struct:_EFI_HII_GIBT_SKIP2_BLOCK
+EFI_HII_GIBT_VARIABILITY_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_GIBT_VARIABILITY_BLOCK;$/;"	t	typeref:struct:_EFI_HII_GIBT_VARIABILITY_BLOCK
+EFI_HII_GLYPH_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_GLYPH_BLOCK;$/;"	t	typeref:struct:_EFI_HII_GLYPH_BLOCK
+EFI_HII_GLYPH_INFO	UefiInternalFormRepresentation.h	/^} EFI_HII_GLYPH_INFO;$/;"	t	typeref:struct:_EFI_HII_GLYPH_INFO
+EFI_HII_GUID_PACKAGE_HDR	UefiInternalFormRepresentation.h	/^} EFI_HII_GUID_PACKAGE_HDR;$/;"	t	typeref:struct:_EFI_HII_GUID_PACKAGE_HDR
+EFI_HII_HANDLE	UefiInternalFormRepresentation.h	/^typedef VOID*   EFI_HII_HANDLE;$/;"	t
+EFI_HII_IIBT_DUPLICATE	UefiInternalFormRepresentation.h	496;"	d
+EFI_HII_IIBT_DUPLICATE_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_IIBT_DUPLICATE_BLOCK;$/;"	t	typeref:struct:_EFI_HII_IIBT_DUPLICATE_BLOCK
+EFI_HII_IIBT_END	UefiInternalFormRepresentation.h	485;"	d
+EFI_HII_IIBT_END_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_IIBT_END_BLOCK;$/;"	t	typeref:struct:_EFI_HII_IIBT_END_BLOCK
+EFI_HII_IIBT_EXT1	UefiInternalFormRepresentation.h	499;"	d
+EFI_HII_IIBT_EXT1_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_IIBT_EXT1_BLOCK;$/;"	t	typeref:struct:_EFI_HII_IIBT_EXT1_BLOCK
+EFI_HII_IIBT_EXT2	UefiInternalFormRepresentation.h	500;"	d
+EFI_HII_IIBT_EXT2_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_IIBT_EXT2_BLOCK;$/;"	t	typeref:struct:_EFI_HII_IIBT_EXT2_BLOCK
+EFI_HII_IIBT_EXT4	UefiInternalFormRepresentation.h	501;"	d
+EFI_HII_IIBT_EXT4_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_IIBT_EXT4_BLOCK;$/;"	t	typeref:struct:_EFI_HII_IIBT_EXT4_BLOCK
+EFI_HII_IIBT_IMAGE_1BIT	UefiInternalFormRepresentation.h	486;"	d
+EFI_HII_IIBT_IMAGE_1BIT_BASE	UefiInternalFormRepresentation.h	/^} EFI_HII_IIBT_IMAGE_1BIT_BASE;$/;"	t	typeref:struct:_EFI_HII_IIBT_IMAGE_1BIT_BASE
+EFI_HII_IIBT_IMAGE_1BIT_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_IIBT_IMAGE_1BIT_BLOCK;$/;"	t	typeref:struct:_EFI_HII_IIBT_IMAGE_1BIT_BLOCK
+EFI_HII_IIBT_IMAGE_1BIT_TRANS	UefiInternalFormRepresentation.h	487;"	d
+EFI_HII_IIBT_IMAGE_1BIT_TRANS_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_IIBT_IMAGE_1BIT_TRANS_BLOCK;$/;"	t	typeref:struct:_EFI_HII_IIBT_IMAGE_1BIT_TRANS_BLOCK
+EFI_HII_IIBT_IMAGE_24BIT	UefiInternalFormRepresentation.h	492;"	d
+EFI_HII_IIBT_IMAGE_24BIT_BASE	UefiInternalFormRepresentation.h	/^} EFI_HII_IIBT_IMAGE_24BIT_BASE;$/;"	t	typeref:struct:_EFI_HII_IIBT_IMAGE_24BIT_BASE
+EFI_HII_IIBT_IMAGE_24BIT_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_IIBT_IMAGE_24BIT_BLOCK;$/;"	t	typeref:struct:_EFI_HII_IIBT_IMAGE_24BIT_BLOCK
+EFI_HII_IIBT_IMAGE_24BIT_TRANS	UefiInternalFormRepresentation.h	493;"	d
+EFI_HII_IIBT_IMAGE_24BIT_TRANS_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_IIBT_IMAGE_24BIT_TRANS_BLOCK;$/;"	t	typeref:struct:_EFI_HII_IIBT_IMAGE_24BIT_TRANS_BLOCK
+EFI_HII_IIBT_IMAGE_4BIT	UefiInternalFormRepresentation.h	488;"	d
+EFI_HII_IIBT_IMAGE_4BIT_BASE	UefiInternalFormRepresentation.h	/^} EFI_HII_IIBT_IMAGE_4BIT_BASE;$/;"	t	typeref:struct:_EFI_HII_IIBT_IMAGE_4BIT_BASE
+EFI_HII_IIBT_IMAGE_4BIT_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_IIBT_IMAGE_4BIT_BLOCK;$/;"	t	typeref:struct:_EFI_HII_IIBT_IMAGE_4BIT_BLOCK
+EFI_HII_IIBT_IMAGE_4BIT_TRANS	UefiInternalFormRepresentation.h	489;"	d
+EFI_HII_IIBT_IMAGE_4BIT_TRANS_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_IIBT_IMAGE_4BIT_TRANS_BLOCK;$/;"	t	typeref:struct:_EFI_HII_IIBT_IMAGE_4BIT_TRANS_BLOCK
+EFI_HII_IIBT_IMAGE_8BIT	UefiInternalFormRepresentation.h	490;"	d
+EFI_HII_IIBT_IMAGE_8BIT_BASE	UefiInternalFormRepresentation.h	/^} EFI_HII_IIBT_IMAGE_8BIT_BASE;$/;"	t	typeref:struct:_EFI_HII_IIBT_IMAGE_8BIT_BASE
+EFI_HII_IIBT_IMAGE_8BIT_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_IIBT_IMAGE_8BIT_BLOCK;$/;"	t	typeref:struct:_EFI_HII_IIBT_IMAGE_8BIT_PALETTE_BLOCK
+EFI_HII_IIBT_IMAGE_8BIT_TRANS	UefiInternalFormRepresentation.h	491;"	d
+EFI_HII_IIBT_IMAGE_8BIT_TRAN_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_IIBT_IMAGE_8BIT_TRAN_BLOCK;$/;"	t	typeref:struct:_EFI_HII_IIBT_IMAGE_8BIT_TRANS_BLOCK
+EFI_HII_IIBT_IMAGE_JPEG	UefiInternalFormRepresentation.h	494;"	d
+EFI_HII_IIBT_IMAGE_PNG	UefiInternalFormRepresentation.h	495;"	d
+EFI_HII_IIBT_JPEG_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_IIBT_JPEG_BLOCK;$/;"	t	typeref:struct:_EFI_HII_IIBT_JPEG_BLOCK
+EFI_HII_IIBT_PNG_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_IIBT_PNG_BLOCK;$/;"	t	typeref:struct:_EFI_HII_IIBT_PNG_BLOCK
+EFI_HII_IIBT_SKIP1	UefiInternalFormRepresentation.h	498;"	d
+EFI_HII_IIBT_SKIP1_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_IIBT_SKIP1_BLOCK;$/;"	t	typeref:struct:_EFI_HII_IIBT_SKIP1_BLOCK
+EFI_HII_IIBT_SKIP2	UefiInternalFormRepresentation.h	497;"	d
+EFI_HII_IIBT_SKIP2_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_IIBT_SKIP2_BLOCK;$/;"	t	typeref:struct:_EFI_HII_IIBT_SKIP2_BLOCK
+EFI_HII_IMAGE_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_IMAGE_BLOCK;$/;"	t	typeref:struct:_EFI_HII_IMAGE_BLOCK
+EFI_HII_IMAGE_PACKAGE_HDR	UefiInternalFormRepresentation.h	/^} EFI_HII_IMAGE_PACKAGE_HDR;$/;"	t	typeref:struct:_EFI_HII_IMAGE_PACKAGE_HDR
+EFI_HII_IMAGE_PALETTE_INFO	UefiInternalFormRepresentation.h	/^} EFI_HII_IMAGE_PALETTE_INFO;$/;"	t	typeref:struct:_EFI_HII_IMAGE_PALETTE_INFO
+EFI_HII_IMAGE_PALETTE_INFO_HEADER	UefiInternalFormRepresentation.h	/^} EFI_HII_IMAGE_PALETTE_INFO_HEADER;$/;"	t	typeref:struct:_EFI_HII_IMAGE_PALETTE_INFO_HEADER
+EFI_HII_KEYBOARD_LAYOUT	UefiInternalFormRepresentation.h	/^} EFI_HII_KEYBOARD_LAYOUT;$/;"	t	typeref:struct:__anon20
+EFI_HII_KEYBOARD_PACKAGE_HDR	UefiInternalFormRepresentation.h	/^} EFI_HII_KEYBOARD_PACKAGE_HDR;$/;"	t	typeref:struct:__anon21
+EFI_HII_PACKAGE_ANIMATIONS	UefiInternalFormRepresentation.h	74;"	d
+EFI_HII_PACKAGE_DEVICE_PATH	UefiInternalFormRepresentation.h	72;"	d
+EFI_HII_PACKAGE_END	UefiInternalFormRepresentation.h	75;"	d
+EFI_HII_PACKAGE_FONTS	UefiInternalFormRepresentation.h	69;"	d
+EFI_HII_PACKAGE_FORMS	UefiInternalFormRepresentation.h	67;"	d
+EFI_HII_PACKAGE_HEADER	UefiInternalFormRepresentation.h	/^} EFI_HII_PACKAGE_HEADER;$/;"	t	typeref:struct:__anon2
+EFI_HII_PACKAGE_IMAGES	UefiInternalFormRepresentation.h	70;"	d
+EFI_HII_PACKAGE_KEYBOARD_LAYOUT	UefiInternalFormRepresentation.h	73;"	d
+EFI_HII_PACKAGE_LIST_HEADER	UefiInternalFormRepresentation.h	/^} EFI_HII_PACKAGE_LIST_HEADER;$/;"	t	typeref:struct:__anon1
+EFI_HII_PACKAGE_SIMPLE_FONTS	UefiInternalFormRepresentation.h	71;"	d
+EFI_HII_PACKAGE_STRINGS	UefiInternalFormRepresentation.h	68;"	d
+EFI_HII_PACKAGE_TYPE_ALL	UefiInternalFormRepresentation.h	65;"	d
+EFI_HII_PACKAGE_TYPE_GUID	UefiInternalFormRepresentation.h	66;"	d
+EFI_HII_PACKAGE_TYPE_SYSTEM_BEGIN	UefiInternalFormRepresentation.h	76;"	d
+EFI_HII_PACKAGE_TYPE_SYSTEM_END	UefiInternalFormRepresentation.h	77;"	d
+EFI_HII_REF	UefiInternalFormRepresentation.h	/^} EFI_HII_REF;$/;"	t	typeref:struct:__anon8
+EFI_HII_RGB_PIXEL	UefiInternalFormRepresentation.h	/^} EFI_HII_RGB_PIXEL;$/;"	t	typeref:struct:_EFI_HII_RGB_PIXEL
+EFI_HII_SIBT_DUPLICATE	UefiInternalFormRepresentation.h	362;"	d
+EFI_HII_SIBT_DUPLICATE_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_SIBT_DUPLICATE_BLOCK;$/;"	t	typeref:struct:_EFI_HII_SIBT_DUPLICATE_BLOCK
+EFI_HII_SIBT_END	UefiInternalFormRepresentation.h	353;"	d
+EFI_HII_SIBT_END_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_SIBT_END_BLOCK;$/;"	t	typeref:struct:_EFI_HII_SIBT_END_BLOCK
+EFI_HII_SIBT_EXT1	UefiInternalFormRepresentation.h	365;"	d
+EFI_HII_SIBT_EXT1_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_SIBT_EXT1_BLOCK;$/;"	t	typeref:struct:_EFI_HII_SIBT_EXT1_BLOCK
+EFI_HII_SIBT_EXT2	UefiInternalFormRepresentation.h	366;"	d
+EFI_HII_SIBT_EXT2_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_SIBT_EXT2_BLOCK;$/;"	t	typeref:struct:_EFI_HII_SIBT_EXT2_BLOCK
+EFI_HII_SIBT_EXT4	UefiInternalFormRepresentation.h	367;"	d
+EFI_HII_SIBT_EXT4_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_SIBT_EXT4_BLOCK;$/;"	t	typeref:struct:_EFI_HII_SIBT_EXT4_BLOCK
+EFI_HII_SIBT_FONT	UefiInternalFormRepresentation.h	368;"	d
+EFI_HII_SIBT_FONT_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_SIBT_FONT_BLOCK;$/;"	t	typeref:struct:_EFI_HII_SIBT_FONT_BLOCK
+EFI_HII_SIBT_SKIP1	UefiInternalFormRepresentation.h	364;"	d
+EFI_HII_SIBT_SKIP1_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_SIBT_SKIP1_BLOCK;$/;"	t	typeref:struct:_EFI_HII_SIBT_SKIP1_BLOCK
+EFI_HII_SIBT_SKIP2	UefiInternalFormRepresentation.h	363;"	d
+EFI_HII_SIBT_SKIP2_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_SIBT_SKIP2_BLOCK;$/;"	t	typeref:struct:_EFI_HII_SIBT_SKIP2_BLOCK
+EFI_HII_SIBT_STRINGS_SCSU	UefiInternalFormRepresentation.h	356;"	d
+EFI_HII_SIBT_STRINGS_SCSU_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_SIBT_STRINGS_SCSU_BLOCK;$/;"	t	typeref:struct:_EFI_HII_SIBT_STRINGS_SCSU_BLOCK
+EFI_HII_SIBT_STRINGS_SCSU_FONT	UefiInternalFormRepresentation.h	357;"	d
+EFI_HII_SIBT_STRINGS_SCSU_FONT_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_SIBT_STRINGS_SCSU_FONT_BLOCK;$/;"	t	typeref:struct:_EFI_HII_SIBT_STRINGS_SCSU_FONT_BLOCK
+EFI_HII_SIBT_STRINGS_UCS2	UefiInternalFormRepresentation.h	360;"	d
+EFI_HII_SIBT_STRINGS_UCS2_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_SIBT_STRINGS_UCS2_BLOCK;$/;"	t	typeref:struct:_EFI_HII_SIBT_STRINGS_UCS2_BLOCK
+EFI_HII_SIBT_STRINGS_UCS2_FONT	UefiInternalFormRepresentation.h	361;"	d
+EFI_HII_SIBT_STRINGS_UCS2_FONT_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_SIBT_STRINGS_UCS2_FONT_BLOCK;$/;"	t	typeref:struct:_EFI_HII_SIBT_STRINGS_UCS2_FONT_BLOCK
+EFI_HII_SIBT_STRING_SCSU	UefiInternalFormRepresentation.h	354;"	d
+EFI_HII_SIBT_STRING_SCSU_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_SIBT_STRING_SCSU_BLOCK;$/;"	t	typeref:struct:_EFI_HII_SIBT_STRING_SCSU_BLOCK
+EFI_HII_SIBT_STRING_SCSU_FONT	UefiInternalFormRepresentation.h	355;"	d
+EFI_HII_SIBT_STRING_SCSU_FONT_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_SIBT_STRING_SCSU_FONT_BLOCK;$/;"	t	typeref:struct:_EFI_HII_SIBT_STRING_SCSU_FONT_BLOCK
+EFI_HII_SIBT_STRING_UCS2	UefiInternalFormRepresentation.h	358;"	d
+EFI_HII_SIBT_STRING_UCS2_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_SIBT_STRING_UCS2_BLOCK;$/;"	t	typeref:struct:_EFI_HII_SIBT_STRING_UCS2_BLOCK
+EFI_HII_SIBT_STRING_UCS2_FONT	UefiInternalFormRepresentation.h	359;"	d
+EFI_HII_SIBT_STRING_UCS2_FONT_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_SIBT_STRING_UCS2_FONT_BLOCK;$/;"	t	typeref:struct:_EFI_HII_SIBT_STRING_UCS2_FONT_BLOCK
+EFI_HII_SIMPLE_FONT_PACKAGE_HDR	UefiInternalFormRepresentation.h	/^} EFI_HII_SIMPLE_FONT_PACKAGE_HDR;$/;"	t	typeref:struct:_EFI_HII_SIMPLE_FONT_PACKAGE_HDR
+EFI_HII_STRING_BLOCK	UefiInternalFormRepresentation.h	/^} EFI_HII_STRING_BLOCK;$/;"	t	typeref:struct:__anon5
+EFI_HII_STRING_PACKAGE_HDR	UefiInternalFormRepresentation.h	/^} EFI_HII_STRING_PACKAGE_HDR;$/;"	t	typeref:struct:_EFI_HII_STRING_PACKAGE_HDR
+EFI_HII_TIME	UefiInternalFormRepresentation.h	/^} EFI_HII_TIME;$/;"	t	typeref:struct:__anon6
+EFI_HOME_MODIFIER	UefiInternalFormRepresentation.h	1781;"	d
+EFI_HOST_UNREACHABLE	UefiBaseType.h	166;"	d
+EFI_HTTP_ERROR	UefiBaseType.h	145;"	d
+EFI_ICMP_ERROR	UefiBaseType.h	135;"	d
+EFI_IFR_ACTION	UefiInternalFormRepresentation.h	/^} EFI_IFR_ACTION;$/;"	t	typeref:struct:_EFI_IFR_ACTION
+EFI_IFR_ACTION_1	UefiInternalFormRepresentation.h	/^} EFI_IFR_ACTION_1;$/;"	t	typeref:struct:_EFI_IFR_ACTION_1
+EFI_IFR_ACTION_OP	UefiInternalFormRepresentation.h	705;"	d
+EFI_IFR_ADD	UefiInternalFormRepresentation.h	/^} EFI_IFR_ADD;$/;"	t	typeref:struct:_EFI_IFR_ADD
+EFI_IFR_ADD_OP	UefiInternalFormRepresentation.h	751;"	d
+EFI_IFR_AND	UefiInternalFormRepresentation.h	/^} EFI_IFR_AND;$/;"	t	typeref:struct:_EFI_IFR_AND
+EFI_IFR_AND_OP	UefiInternalFormRepresentation.h	714;"	d
+EFI_IFR_ANIMATION	UefiInternalFormRepresentation.h	/^} EFI_IFR_ANIMATION;$/;"	t	typeref:struct:_EFI_IFR_ANIMATION
+EFI_IFR_ANIMATION_OP	UefiInternalFormRepresentation.h	724;"	d
+EFI_IFR_BITWISE_AND	UefiInternalFormRepresentation.h	/^} EFI_IFR_BITWISE_AND;$/;"	t	typeref:struct:_EFI_IFR_BITWISE_AND
+EFI_IFR_BITWISE_AND_OP	UefiInternalFormRepresentation.h	746;"	d
+EFI_IFR_BITWISE_NOT	UefiInternalFormRepresentation.h	/^} EFI_IFR_BITWISE_NOT;$/;"	t	typeref:struct:_EFI_IFR_BITWISE_NOT
+EFI_IFR_BITWISE_NOT_OP	UefiInternalFormRepresentation.h	748;"	d
+EFI_IFR_BITWISE_OR	UefiInternalFormRepresentation.h	/^} EFI_IFR_BITWISE_OR;$/;"	t	typeref:struct:_EFI_IFR_BITWISE_OR
+EFI_IFR_BITWISE_OR_OP	UefiInternalFormRepresentation.h	747;"	d
+EFI_IFR_CATENATE	UefiInternalFormRepresentation.h	/^} EFI_IFR_CATENATE;$/;"	t	typeref:struct:_EFI_IFR_CATENATE
+EFI_IFR_CATENATE_OP	UefiInternalFormRepresentation.h	787;"	d
+EFI_IFR_CHECKBOX	UefiInternalFormRepresentation.h	/^} EFI_IFR_CHECKBOX;$/;"	t	typeref:struct:_EFI_IFR_CHECKBOX
+EFI_IFR_CHECKBOX_DEFAULT	UefiInternalFormRepresentation.h	946;"	d
+EFI_IFR_CHECKBOX_DEFAULT_MFG	UefiInternalFormRepresentation.h	947;"	d
+EFI_IFR_CHECKBOX_OP	UefiInternalFormRepresentation.h	699;"	d
+EFI_IFR_CONDITIONAL	UefiInternalFormRepresentation.h	/^} EFI_IFR_CONDITIONAL;$/;"	t	typeref:struct:_EFI_IFR_CONDITIONAL
+EFI_IFR_CONDITIONAL_OP	UefiInternalFormRepresentation.h	773;"	d
+EFI_IFR_DATE	UefiInternalFormRepresentation.h	/^} EFI_IFR_DATE;$/;"	t	typeref:struct:_EFI_IFR_DATE
+EFI_IFR_DATE_OP	UefiInternalFormRepresentation.h	719;"	d
+EFI_IFR_DEFAULT	UefiInternalFormRepresentation.h	/^} EFI_IFR_DEFAULT;$/;"	t	typeref:struct:_EFI_IFR_DEFAULT
+EFI_IFR_DEFAULTSTORE	UefiInternalFormRepresentation.h	/^} EFI_IFR_DEFAULTSTORE;$/;"	t	typeref:struct:_EFI_IFR_DEFAULTSTORE
+EFI_IFR_DEFAULTSTORE_OP	UefiInternalFormRepresentation.h	785;"	d
+EFI_IFR_DEFAULT_2	UefiInternalFormRepresentation.h	/^} EFI_IFR_DEFAULT_2;$/;"	t	typeref:struct:_EFI_IFR_DEFAULT_2
+EFI_IFR_DEFAULT_OP	UefiInternalFormRepresentation.h	784;"	d
+EFI_IFR_DISABLE_IF	UefiInternalFormRepresentation.h	/^} EFI_IFR_DISABLE_IF;$/;"	t	typeref:struct:_EFI_IFR_DISABLE_IF
+EFI_IFR_DISABLE_IF_OP	UefiInternalFormRepresentation.h	723;"	d
+EFI_IFR_DISPLAY	UefiInternalFormRepresentation.h	1064;"	d
+EFI_IFR_DISPLAY_INT_DEC	UefiInternalFormRepresentation.h	1065;"	d
+EFI_IFR_DISPLAY_UINT_DEC	UefiInternalFormRepresentation.h	1066;"	d
+EFI_IFR_DISPLAY_UINT_HEX	UefiInternalFormRepresentation.h	1067;"	d
+EFI_IFR_DIVIDE	UefiInternalFormRepresentation.h	/^} EFI_IFR_DIVIDE;$/;"	t	typeref:struct:_EFI_IFR_DIVIDE
+EFI_IFR_DIVIDE_OP	UefiInternalFormRepresentation.h	754;"	d
+EFI_IFR_DUP	UefiInternalFormRepresentation.h	/^} EFI_IFR_DUP;$/;"	t	typeref:struct:_EFI_IFR_DUP
+EFI_IFR_DUP_OP	UefiInternalFormRepresentation.h	780;"	d
+EFI_IFR_END	UefiInternalFormRepresentation.h	/^} EFI_IFR_END;$/;"	t	typeref:struct:_EFI_IFR_END
+EFI_IFR_END_OP	UefiInternalFormRepresentation.h	734;"	d
+EFI_IFR_EQUAL	UefiInternalFormRepresentation.h	/^} EFI_IFR_EQUAL;$/;"	t	typeref:struct:_EFI_IFR_EQUAL
+EFI_IFR_EQUAL_OP	UefiInternalFormRepresentation.h	740;"	d
+EFI_IFR_EQ_ID_ID	UefiInternalFormRepresentation.h	/^} EFI_IFR_EQ_ID_ID;$/;"	t	typeref:struct:_EFI_IFR_EQ_ID_ID
+EFI_IFR_EQ_ID_ID_OP	UefiInternalFormRepresentation.h	712;"	d
+EFI_IFR_EQ_ID_VAL	UefiInternalFormRepresentation.h	/^} EFI_IFR_EQ_ID_VAL;$/;"	t	typeref:struct:_EFI_IFR_EQ_ID_VAL
+EFI_IFR_EQ_ID_VAL_LIST	UefiInternalFormRepresentation.h	/^} EFI_IFR_EQ_ID_VAL_LIST;$/;"	t	typeref:struct:_EFI_IFR_EQ_ID_VAL_LIST
+EFI_IFR_EQ_ID_VAL_LIST_OP	UefiInternalFormRepresentation.h	713;"	d
+EFI_IFR_EQ_ID_VAL_OP	UefiInternalFormRepresentation.h	711;"	d
+EFI_IFR_FALSE	UefiInternalFormRepresentation.h	/^} EFI_IFR_FALSE;$/;"	t	typeref:struct:_EFI_IFR_FALSE
+EFI_IFR_FALSE_OP	UefiInternalFormRepresentation.h	764;"	d
+EFI_IFR_FF_CASE_INSENSITIVE	UefiInternalFormRepresentation.h	1456;"	d
+EFI_IFR_FF_CASE_SENSITIVE	UefiInternalFormRepresentation.h	1455;"	d
+EFI_IFR_FIND	UefiInternalFormRepresentation.h	/^} EFI_IFR_FIND;$/;"	t	typeref:struct:_EFI_IFR_FIND
+EFI_IFR_FIND_OP	UefiInternalFormRepresentation.h	769;"	d
+EFI_IFR_FLAGS_FIRST_MATCHING	UefiInternalFormRepresentation.h	1475;"	d
+EFI_IFR_FLAGS_FIRST_NON_MATCHING	UefiInternalFormRepresentation.h	1476;"	d
+EFI_IFR_FLAGS_HORIZONTAL	UefiInternalFormRepresentation.h	938;"	d
+EFI_IFR_FLAG_CALLBACK	UefiInternalFormRepresentation.h	826;"	d
+EFI_IFR_FLAG_OPTIONS_ONLY	UefiInternalFormRepresentation.h	830;"	d
+EFI_IFR_FLAG_READ_ONLY	UefiInternalFormRepresentation.h	825;"	d
+EFI_IFR_FLAG_RECONNECT_REQUIRED	UefiInternalFormRepresentation.h	829;"	d
+EFI_IFR_FLAG_RESET_REQUIRED	UefiInternalFormRepresentation.h	827;"	d
+EFI_IFR_FLAG_REST_STYLE	UefiInternalFormRepresentation.h	828;"	d
+EFI_IFR_FORM	UefiInternalFormRepresentation.h	/^} EFI_IFR_FORM;$/;"	t	typeref:struct:_EFI_IFR_FORM
+EFI_IFR_FORM_MAP	UefiInternalFormRepresentation.h	/^} EFI_IFR_FORM_MAP;$/;"	t	typeref:struct:_EFI_IFR_FORM_MAP
+EFI_IFR_FORM_MAP_METHOD	UefiInternalFormRepresentation.h	/^} EFI_IFR_FORM_MAP_METHOD;$/;"	t	typeref:struct:_EFI_IFR_FORM_MAP_METHOD
+EFI_IFR_FORM_MAP_OP	UefiInternalFormRepresentation.h	786;"	d
+EFI_IFR_FORM_OP	UefiInternalFormRepresentation.h	694;"	d
+EFI_IFR_FORM_SET	UefiInternalFormRepresentation.h	/^} EFI_IFR_FORM_SET;$/;"	t	typeref:struct:_EFI_IFR_FORM_SET
+EFI_IFR_FORM_SET_OP	UefiInternalFormRepresentation.h	707;"	d
+EFI_IFR_GET	UefiInternalFormRepresentation.h	/^} EFI_IFR_GET;$/;"	t	typeref:struct:_EFI_IFR_GET
+EFI_IFR_GET_OP	UefiInternalFormRepresentation.h	736;"	d
+EFI_IFR_GRAY_OUT_IF	UefiInternalFormRepresentation.h	/^} EFI_IFR_GRAY_OUT_IF;$/;"	t	typeref:struct:_EFI_IFR_GRAY_OUT_IF
+EFI_IFR_GRAY_OUT_IF_OP	UefiInternalFormRepresentation.h	718;"	d
+EFI_IFR_GREATER_EQUAL	UefiInternalFormRepresentation.h	/^} EFI_IFR_GREATER_EQUAL;$/;"	t	typeref:struct:_EFI_IFR_GREATER_EQUAL
+EFI_IFR_GREATER_EQUAL_OP	UefiInternalFormRepresentation.h	743;"	d
+EFI_IFR_GREATER_THAN	UefiInternalFormRepresentation.h	/^} EFI_IFR_GREATER_THAN;$/;"	t	typeref:struct:_EFI_IFR_GREATER_THAN
+EFI_IFR_GREATER_THAN_OP	UefiInternalFormRepresentation.h	742;"	d
+EFI_IFR_GUID	UefiInternalFormRepresentation.h	/^} EFI_IFR_GUID;$/;"	t	typeref:struct:_EFI_IFR_GUID
+EFI_IFR_GUID_OP	UefiInternalFormRepresentation.h	788;"	d
+EFI_IFR_IMAGE	UefiInternalFormRepresentation.h	/^} EFI_IFR_IMAGE;$/;"	t	typeref:struct:_EFI_IFR_IMAGE
+EFI_IFR_IMAGE_OP	UefiInternalFormRepresentation.h	697;"	d
+EFI_IFR_INCONSISTENT_IF	UefiInternalFormRepresentation.h	/^} EFI_IFR_INCONSISTENT_IF;$/;"	t	typeref:struct:_EFI_IFR_INCONSISTENT_IF
+EFI_IFR_INCONSISTENT_IF_OP	UefiInternalFormRepresentation.h	710;"	d
+EFI_IFR_LENGTH	UefiInternalFormRepresentation.h	/^} EFI_IFR_LENGTH;$/;"	t	typeref:struct:_EFI_IFR_LENGTH
+EFI_IFR_LENGTH_OP	UefiInternalFormRepresentation.h	779;"	d
+EFI_IFR_LESS_EQUAL	UefiInternalFormRepresentation.h	/^} EFI_IFR_LESS_EQUAL;$/;"	t	typeref:struct:_EFI_IFR_LESS_EQUAL
+EFI_IFR_LESS_EQUAL_OP	UefiInternalFormRepresentation.h	745;"	d
+EFI_IFR_LESS_THAN	UefiInternalFormRepresentation.h	/^} EFI_IFR_LESS_THAN;$/;"	t	typeref:struct:_EFI_IFR_LESS_THAN
+EFI_IFR_LESS_THAN_OP	UefiInternalFormRepresentation.h	744;"	d
+EFI_IFR_LOCKED	UefiInternalFormRepresentation.h	/^} EFI_IFR_LOCKED;$/;"	t	typeref:struct:_EFI_IFR_LOCKED
+EFI_IFR_LOCKED_OP	UefiInternalFormRepresentation.h	704;"	d
+EFI_IFR_MAP	UefiInternalFormRepresentation.h	/^} EFI_IFR_MAP;$/;"	t	typeref:struct:_EFI_IFR_MAP
+EFI_IFR_MAP_OP	UefiInternalFormRepresentation.h	727;"	d
+EFI_IFR_MATCH	UefiInternalFormRepresentation.h	/^} EFI_IFR_MATCH;$/;"	t	typeref:struct:_EFI_IFR_MATCH
+EFI_IFR_MATCH2	UefiInternalFormRepresentation.h	/^} EFI_IFR_MATCH2;$/;"	t	typeref:struct:_EFI_IFR_MATCH2
+EFI_IFR_MATCH2_OP	UefiInternalFormRepresentation.h	793;"	d
+EFI_IFR_MATCH_OP	UefiInternalFormRepresentation.h	735;"	d
+EFI_IFR_MID	UefiInternalFormRepresentation.h	/^} EFI_IFR_MID;$/;"	t	typeref:struct:_EFI_IFR_MID
+EFI_IFR_MID_OP	UefiInternalFormRepresentation.h	768;"	d
+EFI_IFR_MODAL_TAG	UefiInternalFormRepresentation.h	/^} EFI_IFR_MODAL_TAG;$/;"	t	typeref:struct:_EFI_IFR_MODAL_TAG
+EFI_IFR_MODAL_TAG_OP	UefiInternalFormRepresentation.h	790;"	d
+EFI_IFR_MODULO	UefiInternalFormRepresentation.h	/^} EFI_IFR_MODULO;$/;"	t	typeref:struct:_EFI_IFR_MODULO
+EFI_IFR_MODULO_OP	UefiInternalFormRepresentation.h	755;"	d
+EFI_IFR_MULTIPLY	UefiInternalFormRepresentation.h	/^} EFI_IFR_MULTIPLY;$/;"	t	typeref:struct:_EFI_IFR_MULTIPLY
+EFI_IFR_MULTIPLY_OP	UefiInternalFormRepresentation.h	753;"	d
+EFI_IFR_NOT	UefiInternalFormRepresentation.h	/^} EFI_IFR_NOT;$/;"	t	typeref:struct:_EFI_IFR_NOT
+EFI_IFR_NOT_EQUAL	UefiInternalFormRepresentation.h	/^} EFI_IFR_NOT_EQUAL;$/;"	t	typeref:struct:_EFI_IFR_NOT_EQUAL
+EFI_IFR_NOT_EQUAL_OP	UefiInternalFormRepresentation.h	741;"	d
+EFI_IFR_NOT_OP	UefiInternalFormRepresentation.h	716;"	d
+EFI_IFR_NO_EMPTY_SET	UefiInternalFormRepresentation.h	1101;"	d
+EFI_IFR_NO_SUBMIT_IF	UefiInternalFormRepresentation.h	/^} EFI_IFR_NO_SUBMIT_IF;$/;"	t	typeref:struct:_EFI_IFR_NO_SUBMIT_IF
+EFI_IFR_NO_SUBMIT_IF_OP	UefiInternalFormRepresentation.h	709;"	d
+EFI_IFR_NUMERIC	UefiInternalFormRepresentation.h	/^} EFI_IFR_NUMERIC;$/;"	t	typeref:struct:_EFI_IFR_NUMERIC
+EFI_IFR_NUMERIC_OP	UefiInternalFormRepresentation.h	700;"	d
+EFI_IFR_NUMERIC_SIZE	UefiInternalFormRepresentation.h	1058;"	d
+EFI_IFR_NUMERIC_SIZE_1	UefiInternalFormRepresentation.h	1059;"	d
+EFI_IFR_NUMERIC_SIZE_2	UefiInternalFormRepresentation.h	1060;"	d
+EFI_IFR_NUMERIC_SIZE_4	UefiInternalFormRepresentation.h	1061;"	d
+EFI_IFR_NUMERIC_SIZE_8	UefiInternalFormRepresentation.h	1062;"	d
+EFI_IFR_ONE	UefiInternalFormRepresentation.h	/^} EFI_IFR_ONE;$/;"	t	typeref:struct:_EFI_IFR_ONE
+EFI_IFR_ONES	UefiInternalFormRepresentation.h	/^} EFI_IFR_ONES;$/;"	t	typeref:struct:_EFI_IFR_ONES
+EFI_IFR_ONES_OP	UefiInternalFormRepresentation.h	777;"	d
+EFI_IFR_ONE_OF	UefiInternalFormRepresentation.h	/^} EFI_IFR_ONE_OF;$/;"	t	typeref:struct:_EFI_IFR_ONE_OF
+EFI_IFR_ONE_OF_OP	UefiInternalFormRepresentation.h	698;"	d
+EFI_IFR_ONE_OF_OPTION	UefiInternalFormRepresentation.h	/^} EFI_IFR_ONE_OF_OPTION;$/;"	t	typeref:struct:_EFI_IFR_ONE_OF_OPTION
+EFI_IFR_ONE_OF_OPTION_OP	UefiInternalFormRepresentation.h	702;"	d
+EFI_IFR_ONE_OP	UefiInternalFormRepresentation.h	776;"	d
+EFI_IFR_OPTION_DEFAULT	UefiInternalFormRepresentation.h	1184;"	d
+EFI_IFR_OPTION_DEFAULT_MFG	UefiInternalFormRepresentation.h	1185;"	d
+EFI_IFR_OP_HEADER	UefiInternalFormRepresentation.h	/^} EFI_IFR_OP_HEADER;$/;"	t	typeref:struct:_EFI_IFR_OP_HEADER
+EFI_IFR_OR	UefiInternalFormRepresentation.h	/^} EFI_IFR_OR;$/;"	t	typeref:struct:_EFI_IFR_OR
+EFI_IFR_ORDERED_LIST	UefiInternalFormRepresentation.h	/^} EFI_IFR_ORDERED_LIST;$/;"	t	typeref:struct:_EFI_IFR_ORDERED_LIST
+EFI_IFR_ORDERED_LIST_OP	UefiInternalFormRepresentation.h	728;"	d
+EFI_IFR_OR_OP	UefiInternalFormRepresentation.h	715;"	d
+EFI_IFR_PASSWORD	UefiInternalFormRepresentation.h	/^} EFI_IFR_PASSWORD;$/;"	t	typeref:struct:_EFI_IFR_PASSWORD
+EFI_IFR_PASSWORD_OP	UefiInternalFormRepresentation.h	701;"	d
+EFI_IFR_QUESTION_HEADER	UefiInternalFormRepresentation.h	/^} EFI_IFR_QUESTION_HEADER;$/;"	t	typeref:struct:_EFI_IFR_QUESTION_HEADER
+EFI_IFR_QUESTION_REF1	UefiInternalFormRepresentation.h	/^} EFI_IFR_QUESTION_REF1;$/;"	t	typeref:struct:_EFI_IFR_QUESTION_REF1
+EFI_IFR_QUESTION_REF1_OP	UefiInternalFormRepresentation.h	757;"	d
+EFI_IFR_QUESTION_REF2	UefiInternalFormRepresentation.h	/^} EFI_IFR_QUESTION_REF2;$/;"	t	typeref:struct:_EFI_IFR_QUESTION_REF2
+EFI_IFR_QUESTION_REF2_OP	UefiInternalFormRepresentation.h	758;"	d
+EFI_IFR_QUESTION_REF3	UefiInternalFormRepresentation.h	/^} EFI_IFR_QUESTION_REF3;$/;"	t	typeref:struct:_EFI_IFR_QUESTION_REF3
+EFI_IFR_QUESTION_REF3_2	UefiInternalFormRepresentation.h	/^} EFI_IFR_QUESTION_REF3_2;$/;"	t	typeref:struct:_EFI_IFR_QUESTION_REF3_2
+EFI_IFR_QUESTION_REF3_3	UefiInternalFormRepresentation.h	/^} EFI_IFR_QUESTION_REF3_3;$/;"	t	typeref:struct:_EFI_IFR_QUESTION_REF3_3
+EFI_IFR_QUESTION_REF3_OP	UefiInternalFormRepresentation.h	774;"	d
+EFI_IFR_READ	UefiInternalFormRepresentation.h	/^} EFI_IFR_READ;$/;"	t	typeref:struct:_EFI_IFR_READ
+EFI_IFR_READ_OP	UefiInternalFormRepresentation.h	738;"	d
+EFI_IFR_REF	UefiInternalFormRepresentation.h	/^} EFI_IFR_REF;$/;"	t	typeref:struct:_EFI_IFR_REF
+EFI_IFR_REF2	UefiInternalFormRepresentation.h	/^} EFI_IFR_REF2;$/;"	t	typeref:struct:_EFI_IFR_REF2
+EFI_IFR_REF3	UefiInternalFormRepresentation.h	/^} EFI_IFR_REF3;$/;"	t	typeref:struct:_EFI_IFR_REF3
+EFI_IFR_REF4	UefiInternalFormRepresentation.h	/^} EFI_IFR_REF4;$/;"	t	typeref:struct:_EFI_IFR_REF4
+EFI_IFR_REF5	UefiInternalFormRepresentation.h	/^} EFI_IFR_REF5;$/;"	t	typeref:struct:_EFI_IFR_REF5
+EFI_IFR_REFRESH	UefiInternalFormRepresentation.h	/^} EFI_IFR_REFRESH;$/;"	t	typeref:struct:_EFI_IFR_REFRESH
+EFI_IFR_REFRESH_ID	UefiInternalFormRepresentation.h	/^} EFI_IFR_REFRESH_ID;$/;"	t	typeref:struct:_EFI_IFR_REFRESH_ID
+EFI_IFR_REFRESH_ID_OP	UefiInternalFormRepresentation.h	791;"	d
+EFI_IFR_REFRESH_OP	UefiInternalFormRepresentation.h	722;"	d
+EFI_IFR_REF_OP	UefiInternalFormRepresentation.h	708;"	d
+EFI_IFR_RESET_BUTTON	UefiInternalFormRepresentation.h	/^} EFI_IFR_RESET_BUTTON;$/;"	t	typeref:struct:_EFI_IFR_RESET_BUTTON
+EFI_IFR_RESET_BUTTON_OP	UefiInternalFormRepresentation.h	706;"	d
+EFI_IFR_RULE	UefiInternalFormRepresentation.h	/^} EFI_IFR_RULE;$/;"	t	typeref:struct:_EFI_IFR_RULE
+EFI_IFR_RULE_OP	UefiInternalFormRepresentation.h	717;"	d
+EFI_IFR_RULE_REF	UefiInternalFormRepresentation.h	/^} EFI_IFR_RULE_REF;$/;"	t	typeref:struct:_EFI_IFR_RULE_REF
+EFI_IFR_RULE_REF_OP	UefiInternalFormRepresentation.h	756;"	d
+EFI_IFR_SECURITY	UefiInternalFormRepresentation.h	/^} EFI_IFR_SECURITY;$/;"	t	typeref:struct:_EFI_IFR_SECURITY
+EFI_IFR_SECURITY_OP	UefiInternalFormRepresentation.h	789;"	d
+EFI_IFR_SET	UefiInternalFormRepresentation.h	/^} EFI_IFR_SET;$/;"	t	typeref:struct:_EFI_IFR_SET
+EFI_IFR_SET_OP	UefiInternalFormRepresentation.h	737;"	d
+EFI_IFR_SHIFT_LEFT	UefiInternalFormRepresentation.h	/^} EFI_IFR_SHIFT_LEFT;$/;"	t	typeref:struct:_EFI_IFR_SHIFT_LEFT
+EFI_IFR_SHIFT_LEFT_OP	UefiInternalFormRepresentation.h	749;"	d
+EFI_IFR_SHIFT_RIGHT	UefiInternalFormRepresentation.h	/^} EFI_IFR_SHIFT_RIGHT;$/;"	t	typeref:struct:_EFI_IFR_SHIFT_RIGHT
+EFI_IFR_SHIFT_RIGHT_OP	UefiInternalFormRepresentation.h	750;"	d
+EFI_IFR_SPAN	UefiInternalFormRepresentation.h	/^} EFI_IFR_SPAN;$/;"	t	typeref:struct:_EFI_IFR_SPAN
+EFI_IFR_SPAN_OP	UefiInternalFormRepresentation.h	782;"	d
+EFI_IFR_STATEMENT_HEADER	UefiInternalFormRepresentation.h	/^} EFI_IFR_STATEMENT_HEADER;$/;"	t	typeref:struct:_EFI_IFR_STATEMENT_HEADER
+EFI_IFR_STRING	UefiInternalFormRepresentation.h	/^} EFI_IFR_STRING;$/;"	t	typeref:struct:_EFI_IFR_STRING
+EFI_IFR_STRING_ASCII	UefiInternalFormRepresentation.h	1346;"	d
+EFI_IFR_STRING_LOWERCASE_HEX	UefiInternalFormRepresentation.h	1337;"	d
+EFI_IFR_STRING_MULTI_LINE	UefiInternalFormRepresentation.h	1084;"	d
+EFI_IFR_STRING_OP	UefiInternalFormRepresentation.h	721;"	d
+EFI_IFR_STRING_REF1	UefiInternalFormRepresentation.h	/^} EFI_IFR_STRING_REF1;$/;"	t	typeref:struct:_EFI_IFR_STRING_REF1
+EFI_IFR_STRING_REF1_OP	UefiInternalFormRepresentation.h	771;"	d
+EFI_IFR_STRING_REF2	UefiInternalFormRepresentation.h	/^} EFI_IFR_STRING_REF2;$/;"	t	typeref:struct:_EFI_IFR_STRING_REF2
+EFI_IFR_STRING_REF2_OP	UefiInternalFormRepresentation.h	772;"	d
+EFI_IFR_STRING_SIGNED_DEC	UefiInternalFormRepresentation.h	1336;"	d
+EFI_IFR_STRING_UNICODE	UefiInternalFormRepresentation.h	1347;"	d
+EFI_IFR_STRING_UNSIGNED_DEC	UefiInternalFormRepresentation.h	1335;"	d
+EFI_IFR_STRING_UPPERCASE_HEX	UefiInternalFormRepresentation.h	1338;"	d
+EFI_IFR_SUBTITLE	UefiInternalFormRepresentation.h	/^} EFI_IFR_SUBTITLE;$/;"	t	typeref:struct:_EFI_IFR_SUBTITLE
+EFI_IFR_SUBTITLE_OP	UefiInternalFormRepresentation.h	695;"	d
+EFI_IFR_SUBTRACT	UefiInternalFormRepresentation.h	/^} EFI_IFR_SUBTRACT;$/;"	t	typeref:struct:_EFI_IFR_SUBTRACT
+EFI_IFR_SUBTRACT_OP	UefiInternalFormRepresentation.h	752;"	d
+EFI_IFR_SUPPRESS_IF	UefiInternalFormRepresentation.h	/^} EFI_IFR_SUPPRESS_IF;$/;"	t	typeref:struct:_EFI_IFR_SUPPRESS_IF
+EFI_IFR_SUPPRESS_IF_OP	UefiInternalFormRepresentation.h	703;"	d
+EFI_IFR_TEXT	UefiInternalFormRepresentation.h	/^} EFI_IFR_TEXT;$/;"	t	typeref:struct:_EFI_IFR_TEXT
+EFI_IFR_TEXT_OP	UefiInternalFormRepresentation.h	696;"	d
+EFI_IFR_THIS	UefiInternalFormRepresentation.h	/^} EFI_IFR_THIS;$/;"	t	typeref:struct:_EFI_IFR_THIS
+EFI_IFR_THIS_OP	UefiInternalFormRepresentation.h	781;"	d
+EFI_IFR_TIME	UefiInternalFormRepresentation.h	/^} EFI_IFR_TIME;$/;"	t	typeref:struct:_EFI_IFR_TIME
+EFI_IFR_TIME_OP	UefiInternalFormRepresentation.h	720;"	d
+EFI_IFR_TOKEN	UefiInternalFormRepresentation.h	/^} EFI_IFR_TOKEN;$/;"	t	typeref:struct:_EFI_IFR_TOKEN
+EFI_IFR_TOKEN_OP	UefiInternalFormRepresentation.h	770;"	d
+EFI_IFR_TO_BOOLEAN	UefiInternalFormRepresentation.h	/^} EFI_IFR_TO_BOOLEAN;$/;"	t	typeref:struct:_EFI_IFR_TO_BOOLEAN
+EFI_IFR_TO_BOOLEAN_OP	UefiInternalFormRepresentation.h	767;"	d
+EFI_IFR_TO_LOWER	UefiInternalFormRepresentation.h	/^} EFI_IFR_TO_LOWER;$/;"	t	typeref:struct:_EFI_IFR_TO_LOWER
+EFI_IFR_TO_LOWER_OP	UefiInternalFormRepresentation.h	725;"	d
+EFI_IFR_TO_STRING	UefiInternalFormRepresentation.h	/^} EFI_IFR_TO_STRING;$/;"	t	typeref:struct:_EFI_IFR_TO_STRING
+EFI_IFR_TO_STRING_OP	UefiInternalFormRepresentation.h	766;"	d
+EFI_IFR_TO_UINT	UefiInternalFormRepresentation.h	/^} EFI_IFR_TO_UINT;$/;"	t	typeref:struct:_EFI_IFR_TO_UINT
+EFI_IFR_TO_UINT_OP	UefiInternalFormRepresentation.h	765;"	d
+EFI_IFR_TO_UPPER	UefiInternalFormRepresentation.h	/^} EFI_IFR_TO_UPPER;$/;"	t	typeref:struct:_EFI_IFR_TO_UPPER
+EFI_IFR_TO_UPPER_OP	UefiInternalFormRepresentation.h	726;"	d
+EFI_IFR_TRUE	UefiInternalFormRepresentation.h	/^} EFI_IFR_TRUE;$/;"	t	typeref:struct:_EFI_IFR_TRUE
+EFI_IFR_TRUE_OP	UefiInternalFormRepresentation.h	763;"	d
+EFI_IFR_TYPE_ACTION	UefiInternalFormRepresentation.h	1180;"	d
+EFI_IFR_TYPE_BOOLEAN	UefiInternalFormRepresentation.h	1174;"	d
+EFI_IFR_TYPE_BUFFER	UefiInternalFormRepresentation.h	1181;"	d
+EFI_IFR_TYPE_DATE	UefiInternalFormRepresentation.h	1176;"	d
+EFI_IFR_TYPE_NUM_SIZE_16	UefiInternalFormRepresentation.h	1171;"	d
+EFI_IFR_TYPE_NUM_SIZE_32	UefiInternalFormRepresentation.h	1172;"	d
+EFI_IFR_TYPE_NUM_SIZE_64	UefiInternalFormRepresentation.h	1173;"	d
+EFI_IFR_TYPE_NUM_SIZE_8	UefiInternalFormRepresentation.h	1170;"	d
+EFI_IFR_TYPE_OTHER	UefiInternalFormRepresentation.h	1178;"	d
+EFI_IFR_TYPE_REF	UefiInternalFormRepresentation.h	1182;"	d
+EFI_IFR_TYPE_STRING	UefiInternalFormRepresentation.h	1177;"	d
+EFI_IFR_TYPE_TIME	UefiInternalFormRepresentation.h	1175;"	d
+EFI_IFR_TYPE_UNDEFINED	UefiInternalFormRepresentation.h	1179;"	d
+EFI_IFR_TYPE_VALUE	UefiInternalFormRepresentation.h	/^} EFI_IFR_TYPE_VALUE;$/;"	t	typeref:union:__anon9
+EFI_IFR_UINT16	UefiInternalFormRepresentation.h	/^} EFI_IFR_UINT16;$/;"	t	typeref:struct:_EFI_IFR_UINT16
+EFI_IFR_UINT16_OP	UefiInternalFormRepresentation.h	760;"	d
+EFI_IFR_UINT32	UefiInternalFormRepresentation.h	/^} EFI_IFR_UINT32;$/;"	t	typeref:struct:_EFI_IFR_UINT32
+EFI_IFR_UINT32_OP	UefiInternalFormRepresentation.h	761;"	d
+EFI_IFR_UINT64	UefiInternalFormRepresentation.h	/^} EFI_IFR_UINT64;$/;"	t	typeref:struct:_EFI_IFR_UINT64
+EFI_IFR_UINT64_OP	UefiInternalFormRepresentation.h	762;"	d
+EFI_IFR_UINT8	UefiInternalFormRepresentation.h	/^} EFI_IFR_UINT8;$/;"	t	typeref:struct:_EFI_IFR_UINT8
+EFI_IFR_UINT8_OP	UefiInternalFormRepresentation.h	759;"	d
+EFI_IFR_UNDEFINED	UefiInternalFormRepresentation.h	/^} EFI_IFR_UNDEFINED;$/;"	t	typeref:struct:_EFI_IFR_UNDEFINED
+EFI_IFR_UNDEFINED_OP	UefiInternalFormRepresentation.h	778;"	d
+EFI_IFR_UNIQUE_SET	UefiInternalFormRepresentation.h	1100;"	d
+EFI_IFR_VALUE	UefiInternalFormRepresentation.h	/^} EFI_IFR_VALUE;$/;"	t	typeref:struct:_EFI_IFR_VALUE
+EFI_IFR_VALUE_OP	UefiInternalFormRepresentation.h	783;"	d
+EFI_IFR_VARSTORE	UefiInternalFormRepresentation.h	/^} EFI_IFR_VARSTORE;$/;"	t	typeref:struct:_EFI_IFR_VARSTORE
+EFI_IFR_VARSTORE_DEVICE	UefiInternalFormRepresentation.h	/^} EFI_IFR_VARSTORE_DEVICE;$/;"	t	typeref:struct:_EFI_IFR_VARSTORE_DEVICE
+EFI_IFR_VARSTORE_DEVICE_OP	UefiInternalFormRepresentation.h	732;"	d
+EFI_IFR_VARSTORE_EFI	UefiInternalFormRepresentation.h	/^} EFI_IFR_VARSTORE_EFI;$/;"	t	typeref:struct:_EFI_IFR_VARSTORE_EFI
+EFI_IFR_VARSTORE_EFI_OP	UefiInternalFormRepresentation.h	731;"	d
+EFI_IFR_VARSTORE_NAME_VALUE	UefiInternalFormRepresentation.h	/^} EFI_IFR_VARSTORE_NAME_VALUE;$/;"	t	typeref:struct:_EFI_IFR_VARSTORE_NAME_VALUE
+EFI_IFR_VARSTORE_NAME_VALUE_OP	UefiInternalFormRepresentation.h	730;"	d
+EFI_IFR_VARSTORE_OP	UefiInternalFormRepresentation.h	729;"	d
+EFI_IFR_VERSION	UefiInternalFormRepresentation.h	/^} EFI_IFR_VERSION;$/;"	t	typeref:struct:_EFI_IFR_VERSION
+EFI_IFR_VERSION_OP	UefiInternalFormRepresentation.h	733;"	d
+EFI_IFR_WARNING_IF	UefiInternalFormRepresentation.h	/^} EFI_IFR_WARNING_IF;$/;"	t	typeref:struct:_EFI_IFR_WARNING_IF
+EFI_IFR_WARNING_IF_OP	UefiInternalFormRepresentation.h	792;"	d
+EFI_IFR_WRITE	UefiInternalFormRepresentation.h	/^} EFI_IFR_WRITE;$/;"	t	typeref:struct:_EFI_IFR_WRITE
+EFI_IFR_WRITE_OP	UefiInternalFormRepresentation.h	739;"	d
+EFI_IFR_ZERO	UefiInternalFormRepresentation.h	/^} EFI_IFR_ZERO;$/;"	t	typeref:struct:_EFI_IFR_ZERO
+EFI_IFR_ZERO_OP	UefiInternalFormRepresentation.h	775;"	d
+EFI_IMAGE_ENTRY_POINT	UefiSpec.h	/^(EFIAPI *EFI_IMAGE_ENTRY_POINT)($/;"	t
+EFI_IMAGE_ID	UefiInternalFormRepresentation.h	/^typedef UINT16  EFI_IMAGE_ID;$/;"	t
+EFI_IMAGE_LOAD	UefiSpec.h	/^(EFIAPI *EFI_IMAGE_LOAD)($/;"	t
+EFI_IMAGE_MACHINE_AARCH64	UefiBaseType.h	242;"	d
+EFI_IMAGE_MACHINE_ARMTHUMB_MIXED	UefiBaseType.h	237;"	d
+EFI_IMAGE_MACHINE_CROSS_TYPE_SUPPORTED	UefiBaseType.h	256;"	d
+EFI_IMAGE_MACHINE_CROSS_TYPE_SUPPORTED	UefiBaseType.h	263;"	d
+EFI_IMAGE_MACHINE_CROSS_TYPE_SUPPORTED	UefiBaseType.h	269;"	d
+EFI_IMAGE_MACHINE_CROSS_TYPE_SUPPORTED	UefiBaseType.h	276;"	d
+EFI_IMAGE_MACHINE_CROSS_TYPE_SUPPORTED	UefiBaseType.h	282;"	d
+EFI_IMAGE_MACHINE_CROSS_TYPE_SUPPORTED	UefiBaseType.h	292;"	d
+EFI_IMAGE_MACHINE_EBC	UefiBaseType.h	227;"	d
+EFI_IMAGE_MACHINE_IA32	UefiBaseType.h	217;"	d
+EFI_IMAGE_MACHINE_IA64	UefiBaseType.h	222;"	d
+EFI_IMAGE_MACHINE_RISCV128	UefiBaseType.h	249;"	d
+EFI_IMAGE_MACHINE_RISCV32	UefiBaseType.h	247;"	d
+EFI_IMAGE_MACHINE_RISCV64	UefiBaseType.h	248;"	d
+EFI_IMAGE_MACHINE_TYPE_SUPPORTED	UefiBaseType.h	253;"	d
+EFI_IMAGE_MACHINE_TYPE_SUPPORTED	UefiBaseType.h	260;"	d
+EFI_IMAGE_MACHINE_TYPE_SUPPORTED	UefiBaseType.h	267;"	d
+EFI_IMAGE_MACHINE_TYPE_SUPPORTED	UefiBaseType.h	273;"	d
+EFI_IMAGE_MACHINE_TYPE_SUPPORTED	UefiBaseType.h	279;"	d
+EFI_IMAGE_MACHINE_TYPE_SUPPORTED	UefiBaseType.h	290;"	d
+EFI_IMAGE_MACHINE_X64	UefiBaseType.h	232;"	d
+EFI_IMAGE_START	UefiSpec.h	/^(EFIAPI *EFI_IMAGE_START)($/;"	t
+EFI_IMAGE_UNLOAD	UefiSpec.h	/^(EFIAPI *EFI_IMAGE_UNLOAD)($/;"	t
+EFI_INCOMPATIBLE_VERSION	UefiBaseType.h	138;"	d
+EFI_INSERT_MODIFIER	UefiInternalFormRepresentation.h	1777;"	d
+EFI_INSTALL_CONFIGURATION_TABLE	UefiSpec.h	/^(EFIAPI *EFI_INSTALL_CONFIGURATION_TABLE)($/;"	t
+EFI_INSTALL_MULTIPLE_PROTOCOL_INTERFACES	UefiSpec.h	/^(EFIAPI *EFI_INSTALL_MULTIPLE_PROTOCOL_INTERFACES)($/;"	t
+EFI_INSTALL_PROTOCOL_INTERFACE	UefiSpec.h	/^(EFIAPI *EFI_INSTALL_PROTOCOL_INTERFACE)($/;"	t
+EFI_INTERFACE_TYPE	UefiSpec.h	/^} EFI_INTERFACE_TYPE;$/;"	t	typeref:enum:__anon32
+EFI_INVALID_LANGUAGE	UefiBaseType.h	143;"	d
+EFI_INVALID_PARAMETER	UefiBaseType.h	115;"	d
+EFI_IP_ADDRESS	UefiBaseType.h	/^} EFI_IP_ADDRESS;$/;"	t	typeref:union:__anon26
+EFI_IPv4_ADDRESS	UefiBaseType.h	/^typedef IPv4_ADDRESS EFI_IPv4_ADDRESS;$/;"	t
+EFI_IPv6_ADDRESS	UefiBaseType.h	/^typedef IPv6_ADDRESS EFI_IPv6_ADDRESS;$/;"	t
+EFI_KEY	UefiInternalFormRepresentation.h	/^} EFI_KEY;$/;"	t	typeref:enum:__anon18
+EFI_KEY_DESCRIPTOR	UefiInternalFormRepresentation.h	/^} EFI_KEY_DESCRIPTOR;$/;"	t	typeref:struct:__anon19
+EFI_KEY_OPTION	UefiSpec.h	/^} EFI_KEY_OPTION;$/;"	t	typeref:struct:__anon45
+EFI_LBA	UefiBaseType.h	/^typedef UINT64                    EFI_LBA;$/;"	t
+EFI_LEFT_ALT_MODIFIER	UefiInternalFormRepresentation.h	1774;"	d
+EFI_LEFT_ARROW_MODIFIER	UefiInternalFormRepresentation.h	1787;"	d
+EFI_LEFT_CONTROL_MODIFIER	UefiInternalFormRepresentation.h	1772;"	d
+EFI_LEFT_LOGO_MODIFIER	UefiInternalFormRepresentation.h	1819;"	d
+EFI_LEFT_SHIFT_MODIFIER	UefiInternalFormRepresentation.h	1783;"	d
+EFI_LOAD_ERROR	UefiBaseType.h	114;"	d
+EFI_LOAD_OPTION	UefiSpec.h	/^} EFI_LOAD_OPTION;$/;"	t	typeref:struct:_EFI_LOAD_OPTION
+EFI_LOCATE_DEVICE_PATH	UefiSpec.h	/^(EFIAPI *EFI_LOCATE_DEVICE_PATH)($/;"	t
+EFI_LOCATE_HANDLE	UefiSpec.h	/^(EFIAPI *EFI_LOCATE_HANDLE)($/;"	t
+EFI_LOCATE_HANDLE_BUFFER	UefiSpec.h	/^(EFIAPI *EFI_LOCATE_HANDLE_BUFFER)($/;"	t
+EFI_LOCATE_PROTOCOL	UefiSpec.h	/^(EFIAPI *EFI_LOCATE_PROTOCOL)($/;"	t
+EFI_LOCATE_SEARCH_TYPE	UefiSpec.h	/^} EFI_LOCATE_SEARCH_TYPE;$/;"	t	typeref:enum:__anon34
+EFI_MAC_ADDRESS	UefiBaseType.h	/^} EFI_MAC_ADDRESS;$/;"	t	typeref:struct:__anon25
+EFI_MEDIA_CHANGED	UefiBaseType.h	126;"	d
+EFI_MEMORY_ACCESS_MASK	UefiSpec.h	116;"	d
+EFI_MEMORY_ATTRIBUTE_MASK	UefiSpec.h	117;"	d
+EFI_MEMORY_CPU_CRYPTO	UefiSpec.h	105;"	d
+EFI_MEMORY_DESCRIPTOR	UefiSpec.h	/^} EFI_MEMORY_DESCRIPTOR;$/;"	t	typeref:struct:__anon29
+EFI_MEMORY_DESCRIPTOR_VERSION	UefiSpec.h	122;"	d
+EFI_MEMORY_MORE_RELIABLE	UefiSpec.h	86;"	d
+EFI_MEMORY_NV	UefiSpec.h	81;"	d
+EFI_MEMORY_RO	UefiSpec.h	76;"	d
+EFI_MEMORY_RP	UefiSpec.h	74;"	d
+EFI_MEMORY_RUNTIME	UefiSpec.h	110;"	d
+EFI_MEMORY_SP	UefiSpec.h	96;"	d
+EFI_MEMORY_TYPE	UefiMultiPhase.h	/^} EFI_MEMORY_TYPE;$/;"	t	typeref:enum:__anon46
+EFI_MEMORY_UC	UefiSpec.h	62;"	d
+EFI_MEMORY_UCE	UefiSpec.h	66;"	d
+EFI_MEMORY_WB	UefiSpec.h	65;"	d
+EFI_MEMORY_WC	UefiSpec.h	63;"	d
+EFI_MEMORY_WP	UefiSpec.h	73;"	d
+EFI_MEMORY_WT	UefiSpec.h	64;"	d
+EFI_MEMORY_XP	UefiSpec.h	75;"	d
+EFI_MENU_MODIFIER	UefiInternalFormRepresentation.h	1821;"	d
+EFI_NARROW_GLYPH	UefiInternalFormRepresentation.h	/^} EFI_NARROW_GLYPH;$/;"	t	typeref:struct:__anon3
+EFI_NATIVE_INTERFACE	UefiSpec.h	/^  EFI_NATIVE_INTERFACE$/;"	e	enum:__anon32
+EFI_NETWORK_UNREACHABLE	UefiBaseType.h	165;"	d
+EFI_NOT_FOUND	UefiBaseType.h	127;"	d
+EFI_NOT_READY	UefiBaseType.h	119;"	d
+EFI_NOT_STARTED	UefiBaseType.h	132;"	d
+EFI_NO_MAPPING	UefiBaseType.h	130;"	d
+EFI_NO_MEDIA	UefiBaseType.h	125;"	d
+EFI_NO_RESPONSE	UefiBaseType.h	129;"	d
+EFI_NS_KEY_DEPENDENCY_MODIFIER	UefiInternalFormRepresentation.h	1792;"	d
+EFI_NS_KEY_MODIFIER	UefiInternalFormRepresentation.h	1791;"	d
+EFI_NULL_MODIFIER	UefiInternalFormRepresentation.h	1771;"	d
+EFI_NUM_LOCK_MODIFIER	UefiInternalFormRepresentation.h	1786;"	d
+EFI_OPEN_PROTOCOL	UefiSpec.h	/^(EFIAPI *EFI_OPEN_PROTOCOL)($/;"	t
+EFI_OPEN_PROTOCOL_BY_CHILD_CONTROLLER	UefiSpec.h	1305;"	d
+EFI_OPEN_PROTOCOL_BY_DRIVER	UefiSpec.h	1306;"	d
+EFI_OPEN_PROTOCOL_BY_HANDLE_PROTOCOL	UefiSpec.h	1302;"	d
+EFI_OPEN_PROTOCOL_EXCLUSIVE	UefiSpec.h	1307;"	d
+EFI_OPEN_PROTOCOL_GET_PROTOCOL	UefiSpec.h	1303;"	d
+EFI_OPEN_PROTOCOL_INFORMATION	UefiSpec.h	/^(EFIAPI *EFI_OPEN_PROTOCOL_INFORMATION)($/;"	t
+EFI_OPEN_PROTOCOL_INFORMATION_ENTRY	UefiSpec.h	/^} EFI_OPEN_PROTOCOL_INFORMATION_ENTRY;$/;"	t	typeref:struct:__anon33
+EFI_OPEN_PROTOCOL_TEST_PROTOCOL	UefiSpec.h	1304;"	d
+EFI_OPTIONAL_PTR	UefiSpec.h	389;"	d
+EFI_OS_INDICATIONS_BOOT_TO_FW_UI	UefiSpec.h	1787;"	d
+EFI_OS_INDICATIONS_CAPSULE_RESULT_VAR_SUPPORTED	UefiSpec.h	1791;"	d
+EFI_OS_INDICATIONS_FILE_CAPSULE_DELIVERY_SUPPORTED	UefiSpec.h	1789;"	d
+EFI_OS_INDICATIONS_FMP_CAPSULE_SUPPORTED	UefiSpec.h	1790;"	d
+EFI_OS_INDICATIONS_JSON_CONFIG_DATA_REFRESH	UefiSpec.h	1793;"	d
+EFI_OS_INDICATIONS_START_PLATFORM_RECOVERY	UefiSpec.h	1792;"	d
+EFI_OS_INDICATIONS_TIMESTAMP_REVOCATION	UefiSpec.h	1788;"	d
+EFI_OUT_OF_RESOURCES	UefiBaseType.h	122;"	d
+EFI_PAGES_TO_SIZE	UefiBaseType.h	212;"	d
+EFI_PAGE_DOWN_MODIFIER	UefiInternalFormRepresentation.h	1779;"	d
+EFI_PAGE_MASK	UefiBaseType.h	185;"	d
+EFI_PAGE_SHIFT	UefiBaseType.h	186;"	d
+EFI_PAGE_SIZE	UefiBaseType.h	184;"	d
+EFI_PAGE_UP_MODIFIER	UefiInternalFormRepresentation.h	1780;"	d
+EFI_PARTITION_ENTRY	UefiGpt.h	/^} EFI_PARTITION_ENTRY;$/;"	t	typeref:struct:__anon23
+EFI_PARTITION_TABLE_HEADER	UefiGpt.h	/^} EFI_PARTITION_TABLE_HEADER;$/;"	t	typeref:struct:__anon22
+EFI_PAUSE_MODIFIER	UefiInternalFormRepresentation.h	1816;"	d
+EFI_PHYSICAL_ADDRESS	UefiBaseType.h	/^typedef UINT64                    EFI_PHYSICAL_ADDRESS;$/;"	t
+EFI_PORT_UNREACHABLE	UefiBaseType.h	168;"	d
+EFI_PRINT_MODIFIER	UefiInternalFormRepresentation.h	1813;"	d
+EFI_PROTOCOLS_PER_HANDLE	UefiSpec.h	/^(EFIAPI *EFI_PROTOCOLS_PER_HANDLE)($/;"	t
+EFI_PROTOCOL_ERROR	UefiBaseType.h	137;"	d
+EFI_PROTOCOL_UNREACHABLE	UefiBaseType.h	167;"	d
+EFI_PTAB_HEADER_ID	UefiGpt.h	20;"	d
+EFI_QF_DATE_DAY_SUPPRESS	UefiInternalFormRepresentation.h	1018;"	d
+EFI_QF_DATE_MONTH_SUPPRESS	UefiInternalFormRepresentation.h	1017;"	d
+EFI_QF_DATE_STORAGE	UefiInternalFormRepresentation.h	1020;"	d
+EFI_QF_DATE_YEAR_SUPPRESS	UefiInternalFormRepresentation.h	1016;"	d
+EFI_QUERY_CAPSULE_CAPABILITIES	UefiSpec.h	/^(EFIAPI *EFI_QUERY_CAPSULE_CAPABILITIES)($/;"	t
+EFI_QUERY_VARIABLE_INFO	UefiSpec.h	/^(EFIAPI *EFI_QUERY_VARIABLE_INFO)($/;"	t
+EFI_QUESTION_ID	UefiInternalFormRepresentation.h	/^typedef UINT16  EFI_QUESTION_ID;$/;"	t
+EFI_RAISE_TPL	UefiSpec.h	/^(EFIAPI *EFI_RAISE_TPL)($/;"	t
+EFI_REGISTER_PROTOCOL_NOTIFY	UefiSpec.h	/^(EFIAPI *EFI_REGISTER_PROTOCOL_NOTIFY)($/;"	t
+EFI_REINSTALL_PROTOCOL_INTERFACE	UefiSpec.h	/^(EFIAPI *EFI_REINSTALL_PROTOCOL_INTERFACE)($/;"	t
+EFI_REMOVABLE_MEDIA_FILE_NAME	UefiSpec.h	2215;"	d
+EFI_REMOVABLE_MEDIA_FILE_NAME	UefiSpec.h	2217;"	d
+EFI_REMOVABLE_MEDIA_FILE_NAME	UefiSpec.h	2220;"	d
+EFI_REMOVABLE_MEDIA_FILE_NAME	UefiSpec.h	2222;"	d
+EFI_REMOVABLE_MEDIA_FILE_NAME	UefiSpec.h	2224;"	d
+EFI_REMOVABLE_MEDIA_FILE_NAME_AARCH64	UefiSpec.h	2211;"	d
+EFI_REMOVABLE_MEDIA_FILE_NAME_ARM	UefiSpec.h	2210;"	d
+EFI_REMOVABLE_MEDIA_FILE_NAME_IA32	UefiSpec.h	2207;"	d
+EFI_REMOVABLE_MEDIA_FILE_NAME_IA64	UefiSpec.h	2208;"	d
+EFI_REMOVABLE_MEDIA_FILE_NAME_RISCV64	UefiSpec.h	2212;"	d
+EFI_REMOVABLE_MEDIA_FILE_NAME_X64	UefiSpec.h	2209;"	d
+EFI_RESET_SYSTEM	UefiSpec.h	/^(EFIAPI *EFI_RESET_SYSTEM)($/;"	t
+EFI_RESET_TYPE	UefiMultiPhase.h	/^} EFI_RESET_TYPE;$/;"	t	typeref:enum:__anon47
+EFI_RESTORE_TPL	UefiSpec.h	/^(EFIAPI *EFI_RESTORE_TPL)($/;"	t
+EFI_RIGHT_ALT_MODIFIER	UefiInternalFormRepresentation.h	1775;"	d
+EFI_RIGHT_ARROW_MODIFIER	UefiInternalFormRepresentation.h	1788;"	d
+EFI_RIGHT_CONTROL_MODIFIER	UefiInternalFormRepresentation.h	1773;"	d
+EFI_RIGHT_LOGO_MODIFIER	UefiInternalFormRepresentation.h	1820;"	d
+EFI_RIGHT_SHIFT_MODIFIER	UefiInternalFormRepresentation.h	1784;"	d
+EFI_RUNTIME_SERVICES	UefiSpec.h	/^} EFI_RUNTIME_SERVICES;$/;"	t	typeref:struct:__anon39
+EFI_RUNTIME_SERVICES_REVISION	UefiSpec.h	1815;"	d
+EFI_RUNTIME_SERVICES_SIGNATURE	UefiSpec.h	1814;"	d
+EFI_SCROLL_LOCK_MODIFIER	UefiInternalFormRepresentation.h	1815;"	d
+EFI_SECURITY_VIOLATION	UefiBaseType.h	139;"	d
+EFI_SET_MEM	UefiSpec.h	/^(EFIAPI *EFI_SET_MEM)($/;"	t
+EFI_SET_TIME	UefiSpec.h	/^(EFIAPI *EFI_SET_TIME)($/;"	t
+EFI_SET_TIMER	UefiSpec.h	/^(EFIAPI *EFI_SET_TIMER)($/;"	t
+EFI_SET_VARIABLE	UefiSpec.h	/^(EFIAPI *EFI_SET_VARIABLE)($/;"	t
+EFI_SET_VIRTUAL_ADDRESS_MAP	UefiSpec.h	/^(EFIAPI *EFI_SET_VIRTUAL_ADDRESS_MAP)($/;"	t
+EFI_SET_WAKEUP_TIME	UefiSpec.h	/^(EFIAPI *EFI_SET_WAKEUP_TIME)($/;"	t
+EFI_SET_WATCHDOG_TIMER	UefiSpec.h	/^(EFIAPI *EFI_SET_WATCHDOG_TIMER)($/;"	t
+EFI_SIGNAL_EVENT	UefiSpec.h	/^(EFIAPI *EFI_SIGNAL_EVENT)($/;"	t
+EFI_SIZE_TO_PAGES	UefiBaseType.h	199;"	d
+EFI_SPECIFICATION_VERSION	UefiSpec.h	1812;"	d
+EFI_STALL	UefiSpec.h	/^(EFIAPI *EFI_STALL)($/;"	t
+EFI_STATUS	UefiBaseType.h	/^typedef RETURN_STATUS             EFI_STATUS;$/;"	t
+EFI_STRING	UefiInternalFormRepresentation.h	/^typedef CHAR16* EFI_STRING;$/;"	t
+EFI_STRING_ID	UefiInternalFormRepresentation.h	/^typedef UINT16  EFI_STRING_ID;$/;"	t
+EFI_SUCCESS	UefiBaseType.h	113;"	d
+EFI_SYSTEM_TABLE	UefiSpec.h	/^} EFI_SYSTEM_TABLE;$/;"	t	typeref:struct:__anon42
+EFI_SYSTEM_TABLE_REVISION	UefiSpec.h	1811;"	d
+EFI_SYSTEM_TABLE_SIGNATURE	UefiSpec.h	1798;"	d
+EFI_SYS_REQUEST_MODIFIER	UefiInternalFormRepresentation.h	1814;"	d
+EFI_TABLE_HEADER	UefiMultiPhase.h	/^} EFI_TABLE_HEADER;$/;"	t	typeref:struct:__anon48
+EFI_TFTP_ERROR	UefiBaseType.h	136;"	d
+EFI_TIME	UefiBaseType.h	/^} EFI_TIME;$/;"	t	typeref:struct:__anon24
+EFI_TIMEOUT	UefiBaseType.h	131;"	d
+EFI_TIMER_DELAY	UefiSpec.h	/^} EFI_TIMER_DELAY;$/;"	t	typeref:enum:__anon30
+EFI_TIME_ADJUST_DAYLIGHT	UefiSpec.h	51;"	d
+EFI_TIME_CAPABILITIES	UefiSpec.h	/^} EFI_TIME_CAPABILITIES;$/;"	t	typeref:struct:__anon31
+EFI_TIME_IN_DAYLIGHT	UefiSpec.h	52;"	d
+EFI_TPL	UefiBaseType.h	/^typedef UINTN                     EFI_TPL;$/;"	t
+EFI_UNINSTALL_MULTIPLE_PROTOCOL_INTERFACES	UefiSpec.h	/^(EFIAPI *EFI_UNINSTALL_MULTIPLE_PROTOCOL_INTERFACES)($/;"	t
+EFI_UNINSTALL_PROTOCOL_INTERFACE	UefiSpec.h	/^(EFIAPI *EFI_UNINSTALL_PROTOCOL_INTERFACE)($/;"	t
+EFI_UNSPECIFIED_TIMEZONE	UefiSpec.h	57;"	d
+EFI_UNSUPPORTED	UefiBaseType.h	116;"	d
+EFI_UPDATE_CAPSULE	UefiSpec.h	/^(EFIAPI *EFI_UPDATE_CAPSULE)($/;"	t
+EFI_UP_ARROW_MODIFIER	UefiInternalFormRepresentation.h	1790;"	d
+EFI_VARIABLE_APPEND_WRITE	UefiMultiPhase.h	27;"	d
+EFI_VARIABLE_AUTHENTICATED_WRITE_ACCESS	UefiMultiPhase.h	31;"	d
+EFI_VARIABLE_AUTHENTICATION	UefiMultiPhase.h	/^} EFI_VARIABLE_AUTHENTICATION;$/;"	t	typeref:struct:__anon49
+EFI_VARIABLE_AUTHENTICATION_2	UefiMultiPhase.h	/^ } EFI_VARIABLE_AUTHENTICATION_2;$/;"	t	typeref:struct:__anon50
+EFI_VARIABLE_BOOTSERVICE_ACCESS	UefiMultiPhase.h	16;"	d
+EFI_VARIABLE_HARDWARE_ERROR_RECORD	UefiMultiPhase.h	22;"	d
+EFI_VARIABLE_NON_VOLATILE	UefiMultiPhase.h	15;"	d
+EFI_VARIABLE_RUNTIME_ACCESS	UefiMultiPhase.h	17;"	d
+EFI_VARIABLE_TIME_BASED_AUTHENTICATED_WRITE_ACCESS	UefiMultiPhase.h	26;"	d
+EFI_VARSTORE_ID	UefiInternalFormRepresentation.h	/^typedef UINT16  EFI_VARSTORE_ID;$/;"	t
+EFI_VIRTUAL_ADDRESS	UefiBaseType.h	/^typedef UINT64                    EFI_VIRTUAL_ADDRESS;$/;"	t
+EFI_VOLUME_CORRUPTED	UefiBaseType.h	123;"	d
+EFI_VOLUME_FULL	UefiBaseType.h	124;"	d
+EFI_WAIT_FOR_EVENT	UefiSpec.h	/^(EFIAPI *EFI_WAIT_FOR_EVENT)($/;"	t
+EFI_WARN_BUFFER_TOO_SMALL	UefiBaseType.h	150;"	d
+EFI_WARN_DELETE_FAILURE	UefiBaseType.h	148;"	d
+EFI_WARN_FILE_SYSTEM	UefiBaseType.h	152;"	d
+EFI_WARN_STALE_DATA	UefiBaseType.h	151;"	d
+EFI_WARN_UNKNOWN_GLYPH	UefiBaseType.h	147;"	d
+EFI_WARN_WRITE_FAILURE	UefiBaseType.h	149;"	d
+EFI_WIDE_GLYPH	UefiInternalFormRepresentation.h	/^} EFI_WIDE_GLYPH;$/;"	t	typeref:struct:__anon4
+EFI_WRITE_PROTECTED	UefiBaseType.h	121;"	d
+EVT_NOTIFY_SIGNAL	UefiSpec.h	422;"	d
+EVT_NOTIFY_WAIT	UefiSpec.h	421;"	d
+EVT_RUNTIME	UefiSpec.h	420;"	d
+EVT_RUNTIME_CONTEXT	UefiSpec.h	432;"	d
+EVT_SIGNAL_EXIT_BOOT_SERVICES	UefiSpec.h	424;"	d
+EVT_SIGNAL_VIRTUAL_ADDRESS_CHANGE	UefiSpec.h	425;"	d
+EVT_TIMER	UefiSpec.h	419;"	d
+EfiACPIMemoryNVS	UefiMultiPhase.h	/^  EfiACPIMemoryNVS,$/;"	e	enum:__anon46
+EfiACPIReclaimMemory	UefiMultiPhase.h	/^  EfiACPIReclaimMemory,$/;"	e	enum:__anon46
+EfiBootServicesCode	UefiMultiPhase.h	/^  EfiBootServicesCode,$/;"	e	enum:__anon46
+EfiBootServicesData	UefiMultiPhase.h	/^  EfiBootServicesData,$/;"	e	enum:__anon46
+EfiConventionalMemory	UefiMultiPhase.h	/^  EfiConventionalMemory,$/;"	e	enum:__anon46
+EfiKeyA0	UefiInternalFormRepresentation.h	/^  EfiKeyA0,$/;"	e	enum:__anon18
+EfiKeyA2	UefiInternalFormRepresentation.h	/^  EfiKeyA2,$/;"	e	enum:__anon18
+EfiKeyA3	UefiInternalFormRepresentation.h	/^  EfiKeyA3,$/;"	e	enum:__anon18
+EfiKeyA4	UefiInternalFormRepresentation.h	/^  EfiKeyA4,$/;"	e	enum:__anon18
+EfiKeyAsterisk	UefiInternalFormRepresentation.h	/^  EfiKeyAsterisk,$/;"	e	enum:__anon18
+EfiKeyB0	UefiInternalFormRepresentation.h	/^  EfiKeyB0,$/;"	e	enum:__anon18
+EfiKeyB1	UefiInternalFormRepresentation.h	/^  EfiKeyB1,$/;"	e	enum:__anon18
+EfiKeyB10	UefiInternalFormRepresentation.h	/^  EfiKeyB10,$/;"	e	enum:__anon18
+EfiKeyB2	UefiInternalFormRepresentation.h	/^  EfiKeyB2,$/;"	e	enum:__anon18
+EfiKeyB3	UefiInternalFormRepresentation.h	/^  EfiKeyB3,$/;"	e	enum:__anon18
+EfiKeyB4	UefiInternalFormRepresentation.h	/^  EfiKeyB4,$/;"	e	enum:__anon18
+EfiKeyB5	UefiInternalFormRepresentation.h	/^  EfiKeyB5,$/;"	e	enum:__anon18
+EfiKeyB6	UefiInternalFormRepresentation.h	/^  EfiKeyB6,$/;"	e	enum:__anon18
+EfiKeyB7	UefiInternalFormRepresentation.h	/^  EfiKeyB7,$/;"	e	enum:__anon18
+EfiKeyB8	UefiInternalFormRepresentation.h	/^  EfiKeyB8,$/;"	e	enum:__anon18
+EfiKeyB9	UefiInternalFormRepresentation.h	/^  EfiKeyB9,$/;"	e	enum:__anon18
+EfiKeyBackSpace	UefiInternalFormRepresentation.h	/^  EfiKeyBackSpace,$/;"	e	enum:__anon18
+EfiKeyC1	UefiInternalFormRepresentation.h	/^  EfiKeyC1,$/;"	e	enum:__anon18
+EfiKeyC10	UefiInternalFormRepresentation.h	/^  EfiKeyC10,$/;"	e	enum:__anon18
+EfiKeyC11	UefiInternalFormRepresentation.h	/^  EfiKeyC11,$/;"	e	enum:__anon18
+EfiKeyC12	UefiInternalFormRepresentation.h	/^  EfiKeyC12,$/;"	e	enum:__anon18
+EfiKeyC2	UefiInternalFormRepresentation.h	/^  EfiKeyC2,$/;"	e	enum:__anon18
+EfiKeyC3	UefiInternalFormRepresentation.h	/^  EfiKeyC3,$/;"	e	enum:__anon18
+EfiKeyC4	UefiInternalFormRepresentation.h	/^  EfiKeyC4,$/;"	e	enum:__anon18
+EfiKeyC5	UefiInternalFormRepresentation.h	/^  EfiKeyC5,$/;"	e	enum:__anon18
+EfiKeyC6	UefiInternalFormRepresentation.h	/^  EfiKeyC6,$/;"	e	enum:__anon18
+EfiKeyC7	UefiInternalFormRepresentation.h	/^  EfiKeyC7,$/;"	e	enum:__anon18
+EfiKeyC8	UefiInternalFormRepresentation.h	/^  EfiKeyC8,$/;"	e	enum:__anon18
+EfiKeyC9	UefiInternalFormRepresentation.h	/^  EfiKeyC9,$/;"	e	enum:__anon18
+EfiKeyCapsLock	UefiInternalFormRepresentation.h	/^  EfiKeyCapsLock,$/;"	e	enum:__anon18
+EfiKeyD1	UefiInternalFormRepresentation.h	/^  EfiKeyD1,$/;"	e	enum:__anon18
+EfiKeyD10	UefiInternalFormRepresentation.h	/^  EfiKeyD10,$/;"	e	enum:__anon18
+EfiKeyD11	UefiInternalFormRepresentation.h	/^  EfiKeyD11,$/;"	e	enum:__anon18
+EfiKeyD12	UefiInternalFormRepresentation.h	/^  EfiKeyD12,$/;"	e	enum:__anon18
+EfiKeyD13	UefiInternalFormRepresentation.h	/^  EfiKeyD13,$/;"	e	enum:__anon18
+EfiKeyD2	UefiInternalFormRepresentation.h	/^  EfiKeyD2,$/;"	e	enum:__anon18
+EfiKeyD3	UefiInternalFormRepresentation.h	/^  EfiKeyD3,$/;"	e	enum:__anon18
+EfiKeyD4	UefiInternalFormRepresentation.h	/^  EfiKeyD4,$/;"	e	enum:__anon18
+EfiKeyD5	UefiInternalFormRepresentation.h	/^  EfiKeyD5,$/;"	e	enum:__anon18
+EfiKeyD6	UefiInternalFormRepresentation.h	/^  EfiKeyD6,$/;"	e	enum:__anon18
+EfiKeyD7	UefiInternalFormRepresentation.h	/^  EfiKeyD7,$/;"	e	enum:__anon18
+EfiKeyD8	UefiInternalFormRepresentation.h	/^  EfiKeyD8,$/;"	e	enum:__anon18
+EfiKeyD9	UefiInternalFormRepresentation.h	/^  EfiKeyD9,$/;"	e	enum:__anon18
+EfiKeyDel	UefiInternalFormRepresentation.h	/^  EfiKeyDel,$/;"	e	enum:__anon18
+EfiKeyDownArrow	UefiInternalFormRepresentation.h	/^  EfiKeyDownArrow,$/;"	e	enum:__anon18
+EfiKeyE0	UefiInternalFormRepresentation.h	/^  EfiKeyE0,$/;"	e	enum:__anon18
+EfiKeyE1	UefiInternalFormRepresentation.h	/^  EfiKeyE1,$/;"	e	enum:__anon18
+EfiKeyE10	UefiInternalFormRepresentation.h	/^  EfiKeyE10,$/;"	e	enum:__anon18
+EfiKeyE11	UefiInternalFormRepresentation.h	/^  EfiKeyE11,$/;"	e	enum:__anon18
+EfiKeyE12	UefiInternalFormRepresentation.h	/^  EfiKeyE12,$/;"	e	enum:__anon18
+EfiKeyE2	UefiInternalFormRepresentation.h	/^  EfiKeyE2,$/;"	e	enum:__anon18
+EfiKeyE3	UefiInternalFormRepresentation.h	/^  EfiKeyE3,$/;"	e	enum:__anon18
+EfiKeyE4	UefiInternalFormRepresentation.h	/^  EfiKeyE4,$/;"	e	enum:__anon18
+EfiKeyE5	UefiInternalFormRepresentation.h	/^  EfiKeyE5,$/;"	e	enum:__anon18
+EfiKeyE6	UefiInternalFormRepresentation.h	/^  EfiKeyE6,$/;"	e	enum:__anon18
+EfiKeyE7	UefiInternalFormRepresentation.h	/^  EfiKeyE7,$/;"	e	enum:__anon18
+EfiKeyE8	UefiInternalFormRepresentation.h	/^  EfiKeyE8,$/;"	e	enum:__anon18
+EfiKeyE9	UefiInternalFormRepresentation.h	/^  EfiKeyE9,$/;"	e	enum:__anon18
+EfiKeyEight	UefiInternalFormRepresentation.h	/^  EfiKeyEight,$/;"	e	enum:__anon18
+EfiKeyEnd	UefiInternalFormRepresentation.h	/^  EfiKeyEnd,$/;"	e	enum:__anon18
+EfiKeyEnter	UefiInternalFormRepresentation.h	/^  EfiKeyEnter,$/;"	e	enum:__anon18
+EfiKeyEsc	UefiInternalFormRepresentation.h	/^  EfiKeyEsc,$/;"	e	enum:__anon18
+EfiKeyF1	UefiInternalFormRepresentation.h	/^  EfiKeyF1,$/;"	e	enum:__anon18
+EfiKeyF10	UefiInternalFormRepresentation.h	/^  EfiKeyF10,$/;"	e	enum:__anon18
+EfiKeyF11	UefiInternalFormRepresentation.h	/^  EfiKeyF11,$/;"	e	enum:__anon18
+EfiKeyF12	UefiInternalFormRepresentation.h	/^  EfiKeyF12,$/;"	e	enum:__anon18
+EfiKeyF2	UefiInternalFormRepresentation.h	/^  EfiKeyF2,$/;"	e	enum:__anon18
+EfiKeyF3	UefiInternalFormRepresentation.h	/^  EfiKeyF3,$/;"	e	enum:__anon18
+EfiKeyF4	UefiInternalFormRepresentation.h	/^  EfiKeyF4,$/;"	e	enum:__anon18
+EfiKeyF5	UefiInternalFormRepresentation.h	/^  EfiKeyF5,$/;"	e	enum:__anon18
+EfiKeyF6	UefiInternalFormRepresentation.h	/^  EfiKeyF6,$/;"	e	enum:__anon18
+EfiKeyF7	UefiInternalFormRepresentation.h	/^  EfiKeyF7,$/;"	e	enum:__anon18
+EfiKeyF8	UefiInternalFormRepresentation.h	/^  EfiKeyF8,$/;"	e	enum:__anon18
+EfiKeyF9	UefiInternalFormRepresentation.h	/^  EfiKeyF9,$/;"	e	enum:__anon18
+EfiKeyFive	UefiInternalFormRepresentation.h	/^  EfiKeyFive,$/;"	e	enum:__anon18
+EfiKeyFour	UefiInternalFormRepresentation.h	/^  EfiKeyFour,$/;"	e	enum:__anon18
+EfiKeyHome	UefiInternalFormRepresentation.h	/^  EfiKeyHome,$/;"	e	enum:__anon18
+EfiKeyIns	UefiInternalFormRepresentation.h	/^  EfiKeyIns,$/;"	e	enum:__anon18
+EfiKeyLAlt	UefiInternalFormRepresentation.h	/^  EfiKeyLAlt,$/;"	e	enum:__anon18
+EfiKeyLCtrl	UefiInternalFormRepresentation.h	/^  EfiKeyLCtrl,$/;"	e	enum:__anon18
+EfiKeyLShift	UefiInternalFormRepresentation.h	/^  EfiKeyLShift,$/;"	e	enum:__anon18
+EfiKeyLeftArrow	UefiInternalFormRepresentation.h	/^  EfiKeyLeftArrow,$/;"	e	enum:__anon18
+EfiKeyMinus	UefiInternalFormRepresentation.h	/^  EfiKeyMinus,$/;"	e	enum:__anon18
+EfiKeyNLck	UefiInternalFormRepresentation.h	/^  EfiKeyNLck,$/;"	e	enum:__anon18
+EfiKeyNine	UefiInternalFormRepresentation.h	/^  EfiKeyNine,$/;"	e	enum:__anon18
+EfiKeyOne	UefiInternalFormRepresentation.h	/^  EfiKeyOne,$/;"	e	enum:__anon18
+EfiKeyPause	UefiInternalFormRepresentation.h	/^  EfiKeyPause$/;"	e	enum:__anon18
+EfiKeyPeriod	UefiInternalFormRepresentation.h	/^  EfiKeyPeriod,$/;"	e	enum:__anon18
+EfiKeyPgDn	UefiInternalFormRepresentation.h	/^  EfiKeyPgDn,$/;"	e	enum:__anon18
+EfiKeyPgUp	UefiInternalFormRepresentation.h	/^  EfiKeyPgUp,$/;"	e	enum:__anon18
+EfiKeyPlus	UefiInternalFormRepresentation.h	/^  EfiKeyPlus,$/;"	e	enum:__anon18
+EfiKeyPrint	UefiInternalFormRepresentation.h	/^  EfiKeyPrint,$/;"	e	enum:__anon18
+EfiKeyRCtrl	UefiInternalFormRepresentation.h	/^  EfiKeyRCtrl,$/;"	e	enum:__anon18
+EfiKeyRShift	UefiInternalFormRepresentation.h	/^  EfiKeyRShift,$/;"	e	enum:__anon18
+EfiKeyRightArrow	UefiInternalFormRepresentation.h	/^  EfiKeyRightArrow,$/;"	e	enum:__anon18
+EfiKeySLck	UefiInternalFormRepresentation.h	/^  EfiKeySLck,$/;"	e	enum:__anon18
+EfiKeySeven	UefiInternalFormRepresentation.h	/^  EfiKeySeven,$/;"	e	enum:__anon18
+EfiKeySix	UefiInternalFormRepresentation.h	/^  EfiKeySix,$/;"	e	enum:__anon18
+EfiKeySlash	UefiInternalFormRepresentation.h	/^  EfiKeySlash,$/;"	e	enum:__anon18
+EfiKeySpaceBar	UefiInternalFormRepresentation.h	/^  EfiKeySpaceBar,$/;"	e	enum:__anon18
+EfiKeyTab	UefiInternalFormRepresentation.h	/^  EfiKeyTab,$/;"	e	enum:__anon18
+EfiKeyThree	UefiInternalFormRepresentation.h	/^  EfiKeyThree,$/;"	e	enum:__anon18
+EfiKeyTwo	UefiInternalFormRepresentation.h	/^  EfiKeyTwo,$/;"	e	enum:__anon18
+EfiKeyUpArrow	UefiInternalFormRepresentation.h	/^  EfiKeyUpArrow,$/;"	e	enum:__anon18
+EfiKeyZero	UefiInternalFormRepresentation.h	/^  EfiKeyZero,$/;"	e	enum:__anon18
+EfiLoaderCode	UefiMultiPhase.h	/^  EfiLoaderCode,$/;"	e	enum:__anon46
+EfiLoaderData	UefiMultiPhase.h	/^  EfiLoaderData,$/;"	e	enum:__anon46
+EfiMaxMemoryType	UefiMultiPhase.h	/^  EfiMaxMemoryType$/;"	e	enum:__anon46
+EfiMemoryMappedIO	UefiMultiPhase.h	/^  EfiMemoryMappedIO,$/;"	e	enum:__anon46
+EfiMemoryMappedIOPortSpace	UefiMultiPhase.h	/^  EfiMemoryMappedIOPortSpace,$/;"	e	enum:__anon46
+EfiPalCode	UefiMultiPhase.h	/^  EfiPalCode,$/;"	e	enum:__anon46
+EfiPersistentMemory	UefiMultiPhase.h	/^  EfiPersistentMemory,$/;"	e	enum:__anon46
+EfiReservedMemoryType	UefiMultiPhase.h	/^  EfiReservedMemoryType,$/;"	e	enum:__anon46
+EfiResetCold	UefiMultiPhase.h	/^  EfiResetCold,$/;"	e	enum:__anon47
+EfiResetPlatformSpecific	UefiMultiPhase.h	/^  EfiResetPlatformSpecific$/;"	e	enum:__anon47
+EfiResetShutdown	UefiMultiPhase.h	/^  EfiResetShutdown,$/;"	e	enum:__anon47
+EfiResetWarm	UefiMultiPhase.h	/^  EfiResetWarm,$/;"	e	enum:__anon47
+EfiRuntimeServicesCode	UefiMultiPhase.h	/^  EfiRuntimeServicesCode,$/;"	e	enum:__anon46
+EfiRuntimeServicesData	UefiMultiPhase.h	/^  EfiRuntimeServicesData,$/;"	e	enum:__anon46
+EfiUnusableMemory	UefiMultiPhase.h	/^  EfiUnusableMemory,$/;"	e	enum:__anon46
+EndingLBA	UefiGpt.h	/^  EFI_LBA   EndingLBA;$/;"	m	struct:__anon23
+EntryPoint	UefiPxe.h	/^  PXE_UINT64  EntryPoint;     \/\/\/< API entry point.$/;"	m	struct:s_pxe_sw_undi
+Error	UefiInternalFormRepresentation.h	/^  EFI_STRING_ID            Error;$/;"	m	struct:_EFI_IFR_INCONSISTENT_IF
+Error	UefiInternalFormRepresentation.h	/^  EFI_STRING_ID            Error;$/;"	m	struct:_EFI_IFR_NO_SUBMIT_IF
+Exit	UefiSpec.h	/^  EFI_EXIT                          Exit;$/;"	m	struct:__anon40
+ExitBootServices	UefiSpec.h	/^  EFI_EXIT_BOOT_SERVICES            ExitBootServices;$/;"	m	struct:__anon40
+FROM_DEVICE	UefiPxe.h	1084;"	d
+FilePathListLength	UefiSpec.h	/^  UINT16                           FilePathListLength;$/;"	m	struct:_EFI_LOAD_OPTION
+FirmwareRevision	UefiSpec.h	/^  UINT32                            FirmwareRevision;$/;"	m	struct:__anon42
+FirmwareVendor	UefiSpec.h	/^  CHAR16                            *FirmwareVendor;$/;"	m	struct:__anon42
+FirstUsableLBA	UefiGpt.h	/^  EFI_LBA           FirstUsableLBA;$/;"	m	struct:__anon22
+Flags	UefiInternalFormRepresentation.h	/^  UINT8                    Flags;$/;"	m	struct:_EFI_IFR_CHECKBOX
+Flags	UefiInternalFormRepresentation.h	/^  UINT8                    Flags;$/;"	m	struct:_EFI_IFR_DATE
+Flags	UefiInternalFormRepresentation.h	/^  UINT8                    Flags;$/;"	m	struct:_EFI_IFR_FORM_SET
+Flags	UefiInternalFormRepresentation.h	/^  UINT8                    Flags;$/;"	m	struct:_EFI_IFR_NUMERIC
+Flags	UefiInternalFormRepresentation.h	/^  UINT8                    Flags;$/;"	m	struct:_EFI_IFR_ONE_OF
+Flags	UefiInternalFormRepresentation.h	/^  UINT8                    Flags;$/;"	m	struct:_EFI_IFR_ONE_OF_OPTION
+Flags	UefiInternalFormRepresentation.h	/^  UINT8                    Flags;$/;"	m	struct:_EFI_IFR_ORDERED_LIST
+Flags	UefiInternalFormRepresentation.h	/^  UINT8                    Flags;$/;"	m	struct:_EFI_IFR_QUESTION_HEADER
+Flags	UefiInternalFormRepresentation.h	/^  UINT8                    Flags;$/;"	m	struct:_EFI_IFR_SPAN
+Flags	UefiInternalFormRepresentation.h	/^  UINT8                    Flags;$/;"	m	struct:_EFI_IFR_STRING
+Flags	UefiInternalFormRepresentation.h	/^  UINT8                    Flags;$/;"	m	struct:_EFI_IFR_SUBTITLE
+Flags	UefiInternalFormRepresentation.h	/^  UINT8                    Flags;$/;"	m	struct:_EFI_IFR_TIME
+Flags	UefiSpec.h	/^  UINT32            Flags;$/;"	m	struct:__anon37
+FontFamily	UefiInternalFormRepresentation.h	/^  CHAR16                 FontFamily[1];$/;"	m	struct:_EFI_HII_FONT_PACKAGE_HDR
+FontId	UefiInternalFormRepresentation.h	/^  UINT8                   FontId;$/;"	m	struct:_EFI_HII_SIBT_FONT_BLOCK
+FontIdentifier	UefiInternalFormRepresentation.h	/^  UINT8                   FontIdentifier;$/;"	m	struct:_EFI_HII_SIBT_STRINGS_SCSU_FONT_BLOCK
+FontIdentifier	UefiInternalFormRepresentation.h	/^  UINT8                   FontIdentifier;$/;"	m	struct:_EFI_HII_SIBT_STRINGS_UCS2_FONT_BLOCK
+FontIdentifier	UefiInternalFormRepresentation.h	/^  UINT8                   FontIdentifier;$/;"	m	struct:_EFI_HII_SIBT_STRING_SCSU_FONT_BLOCK
+FontIdentifier	UefiInternalFormRepresentation.h	/^  UINT8                   FontIdentifier;$/;"	m	struct:_EFI_HII_SIBT_STRING_UCS2_FONT_BLOCK
+FontName	UefiInternalFormRepresentation.h	/^  CHAR16                  FontName[1];$/;"	m	struct:_EFI_HII_SIBT_FONT_BLOCK
+FontSize	UefiInternalFormRepresentation.h	/^  UINT16                  FontSize;$/;"	m	struct:_EFI_HII_SIBT_FONT_BLOCK
+FontStyle	UefiInternalFormRepresentation.h	/^  EFI_HII_FONT_STYLE      FontStyle;$/;"	m	struct:_EFI_HII_SIBT_FONT_BLOCK
+FontStyle	UefiInternalFormRepresentation.h	/^  EFI_HII_FONT_STYLE     FontStyle;$/;"	m	struct:_EFI_HII_FONT_PACKAGE_HDR
+FormId	UefiInternalFormRepresentation.h	/^  EFI_FORM_ID              FormId;$/;"	m	struct:_EFI_IFR_FORM_MAP
+FormId	UefiInternalFormRepresentation.h	/^  EFI_FORM_ID              FormId;$/;"	m	struct:_EFI_IFR_REF
+FormId	UefiInternalFormRepresentation.h	/^  EFI_FORM_ID              FormId;$/;"	m	struct:_EFI_IFR_REF2
+FormId	UefiInternalFormRepresentation.h	/^  EFI_FORM_ID              FormId;$/;"	m	struct:_EFI_IFR_REF3
+FormId	UefiInternalFormRepresentation.h	/^  EFI_FORM_ID              FormId;$/;"	m	struct:_EFI_IFR_REF4
+FormId	UefiInternalFormRepresentation.h	/^  EFI_FORM_ID     FormId;$/;"	m	struct:__anon8
+FormId	UefiInternalFormRepresentation.h	/^  UINT16                   FormId;$/;"	m	struct:_EFI_IFR_FORM
+FormSetGuid	UefiInternalFormRepresentation.h	/^  EFI_GUID        FormSetGuid;$/;"	m	struct:__anon8
+FormSetId	UefiInternalFormRepresentation.h	/^  EFI_GUID                 FormSetId;$/;"	m	struct:_EFI_IFR_REF3
+FormSetId	UefiInternalFormRepresentation.h	/^  EFI_GUID                 FormSetId;$/;"	m	struct:_EFI_IFR_REF4
+FormSetTitle	UefiInternalFormRepresentation.h	/^  EFI_STRING_ID            FormSetTitle;$/;"	m	struct:_EFI_IFR_FORM_SET
+FormTitle	UefiInternalFormRepresentation.h	/^  EFI_STRING_ID            FormTitle;$/;"	m	struct:_EFI_IFR_FORM
+Format	UefiInternalFormRepresentation.h	/^  UINT8                    Format;$/;"	m	struct:_EFI_IFR_FIND
+Format	UefiInternalFormRepresentation.h	/^  UINT8                    Format;$/;"	m	struct:_EFI_IFR_TO_STRING
+FragAddr	UefiPxe.h	/^    PXE_UINT64  FragAddr;$/;"	m	struct:s_pxe_cpb_fill_header_fragmented::__anon57
+FragAddr	UefiPxe.h	/^    PXE_UINT64  FragAddr;$/;"	m	struct:s_pxe_cpb_transmit_fragments::__anon58
+FragCnt	UefiPxe.h	/^  PXE_UINT16          FragCnt;$/;"	m	struct:s_pxe_cpb_fill_header_fragmented
+FragCnt	UefiPxe.h	/^  PXE_UINT16  FragCnt;$/;"	m	struct:s_pxe_cpb_transmit_fragments
+FragDesc	UefiPxe.h	/^  } FragDesc[MAX_XMIT_FRAGMENTS];$/;"	m	struct:s_pxe_cpb_fill_header_fragmented	typeref:struct:s_pxe_cpb_fill_header_fragmented::__anon57
+FragDesc	UefiPxe.h	/^  } FragDesc[MAX_XMIT_FRAGMENTS];$/;"	m	struct:s_pxe_cpb_transmit_fragments	typeref:struct:s_pxe_cpb_transmit_fragments::__anon58
+FragLen	UefiPxe.h	/^    PXE_UINT32  FragLen;$/;"	m	struct:s_pxe_cpb_fill_header_fragmented::__anon57
+FragLen	UefiPxe.h	/^    PXE_UINT32  FragLen;$/;"	m	struct:s_pxe_cpb_transmit_fragments::__anon58
+FrameAddr	UefiPxe.h	/^  PXE_UINT64  FrameAddr;$/;"	m	struct:s_pxe_cpb_transmit
+FrameDataLen	UefiPxe.h	/^  PXE_UINT32  FrameDataLen;$/;"	m	struct:s_pxe_db_get_init_info
+FrameLen	UefiPxe.h	/^  PXE_UINT32          FrameLen;$/;"	m	struct:s_pxe_db_receive
+FrameLen	UefiPxe.h	/^  PXE_UINT32  FrameLen;$/;"	m	struct:s_pxe_cpb_transmit_fragments
+FreePages	UefiSpec.h	/^  EFI_FREE_PAGES                  FreePages;$/;"	m	struct:__anon40
+FreePool	UefiSpec.h	/^  EFI_FREE_POOL                   FreePool;$/;"	m	struct:__anon40
+Fudge	UefiPxe.h	/^  PXE_UINT8   Fudge;          \/\/\/< makes 8-bit cksum equal zero.$/;"	m	struct:s_pxe_hw_undi
+Fudge	UefiPxe.h	/^  PXE_UINT8   Fudge;          \/\/\/< makes 8-bit cksum zero.$/;"	m	struct:s_pxe_sw_undi
+Function	UefiPxe.h	/^    PXE_UINT8   Function;$/;"	m	struct:pxe_device::__anon51
+Function	UefiPxe.h	/^  PXE_UINT8   Function;$/;"	m	struct:s_pxe_pcc_config_info
+Function	UefiPxe.h	/^  UINT8   Function;$/;"	m	struct:s_pxe_pci_config_info
+GetMemoryMap	UefiSpec.h	/^  EFI_GET_MEMORY_MAP              GetMemoryMap;$/;"	m	struct:__anon40
+GetNextHighMonotonicCount	UefiSpec.h	/^  EFI_GET_NEXT_HIGH_MONO_COUNT    GetNextHighMonotonicCount;$/;"	m	struct:__anon39
+GetNextMonotonicCount	UefiSpec.h	/^  EFI_GET_NEXT_MONOTONIC_COUNT      GetNextMonotonicCount;$/;"	m	struct:__anon40
+GetNextVariableName	UefiSpec.h	/^  EFI_GET_NEXT_VARIABLE_NAME      GetNextVariableName;$/;"	m	struct:__anon39
+GetTime	UefiSpec.h	/^  EFI_GET_TIME                    GetTime;$/;"	m	struct:__anon39
+GetVariable	UefiSpec.h	/^  EFI_GET_VARIABLE                GetVariable;$/;"	m	struct:__anon39
+GetWakeupTime	UefiSpec.h	/^  EFI_GET_WAKEUP_TIME             GetWakeupTime;$/;"	m	struct:__anon39
+GlyphBlockOffset	UefiInternalFormRepresentation.h	/^  UINT32                 GlyphBlockOffset;$/;"	m	struct:_EFI_HII_FONT_PACKAGE_HDR
+GlyphCol1	UefiInternalFormRepresentation.h	/^  UINT8                  GlyphCol1[EFI_GLYPH_HEIGHT];$/;"	m	struct:__anon3
+GlyphCol1	UefiInternalFormRepresentation.h	/^  UINT8                  GlyphCol1[EFI_GLYPH_HEIGHT];$/;"	m	struct:__anon4
+GlyphCol2	UefiInternalFormRepresentation.h	/^  UINT8                  GlyphCol2[EFI_GLYPH_HEIGHT];$/;"	m	struct:__anon4
+GlyphPackInBits	UefiInternalFormRepresentation.h	/^  UINT8                  GlyphPackInBits;$/;"	m	struct:_EFI_HII_GIBT_VARIABILITY_BLOCK
+Guid	UefiInternalFormRepresentation.h	/^  EFI_GUID                 Guid;$/;"	m	struct:_EFI_IFR_FORM_SET
+Guid	UefiInternalFormRepresentation.h	/^  EFI_GUID                 Guid;$/;"	m	struct:_EFI_IFR_GUID
+Guid	UefiInternalFormRepresentation.h	/^  EFI_GUID                 Guid;$/;"	m	struct:_EFI_IFR_QUESTION_REF3_3
+Guid	UefiInternalFormRepresentation.h	/^  EFI_GUID                 Guid;$/;"	m	struct:_EFI_IFR_VARSTORE
+Guid	UefiInternalFormRepresentation.h	/^  EFI_GUID                 Guid;$/;"	m	struct:_EFI_IFR_VARSTORE_EFI
+Guid	UefiInternalFormRepresentation.h	/^  EFI_GUID                 Guid;$/;"	m	struct:_EFI_IFR_VARSTORE_NAME_VALUE
+Guid	UefiInternalFormRepresentation.h	/^  EFI_GUID                Guid;$/;"	m	struct:_EFI_HII_GUID_PACKAGE_HDR
+Guid	UefiInternalFormRepresentation.h	/^  EFI_GUID                Guid;$/;"	m	struct:__anon20
+HWaddrLen	UefiPxe.h	/^  PXE_UINT16  HWaddrLen;$/;"	m	struct:s_pxe_db_get_init_info
+HandleProtocol	UefiSpec.h	/^  EFI_HANDLE_PROTOCOL               HandleProtocol;$/;"	m	struct:__anon40
+Hdr	UefiSpec.h	/^  EFI_TABLE_HEADER                  Hdr;$/;"	m	struct:__anon42
+Hdr	UefiSpec.h	/^  EFI_TABLE_HEADER                Hdr;$/;"	m	struct:__anon39
+Hdr	UefiSpec.h	/^  EFI_TABLE_HEADER                Hdr;$/;"	m	struct:__anon40
+HdrSize	UefiInternalFormRepresentation.h	/^  UINT32                  HdrSize;$/;"	m	struct:_EFI_HII_STRING_PACKAGE_HDR
+HdrSize	UefiInternalFormRepresentation.h	/^  UINT32                 HdrSize;$/;"	m	struct:_EFI_HII_FONT_PACKAGE_HDR
+Header	UefiAcpiDataTable.h	/^  EFI_ACPI_DESCRIPTION_HEADER   Header;$/;"	m	struct:__anon27
+Header	UefiGpt.h	/^  EFI_TABLE_HEADER  Header;$/;"	m	struct:__anon22
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_ANIMATION_BLOCK  Header;$/;"	m	struct:_EFI_HII_AIBT_EXT1_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_ANIMATION_BLOCK  Header;$/;"	m	struct:_EFI_HII_AIBT_EXT2_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_ANIMATION_BLOCK  Header;$/;"	m	struct:_EFI_HII_AIBT_EXT4_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_GLYPH_BLOCK    Header;$/;"	m	struct:_EFI_GLYPH_GIBT_END_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_GLYPH_BLOCK    Header;$/;"	m	struct:_EFI_HII_GIBT_DEFAULTS_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_GLYPH_BLOCK    Header;$/;"	m	struct:_EFI_HII_GIBT_DUPLICATE_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_GLYPH_BLOCK    Header;$/;"	m	struct:_EFI_HII_GIBT_EXT1_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_GLYPH_BLOCK    Header;$/;"	m	struct:_EFI_HII_GIBT_EXT2_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_GLYPH_BLOCK    Header;$/;"	m	struct:_EFI_HII_GIBT_EXT4_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_GLYPH_BLOCK    Header;$/;"	m	struct:_EFI_HII_GIBT_GLYPHS_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_GLYPH_BLOCK    Header;$/;"	m	struct:_EFI_HII_GIBT_GLYPHS_DEFAULT_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_GLYPH_BLOCK    Header;$/;"	m	struct:_EFI_HII_GIBT_GLYPH_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_GLYPH_BLOCK    Header;$/;"	m	struct:_EFI_HII_GIBT_GLYPH_DEFAULT_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_GLYPH_BLOCK    Header;$/;"	m	struct:_EFI_HII_GIBT_SKIP1_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_GLYPH_BLOCK    Header;$/;"	m	struct:_EFI_HII_GIBT_SKIP2_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_GLYPH_BLOCK    Header;$/;"	m	struct:_EFI_HII_GIBT_VARIABILITY_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_IMAGE_BLOCK           Header;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_24BIT_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_IMAGE_BLOCK           Header;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_24BIT_TRANS_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_IMAGE_BLOCK          Header;$/;"	m	struct:_EFI_HII_IIBT_DUPLICATE_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_IMAGE_BLOCK          Header;$/;"	m	struct:_EFI_HII_IIBT_END_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_IMAGE_BLOCK          Header;$/;"	m	struct:_EFI_HII_IIBT_EXT1_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_IMAGE_BLOCK          Header;$/;"	m	struct:_EFI_HII_IIBT_EXT2_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_IMAGE_BLOCK          Header;$/;"	m	struct:_EFI_HII_IIBT_EXT4_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_IMAGE_BLOCK          Header;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_1BIT_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_IMAGE_BLOCK          Header;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_1BIT_TRANS_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_IMAGE_BLOCK          Header;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_4BIT_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_IMAGE_BLOCK          Header;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_4BIT_TRANS_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_IMAGE_BLOCK          Header;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_8BIT_PALETTE_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_IMAGE_BLOCK          Header;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_8BIT_TRANS_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_IMAGE_BLOCK          Header;$/;"	m	struct:_EFI_HII_IIBT_JPEG_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_IMAGE_BLOCK          Header;$/;"	m	struct:_EFI_HII_IIBT_PNG_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_IMAGE_BLOCK          Header;$/;"	m	struct:_EFI_HII_IIBT_SKIP1_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_IMAGE_BLOCK          Header;$/;"	m	struct:_EFI_HII_IIBT_SKIP2_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_PACKAGE_HEADER       Header;$/;"	m	struct:_EFI_HII_FORM_PACKAGE_HDR
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_PACKAGE_HEADER   Header;$/;"	m	struct:_EFI_HII_DEVICE_PATH_PACKAGE_HDR
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_PACKAGE_HEADER  Header;$/;"	m	struct:_EFI_HII_ANIMATION_PACKAGE_HDR
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_PACKAGE_HEADER  Header;$/;"	m	struct:_EFI_HII_GUID_PACKAGE_HDR
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_PACKAGE_HEADER  Header;$/;"	m	struct:_EFI_HII_IMAGE_PACKAGE_HDR
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_PACKAGE_HEADER  Header;$/;"	m	struct:_EFI_HII_STRING_PACKAGE_HDR
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_PACKAGE_HEADER  Header;$/;"	m	struct:__anon21
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_PACKAGE_HEADER Header;$/;"	m	struct:_EFI_HII_FONT_PACKAGE_HDR
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_PACKAGE_HEADER Header;$/;"	m	struct:_EFI_HII_SIMPLE_FONT_PACKAGE_HDR
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_SIBT_EXT2_BLOCK Header;$/;"	m	struct:_EFI_HII_SIBT_FONT_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_STRING_BLOCK    Header;$/;"	m	struct:_EFI_HII_SIBT_DUPLICATE_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_STRING_BLOCK    Header;$/;"	m	struct:_EFI_HII_SIBT_END_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_STRING_BLOCK    Header;$/;"	m	struct:_EFI_HII_SIBT_EXT1_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_STRING_BLOCK    Header;$/;"	m	struct:_EFI_HII_SIBT_EXT2_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_STRING_BLOCK    Header;$/;"	m	struct:_EFI_HII_SIBT_EXT4_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_STRING_BLOCK    Header;$/;"	m	struct:_EFI_HII_SIBT_SKIP1_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_STRING_BLOCK    Header;$/;"	m	struct:_EFI_HII_SIBT_SKIP2_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_STRING_BLOCK    Header;$/;"	m	struct:_EFI_HII_SIBT_STRINGS_SCSU_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_STRING_BLOCK    Header;$/;"	m	struct:_EFI_HII_SIBT_STRINGS_SCSU_FONT_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_STRING_BLOCK    Header;$/;"	m	struct:_EFI_HII_SIBT_STRINGS_UCS2_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_STRING_BLOCK    Header;$/;"	m	struct:_EFI_HII_SIBT_STRINGS_UCS2_FONT_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_STRING_BLOCK    Header;$/;"	m	struct:_EFI_HII_SIBT_STRING_SCSU_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_STRING_BLOCK    Header;$/;"	m	struct:_EFI_HII_SIBT_STRING_SCSU_FONT_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_STRING_BLOCK    Header;$/;"	m	struct:_EFI_HII_SIBT_STRING_UCS2_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_HII_STRING_BLOCK    Header;$/;"	m	struct:_EFI_HII_SIBT_STRING_UCS2_FONT_BLOCK
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_ACTION
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_ACTION_1
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_ADD
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_AND
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_ANIMATION
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_BITWISE_AND
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_BITWISE_NOT
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_BITWISE_OR
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_CATENATE
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_CHECKBOX
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_CONDITIONAL
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_DATE
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_DEFAULT
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_DEFAULTSTORE
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_DEFAULT_2
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_DISABLE_IF
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_DIVIDE
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_DUP
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_END
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_EQUAL
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_EQ_ID_ID
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_EQ_ID_VAL
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_EQ_ID_VAL_LIST
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_FALSE
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_FIND
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_FORM
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_FORM_MAP
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_FORM_SET
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_GRAY_OUT_IF
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_GREATER_EQUAL
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_GREATER_THAN
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_GUID
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_IMAGE
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_INCONSISTENT_IF
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_LENGTH
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_LESS_EQUAL
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_LESS_THAN
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_LOCKED
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_MATCH
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_MATCH2
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_MID
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_MODAL_TAG
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_MODULO
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_MULTIPLY
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_NOT
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_NOT_EQUAL
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_NO_SUBMIT_IF
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_NUMERIC
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_ONE
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_ONES
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_ONE_OF
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_ONE_OF_OPTION
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_OR
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_ORDERED_LIST
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_PASSWORD
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_QUESTION_REF1
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_QUESTION_REF2
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_QUESTION_REF3
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_QUESTION_REF3_2
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_QUESTION_REF3_3
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_REF
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_REF2
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_REF3
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_REF4
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_REFRESH
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_RESET_BUTTON
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_RULE
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_RULE_REF
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_SECURITY
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_SHIFT_LEFT
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_SHIFT_RIGHT
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_SPAN
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_STRING
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_STRING_REF1
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_STRING_REF2
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_SUBTITLE
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_SUBTRACT
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_SUPPRESS_IF
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_TEXT
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_THIS
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_TIME
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_TOKEN
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_TO_BOOLEAN
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_TO_LOWER
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_TO_STRING
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_TO_UINT
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_TO_UPPER
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_TRUE
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_UINT16
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_UINT32
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_UINT64
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_UINT8
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_UNDEFINED
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_VALUE
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_VARSTORE
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_VARSTORE_DEVICE
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_VARSTORE_EFI
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_VARSTORE_NAME_VALUE
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_VERSION
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_WARNING_IF
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER        Header;$/;"	m	struct:_EFI_IFR_ZERO
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER       Header;$/;"	m	struct:_EFI_IFR_READ
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER      Header;$/;"	m	struct:_EFI_IFR_MAP
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER      Header;$/;"	m	struct:_EFI_IFR_WRITE
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER  Header;$/;"	m	struct:_EFI_IFR_GET
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER  Header;$/;"	m	struct:_EFI_IFR_SET
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER Header;$/;"	m	struct:_EFI_IFR_REF5
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_OP_HEADER Header;$/;"	m	struct:_EFI_IFR_REFRESH_ID
+Header	UefiInternalFormRepresentation.h	/^  EFI_IFR_STATEMENT_HEADER Header;$/;"	m	struct:_EFI_IFR_QUESTION_HEADER
+HeaderSize	UefiMultiPhase.h	/^  UINT32  HeaderSize;$/;"	m	struct:__anon48
+HeaderSize	UefiSpec.h	/^  UINT32            HeaderSize;$/;"	m	struct:__anon37
+Height	UefiInternalFormRepresentation.h	/^  UINT16                       Height;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_1BIT_BASE
+Height	UefiInternalFormRepresentation.h	/^  UINT16                       Height;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_24BIT_BASE
+Height	UefiInternalFormRepresentation.h	/^  UINT16                       Height;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_4BIT_BASE
+Height	UefiInternalFormRepresentation.h	/^  UINT16                       Height;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_8BIT_BASE
+Height	UefiInternalFormRepresentation.h	/^  UINT16                  Height;$/;"	m	struct:_EFI_HII_AIBT_OVERLAY_IMAGES_BLOCK
+Height	UefiInternalFormRepresentation.h	/^  UINT16                  Height;$/;"	m	struct:_EFI_HII_AIBT_RESTORE_SCRN_BLOCK
+Height	UefiInternalFormRepresentation.h	/^  UINT16                 Height;$/;"	m	struct:_EFI_HII_GLYPH_INFO
+Height	UefiInternalFormRepresentation.h	/^  UINT16             Height;$/;"	m	struct:_EFI_HII_AIBT_CLEAR_IMAGES_BLOCK
+Help	UefiInternalFormRepresentation.h	/^  EFI_STRING_ID            Help;$/;"	m	struct:_EFI_IFR_FORM_SET
+Help	UefiInternalFormRepresentation.h	/^  EFI_STRING_ID            Help;$/;"	m	struct:_EFI_IFR_STATEMENT_HEADER
+Hour	UefiBaseType.h	/^  UINT8   Hour;$/;"	m	struct:__anon24
+Hour	UefiInternalFormRepresentation.h	/^  UINT8 Hour;$/;"	m	struct:__anon6
+IFcnt	UefiPxe.h	/^  PXE_UINT8   IFcnt;          \/\/\/< physical connector count lower byte.$/;"	m	struct:s_pxe_hw_undi
+IFcnt	UefiPxe.h	/^  PXE_UINT8   IFcnt;          \/\/\/< physical connector count lower byte.$/;"	m	struct:s_pxe_sw_undi
+IFcntExt	UefiPxe.h	/^  PXE_UINT8   IFcntExt;       \/\/\/< physical connector count upper byte.$/;"	m	struct:s_pxe_hw_undi
+IFcntExt	UefiPxe.h	/^  PXE_UINT8   IFcntExt;       \/\/\/< physical connector count upper byte.$/;"	m	struct:s_pxe_sw_undi
+IFnum	UefiPxe.h	/^  PXE_UINT16    IFnum;$/;"	m	struct:s_pxe_cdb
+IFtype	UefiPxe.h	/^  PXE_UINT8   IFtype;$/;"	m	struct:s_pxe_db_get_init_info
+IMAGE_TOKEN	UefiInternalFormRepresentation.h	2128;"	d
+IP	UefiPxe.h	/^  PXE_IP_ADDR IP;$/;"	m	struct:s_pxe_cpb_mcast_ip_to_mac
+IPv4	UefiPxe.h	/^  PXE_IPV4  IPv4;$/;"	m	union:u_pxe_ip_addr
+IPv6	UefiPxe.h	/^  PXE_IPV6  IPv6;$/;"	m	union:u_pxe_ip_addr
+Id	UefiInternalFormRepresentation.h	/^  EFI_ANIMATION_ID         Id;$/;"	m	struct:_EFI_IFR_ANIMATION
+Id	UefiInternalFormRepresentation.h	/^  EFI_IMAGE_ID             Id;$/;"	m	struct:_EFI_IFR_IMAGE
+Identifier	UefiAcpiDataTable.h	/^  GUID                          Identifier;$/;"	m	struct:__anon27
+ImageId	UefiInternalFormRepresentation.h	/^  EFI_IMAGE_ID                 ImageId;$/;"	m	struct:_EFI_HII_IIBT_DUPLICATE_BLOCK
+ImageId	UefiInternalFormRepresentation.h	/^  EFI_IMAGE_ID              ImageId;$/;"	m	struct:_EFI_HII_ANIMATION_CELL
+ImageInfoOffset	UefiInternalFormRepresentation.h	/^  UINT32                  ImageInfoOffset;$/;"	m	struct:_EFI_HII_IMAGE_PACKAGE_HDR
+Implementation	UefiPxe.h	/^  PXE_UINT32  Implementation; \/\/\/< Implementation flags.$/;"	m	struct:s_pxe_sw_undi
+Implementation	UefiPxe.h	/^  PXE_UINT32  Implementation; \/\/\/< implementation flags.$/;"	m	struct:s_pxe_hw_undi
+InputKeyCount	UefiSpec.h	/^    UINT32  InputKeyCount   : 2;$/;"	m	struct:__anon43::__anon44
+InstallConfigurationTable	UefiSpec.h	/^  EFI_INSTALL_CONFIGURATION_TABLE   InstallConfigurationTable;$/;"	m	struct:__anon40
+InstallMultipleProtocolInterfaces	UefiSpec.h	/^  EFI_INSTALL_MULTIPLE_PROTOCOL_INTERFACES    InstallMultipleProtocolInterfaces;$/;"	m	struct:__anon40
+InstallProtocolInterface	UefiSpec.h	/^  EFI_INSTALL_PROTOCOL_INTERFACE    InstallProtocolInterface;$/;"	m	struct:__anon40
+Item	UefiPxe.h	/^  } Item[MAX_EEPROM_LEN];$/;"	m	struct:s_pxe_cpb_nvdata_sparse	typeref:struct:s_pxe_cpb_nvdata_sparse::__anon54
+Key	UefiInternalFormRepresentation.h	/^  EFI_KEY                 Key;$/;"	m	struct:__anon19
+KeyData	UefiSpec.h	/^  EFI_BOOT_KEY_DATA  KeyData;$/;"	m	struct:__anon45
+LOAD_OPTION_ACTIVE	UefiSpec.h	2118;"	d
+LOAD_OPTION_CATEGORY	UefiSpec.h	2121;"	d
+LOAD_OPTION_CATEGORY_APP	UefiSpec.h	2124;"	d
+LOAD_OPTION_CATEGORY_BOOT	UefiSpec.h	2123;"	d
+LOAD_OPTION_FORCE_RECONNECT	UefiSpec.h	2119;"	d
+LOAD_OPTION_HIDDEN	UefiSpec.h	2120;"	d
+LOOPBACK_EXTERNAL	UefiPxe.h	1296;"	d
+LOOPBACK_INTERNAL	UefiPxe.h	1295;"	d
+LOOPBACK_NORMAL	UefiPxe.h	1294;"	d
+Language	UefiInternalFormRepresentation.h	/^  CHAR8                   Language[1];$/;"	m	struct:_EFI_HII_STRING_PACKAGE_HDR
+LanguageName	UefiInternalFormRepresentation.h	/^  EFI_STRING_ID           LanguageName;$/;"	m	struct:_EFI_HII_STRING_PACKAGE_HDR
+LanguageWindow	UefiInternalFormRepresentation.h	/^  CHAR16                  LanguageWindow[16];$/;"	m	struct:_EFI_HII_STRING_PACKAGE_HDR
+LastUsableLBA	UefiGpt.h	/^  EFI_LBA           LastUsableLBA;$/;"	m	struct:__anon22
+LayoutCount	UefiInternalFormRepresentation.h	/^  UINT16                  LayoutCount;$/;"	m	struct:__anon21
+LayoutDescriptorStringOffset	UefiInternalFormRepresentation.h	/^  UINT32                  LayoutDescriptorStringOffset;$/;"	m	struct:__anon20
+LayoutLength	UefiInternalFormRepresentation.h	/^  UINT16                  LayoutLength;$/;"	m	struct:__anon20
+Len	UefiPxe.h	/^  PXE_UINT8   Len;            \/\/\/< sizeof(PXE_HW_UNDI).$/;"	m	struct:s_pxe_hw_undi
+Len	UefiPxe.h	/^  PXE_UINT8   Len;            \/\/\/< sizeof(PXE_SW_UNDI).$/;"	m	struct:s_pxe_sw_undi
+Length	UefiInternalFormRepresentation.h	/^  UINT16                       Length;$/;"	m	struct:_EFI_HII_IIBT_EXT2_BLOCK
+Length	UefiInternalFormRepresentation.h	/^  UINT16                   Length;$/;"	m	struct:_EFI_HII_AIBT_EXT2_BLOCK
+Length	UefiInternalFormRepresentation.h	/^  UINT16                  Length;$/;"	m	struct:_EFI_HII_SIBT_EXT2_BLOCK
+Length	UefiInternalFormRepresentation.h	/^  UINT16                 Length;$/;"	m	struct:_EFI_HII_GIBT_EXT2_BLOCK
+Length	UefiInternalFormRepresentation.h	/^  UINT32                       Length;$/;"	m	struct:_EFI_HII_IIBT_EXT4_BLOCK
+Length	UefiInternalFormRepresentation.h	/^  UINT32                   Length;$/;"	m	struct:_EFI_HII_AIBT_EXT4_BLOCK
+Length	UefiInternalFormRepresentation.h	/^  UINT32                  Length;$/;"	m	struct:_EFI_HII_SIBT_EXT4_BLOCK
+Length	UefiInternalFormRepresentation.h	/^  UINT32                 Length;$/;"	m	struct:_EFI_HII_GIBT_EXT4_BLOCK
+Length	UefiInternalFormRepresentation.h	/^  UINT32  Length:24;$/;"	m	struct:__anon2
+Length	UefiInternalFormRepresentation.h	/^  UINT8                        Length;$/;"	m	struct:_EFI_HII_IIBT_EXT1_BLOCK
+Length	UefiInternalFormRepresentation.h	/^  UINT8                    Length:7;$/;"	m	struct:_EFI_IFR_OP_HEADER
+Length	UefiInternalFormRepresentation.h	/^  UINT8                    Length;$/;"	m	struct:_EFI_HII_AIBT_EXT1_BLOCK
+Length	UefiInternalFormRepresentation.h	/^  UINT8                   Length;$/;"	m	struct:_EFI_HII_SIBT_EXT1_BLOCK
+Length	UefiInternalFormRepresentation.h	/^  UINT8                  Length;$/;"	m	struct:_EFI_HII_GIBT_EXT1_BLOCK
+Length	UefiSpec.h	/^  UINT64                  Length;$/;"	m	struct:__anon35
+LinkSpeed	UefiPxe.h	/^  PXE_UINT32  LinkSpeed;$/;"	m	struct:s_pxe_cpb_initialize
+LinkSpeeds	UefiPxe.h	/^  PXE_UINT32  LinkSpeeds[4];$/;"	m	struct:s_pxe_db_get_init_info
+ListLength	UefiInternalFormRepresentation.h	/^  UINT16                   ListLength;$/;"	m	struct:_EFI_IFR_EQ_ID_VAL_LIST
+LoadImage	UefiSpec.h	/^  EFI_IMAGE_LOAD                    LoadImage;$/;"	m	struct:__anon40
+LocateDevicePath	UefiSpec.h	/^  EFI_LOCATE_DEVICE_PATH            LocateDevicePath;$/;"	m	struct:__anon40
+LocateHandle	UefiSpec.h	/^  EFI_LOCATE_HANDLE                 LocateHandle;$/;"	m	struct:__anon40
+LocateHandleBuffer	UefiSpec.h	/^  EFI_LOCATE_HANDLE_BUFFER          LocateHandleBuffer;$/;"	m	struct:__anon40
+LocateProtocol	UefiSpec.h	/^  EFI_LOCATE_PROTOCOL               LocateProtocol;$/;"	m	struct:__anon40
+LogoPressed	UefiSpec.h	/^    UINT32  LogoPressed     : 1;$/;"	m	struct:__anon43::__anon44
+LoopBackMode	UefiPxe.h	/^  PXE_UINT8   LoopBackMode;$/;"	m	struct:s_pxe_cpb_initialize
+MAC	UefiPxe.h	/^  PXE_MAC_ADDR  MAC;$/;"	m	struct:s_pxe_db_mcast_ip_to_mac
+MAX_EEPROM_LEN	UefiPxe.h	921;"	d
+MAX_MCAST_ADDRESS_CNT	UefiPxe.h	923;"	d
+MAX_PCI_CONFIG_LEN	UefiPxe.h	920;"	d
+MAX_XMIT_BUFFERS	UefiPxe.h	922;"	d
+MAX_XMIT_FRAGMENTS	UefiPxe.h	1605;"	d
+MCastFilterCnt	UefiPxe.h	/^  PXE_UINT16  MCastFilterCnt;$/;"	m	struct:s_pxe_db_get_init_info
+MCastList	UefiPxe.h	/^  PXE_MAC_ADDR  MCastList[MAX_MCAST_ADDRESS_CNT];$/;"	m	struct:s_pxe_cpb_receive_filters
+MCastList	UefiPxe.h	/^  PXE_MAC_ADDR  MCastList[MAX_MCAST_ADDRESS_CNT];$/;"	m	struct:s_pxe_db_receive_filters
+MINMAXSTEP_DATA	UefiInternalFormRepresentation.h	/^} MINMAXSTEP_DATA;$/;"	t	typeref:union:__anon11
+MajorVer	UefiPxe.h	/^  PXE_UINT8   MajorVer;       \/\/\/< PXE_ROMID_MAJORVER.$/;"	m	struct:s_pxe_hw_undi
+MajorVer	UefiPxe.h	/^  PXE_UINT8   MajorVer;       \/\/\/< PXE_ROMID_MAJORVER.$/;"	m	struct:s_pxe_sw_undi
+Map_Mem	UefiPxe.h	/^  UINT64  Map_Mem;$/;"	m	struct:s_pxe_cpb_start_31
+MaxAllocateType	UefiSpec.h	/^  MaxAllocateType$/;"	e	enum:__anon28
+MaxContainers	UefiInternalFormRepresentation.h	/^  UINT8                    MaxContainers;$/;"	m	struct:_EFI_IFR_ORDERED_LIST
+MaxSize	UefiInternalFormRepresentation.h	/^  UINT16                   MaxSize;$/;"	m	struct:_EFI_IFR_PASSWORD
+MaxSize	UefiInternalFormRepresentation.h	/^  UINT8                    MaxSize;$/;"	m	struct:_EFI_IFR_STRING
+MaxValue	UefiInternalFormRepresentation.h	/^    UINT16 MaxValue;$/;"	m	struct:__anon11::__anon13
+MaxValue	UefiInternalFormRepresentation.h	/^    UINT32 MaxValue;$/;"	m	struct:__anon11::__anon14
+MaxValue	UefiInternalFormRepresentation.h	/^    UINT64 MaxValue;$/;"	m	struct:__anon11::__anon15
+MaxValue	UefiInternalFormRepresentation.h	/^    UINT8 MaxValue;$/;"	m	struct:__anon11::__anon12
+MediaHeader	UefiPxe.h	/^  PXE_UINT64        MediaHeader;$/;"	m	struct:s_pxe_cpb_fill_header
+MediaHeaderLen	UefiPxe.h	/^  PXE_UINT16          MediaHeaderLen;$/;"	m	struct:s_pxe_cpb_fill_header_fragmented
+MediaHeaderLen	UefiPxe.h	/^  PXE_UINT16          MediaHeaderLen;$/;"	m	struct:s_pxe_db_receive
+MediaHeaderLen	UefiPxe.h	/^  PXE_UINT16        MediaHeaderLen;$/;"	m	struct:s_pxe_cpb_fill_header
+MediaHeaderLen	UefiPxe.h	/^  PXE_UINT16  MediaHeaderLen;$/;"	m	struct:s_pxe_db_get_init_info
+MediaheaderLen	UefiPxe.h	/^  PXE_UINT16  MediaheaderLen;$/;"	m	struct:s_pxe_cpb_transmit
+MediaheaderLen	UefiPxe.h	/^  PXE_UINT16  MediaheaderLen;$/;"	m	struct:s_pxe_cpb_transmit_fragments
+Mem_IO	UefiPxe.h	/^  UINT64  Mem_IO;$/;"	m	struct:s_pxe_cpb_start_30
+Mem_IO	UefiPxe.h	/^  UINT64  Mem_IO;$/;"	m	struct:s_pxe_cpb_start_31
+MemoryAddr	UefiPxe.h	/^  PXE_UINT64  MemoryAddr;$/;"	m	struct:s_pxe_cpb_initialize
+MemoryLength	UefiPxe.h	/^  PXE_UINT32  MemoryLength;$/;"	m	struct:s_pxe_cpb_initialize
+MemoryRequired	UefiPxe.h	/^  PXE_UINT32  MemoryRequired;$/;"	m	struct:s_pxe_db_get_init_info
+MemoryUsed	UefiPxe.h	/^  PXE_UINT32  MemoryUsed;$/;"	m	struct:s_pxe_db_initialize
+MenuPressed	UefiSpec.h	/^    UINT32  MenuPressed     : 1;$/;"	m	struct:__anon43::__anon44
+MethodIdentifier	UefiInternalFormRepresentation.h	/^  EFI_GUID                 MethodIdentifier;$/;"	m	struct:_EFI_IFR_FORM_MAP_METHOD
+MethodTitle	UefiInternalFormRepresentation.h	/^  EFI_STRING_ID            MethodTitle;$/;"	m	struct:_EFI_IFR_FORM_MAP_METHOD
+MinSize	UefiInternalFormRepresentation.h	/^  UINT16                   MinSize;$/;"	m	struct:_EFI_IFR_PASSWORD
+MinSize	UefiInternalFormRepresentation.h	/^  UINT8                    MinSize;$/;"	m	struct:_EFI_IFR_STRING
+MinValue	UefiInternalFormRepresentation.h	/^    UINT16 MinValue;$/;"	m	struct:__anon11::__anon13
+MinValue	UefiInternalFormRepresentation.h	/^    UINT32 MinValue;$/;"	m	struct:__anon11::__anon14
+MinValue	UefiInternalFormRepresentation.h	/^    UINT64 MinValue;$/;"	m	struct:__anon11::__anon15
+MinValue	UefiInternalFormRepresentation.h	/^    UINT8 MinValue;$/;"	m	struct:__anon11::__anon12
+MinorVer	UefiPxe.h	/^  PXE_UINT8   MinorVer;       \/\/\/< PXE_ROMID_MINORVER.$/;"	m	struct:s_pxe_hw_undi
+MinorVer	UefiPxe.h	/^  PXE_UINT8   MinorVer;       \/\/\/< PXE_ROMID_MINORVER.$/;"	m	struct:s_pxe_sw_undi
+Minute	UefiBaseType.h	/^  UINT8   Minute;$/;"	m	struct:__anon24
+Minute	UefiInternalFormRepresentation.h	/^  UINT8 Minute;$/;"	m	struct:__anon6
+Modifier	UefiInternalFormRepresentation.h	/^  UINT16                  Modifier;$/;"	m	struct:__anon19
+MonotonicCount	UefiMultiPhase.h	/^  UINT64                      MonotonicCount;$/;"	m	struct:__anon49
+Month	UefiBaseType.h	/^  UINT8   Month;$/;"	m	struct:__anon24
+Month	UefiInternalFormRepresentation.h	/^  UINT8  Month;$/;"	m	struct:__anon7
+MyLBA	UefiGpt.h	/^  EFI_LBA           MyLBA;$/;"	m	struct:__anon22
+Name	UefiInternalFormRepresentation.h	/^  UINT8                    Name[1];$/;"	m	struct:_EFI_IFR_VARSTORE
+Name	UefiInternalFormRepresentation.h	/^  UINT8                    Name[1];$/;"	m	struct:_EFI_IFR_VARSTORE_EFI
+Nanosecond	UefiBaseType.h	/^  UINT32  Nanosecond;$/;"	m	struct:__anon24
+NumberOfNarrowGlyphs	UefiInternalFormRepresentation.h	/^  UINT16                 NumberOfNarrowGlyphs;$/;"	m	struct:_EFI_HII_SIMPLE_FONT_PACKAGE_HDR
+NumberOfPages	UefiSpec.h	/^  UINT64                NumberOfPages;$/;"	m	struct:__anon29
+NumberOfPartitionEntries	UefiGpt.h	/^  UINT32            NumberOfPartitionEntries;$/;"	m	struct:__anon22
+NumberOfTableEntries	UefiSpec.h	/^  UINTN                             NumberOfTableEntries;$/;"	m	struct:__anon42
+NumberOfWideGlyphs	UefiInternalFormRepresentation.h	/^  UINT16                 NumberOfWideGlyphs;$/;"	m	struct:_EFI_HII_SIMPLE_FONT_PACKAGE_HDR
+NvCount	UefiPxe.h	/^  PXE_UINT32  NvCount;$/;"	m	struct:s_pxe_db_get_init_info
+NvWidth	UefiPxe.h	/^  PXE_UINT16  NvWidth;$/;"	m	struct:s_pxe_db_get_init_info
+OffsetX	UefiInternalFormRepresentation.h	/^  INT16                  OffsetX;$/;"	m	struct:_EFI_HII_GLYPH_INFO
+OffsetX	UefiInternalFormRepresentation.h	/^  UINT16                    OffsetX;$/;"	m	struct:_EFI_HII_ANIMATION_CELL
+OffsetY	UefiInternalFormRepresentation.h	/^  INT16                  OffsetY;$/;"	m	struct:_EFI_HII_GLYPH_INFO
+OffsetY	UefiInternalFormRepresentation.h	/^  UINT16                    OffsetY;$/;"	m	struct:_EFI_HII_ANIMATION_CELL
+OpCode	UefiInternalFormRepresentation.h	/^  UINT8                    OpCode;$/;"	m	struct:_EFI_IFR_OP_HEADER
+OpCode	UefiPxe.h	/^  PXE_OPCODE    OpCode;$/;"	m	struct:s_pxe_cdb
+OpFlags	UefiPxe.h	/^  PXE_OPFLAGS   OpFlags;$/;"	m	struct:s_pxe_cdb
+OpenCount	UefiSpec.h	/^  UINT32      OpenCount;$/;"	m	struct:__anon33
+OpenProtocol	UefiSpec.h	/^  EFI_OPEN_PROTOCOL                 OpenProtocol;$/;"	m	struct:__anon40
+OpenProtocolInformation	UefiSpec.h	/^  EFI_OPEN_PROTOCOL_INFORMATION     OpenProtocolInformation;$/;"	m	struct:__anon40
+Option	UefiInternalFormRepresentation.h	/^  EFI_STRING_ID            Option;$/;"	m	struct:_EFI_IFR_ONE_OF_OPTION
+Options	UefiSpec.h	/^  } Options;$/;"	m	union:__anon43	typeref:struct:__anon43::__anon44
+PCC	UefiPxe.h	/^  PCI, PCC;$/;"	m	union:pxe_device	typeref:struct:pxe_device::__anon51
+PCI	UefiPxe.h	/^  PCI, PCC;$/;"	m	union:pxe_device	typeref:struct:pxe_device::__anon51
+PRIMARY_PART_HEADER_LBA	UefiGpt.h	16;"	d
+PXE_BOOL	UefiPxe.h	/^typedef PXE_UINT8 PXE_BOOL;$/;"	t
+PXE_BUSTYPE	UefiPxe.h	20;"	d
+PXE_BUSTYPE_1394	UefiPxe.h	37;"	d
+PXE_BUSTYPE_PCI	UefiPxe.h	34;"	d
+PXE_BUSTYPE_PC_CARD	UefiPxe.h	35;"	d
+PXE_BUSTYPE_PXE	UefiPxe.h	29;"	d
+PXE_BUSTYPE_USB	UefiPxe.h	36;"	d
+PXE_CDB	UefiPxe.h	/^} PXE_CDB;$/;"	t	typeref:struct:s_pxe_cdb
+PXE_CONST	UefiPxe.h	62;"	d
+PXE_CONTROL	UefiPxe.h	/^typedef PXE_UINT16  PXE_CONTROL;$/;"	t
+PXE_CONTROL_LAST_CDB_IN_LIST	UefiPxe.h	657;"	d
+PXE_CONTROL_LINK	UefiPxe.h	656;"	d
+PXE_CONTROL_QUEUE_IF_BUSY	UefiPxe.h	647;"	d
+PXE_CPBADDR_NOT_USED	UefiPxe.h	60;"	d
+PXE_CPBSIZE_NOT_USED	UefiPxe.h	58;"	d
+PXE_CPB_FILL_HEADER	UefiPxe.h	/^} PXE_CPB_FILL_HEADER;$/;"	t	typeref:struct:s_pxe_cpb_fill_header
+PXE_CPB_FILL_HEADER_FRAGMENTED	UefiPxe.h	/^PXE_CPB_FILL_HEADER_FRAGMENTED;$/;"	t	typeref:struct:s_pxe_cpb_fill_header_fragmented
+PXE_CPB_INITIALIZE	UefiPxe.h	/^} PXE_CPB_INITIALIZE;$/;"	t	typeref:struct:s_pxe_cpb_initialize
+PXE_CPB_MCAST_IP_TO_MAC	UefiPxe.h	/^} PXE_CPB_MCAST_IP_TO_MAC;$/;"	t	typeref:struct:s_pxe_cpb_mcast_ip_to_mac
+PXE_CPB_NVDATA_BULK	UefiPxe.h	/^} PXE_CPB_NVDATA_BULK;$/;"	t	typeref:union:u_pxe_cpb_nvdata_bulk
+PXE_CPB_NVDATA_SPARSE	UefiPxe.h	/^} PXE_CPB_NVDATA_SPARSE;$/;"	t	typeref:struct:s_pxe_cpb_nvdata_sparse
+PXE_CPB_RECEIVE	UefiPxe.h	/^} PXE_CPB_RECEIVE;$/;"	t	typeref:struct:s_pxe_cpb_receive
+PXE_CPB_RECEIVE_FILTERS	UefiPxe.h	/^} PXE_CPB_RECEIVE_FILTERS;$/;"	t	typeref:struct:s_pxe_cpb_receive_filters
+PXE_CPB_START_30	UefiPxe.h	/^} PXE_CPB_START_30;$/;"	t	typeref:struct:s_pxe_cpb_start_30
+PXE_CPB_START_31	UefiPxe.h	/^} PXE_CPB_START_31;$/;"	t	typeref:struct:s_pxe_cpb_start_31
+PXE_CPB_STATION_ADDRESS	UefiPxe.h	/^} PXE_CPB_STATION_ADDRESS;$/;"	t	typeref:struct:s_pxe_cpb_station_address
+PXE_CPB_TRANSMIT	UefiPxe.h	/^} PXE_CPB_TRANSMIT;$/;"	t	typeref:struct:s_pxe_cpb_transmit
+PXE_CPB_TRANSMIT_FRAGMENTS	UefiPxe.h	/^PXE_CPB_TRANSMIT_FRAGMENTS;$/;"	t	typeref:struct:s_pxe_cpb_transmit_fragments
+PXE_DBADDR_NOT_USED	UefiPxe.h	61;"	d
+PXE_DBSIZE_NOT_USED	UefiPxe.h	59;"	d
+PXE_DB_GET_CONFIG_INFO	UefiPxe.h	/^} PXE_DB_GET_CONFIG_INFO;$/;"	t	typeref:union:u_pxe_db_get_config_info
+PXE_DB_GET_INIT_INFO	UefiPxe.h	/^} PXE_DB_GET_INIT_INFO;$/;"	t	typeref:struct:s_pxe_db_get_init_info
+PXE_DB_GET_STATUS	UefiPxe.h	/^} PXE_DB_GET_STATUS;$/;"	t	typeref:struct:s_pxe_db_get_status
+PXE_DB_INITIALIZE	UefiPxe.h	/^} PXE_DB_INITIALIZE;$/;"	t	typeref:struct:s_pxe_db_initialize
+PXE_DB_MCAST_IP_TO_MAC	UefiPxe.h	/^} PXE_DB_MCAST_IP_TO_MAC;$/;"	t	typeref:struct:s_pxe_db_mcast_ip_to_mac
+PXE_DB_NVDATA	UefiPxe.h	/^} PXE_DB_NVDATA;$/;"	t	typeref:struct:s_pxe_db_nvdata
+PXE_DB_RECEIVE	UefiPxe.h	/^} PXE_DB_RECEIVE;$/;"	t	typeref:struct:s_pxe_db_receive
+PXE_DB_RECEIVE_FILTERS	UefiPxe.h	/^} PXE_DB_RECEIVE_FILTERS;$/;"	t	typeref:struct:s_pxe_db_receive_filters
+PXE_DB_STATION_ADDRESS	UefiPxe.h	/^} PXE_DB_STATION_ADDRESS;$/;"	t	typeref:struct:s_pxe_dpb_station_address
+PXE_DB_STATISTICS	UefiPxe.h	/^} PXE_DB_STATISTICS;$/;"	t	typeref:struct:s_pxe_db_statistics
+PXE_DELAY_MILLISECOND	UefiPxe.h	1087;"	d
+PXE_DELAY_SECOND	UefiPxe.h	1088;"	d
+PXE_DEVICE	UefiPxe.h	/^} PXE_DEVICE;$/;"	t	typeref:union:pxe_device
+PXE_DISABLE_FULL_DUPLEX	UefiPxe.h	1292;"	d
+PXE_DUPLEX_DEFAULT	UefiPxe.h	1288;"	d
+PXE_DUPLEX_ENABLE_FULL_SUPPORTED	UefiPxe.h	1180;"	d
+PXE_DUPLEX_FORCE_FULL_SUPPORTED	UefiPxe.h	1181;"	d
+PXE_ENABLE_FULL_DUPLEX	UefiPxe.h	1290;"	d
+PXE_FALSE	UefiPxe.h	78;"	d
+PXE_FORCE_FULL_DUPLEX	UefiPxe.h	1289;"	d
+PXE_FORCE_HALF_DUPLEX	UefiPxe.h	1291;"	d
+PXE_FRAME_TYPE	UefiPxe.h	/^typedef PXE_UINT8   PXE_FRAME_TYPE;$/;"	t
+PXE_FRAME_TYPE_BROADCAST	UefiPxe.h	663;"	d
+PXE_FRAME_TYPE_FILTERED_MULTICAST	UefiPxe.h	664;"	d
+PXE_FRAME_TYPE_MULTICAST	UefiPxe.h	668;"	d
+PXE_FRAME_TYPE_NONE	UefiPxe.h	661;"	d
+PXE_FRAME_TYPE_PROMISCUOUS	UefiPxe.h	665;"	d
+PXE_FRAME_TYPE_PROMISCUOUS_MULTICAST	UefiPxe.h	666;"	d
+PXE_FRAME_TYPE_UNICAST	UefiPxe.h	662;"	d
+PXE_HWADDR_LEN_ETHER	UefiPxe.h	1177;"	d
+PXE_HWCMD_BROADCAST_RX_ENABLE	UefiPxe.h	788;"	d
+PXE_HWCMD_CLEAR_CMD_COMPLETE_INT	UefiPxe.h	806;"	d
+PXE_HWCMD_CLEAR_PACKET_RX_INT	UefiPxe.h	805;"	d
+PXE_HWCMD_CLEAR_SOFTWARE_INT	UefiPxe.h	803;"	d
+PXE_HWCMD_CLEAR_TX_COMPLETE_INT	UefiPxe.h	804;"	d
+PXE_HWCMD_CMD_COMPLETE_INT_ENABLE	UefiPxe.h	798;"	d
+PXE_HWCMD_INTS_AND_FILTS	UefiPxe.h	781;"	d
+PXE_HWCMD_ISSUE_COMMAND	UefiPxe.h	780;"	d
+PXE_HWCMD_MULTICAST_RX_ENABLE	UefiPxe.h	789;"	d
+PXE_HWCMD_PACKET_RX_INT_ENABLE	UefiPxe.h	797;"	d
+PXE_HWCMD_PROMISCUOUS_MULTICAST_RX_ENABLE	UefiPxe.h	786;"	d
+PXE_HWCMD_PROMISCUOUS_RX_ENABLE	UefiPxe.h	787;"	d
+PXE_HWCMD_SOFTWARE_INT_ENABLE	UefiPxe.h	795;"	d
+PXE_HWCMD_TX_COMPLETE_INT_ENABLE	UefiPxe.h	796;"	d
+PXE_HWCMD_UNICAST_RX_ENABLE	UefiPxe.h	790;"	d
+PXE_HWSTAT_BROADCAST_RX_ENABLED	UefiPxe.h	752;"	d
+PXE_HWSTAT_BUSY	UefiPxe.h	737;"	d
+PXE_HWSTAT_CMD_COMPLETE_INT_ENABLED	UefiPxe.h	762;"	d
+PXE_HWSTAT_CMD_COMPLETE_INT_PENDING	UefiPxe.h	770;"	d
+PXE_HWSTAT_COMMAND_FAILED	UefiPxe.h	745;"	d
+PXE_HWSTAT_INITIALIZED	UefiPxe.h	738;"	d
+PXE_HWSTAT_MULTICAST_RX_ENABLED	UefiPxe.h	753;"	d
+PXE_HWSTAT_PACKET_RX_INT_ENABLED	UefiPxe.h	761;"	d
+PXE_HWSTAT_PACKET_RX_INT_PENDING	UefiPxe.h	769;"	d
+PXE_HWSTAT_PROMISCUOUS_MULTICAST_RX_ENABLED	UefiPxe.h	750;"	d
+PXE_HWSTAT_PROMISCUOUS_RX_ENABLED	UefiPxe.h	751;"	d
+PXE_HWSTAT_SOFTWARE_INT_ENABLED	UefiPxe.h	759;"	d
+PXE_HWSTAT_SOFTWARE_INT_PENDING	UefiPxe.h	767;"	d
+PXE_HWSTAT_STARTED	UefiPxe.h	739;"	d
+PXE_HWSTAT_STATE_MASK	UefiPxe.h	736;"	d
+PXE_HWSTAT_STOPPED	UefiPxe.h	740;"	d
+PXE_HWSTAT_TX_COMPLETE_INT_ENABLED	UefiPxe.h	760;"	d
+PXE_HWSTAT_TX_COMPLETE_INT_PENDING	UefiPxe.h	768;"	d
+PXE_HWSTAT_UNICAST_RX_ENABLED	UefiPxe.h	754;"	d
+PXE_HW_UNDI	UefiPxe.h	/^} PXE_HW_UNDI;$/;"	t	typeref:struct:s_pxe_hw_undi
+PXE_IFNUM	UefiPxe.h	/^typedef PXE_UINT16  PXE_IFNUM;$/;"	t
+PXE_IFNUM_INVALID	UefiPxe.h	636;"	d
+PXE_IFNUM_START	UefiPxe.h	630;"	d
+PXE_IFTYPE	UefiPxe.h	/^typedef PXE_UINT8   PXE_IFTYPE;$/;"	t
+PXE_IFTYPE_ETHERNET	UefiPxe.h	707;"	d
+PXE_IFTYPE_FIBRE_CHANNEL	UefiPxe.h	709;"	d
+PXE_IFTYPE_TOKENRING	UefiPxe.h	708;"	d
+PXE_IO_READ	UefiPxe.h	1089;"	d
+PXE_IO_WRITE	UefiPxe.h	1090;"	d
+PXE_IPV4	UefiPxe.h	/^typedef PXE_UINT32  PXE_IPV4;$/;"	t
+PXE_IPV6	UefiPxe.h	/^typedef PXE_UINT32  PXE_IPV6[4];$/;"	t
+PXE_IP_ADDR	UefiPxe.h	/^} PXE_IP_ADDR;$/;"	t	typeref:union:u_pxe_ip_addr
+PXE_LOOPBACK_EXTERNAL_SUPPORTED	UefiPxe.h	1184;"	d
+PXE_LOOPBACK_INTERNAL_SUPPORTED	UefiPxe.h	1183;"	d
+PXE_MAC_ADDR	UefiPxe.h	/^typedef PXE_UINT8   PXE_MAC_ADDR[PXE_MAC_LENGTH];$/;"	t
+PXE_MAC_HEADER_LEN_ETHER	UefiPxe.h	1178;"	d
+PXE_MAC_LENGTH	UefiPxe.h	673;"	d
+PXE_MAX_TXRX_UNIT_ETHER	UefiPxe.h	1175;"	d
+PXE_MEDIA_PROTOCOL	UefiPxe.h	/^typedef UINT16      PXE_MEDIA_PROTOCOL;$/;"	t
+PXE_MEM_READ	UefiPxe.h	1091;"	d
+PXE_MEM_WRITE	UefiPxe.h	1092;"	d
+PXE_OPCODE	UefiPxe.h	/^typedef PXE_UINT16      PXE_OPCODE;$/;"	t
+PXE_OPCODE_FILL_HEADER	UefiPxe.h	161;"	d
+PXE_OPCODE_GET_CONFIG_INFO	UefiPxe.h	106;"	d
+PXE_OPCODE_GET_INIT_INFO	UefiPxe.h	101;"	d
+PXE_OPCODE_GET_STATE	UefiPxe.h	86;"	d
+PXE_OPCODE_GET_STATUS	UefiPxe.h	156;"	d
+PXE_OPCODE_INITIALIZE	UefiPxe.h	111;"	d
+PXE_OPCODE_INTERRUPT_ENABLES	UefiPxe.h	126;"	d
+PXE_OPCODE_LAST_VALID	UefiPxe.h	176;"	d
+PXE_OPCODE_MCAST_IP_TO_MAC	UefiPxe.h	146;"	d
+PXE_OPCODE_NVDATA	UefiPxe.h	151;"	d
+PXE_OPCODE_RECEIVE	UefiPxe.h	171;"	d
+PXE_OPCODE_RECEIVE_FILTERS	UefiPxe.h	131;"	d
+PXE_OPCODE_RESET	UefiPxe.h	116;"	d
+PXE_OPCODE_SHUTDOWN	UefiPxe.h	121;"	d
+PXE_OPCODE_START	UefiPxe.h	91;"	d
+PXE_OPCODE_STATION_ADDRESS	UefiPxe.h	136;"	d
+PXE_OPCODE_STATISTICS	UefiPxe.h	141;"	d
+PXE_OPCODE_STOP	UefiPxe.h	96;"	d
+PXE_OPCODE_TRANSMIT	UefiPxe.h	166;"	d
+PXE_OPFLAGS	UefiPxe.h	/^typedef PXE_UINT16  PXE_OPFLAGS;$/;"	t
+PXE_OPFLAGS_FILL_HEADER_FRAGMENTED	UefiPxe.h	374;"	d
+PXE_OPFLAGS_FILL_HEADER_OPMASK	UefiPxe.h	373;"	d
+PXE_OPFLAGS_FILL_HEADER_WHOLE	UefiPxe.h	375;"	d
+PXE_OPFLAGS_GET_INTERRUPT_STATUS	UefiPxe.h	353;"	d
+PXE_OPFLAGS_GET_MEDIA_STATUS	UefiPxe.h	368;"	d
+PXE_OPFLAGS_GET_TRANSMITTED_BUFFERS	UefiPxe.h	363;"	d
+PXE_OPFLAGS_INITIALIZE_CABLE_DETECT_MASK	UefiPxe.h	211;"	d
+PXE_OPFLAGS_INITIALIZE_DETECT_CABLE	UefiPxe.h	212;"	d
+PXE_OPFLAGS_INITIALIZE_DO_NOT_DETECT_CABLE	UefiPxe.h	213;"	d
+PXE_OPFLAGS_INTERRUPT_COMMAND	UefiPxe.h	255;"	d
+PXE_OPFLAGS_INTERRUPT_DISABLE	UefiPxe.h	236;"	d
+PXE_OPFLAGS_INTERRUPT_ENABLE	UefiPxe.h	235;"	d
+PXE_OPFLAGS_INTERRUPT_OPMASK	UefiPxe.h	234;"	d
+PXE_OPFLAGS_INTERRUPT_READ	UefiPxe.h	237;"	d
+PXE_OPFLAGS_INTERRUPT_RECEIVE	UefiPxe.h	243;"	d
+PXE_OPFLAGS_INTERRUPT_SOFTWARE	UefiPxe.h	261;"	d
+PXE_OPFLAGS_INTERRUPT_TRANSMIT	UefiPxe.h	249;"	d
+PXE_OPFLAGS_MCAST_IPV4_TO_MAC	UefiPxe.h	331;"	d
+PXE_OPFLAGS_MCAST_IPV6_TO_MAC	UefiPxe.h	332;"	d
+PXE_OPFLAGS_MCAST_IP_TO_MAC_OPMASK	UefiPxe.h	330;"	d
+PXE_OPFLAGS_NOT_USED	UefiPxe.h	180;"	d
+PXE_OPFLAGS_NVDATA_OPMASK	UefiPxe.h	340;"	d
+PXE_OPFLAGS_NVDATA_READ	UefiPxe.h	341;"	d
+PXE_OPFLAGS_NVDATA_WRITE	UefiPxe.h	342;"	d
+PXE_OPFLAGS_RECEIVE_FILTER_ALL_MULTICAST	UefiPxe.h	309;"	d
+PXE_OPFLAGS_RECEIVE_FILTER_BROADCAST	UefiPxe.h	291;"	d
+PXE_OPFLAGS_RECEIVE_FILTER_DISABLE	UefiPxe.h	272;"	d
+PXE_OPFLAGS_RECEIVE_FILTER_ENABLE	UefiPxe.h	271;"	d
+PXE_OPFLAGS_RECEIVE_FILTER_FILTERED_MULTICAST	UefiPxe.h	298;"	d
+PXE_OPFLAGS_RECEIVE_FILTER_OPMASK	UefiPxe.h	270;"	d
+PXE_OPFLAGS_RECEIVE_FILTER_PROMISCUOUS	UefiPxe.h	303;"	d
+PXE_OPFLAGS_RECEIVE_FILTER_READ	UefiPxe.h	273;"	d
+PXE_OPFLAGS_RECEIVE_FILTER_RESET_MCAST_LIST	UefiPxe.h	279;"	d
+PXE_OPFLAGS_RECEIVE_FILTER_UNICAST	UefiPxe.h	285;"	d
+PXE_OPFLAGS_RESET_DISABLE_FILTERS	UefiPxe.h	220;"	d
+PXE_OPFLAGS_RESET_DISABLE_INTERRUPTS	UefiPxe.h	219;"	d
+PXE_OPFLAGS_STATION_ADDRESS_READ	UefiPxe.h	314;"	d
+PXE_OPFLAGS_STATION_ADDRESS_RESET	UefiPxe.h	316;"	d
+PXE_OPFLAGS_STATION_ADDRESS_WRITE	UefiPxe.h	315;"	d
+PXE_OPFLAGS_STATISTICS_READ	UefiPxe.h	321;"	d
+PXE_OPFLAGS_STATISTICS_RESET	UefiPxe.h	322;"	d
+PXE_OPFLAGS_SWUNDI_TRANSMIT_OPMASK	UefiPxe.h	385;"	d
+PXE_OPFLAGS_TRANSMIT_BLOCK	UefiPxe.h	386;"	d
+PXE_OPFLAGS_TRANSMIT_DONT_BLOCK	UefiPxe.h	387;"	d
+PXE_OPFLAGS_TRANSMIT_FRAGMENTED	UefiPxe.h	390;"	d
+PXE_OPFLAGS_TRANSMIT_OPMASK	UefiPxe.h	389;"	d
+PXE_OPFLAGS_TRANSMIT_WHOLE	UefiPxe.h	391;"	d
+PXE_PCC_CONFIG_INFO	UefiPxe.h	/^} PXE_PCC_CONFIG_INFO;$/;"	t	typeref:struct:s_pxe_pcc_config_info
+PXE_PCI_CONFIG_INFO	UefiPxe.h	/^} PXE_PCI_CONFIG_INFO;$/;"	t	typeref:struct:s_pxe_pci_config_info
+PXE_PROTOCOL_ETHERNET_ARP	UefiPxe.h	1604;"	d
+PXE_PROTOCOL_ETHERNET_IP	UefiPxe.h	1603;"	d
+PXE_ROMID_IMP_64BIT_DEVICE	UefiPxe.h	853;"	d
+PXE_ROMID_IMP_BROADCAST_RX_SUPPORTED	UefiPxe.h	867;"	d
+PXE_ROMID_IMP_CMD_COMPLETE_INT_SUPPORTED	UefiPxe.h	872;"	d
+PXE_ROMID_IMP_CMD_LINK_SUPPORTED	UefiPxe.h	855;"	d
+PXE_ROMID_IMP_CMD_QUEUE_SUPPORTED	UefiPxe.h	856;"	d
+PXE_ROMID_IMP_FILTERED_MULTICAST_RX_SUPPORTED	UefiPxe.h	868;"	d
+PXE_ROMID_IMP_FRAG_SUPPORTED	UefiPxe.h	854;"	d
+PXE_ROMID_IMP_HW_UNDI	UefiPxe.h	851;"	d
+PXE_ROMID_IMP_MULTI_FRAME_SUPPORTED	UefiPxe.h	857;"	d
+PXE_ROMID_IMP_NVDATA_BULK_WRITABLE	UefiPxe.h	859;"	d
+PXE_ROMID_IMP_NVDATA_NOT_AVAILABLE	UefiPxe.h	862;"	d
+PXE_ROMID_IMP_NVDATA_READ_ONLY	UefiPxe.h	861;"	d
+PXE_ROMID_IMP_NVDATA_SPARSE_WRITABLE	UefiPxe.h	860;"	d
+PXE_ROMID_IMP_NVDATA_SUPPORT_MASK	UefiPxe.h	858;"	d
+PXE_ROMID_IMP_PACKET_RX_INT_SUPPORTED	UefiPxe.h	871;"	d
+PXE_ROMID_IMP_PROMISCUOUS_MULTICAST_RX_SUPPORTED	UefiPxe.h	865;"	d
+PXE_ROMID_IMP_PROMISCUOUS_RX_SUPPORTED	UefiPxe.h	866;"	d
+PXE_ROMID_IMP_SOFTWARE_INT_SUPPORTED	UefiPxe.h	869;"	d
+PXE_ROMID_IMP_STATION_ADDR_SETTABLE	UefiPxe.h	864;"	d
+PXE_ROMID_IMP_STATISTICS_SUPPORTED	UefiPxe.h	863;"	d
+PXE_ROMID_IMP_SW_VIRT_ADDR	UefiPxe.h	852;"	d
+PXE_ROMID_IMP_TX_COMPLETE_INT_SUPPORTED	UefiPxe.h	870;"	d
+PXE_ROMID_MAJORVER	UefiPxe.h	845;"	d
+PXE_ROMID_MINORVER	UefiPxe.h	846;"	d
+PXE_ROMID_REV	UefiPxe.h	838;"	d
+PXE_ROMID_SIGNATURE	UefiPxe.h	833;"	d
+PXE_STATCODE	UefiPxe.h	/^typedef PXE_UINT16  PXE_STATCODE;$/;"	t
+PXE_STATCODE_ALREADY_INITIALIZED	UefiPxe.h	612;"	d
+PXE_STATCODE_ALREADY_STARTED	UefiPxe.h	609;"	d
+PXE_STATCODE_BUFFER_FULL	UefiPxe.h	617;"	d
+PXE_STATCODE_BUSY	UefiPxe.h	607;"	d
+PXE_STATCODE_DEVICE_FAILURE	UefiPxe.h	614;"	d
+PXE_STATCODE_INITIALIZE	UefiPxe.h	597;"	d
+PXE_STATCODE_INVALID_CDB	UefiPxe.h	605;"	d
+PXE_STATCODE_INVALID_CPB	UefiPxe.h	606;"	d
+PXE_STATCODE_INVALID_PARAMETER	UefiPxe.h	618;"	d
+PXE_STATCODE_INVALID_UNDI	UefiPxe.h	619;"	d
+PXE_STATCODE_IPV4_NOT_SUPPORTED	UefiPxe.h	620;"	d
+PXE_STATCODE_IPV6_NOT_SUPPORTED	UefiPxe.h	621;"	d
+PXE_STATCODE_NOT_ENOUGH_MEMORY	UefiPxe.h	622;"	d
+PXE_STATCODE_NOT_INITIALIZED	UefiPxe.h	613;"	d
+PXE_STATCODE_NOT_SHUTDOWN	UefiPxe.h	611;"	d
+PXE_STATCODE_NOT_STARTED	UefiPxe.h	610;"	d
+PXE_STATCODE_NO_DATA	UefiPxe.h	623;"	d
+PXE_STATCODE_NVDATA_FAILURE	UefiPxe.h	615;"	d
+PXE_STATCODE_QUEUE_FULL	UefiPxe.h	608;"	d
+PXE_STATCODE_SUCCESS	UefiPxe.h	603;"	d
+PXE_STATCODE_UNSUPPORTED	UefiPxe.h	616;"	d
+PXE_STATFLAGS	UefiPxe.h	/^typedef PXE_UINT16  PXE_STATFLAGS;$/;"	t
+PXE_STATFLAGS_CABLE_DETECT_MASK	UefiPxe.h	436;"	d
+PXE_STATFLAGS_CABLE_DETECT_NOT_SUPPORTED	UefiPxe.h	437;"	d
+PXE_STATFLAGS_CABLE_DETECT_SUPPORTED	UefiPxe.h	438;"	d
+PXE_STATFLAGS_COMMAND_COMPLETE	UefiPxe.h	415;"	d
+PXE_STATFLAGS_COMMAND_FAILED	UefiPxe.h	416;"	d
+PXE_STATFLAGS_COMMAND_QUEUED	UefiPxe.h	417;"	d
+PXE_STATFLAGS_GET_STATE_INITIALIZED	UefiPxe.h	423;"	d
+PXE_STATFLAGS_GET_STATE_MASK	UefiPxe.h	422;"	d
+PXE_STATFLAGS_GET_STATE_STARTED	UefiPxe.h	424;"	d
+PXE_STATFLAGS_GET_STATE_STOPPED	UefiPxe.h	425;"	d
+PXE_STATFLAGS_GET_STATUS_COMMAND	UefiPxe.h	553;"	d
+PXE_STATFLAGS_GET_STATUS_INTERRUPT_MASK	UefiPxe.h	537;"	d
+PXE_STATFLAGS_GET_STATUS_NO_INTERRUPTS	UefiPxe.h	538;"	d
+PXE_STATFLAGS_GET_STATUS_NO_MEDIA	UefiPxe.h	575;"	d
+PXE_STATFLAGS_GET_STATUS_NO_MEDIA_MASK	UefiPxe.h	440;"	d
+PXE_STATFLAGS_GET_STATUS_NO_MEDIA_NOT_SUPPORTED	UefiPxe.h	441;"	d
+PXE_STATFLAGS_GET_STATUS_NO_MEDIA_SUPPORTED	UefiPxe.h	442;"	d
+PXE_STATFLAGS_GET_STATUS_NO_TXBUFS_WRITTEN	UefiPxe.h	570;"	d
+PXE_STATFLAGS_GET_STATUS_RECEIVE	UefiPxe.h	543;"	d
+PXE_STATFLAGS_GET_STATUS_SOFTWARE	UefiPxe.h	558;"	d
+PXE_STATFLAGS_GET_STATUS_TRANSMIT	UefiPxe.h	548;"	d
+PXE_STATFLAGS_GET_STATUS_TXBUF_QUEUE_EMPTY	UefiPxe.h	564;"	d
+PXE_STATFLAGS_INITIALIZE	UefiPxe.h	404;"	d
+PXE_STATFLAGS_INITIALIZED_NO_MEDIA	UefiPxe.h	447;"	d
+PXE_STATFLAGS_INTERRUPT_COMMAND	UefiPxe.h	475;"	d
+PXE_STATFLAGS_INTERRUPT_RECEIVE	UefiPxe.h	465;"	d
+PXE_STATFLAGS_INTERRUPT_TRANSMIT	UefiPxe.h	470;"	d
+PXE_STATFLAGS_RECEIVE_FILTER_ALL_MULTICAST	UefiPxe.h	505;"	d
+PXE_STATFLAGS_RECEIVE_FILTER_BROADCAST	UefiPxe.h	489;"	d
+PXE_STATFLAGS_RECEIVE_FILTER_FILTERED_MULTICAST	UefiPxe.h	495;"	d
+PXE_STATFLAGS_RECEIVE_FILTER_PROMISCUOUS	UefiPxe.h	500;"	d
+PXE_STATFLAGS_RECEIVE_FILTER_UNICAST	UefiPxe.h	484;"	d
+PXE_STATFLAGS_RESET_NO_MEDIA	UefiPxe.h	452;"	d
+PXE_STATFLAGS_STATUS_MASK	UefiPxe.h	414;"	d
+PXE_STATISTICS_COLLISIONS	UefiPxe.h	1448;"	d
+PXE_STATISTICS_RX_BROADCAST_FRAMES	UefiPxe.h	1413;"	d
+PXE_STATISTICS_RX_CRC_ERROR_FRAMES	UefiPxe.h	1423;"	d
+PXE_STATISTICS_RX_DECRYPT_ERROR_FRAMES	UefiPxe.h	1463;"	d
+PXE_STATISTICS_RX_DROPPED_FRAMES	UefiPxe.h	1403;"	d
+PXE_STATISTICS_RX_DUPLICATED_FRAMES	UefiPxe.h	1458;"	d
+PXE_STATISTICS_RX_GOOD_FRAMES	UefiPxe.h	1386;"	d
+PXE_STATISTICS_RX_MULTICAST_FRAMES	UefiPxe.h	1418;"	d
+PXE_STATISTICS_RX_OVERSIZE_FRAMES	UefiPxe.h	1398;"	d
+PXE_STATISTICS_RX_TOTAL_BYTES	UefiPxe.h	1429;"	d
+PXE_STATISTICS_RX_TOTAL_FRAMES	UefiPxe.h	1381;"	d
+PXE_STATISTICS_RX_UNDERSIZE_FRAMES	UefiPxe.h	1392;"	d
+PXE_STATISTICS_RX_UNICAST_FRAMES	UefiPxe.h	1408;"	d
+PXE_STATISTICS_TX_BROADCAST_FRAMES	UefiPxe.h	1440;"	d
+PXE_STATISTICS_TX_CRC_ERROR_FRAMES	UefiPxe.h	1442;"	d
+PXE_STATISTICS_TX_DROPPED_FRAMES	UefiPxe.h	1438;"	d
+PXE_STATISTICS_TX_ERROR_FRAMES	UefiPxe.h	1468;"	d
+PXE_STATISTICS_TX_GOOD_FRAMES	UefiPxe.h	1435;"	d
+PXE_STATISTICS_TX_MULTICAST_FRAMES	UefiPxe.h	1441;"	d
+PXE_STATISTICS_TX_OVERSIZE_FRAMES	UefiPxe.h	1437;"	d
+PXE_STATISTICS_TX_RETRY_FRAMES	UefiPxe.h	1473;"	d
+PXE_STATISTICS_TX_TOTAL_BYTES	UefiPxe.h	1443;"	d
+PXE_STATISTICS_TX_TOTAL_FRAMES	UefiPxe.h	1434;"	d
+PXE_STATISTICS_TX_UNDERSIZE_FRAMES	UefiPxe.h	1436;"	d
+PXE_STATISTICS_TX_UNICAST_FRAMES	UefiPxe.h	1439;"	d
+PXE_STATISTICS_UNSUPPORTED_PROTOCOL	UefiPxe.h	1453;"	d
+PXE_SWAP_UINT16	UefiPxe.h	39;"	d
+PXE_SWAP_UINT32	UefiPxe.h	41;"	d
+PXE_SWAP_UINT64	UefiPxe.h	47;"	d
+PXE_SW_UNDI	UefiPxe.h	/^} PXE_SW_UNDI;$/;"	t	typeref:struct:s_pxe_sw_undi
+PXE_TRUE	UefiPxe.h	79;"	d
+PXE_UINT16	UefiPxe.h	/^typedef UINT16         PXE_UINT16;$/;"	t
+PXE_UINT32	UefiPxe.h	/^typedef UINT32         PXE_UINT32;$/;"	t
+PXE_UINT64	UefiPxe.h	/^typedef UINT64      PXE_UINT64;$/;"	t
+PXE_UINT8	UefiPxe.h	/^typedef UINT8          PXE_UINT8;$/;"	t
+PXE_UINTN	UefiPxe.h	/^typedef UINTN          PXE_UINTN;$/;"	t
+PXE_UNDI	UefiPxe.h	/^} PXE_UNDI;$/;"	t	typeref:union:u_pxe_undi
+PXE_VOID	UefiPxe.h	/^typedef VOID           PXE_VOID;$/;"	t
+PXE_VOLATILE	UefiPxe.h	64;"	d
+PackageLength	UefiInternalFormRepresentation.h	/^  UINT32                 PackageLength;$/;"	m	struct:__anon1
+PackageListGuid	UefiInternalFormRepresentation.h	/^  EFI_GUID               PackageListGuid;$/;"	m	struct:__anon1
+PackedValue	UefiSpec.h	/^  UINT32  PackedValue;$/;"	m	union:__anon43
+PacketLen	UefiPxe.h	/^  PXE_UINT32          PacketLen;$/;"	m	struct:s_pxe_cpb_fill_header_fragmented
+PacketLen	UefiPxe.h	/^  PXE_UINT32        PacketLen;$/;"	m	struct:s_pxe_cpb_fill_header
+Pad	UefiInternalFormRepresentation.h	/^  UINT8                  Pad[3];$/;"	m	struct:__anon4
+Pad1	UefiBaseType.h	/^  UINT8   Pad1;$/;"	m	struct:__anon24
+Pad2	UefiBaseType.h	/^  UINT8   Pad2;$/;"	m	struct:__anon24
+PaletteCount	UefiInternalFormRepresentation.h	/^  UINT16                       PaletteCount;$/;"	m	struct:_EFI_HII_IMAGE_PALETTE_INFO_HEADER
+PaletteIndex	UefiInternalFormRepresentation.h	/^  UINT8                        PaletteIndex;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_1BIT_BLOCK
+PaletteIndex	UefiInternalFormRepresentation.h	/^  UINT8                        PaletteIndex;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_1BIT_TRANS_BLOCK
+PaletteIndex	UefiInternalFormRepresentation.h	/^  UINT8                        PaletteIndex;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_4BIT_BLOCK
+PaletteIndex	UefiInternalFormRepresentation.h	/^  UINT8                        PaletteIndex;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_4BIT_TRANS_BLOCK
+PaletteIndex	UefiInternalFormRepresentation.h	/^  UINT8                        PaletteIndex;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_8BIT_PALETTE_BLOCK
+PaletteIndex	UefiInternalFormRepresentation.h	/^  UINT8                        PaletteIndex;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_8BIT_TRANS_BLOCK
+PaletteInfoOffset	UefiInternalFormRepresentation.h	/^  UINT32                  PaletteInfoOffset;$/;"	m	struct:_EFI_HII_IMAGE_PACKAGE_HDR
+PaletteSize	UefiInternalFormRepresentation.h	/^  UINT16                       PaletteSize;$/;"	m	struct:_EFI_HII_IMAGE_PALETTE_INFO
+PaletteValue	UefiInternalFormRepresentation.h	/^  EFI_HII_RGB_PIXEL            PaletteValue[1];$/;"	m	struct:_EFI_HII_IMAGE_PALETTE_INFO
+PartitionEntryArrayCRC32	UefiGpt.h	/^  UINT32            PartitionEntryArrayCRC32;$/;"	m	struct:__anon22
+PartitionEntryLBA	UefiGpt.h	/^  EFI_LBA           PartitionEntryLBA;$/;"	m	struct:__anon22
+PartitionName	UefiGpt.h	/^  CHAR16    PartitionName[36];$/;"	m	struct:__anon23
+PartitionTypeGUID	UefiGpt.h	/^  EFI_GUID  PartitionTypeGUID;$/;"	m	struct:__anon23
+PermanentAddr	UefiPxe.h	/^  PXE_MAC_ADDR  PermanentAddr;$/;"	m	struct:s_pxe_dpb_station_address
+Permissions	UefiInternalFormRepresentation.h	/^  EFI_GUID                 Permissions;$/;"	m	struct:_EFI_IFR_SECURITY
+PhysicalStart	UefiSpec.h	/^  EFI_PHYSICAL_ADDRESS  PhysicalStart;$/;"	m	struct:__anon29
+Prompt	UefiInternalFormRepresentation.h	/^  EFI_STRING_ID            Prompt;$/;"	m	struct:_EFI_IFR_STATEMENT_HEADER
+Protocol	UefiPxe.h	/^  PXE_MEDIA_PROTOCOL  Protocol;$/;"	m	struct:s_pxe_cpb_fill_header_fragmented
+Protocol	UefiPxe.h	/^  PXE_MEDIA_PROTOCOL  Protocol;$/;"	m	struct:s_pxe_db_receive
+Protocol	UefiPxe.h	/^  PXE_UINT16        Protocol;$/;"	m	struct:s_pxe_cpb_fill_header
+ProtocolsPerHandle	UefiSpec.h	/^  EFI_PROTOCOLS_PER_HANDLE          ProtocolsPerHandle;$/;"	m	struct:__anon40
+QF_DATE_STORAGE_NORMAL	UefiInternalFormRepresentation.h	1021;"	d
+QF_DATE_STORAGE_TIME	UefiInternalFormRepresentation.h	1022;"	d
+QF_DATE_STORAGE_WAKEUP	UefiInternalFormRepresentation.h	1023;"	d
+QF_TIME_HOUR_SUPPRESS	UefiInternalFormRepresentation.h	1112;"	d
+QF_TIME_MINUTE_SUPPRESS	UefiInternalFormRepresentation.h	1113;"	d
+QF_TIME_SECOND_SUPPRESS	UefiInternalFormRepresentation.h	1114;"	d
+QF_TIME_STORAGE	UefiInternalFormRepresentation.h	1116;"	d
+QF_TIME_STORAGE_NORMAL	UefiInternalFormRepresentation.h	1117;"	d
+QF_TIME_STORAGE_TIME	UefiInternalFormRepresentation.h	1118;"	d
+QF_TIME_STORAGE_WAKEUP	UefiInternalFormRepresentation.h	1119;"	d
+QueryCapsuleCapabilities	UefiSpec.h	/^  EFI_QUERY_CAPSULE_CAPABILITIES  QueryCapsuleCapabilities;$/;"	m	struct:__anon39
+QueryVariableInfo	UefiSpec.h	/^  EFI_QUERY_VARIABLE_INFO         QueryVariableInfo;$/;"	m	struct:__anon39
+Question	UefiInternalFormRepresentation.h	/^  EFI_IFR_QUESTION_HEADER  Question;$/;"	m	struct:_EFI_IFR_ACTION
+Question	UefiInternalFormRepresentation.h	/^  EFI_IFR_QUESTION_HEADER  Question;$/;"	m	struct:_EFI_IFR_ACTION_1
+Question	UefiInternalFormRepresentation.h	/^  EFI_IFR_QUESTION_HEADER  Question;$/;"	m	struct:_EFI_IFR_CHECKBOX
+Question	UefiInternalFormRepresentation.h	/^  EFI_IFR_QUESTION_HEADER  Question;$/;"	m	struct:_EFI_IFR_DATE
+Question	UefiInternalFormRepresentation.h	/^  EFI_IFR_QUESTION_HEADER  Question;$/;"	m	struct:_EFI_IFR_NUMERIC
+Question	UefiInternalFormRepresentation.h	/^  EFI_IFR_QUESTION_HEADER  Question;$/;"	m	struct:_EFI_IFR_ONE_OF
+Question	UefiInternalFormRepresentation.h	/^  EFI_IFR_QUESTION_HEADER  Question;$/;"	m	struct:_EFI_IFR_ORDERED_LIST
+Question	UefiInternalFormRepresentation.h	/^  EFI_IFR_QUESTION_HEADER  Question;$/;"	m	struct:_EFI_IFR_PASSWORD
+Question	UefiInternalFormRepresentation.h	/^  EFI_IFR_QUESTION_HEADER  Question;$/;"	m	struct:_EFI_IFR_REF
+Question	UefiInternalFormRepresentation.h	/^  EFI_IFR_QUESTION_HEADER  Question;$/;"	m	struct:_EFI_IFR_REF2
+Question	UefiInternalFormRepresentation.h	/^  EFI_IFR_QUESTION_HEADER  Question;$/;"	m	struct:_EFI_IFR_REF3
+Question	UefiInternalFormRepresentation.h	/^  EFI_IFR_QUESTION_HEADER  Question;$/;"	m	struct:_EFI_IFR_REF4
+Question	UefiInternalFormRepresentation.h	/^  EFI_IFR_QUESTION_HEADER  Question;$/;"	m	struct:_EFI_IFR_STRING
+Question	UefiInternalFormRepresentation.h	/^  EFI_IFR_QUESTION_HEADER  Question;$/;"	m	struct:_EFI_IFR_TIME
+Question	UefiInternalFormRepresentation.h	/^  EFI_IFR_QUESTION_HEADER Question;$/;"	m	struct:_EFI_IFR_REF5
+QuestionConfig	UefiInternalFormRepresentation.h	/^  EFI_STRING_ID            QuestionConfig;$/;"	m	struct:_EFI_IFR_ACTION
+QuestionId	UefiInternalFormRepresentation.h	/^  EFI_QUESTION_ID          QuestionId;$/;"	m	struct:_EFI_IFR_EQ_ID_VAL
+QuestionId	UefiInternalFormRepresentation.h	/^  EFI_QUESTION_ID          QuestionId;$/;"	m	struct:_EFI_IFR_EQ_ID_VAL_LIST
+QuestionId	UefiInternalFormRepresentation.h	/^  EFI_QUESTION_ID          QuestionId;$/;"	m	struct:_EFI_IFR_QUESTION_HEADER
+QuestionId	UefiInternalFormRepresentation.h	/^  EFI_QUESTION_ID          QuestionId;$/;"	m	struct:_EFI_IFR_QUESTION_REF1
+QuestionId	UefiInternalFormRepresentation.h	/^  EFI_QUESTION_ID          QuestionId;$/;"	m	struct:_EFI_IFR_REF2
+QuestionId	UefiInternalFormRepresentation.h	/^  EFI_QUESTION_ID          QuestionId;$/;"	m	struct:_EFI_IFR_REF3
+QuestionId	UefiInternalFormRepresentation.h	/^  EFI_QUESTION_ID          QuestionId;$/;"	m	struct:_EFI_IFR_REF4
+QuestionId	UefiInternalFormRepresentation.h	/^  EFI_QUESTION_ID QuestionId;$/;"	m	struct:__anon8
+QuestionId1	UefiInternalFormRepresentation.h	/^  EFI_QUESTION_ID          QuestionId1;$/;"	m	struct:_EFI_IFR_EQ_ID_ID
+QuestionId2	UefiInternalFormRepresentation.h	/^  EFI_QUESTION_ID          QuestionId2;$/;"	m	struct:_EFI_IFR_EQ_ID_ID
+RaiseTPL	UefiSpec.h	/^  EFI_RAISE_TPL                   RaiseTPL;$/;"	m	struct:__anon40
+RefreshEventGroupId	UefiInternalFormRepresentation.h	/^  EFI_GUID          RefreshEventGroupId;$/;"	m	struct:_EFI_IFR_REFRESH_ID
+RefreshInterval	UefiInternalFormRepresentation.h	/^  UINT8                    RefreshInterval;$/;"	m	struct:_EFI_IFR_REFRESH
+RegisterProtocolNotify	UefiSpec.h	/^  EFI_REGISTER_PROTOCOL_NOTIFY      RegisterProtocolNotify;$/;"	m	struct:__anon40
+ReinstallProtocolInterface	UefiSpec.h	/^  EFI_REINSTALL_PROTOCOL_INTERFACE  ReinstallProtocolInterface;$/;"	m	struct:__anon40
+Reserved	UefiMultiPhase.h	/^  UINT32  Reserved;$/;"	m	struct:__anon48
+Reserved	UefiSpec.h	/^    UINT32  Reserved        : 16;$/;"	m	struct:__anon43::__anon44
+Reserved	UefiSpec.h	/^  VOID                              *Reserved;$/;"	m	struct:__anon40
+ResetSystem	UefiSpec.h	/^  EFI_RESET_SYSTEM                ResetSystem;$/;"	m	struct:__anon39
+Resolution	UefiSpec.h	/^  UINT32    Resolution;$/;"	m	struct:__anon31
+RestoreTPL	UefiSpec.h	/^  EFI_RESTORE_TPL                 RestoreTPL;$/;"	m	struct:__anon40
+Rev	UefiPxe.h	/^  PXE_UINT8   Rev;            \/\/\/< PXE_ROMID_REV.$/;"	m	struct:s_pxe_hw_undi
+Rev	UefiPxe.h	/^  PXE_UINT8   Rev;            \/\/\/< PXE_ROMID_REV.$/;"	m	struct:s_pxe_sw_undi
+Revision	UefiMultiPhase.h	/^  UINT32  Revision;$/;"	m	struct:__anon48
+Revision	UefiSpec.h	/^    UINT32  Revision        : 8;$/;"	m	struct:__anon43::__anon44
+RuleId	UefiInternalFormRepresentation.h	/^  UINT8                    RuleId;$/;"	m	struct:_EFI_IFR_RULE
+RuleId	UefiInternalFormRepresentation.h	/^  UINT8                    RuleId;$/;"	m	struct:_EFI_IFR_RULE_REF
+RuntimeServices	UefiSpec.h	/^  EFI_RUNTIME_SERVICES              *RuntimeServices;$/;"	m	struct:__anon42
+RxBufCnt	UefiPxe.h	/^  PXE_UINT16  RxBufCnt;$/;"	m	struct:s_pxe_cpb_initialize
+RxBufCnt	UefiPxe.h	/^  PXE_UINT16  RxBufCnt;$/;"	m	struct:s_pxe_db_get_init_info
+RxBufCnt	UefiPxe.h	/^  PXE_UINT16  RxBufCnt;$/;"	m	struct:s_pxe_db_initialize
+RxBufSize	UefiPxe.h	/^  PXE_UINT16  RxBufSize;$/;"	m	struct:s_pxe_cpb_initialize
+RxBufSize	UefiPxe.h	/^  PXE_UINT16  RxBufSize;$/;"	m	struct:s_pxe_db_get_init_info
+RxBufSize	UefiPxe.h	/^  PXE_UINT16  RxBufSize;$/;"	m	struct:s_pxe_db_initialize
+RxFrameLen	UefiPxe.h	/^  PXE_UINT32  RxFrameLen;$/;"	m	struct:s_pxe_db_get_status
+STRING_TOKEN	UefiInternalFormRepresentation.h	2122;"	d
+Scope	UefiInternalFormRepresentation.h	/^  UINT8                    Scope:1;$/;"	m	struct:_EFI_IFR_OP_HEADER
+Second	UefiBaseType.h	/^  UINT8   Second;$/;"	m	struct:__anon24
+Second	UefiInternalFormRepresentation.h	/^  UINT8 Second;$/;"	m	struct:__anon6
+SetMem	UefiSpec.h	/^  EFI_SET_MEM                       SetMem;$/;"	m	struct:__anon40
+SetTime	UefiSpec.h	/^  EFI_SET_TIME                    SetTime;$/;"	m	struct:__anon39
+SetTimer	UefiSpec.h	/^  EFI_SET_TIMER                     SetTimer;$/;"	m	struct:__anon40
+SetVariable	UefiSpec.h	/^  EFI_SET_VARIABLE                SetVariable;$/;"	m	struct:__anon39
+SetVirtualAddressMap	UefiSpec.h	/^  EFI_SET_VIRTUAL_ADDRESS_MAP     SetVirtualAddressMap;$/;"	m	struct:__anon39
+SetWakeupTime	UefiSpec.h	/^  EFI_SET_WAKEUP_TIME             SetWakeupTime;$/;"	m	struct:__anon39
+SetWatchdogTimer	UefiSpec.h	/^  EFI_SET_WATCHDOG_TIMER            SetWatchdogTimer;$/;"	m	struct:__anon40
+SetsToZero	UefiSpec.h	/^  BOOLEAN   SetsToZero;$/;"	m	struct:__anon31
+ShiftPressed	UefiSpec.h	/^    UINT32  ShiftPressed    : 1;$/;"	m	struct:__anon43::__anon44
+ShiftedAltGrUnicode	UefiInternalFormRepresentation.h	/^  CHAR16                  ShiftedAltGrUnicode;$/;"	m	struct:__anon19
+ShiftedUnicode	UefiInternalFormRepresentation.h	/^  CHAR16                  ShiftedUnicode;$/;"	m	struct:__anon19
+SignalEvent	UefiSpec.h	/^  EFI_SIGNAL_EVENT                  SignalEvent;$/;"	m	struct:__anon40
+Signature	UefiMultiPhase.h	/^  UINT64  Signature;$/;"	m	struct:__anon48
+Signature	UefiPxe.h	/^  PXE_UINT32  Signature;      \/\/\/< PXE_ROMID_SIGNATURE.$/;"	m	struct:s_pxe_hw_undi
+Signature	UefiPxe.h	/^  PXE_UINT32  Signature;      \/\/\/< PXE_ROMID_SIGNATURE.$/;"	m	struct:s_pxe_sw_undi
+Size	UefiInternalFormRepresentation.h	/^  UINT16                   Size;$/;"	m	struct:_EFI_IFR_VARSTORE
+Size	UefiInternalFormRepresentation.h	/^  UINT16                   Size;$/;"	m	struct:_EFI_IFR_VARSTORE_EFI
+Size	UefiInternalFormRepresentation.h	/^  UINT32                       Size;$/;"	m	struct:_EFI_HII_IIBT_JPEG_BLOCK
+Size	UefiInternalFormRepresentation.h	/^  UINT32                       Size;$/;"	m	struct:_EFI_HII_IIBT_PNG_BLOCK
+SizeOfPartitionEntry	UefiGpt.h	/^  UINT32            SizeOfPartitionEntry;$/;"	m	struct:__anon22
+SkipCount	UefiInternalFormRepresentation.h	/^  UINT16                       SkipCount;$/;"	m	struct:_EFI_HII_IIBT_SKIP2_BLOCK
+SkipCount	UefiInternalFormRepresentation.h	/^  UINT16                  SkipCount;$/;"	m	struct:_EFI_HII_SIBT_SKIP2_BLOCK
+SkipCount	UefiInternalFormRepresentation.h	/^  UINT16                 SkipCount;$/;"	m	struct:_EFI_HII_GIBT_SKIP2_BLOCK
+SkipCount	UefiInternalFormRepresentation.h	/^  UINT16  SkipCount;$/;"	m	struct:_EFI_HII_AIBT_SKIP2_BLOCK
+SkipCount	UefiInternalFormRepresentation.h	/^  UINT8                        SkipCount;$/;"	m	struct:_EFI_HII_IIBT_SKIP1_BLOCK
+SkipCount	UefiInternalFormRepresentation.h	/^  UINT8                   SkipCount;$/;"	m	struct:_EFI_HII_SIBT_SKIP1_BLOCK
+SkipCount	UefiInternalFormRepresentation.h	/^  UINT8                  SkipCount;$/;"	m	struct:_EFI_HII_GIBT_SKIP1_BLOCK
+SkipCount	UefiInternalFormRepresentation.h	/^  UINT8  SkipCount;$/;"	m	struct:_EFI_HII_AIBT_SKIP1_BLOCK
+SrcAddr	UefiPxe.h	/^  PXE_MAC_ADDR        SrcAddr;$/;"	m	struct:s_pxe_cpb_fill_header_fragmented
+SrcAddr	UefiPxe.h	/^  PXE_MAC_ADDR        SrcAddr;$/;"	m	struct:s_pxe_db_receive
+SrcAddr	UefiPxe.h	/^  PXE_MAC_ADDR  SrcAddr;$/;"	m	struct:s_pxe_cpb_fill_header
+Stall	UefiSpec.h	/^  EFI_STALL                         Stall;$/;"	m	struct:__anon40
+StandardErrorHandle	UefiSpec.h	/^  EFI_HANDLE                        StandardErrorHandle;$/;"	m	struct:__anon42
+StartImage	UefiSpec.h	/^  EFI_IMAGE_START                   StartImage;$/;"	m	struct:__anon40
+StartingLBA	UefiGpt.h	/^  EFI_LBA   StartingLBA;$/;"	m	struct:__anon23
+StatCode	UefiPxe.h	/^  PXE_STATCODE  StatCode;$/;"	m	struct:s_pxe_cdb
+StatFlags	UefiPxe.h	/^  PXE_STATFLAGS StatFlags;$/;"	m	struct:s_pxe_cdb
+Statement	UefiInternalFormRepresentation.h	/^  EFI_IFR_STATEMENT_HEADER Statement;$/;"	m	struct:_EFI_IFR_RESET_BUTTON
+Statement	UefiInternalFormRepresentation.h	/^  EFI_IFR_STATEMENT_HEADER Statement;$/;"	m	struct:_EFI_IFR_SUBTITLE
+Statement	UefiInternalFormRepresentation.h	/^  EFI_IFR_STATEMENT_HEADER Statement;$/;"	m	struct:_EFI_IFR_TEXT
+StationAddr	UefiPxe.h	/^  PXE_MAC_ADDR  StationAddr;$/;"	m	struct:s_pxe_cpb_station_address
+StationAddr	UefiPxe.h	/^  PXE_MAC_ADDR  StationAddr;$/;"	m	struct:s_pxe_dpb_station_address
+StdErr	UefiSpec.h	/^  EFI_SIMPLE_TEXT_OUTPUT_PROTOCOL   *StdErr;$/;"	m	struct:__anon42
+Step	UefiInternalFormRepresentation.h	/^    UINT16 Step;$/;"	m	struct:__anon11::__anon13
+Step	UefiInternalFormRepresentation.h	/^    UINT32 Step;$/;"	m	struct:__anon11::__anon14
+Step	UefiInternalFormRepresentation.h	/^    UINT64 Step;$/;"	m	struct:__anon11::__anon15
+Step	UefiInternalFormRepresentation.h	/^    UINT8 Step;$/;"	m	struct:__anon11::__anon12
+StringCount	UefiInternalFormRepresentation.h	/^  UINT16                  StringCount;$/;"	m	struct:_EFI_HII_SIBT_STRINGS_SCSU_BLOCK
+StringCount	UefiInternalFormRepresentation.h	/^  UINT16                  StringCount;$/;"	m	struct:_EFI_HII_SIBT_STRINGS_SCSU_FONT_BLOCK
+StringCount	UefiInternalFormRepresentation.h	/^  UINT16                  StringCount;$/;"	m	struct:_EFI_HII_SIBT_STRINGS_UCS2_BLOCK
+StringCount	UefiInternalFormRepresentation.h	/^  UINT16                  StringCount;$/;"	m	struct:_EFI_HII_SIBT_STRINGS_UCS2_FONT_BLOCK
+StringId	UefiInternalFormRepresentation.h	/^  EFI_STRING_ID            StringId;$/;"	m	struct:_EFI_IFR_STRING_REF1
+StringId	UefiInternalFormRepresentation.h	/^  EFI_STRING_ID           StringId;$/;"	m	struct:_EFI_HII_SIBT_DUPLICATE_BLOCK
+StringInfoOffset	UefiInternalFormRepresentation.h	/^  UINT32                  StringInfoOffset;$/;"	m	struct:_EFI_HII_STRING_PACKAGE_HDR
+StringText	UefiInternalFormRepresentation.h	/^  CHAR16                  StringText[1];$/;"	m	struct:_EFI_HII_SIBT_STRINGS_UCS2_BLOCK
+StringText	UefiInternalFormRepresentation.h	/^  CHAR16                  StringText[1];$/;"	m	struct:_EFI_HII_SIBT_STRINGS_UCS2_FONT_BLOCK
+StringText	UefiInternalFormRepresentation.h	/^  CHAR16                  StringText[1];$/;"	m	struct:_EFI_HII_SIBT_STRING_UCS2_BLOCK
+StringText	UefiInternalFormRepresentation.h	/^  CHAR16                  StringText[1];$/;"	m	struct:_EFI_HII_SIBT_STRING_UCS2_FONT_BLOCK
+StringText	UefiInternalFormRepresentation.h	/^  UINT8                   StringText[1];$/;"	m	struct:_EFI_HII_SIBT_STRINGS_SCSU_BLOCK
+StringText	UefiInternalFormRepresentation.h	/^  UINT8                   StringText[1];$/;"	m	struct:_EFI_HII_SIBT_STRINGS_SCSU_FONT_BLOCK
+StringText	UefiInternalFormRepresentation.h	/^  UINT8                   StringText[1];$/;"	m	struct:_EFI_HII_SIBT_STRING_SCSU_BLOCK
+StringText	UefiInternalFormRepresentation.h	/^  UINT8                   StringText[1];$/;"	m	struct:_EFI_HII_SIBT_STRING_SCSU_FONT_BLOCK
+Supported	UefiPxe.h	/^  PXE_UINT64  Supported;$/;"	m	struct:s_pxe_db_statistics
+SupportedDuplexModes	UefiPxe.h	/^  PXE_UINT8   SupportedDuplexModes;$/;"	m	struct:s_pxe_db_get_init_info
+SupportedLoopBackModes	UefiPxe.h	/^  PXE_UINT8   SupportedLoopBackModes;$/;"	m	struct:s_pxe_db_get_init_info
+Sync_Mem	UefiPxe.h	/^  UINT64  Sync_Mem;$/;"	m	struct:s_pxe_cpb_start_31
+SyntaxType	UefiInternalFormRepresentation.h	/^  EFI_GUID                 SyntaxType;$/;"	m	struct:_EFI_IFR_MATCH2
+SysReqPressed	UefiSpec.h	/^    UINT32  SysReqPressed    : 1;$/;"	m	struct:__anon43::__anon44
+TO_AND_FROM_DEVICE	UefiPxe.h	1083;"	d
+TO_DEVICE	UefiPxe.h	1085;"	d
+TPL_APPLICATION	UefiSpec.h	618;"	d
+TPL_CALLBACK	UefiSpec.h	619;"	d
+TPL_HIGH_LEVEL	UefiSpec.h	621;"	d
+TPL_NOTIFY	UefiSpec.h	620;"	d
+TextTwo	UefiInternalFormRepresentation.h	/^  EFI_STRING_ID            TextTwo;$/;"	m	struct:_EFI_IFR_TEXT
+TimeOut	UefiInternalFormRepresentation.h	/^  UINT8                    TimeOut;$/;"	m	struct:_EFI_IFR_WARNING_IF
+TimeStamp	UefiMultiPhase.h	/^  EFI_TIME                    TimeStamp;$/;"	m	struct:__anon50
+TimeZone	UefiBaseType.h	/^  INT16   TimeZone;$/;"	m	struct:__anon24
+TimerCancel	UefiSpec.h	/^  TimerCancel,$/;"	e	enum:__anon30
+TimerPeriodic	UefiSpec.h	/^  TimerPeriodic,$/;"	e	enum:__anon30
+TimerRelative	UefiSpec.h	/^  TimerRelative$/;"	e	enum:__anon30
+TxBufCnt	UefiPxe.h	/^  PXE_UINT16  TxBufCnt;$/;"	m	struct:s_pxe_cpb_initialize
+TxBufCnt	UefiPxe.h	/^  PXE_UINT16  TxBufCnt;$/;"	m	struct:s_pxe_db_get_init_info
+TxBufCnt	UefiPxe.h	/^  PXE_UINT16  TxBufCnt;$/;"	m	struct:s_pxe_db_initialize
+TxBufSize	UefiPxe.h	/^  PXE_UINT16  TxBufSize;$/;"	m	struct:s_pxe_cpb_initialize
+TxBufSize	UefiPxe.h	/^  PXE_UINT16  TxBufSize;$/;"	m	struct:s_pxe_db_get_init_info
+TxBufSize	UefiPxe.h	/^  PXE_UINT16  TxBufSize;$/;"	m	struct:s_pxe_db_initialize
+TxBuffer	UefiPxe.h	/^  PXE_UINT64  TxBuffer[MAX_XMIT_BUFFERS];$/;"	m	struct:s_pxe_db_get_status
+Type	UefiInternalFormRepresentation.h	/^  UINT32  Type:8;$/;"	m	struct:__anon2
+Type	UefiInternalFormRepresentation.h	/^  UINT8                    Type;$/;"	m	struct:_EFI_IFR_DEFAULT
+Type	UefiInternalFormRepresentation.h	/^  UINT8                    Type;$/;"	m	struct:_EFI_IFR_DEFAULT_2
+Type	UefiInternalFormRepresentation.h	/^  UINT8                    Type;$/;"	m	struct:_EFI_IFR_ONE_OF_OPTION
+Type	UefiPxe.h	/^  PXE_FRAME_TYPE      Type;$/;"	m	struct:s_pxe_db_receive
+Type	UefiSpec.h	/^  UINT32                Type;$/;"	m	struct:__anon29
+UEFI_CONFIG_LANG	UefiInternalFormRepresentation.h	330;"	d
+UEFI_CONFIG_LANG_2	UefiInternalFormRepresentation.h	331;"	d
+UnMap_Mem	UefiPxe.h	/^  UINT64  UnMap_Mem;$/;"	m	struct:s_pxe_cpb_start_31
+Unicode	UefiInternalFormRepresentation.h	/^  CHAR16                  Unicode;$/;"	m	struct:__anon19
+UnicodeWeight	UefiInternalFormRepresentation.h	/^  CHAR16                 UnicodeWeight;$/;"	m	struct:__anon3
+UnicodeWeight	UefiInternalFormRepresentation.h	/^  CHAR16                 UnicodeWeight;$/;"	m	struct:__anon4
+UninstallMultipleProtocolInterfaces	UefiSpec.h	/^  EFI_UNINSTALL_MULTIPLE_PROTOCOL_INTERFACES  UninstallMultipleProtocolInterfaces;$/;"	m	struct:__anon40
+UninstallProtocolInterface	UefiSpec.h	/^  EFI_UNINSTALL_PROTOCOL_INTERFACE  UninstallProtocolInterface;$/;"	m	struct:__anon40
+Union	UefiSpec.h	/^  } Union;$/;"	m	struct:__anon35	typeref:union:__anon35::__anon36
+UniquePartitionGUID	UefiGpt.h	/^  EFI_GUID  UniquePartitionGUID;$/;"	m	struct:__anon23
+Unique_ID	UefiPxe.h	/^  UINT64  Unique_ID;$/;"	m	struct:s_pxe_cpb_start_31
+UnloadImage	UefiSpec.h	/^  EFI_IMAGE_UNLOAD                  UnloadImage;$/;"	m	struct:__anon40
+UpdateCapsule	UefiSpec.h	/^  EFI_UPDATE_CAPSULE              UpdateCapsule;$/;"	m	struct:__anon39
+Value	UefiInternalFormRepresentation.h	/^  EFI_IFR_TYPE_VALUE       Value;$/;"	m	struct:_EFI_IFR_DEFAULT
+Value	UefiInternalFormRepresentation.h	/^  EFI_IFR_TYPE_VALUE       Value;$/;"	m	struct:_EFI_IFR_ONE_OF_OPTION
+Value	UefiInternalFormRepresentation.h	/^  UINT16                   Value;$/;"	m	struct:_EFI_IFR_EQ_ID_VAL
+Value	UefiInternalFormRepresentation.h	/^  UINT16                   Value;$/;"	m	struct:_EFI_IFR_UINT16
+Value	UefiInternalFormRepresentation.h	/^  UINT32                   Value;$/;"	m	struct:_EFI_IFR_UINT32
+Value	UefiInternalFormRepresentation.h	/^  UINT64 Value;$/;"	m	struct:_EFI_IFR_UINT64
+Value	UefiInternalFormRepresentation.h	/^  UINT8 Value;$/;"	m	struct:_EFI_IFR_UINT8
+ValueList	UefiInternalFormRepresentation.h	/^  UINT16                   ValueList[1];$/;"	m	struct:_EFI_IFR_EQ_ID_VAL_LIST
+VarName	UefiInternalFormRepresentation.h	/^    EFI_STRING_ID          VarName;$/;"	m	union:_EFI_IFR_QUESTION_HEADER::__anon10
+VarName	UefiInternalFormRepresentation.h	/^    EFI_STRING_ID    VarName;$/;"	m	union:_EFI_IFR_GET::__anon17
+VarName	UefiInternalFormRepresentation.h	/^    EFI_STRING_ID    VarName;$/;"	m	union:_EFI_IFR_SET::__anon16
+VarOffset	UefiInternalFormRepresentation.h	/^    UINT16                 VarOffset;$/;"	m	union:_EFI_IFR_QUESTION_HEADER::__anon10
+VarOffset	UefiInternalFormRepresentation.h	/^    UINT16           VarOffset;$/;"	m	union:_EFI_IFR_GET::__anon17
+VarOffset	UefiInternalFormRepresentation.h	/^    UINT16           VarOffset;$/;"	m	union:_EFI_IFR_SET::__anon16
+VarStoreId	UefiInternalFormRepresentation.h	/^  EFI_VARSTORE_ID          VarStoreId;$/;"	m	struct:_EFI_IFR_QUESTION_HEADER
+VarStoreId	UefiInternalFormRepresentation.h	/^  EFI_VARSTORE_ID          VarStoreId;$/;"	m	struct:_EFI_IFR_VARSTORE
+VarStoreId	UefiInternalFormRepresentation.h	/^  EFI_VARSTORE_ID          VarStoreId;$/;"	m	struct:_EFI_IFR_VARSTORE_EFI
+VarStoreId	UefiInternalFormRepresentation.h	/^  EFI_VARSTORE_ID          VarStoreId;$/;"	m	struct:_EFI_IFR_VARSTORE_NAME_VALUE
+VarStoreId	UefiInternalFormRepresentation.h	/^  EFI_VARSTORE_ID    VarStoreId;$/;"	m	struct:_EFI_IFR_GET
+VarStoreId	UefiInternalFormRepresentation.h	/^  EFI_VARSTORE_ID    VarStoreId;$/;"	m	struct:_EFI_IFR_SET
+VarStoreInfo	UefiInternalFormRepresentation.h	/^  }                        VarStoreInfo;$/;"	m	struct:_EFI_IFR_QUESTION_HEADER	typeref:union:_EFI_IFR_QUESTION_HEADER::__anon10
+VarStoreInfo	UefiInternalFormRepresentation.h	/^  }                  VarStoreInfo;$/;"	m	struct:_EFI_IFR_GET	typeref:union:_EFI_IFR_GET::__anon17
+VarStoreInfo	UefiInternalFormRepresentation.h	/^  }                  VarStoreInfo;$/;"	m	struct:_EFI_IFR_SET	typeref:union:_EFI_IFR_SET::__anon16
+VarStoreType	UefiInternalFormRepresentation.h	/^  UINT8              VarStoreType;$/;"	m	struct:_EFI_IFR_GET
+VarStoreType	UefiInternalFormRepresentation.h	/^  UINT8              VarStoreType;$/;"	m	struct:_EFI_IFR_SET
+VendorGuid	UefiSpec.h	/^  EFI_GUID                          VendorGuid;$/;"	m	struct:__anon41
+VendorTable	UefiSpec.h	/^  VOID                              *VendorTable;$/;"	m	struct:__anon41
+Virt2Phys	UefiPxe.h	/^  UINT64  Virt2Phys;$/;"	m	struct:s_pxe_cpb_start_30
+Virt2Phys	UefiPxe.h	/^  UINT64  Virt2Phys;$/;"	m	struct:s_pxe_cpb_start_31
+VirtualStart	UefiSpec.h	/^  EFI_VIRTUAL_ADDRESS   VirtualStart;$/;"	m	struct:__anon29
+WaitForEvent	UefiSpec.h	/^  EFI_WAIT_FOR_EVENT                WaitForEvent;$/;"	m	struct:__anon40
+Warning	UefiInternalFormRepresentation.h	/^  EFI_STRING_ID            Warning;$/;"	m	struct:_EFI_IFR_WARNING_IF
+Width	UefiInternalFormRepresentation.h	/^  UINT16                       Width;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_1BIT_BASE
+Width	UefiInternalFormRepresentation.h	/^  UINT16                       Width;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_24BIT_BASE
+Width	UefiInternalFormRepresentation.h	/^  UINT16                       Width;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_4BIT_BASE
+Width	UefiInternalFormRepresentation.h	/^  UINT16                       Width;$/;"	m	struct:_EFI_HII_IIBT_IMAGE_8BIT_BASE
+Width	UefiInternalFormRepresentation.h	/^  UINT16                  Width;$/;"	m	struct:_EFI_HII_AIBT_OVERLAY_IMAGES_BLOCK
+Width	UefiInternalFormRepresentation.h	/^  UINT16                  Width;$/;"	m	struct:_EFI_HII_AIBT_RESTORE_SCRN_BLOCK
+Width	UefiInternalFormRepresentation.h	/^  UINT16                 Width;$/;"	m	struct:_EFI_HII_GLYPH_INFO
+Width	UefiInternalFormRepresentation.h	/^  UINT16             Width;$/;"	m	struct:_EFI_HII_AIBT_CLEAR_IMAGES_BLOCK
+Word	UefiPxe.h	/^      PXE_UINT16  Word;$/;"	m	union:s_pxe_cpb_nvdata_sparse::__anon54::__anon55
+Word	UefiPxe.h	/^    PXE_UINT16  Word[128];$/;"	m	union:s_pxe_pcc_config_info::__anon53
+Word	UefiPxe.h	/^    PXE_UINT16  Word[MAX_EEPROM_LEN << 1];$/;"	m	union:s_pxe_db_nvdata::__anon56
+Word	UefiPxe.h	/^    UINT16  Word[128];$/;"	m	union:s_pxe_pci_config_info::__anon52
+Word	UefiPxe.h	/^  PXE_UINT16  Word[MAX_EEPROM_LEN << 1];$/;"	m	union:u_pxe_cpb_nvdata_bulk
+Year	UefiBaseType.h	/^  UINT16  Year;$/;"	m	struct:__anon24
+Year	UefiInternalFormRepresentation.h	/^  UINT16 Year;$/;"	m	struct:__anon7
+_EFI_GLYPH_GIBT_END_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_GLYPH_GIBT_END_BLOCK {$/;"	s
+_EFI_HII_AIBT_CLEAR_IMAGES_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_AIBT_CLEAR_IMAGES_BLOCK {$/;"	s
+_EFI_HII_AIBT_DUPLICATE_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_AIBT_DUPLICATE_BLOCK {$/;"	s
+_EFI_HII_AIBT_EXT1_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_AIBT_EXT1_BLOCK  {$/;"	s
+_EFI_HII_AIBT_EXT2_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_AIBT_EXT2_BLOCK {$/;"	s
+_EFI_HII_AIBT_EXT4_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_AIBT_EXT4_BLOCK {$/;"	s
+_EFI_HII_AIBT_OVERLAY_IMAGES_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_AIBT_OVERLAY_IMAGES_BLOCK {$/;"	s
+_EFI_HII_AIBT_RESTORE_SCRN_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_AIBT_RESTORE_SCRN_BLOCK {$/;"	s
+_EFI_HII_AIBT_SKIP1_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_AIBT_SKIP1_BLOCK {$/;"	s
+_EFI_HII_AIBT_SKIP2_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_AIBT_SKIP2_BLOCK {$/;"	s
+_EFI_HII_ANIMATION_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_ANIMATION_BLOCK {$/;"	s
+_EFI_HII_ANIMATION_CELL	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_ANIMATION_CELL {$/;"	s
+_EFI_HII_ANIMATION_PACKAGE_HDR	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_ANIMATION_PACKAGE_HDR {$/;"	s
+_EFI_HII_DEVICE_PATH_PACKAGE_HDR	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_DEVICE_PATH_PACKAGE_HDR {$/;"	s
+_EFI_HII_FONT_PACKAGE_HDR	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_FONT_PACKAGE_HDR {$/;"	s
+_EFI_HII_FORM_PACKAGE_HDR	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_FORM_PACKAGE_HDR {$/;"	s
+_EFI_HII_GIBT_DEFAULTS_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_GIBT_DEFAULTS_BLOCK {$/;"	s
+_EFI_HII_GIBT_DUPLICATE_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_GIBT_DUPLICATE_BLOCK {$/;"	s
+_EFI_HII_GIBT_EXT1_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_GIBT_EXT1_BLOCK {$/;"	s
+_EFI_HII_GIBT_EXT2_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_GIBT_EXT2_BLOCK {$/;"	s
+_EFI_HII_GIBT_EXT4_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_GIBT_EXT4_BLOCK {$/;"	s
+_EFI_HII_GIBT_GLYPHS_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_GIBT_GLYPHS_BLOCK {$/;"	s
+_EFI_HII_GIBT_GLYPHS_DEFAULT_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_GIBT_GLYPHS_DEFAULT_BLOCK {$/;"	s
+_EFI_HII_GIBT_GLYPH_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_GIBT_GLYPH_BLOCK {$/;"	s
+_EFI_HII_GIBT_GLYPH_DEFAULT_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_GIBT_GLYPH_DEFAULT_BLOCK {$/;"	s
+_EFI_HII_GIBT_SKIP1_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_GIBT_SKIP1_BLOCK {$/;"	s
+_EFI_HII_GIBT_SKIP2_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_GIBT_SKIP2_BLOCK {$/;"	s
+_EFI_HII_GIBT_VARIABILITY_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_GIBT_VARIABILITY_BLOCK {$/;"	s
+_EFI_HII_GLYPH_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_GLYPH_BLOCK {$/;"	s
+_EFI_HII_GLYPH_INFO	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_GLYPH_INFO {$/;"	s
+_EFI_HII_GUID_PACKAGE_HDR	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_GUID_PACKAGE_HDR {$/;"	s
+_EFI_HII_IIBT_DUPLICATE_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_IIBT_DUPLICATE_BLOCK {$/;"	s
+_EFI_HII_IIBT_END_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_IIBT_END_BLOCK {$/;"	s
+_EFI_HII_IIBT_EXT1_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_IIBT_EXT1_BLOCK {$/;"	s
+_EFI_HII_IIBT_EXT2_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_IIBT_EXT2_BLOCK {$/;"	s
+_EFI_HII_IIBT_EXT4_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_IIBT_EXT4_BLOCK {$/;"	s
+_EFI_HII_IIBT_IMAGE_1BIT_BASE	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_IIBT_IMAGE_1BIT_BASE {$/;"	s
+_EFI_HII_IIBT_IMAGE_1BIT_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_IIBT_IMAGE_1BIT_BLOCK {$/;"	s
+_EFI_HII_IIBT_IMAGE_1BIT_TRANS_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_IIBT_IMAGE_1BIT_TRANS_BLOCK {$/;"	s
+_EFI_HII_IIBT_IMAGE_24BIT_BASE	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_IIBT_IMAGE_24BIT_BASE {$/;"	s
+_EFI_HII_IIBT_IMAGE_24BIT_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_IIBT_IMAGE_24BIT_BLOCK {$/;"	s
+_EFI_HII_IIBT_IMAGE_24BIT_TRANS_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_IIBT_IMAGE_24BIT_TRANS_BLOCK {$/;"	s
+_EFI_HII_IIBT_IMAGE_4BIT_BASE	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_IIBT_IMAGE_4BIT_BASE {$/;"	s
+_EFI_HII_IIBT_IMAGE_4BIT_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_IIBT_IMAGE_4BIT_BLOCK {$/;"	s
+_EFI_HII_IIBT_IMAGE_4BIT_TRANS_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_IIBT_IMAGE_4BIT_TRANS_BLOCK {$/;"	s
+_EFI_HII_IIBT_IMAGE_8BIT_BASE	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_IIBT_IMAGE_8BIT_BASE {$/;"	s
+_EFI_HII_IIBT_IMAGE_8BIT_PALETTE_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_IIBT_IMAGE_8BIT_PALETTE_BLOCK {$/;"	s
+_EFI_HII_IIBT_IMAGE_8BIT_TRANS_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_IIBT_IMAGE_8BIT_TRANS_BLOCK {$/;"	s
+_EFI_HII_IIBT_JPEG_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_IIBT_JPEG_BLOCK {$/;"	s
+_EFI_HII_IIBT_PNG_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_IIBT_PNG_BLOCK {$/;"	s
+_EFI_HII_IIBT_SKIP1_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_IIBT_SKIP1_BLOCK {$/;"	s
+_EFI_HII_IIBT_SKIP2_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_IIBT_SKIP2_BLOCK {$/;"	s
+_EFI_HII_IMAGE_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_IMAGE_BLOCK {$/;"	s
+_EFI_HII_IMAGE_PACKAGE_HDR	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_IMAGE_PACKAGE_HDR {$/;"	s
+_EFI_HII_IMAGE_PALETTE_INFO	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_IMAGE_PALETTE_INFO {$/;"	s
+_EFI_HII_IMAGE_PALETTE_INFO_HEADER	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_IMAGE_PALETTE_INFO_HEADER {$/;"	s
+_EFI_HII_RGB_PIXEL	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_RGB_PIXEL {$/;"	s
+_EFI_HII_SIBT_DUPLICATE_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_SIBT_DUPLICATE_BLOCK {$/;"	s
+_EFI_HII_SIBT_END_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_SIBT_END_BLOCK {$/;"	s
+_EFI_HII_SIBT_EXT1_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_SIBT_EXT1_BLOCK {$/;"	s
+_EFI_HII_SIBT_EXT2_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_SIBT_EXT2_BLOCK {$/;"	s
+_EFI_HII_SIBT_EXT4_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_SIBT_EXT4_BLOCK {$/;"	s
+_EFI_HII_SIBT_FONT_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_SIBT_FONT_BLOCK {$/;"	s
+_EFI_HII_SIBT_SKIP1_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_SIBT_SKIP1_BLOCK {$/;"	s
+_EFI_HII_SIBT_SKIP2_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_SIBT_SKIP2_BLOCK {$/;"	s
+_EFI_HII_SIBT_STRINGS_SCSU_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_SIBT_STRINGS_SCSU_BLOCK {$/;"	s
+_EFI_HII_SIBT_STRINGS_SCSU_FONT_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_SIBT_STRINGS_SCSU_FONT_BLOCK {$/;"	s
+_EFI_HII_SIBT_STRINGS_UCS2_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_SIBT_STRINGS_UCS2_BLOCK {$/;"	s
+_EFI_HII_SIBT_STRINGS_UCS2_FONT_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_SIBT_STRINGS_UCS2_FONT_BLOCK {$/;"	s
+_EFI_HII_SIBT_STRING_SCSU_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_SIBT_STRING_SCSU_BLOCK {$/;"	s
+_EFI_HII_SIBT_STRING_SCSU_FONT_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_SIBT_STRING_SCSU_FONT_BLOCK {$/;"	s
+_EFI_HII_SIBT_STRING_UCS2_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_SIBT_STRING_UCS2_BLOCK {$/;"	s
+_EFI_HII_SIBT_STRING_UCS2_FONT_BLOCK	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_SIBT_STRING_UCS2_FONT_BLOCK {$/;"	s
+_EFI_HII_SIMPLE_FONT_PACKAGE_HDR	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_SIMPLE_FONT_PACKAGE_HDR {$/;"	s
+_EFI_HII_STRING_PACKAGE_HDR	UefiInternalFormRepresentation.h	/^typedef struct _EFI_HII_STRING_PACKAGE_HDR {$/;"	s
+_EFI_IFR_ACTION	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_ACTION {$/;"	s
+_EFI_IFR_ACTION_1	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_ACTION_1 {$/;"	s
+_EFI_IFR_ADD	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_ADD {$/;"	s
+_EFI_IFR_AND	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_AND {$/;"	s
+_EFI_IFR_ANIMATION	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_ANIMATION {$/;"	s
+_EFI_IFR_BITWISE_AND	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_BITWISE_AND {$/;"	s
+_EFI_IFR_BITWISE_NOT	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_BITWISE_NOT {$/;"	s
+_EFI_IFR_BITWISE_OR	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_BITWISE_OR {$/;"	s
+_EFI_IFR_CATENATE	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_CATENATE {$/;"	s
+_EFI_IFR_CHECKBOX	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_CHECKBOX {$/;"	s
+_EFI_IFR_CONDITIONAL	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_CONDITIONAL {$/;"	s
+_EFI_IFR_DATE	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_DATE {$/;"	s
+_EFI_IFR_DEFAULT	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_DEFAULT {$/;"	s
+_EFI_IFR_DEFAULTSTORE	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_DEFAULTSTORE {$/;"	s
+_EFI_IFR_DEFAULT_2	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_DEFAULT_2 {$/;"	s
+_EFI_IFR_DISABLE_IF	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_DISABLE_IF {$/;"	s
+_EFI_IFR_DIVIDE	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_DIVIDE {$/;"	s
+_EFI_IFR_DUP	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_DUP {$/;"	s
+_EFI_IFR_END	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_END {$/;"	s
+_EFI_IFR_EQUAL	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_EQUAL {$/;"	s
+_EFI_IFR_EQ_ID_ID	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_EQ_ID_ID {$/;"	s
+_EFI_IFR_EQ_ID_VAL	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_EQ_ID_VAL {$/;"	s
+_EFI_IFR_EQ_ID_VAL_LIST	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_EQ_ID_VAL_LIST {$/;"	s
+_EFI_IFR_FALSE	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_FALSE {$/;"	s
+_EFI_IFR_FIND	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_FIND {$/;"	s
+_EFI_IFR_FORM	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_FORM {$/;"	s
+_EFI_IFR_FORM_MAP	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_FORM_MAP {$/;"	s
+_EFI_IFR_FORM_MAP_METHOD	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_FORM_MAP_METHOD {$/;"	s
+_EFI_IFR_FORM_SET	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_FORM_SET {$/;"	s
+_EFI_IFR_GET	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_GET {$/;"	s
+_EFI_IFR_GRAY_OUT_IF	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_GRAY_OUT_IF {$/;"	s
+_EFI_IFR_GREATER_EQUAL	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_GREATER_EQUAL {$/;"	s
+_EFI_IFR_GREATER_THAN	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_GREATER_THAN {$/;"	s
+_EFI_IFR_GUID	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_GUID {$/;"	s
+_EFI_IFR_IMAGE	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_IMAGE {$/;"	s
+_EFI_IFR_INCONSISTENT_IF	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_INCONSISTENT_IF {$/;"	s
+_EFI_IFR_LENGTH	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_LENGTH {$/;"	s
+_EFI_IFR_LESS_EQUAL	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_LESS_EQUAL {$/;"	s
+_EFI_IFR_LESS_THAN	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_LESS_THAN {$/;"	s
+_EFI_IFR_LOCKED	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_LOCKED {$/;"	s
+_EFI_IFR_MAP	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_MAP {$/;"	s
+_EFI_IFR_MATCH	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_MATCH {$/;"	s
+_EFI_IFR_MATCH2	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_MATCH2 {$/;"	s
+_EFI_IFR_MID	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_MID {$/;"	s
+_EFI_IFR_MODAL_TAG	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_MODAL_TAG {$/;"	s
+_EFI_IFR_MODULO	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_MODULO {$/;"	s
+_EFI_IFR_MULTIPLY	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_MULTIPLY {$/;"	s
+_EFI_IFR_NOT	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_NOT {$/;"	s
+_EFI_IFR_NOT_EQUAL	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_NOT_EQUAL {$/;"	s
+_EFI_IFR_NO_SUBMIT_IF	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_NO_SUBMIT_IF {$/;"	s
+_EFI_IFR_NUMERIC	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_NUMERIC {$/;"	s
+_EFI_IFR_ONE	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_ONE {$/;"	s
+_EFI_IFR_ONES	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_ONES {$/;"	s
+_EFI_IFR_ONE_OF	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_ONE_OF {$/;"	s
+_EFI_IFR_ONE_OF_OPTION	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_ONE_OF_OPTION {$/;"	s
+_EFI_IFR_OP_HEADER	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_OP_HEADER {$/;"	s
+_EFI_IFR_OR	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_OR {$/;"	s
+_EFI_IFR_ORDERED_LIST	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_ORDERED_LIST {$/;"	s
+_EFI_IFR_PASSWORD	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_PASSWORD {$/;"	s
+_EFI_IFR_QUESTION_HEADER	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_QUESTION_HEADER {$/;"	s
+_EFI_IFR_QUESTION_REF1	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_QUESTION_REF1 {$/;"	s
+_EFI_IFR_QUESTION_REF2	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_QUESTION_REF2 {$/;"	s
+_EFI_IFR_QUESTION_REF3	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_QUESTION_REF3 {$/;"	s
+_EFI_IFR_QUESTION_REF3_2	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_QUESTION_REF3_2 {$/;"	s
+_EFI_IFR_QUESTION_REF3_3	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_QUESTION_REF3_3 {$/;"	s
+_EFI_IFR_READ	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_READ {$/;"	s
+_EFI_IFR_REF	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_REF {$/;"	s
+_EFI_IFR_REF2	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_REF2 {$/;"	s
+_EFI_IFR_REF3	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_REF3 {$/;"	s
+_EFI_IFR_REF4	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_REF4 {$/;"	s
+_EFI_IFR_REF5	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_REF5 {$/;"	s
+_EFI_IFR_REFRESH	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_REFRESH {$/;"	s
+_EFI_IFR_REFRESH_ID	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_REFRESH_ID {$/;"	s
+_EFI_IFR_RESET_BUTTON	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_RESET_BUTTON {$/;"	s
+_EFI_IFR_RULE	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_RULE {$/;"	s
+_EFI_IFR_RULE_REF	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_RULE_REF {$/;"	s
+_EFI_IFR_SECURITY	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_SECURITY {$/;"	s
+_EFI_IFR_SET	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_SET {$/;"	s
+_EFI_IFR_SHIFT_LEFT	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_SHIFT_LEFT {$/;"	s
+_EFI_IFR_SHIFT_RIGHT	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_SHIFT_RIGHT {$/;"	s
+_EFI_IFR_SPAN	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_SPAN {$/;"	s
+_EFI_IFR_STATEMENT_HEADER	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_STATEMENT_HEADER {$/;"	s
+_EFI_IFR_STRING	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_STRING {$/;"	s
+_EFI_IFR_STRING_REF1	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_STRING_REF1 {$/;"	s
+_EFI_IFR_STRING_REF2	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_STRING_REF2 {$/;"	s
+_EFI_IFR_SUBTITLE	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_SUBTITLE {$/;"	s
+_EFI_IFR_SUBTRACT	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_SUBTRACT {$/;"	s
+_EFI_IFR_SUPPRESS_IF	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_SUPPRESS_IF {$/;"	s
+_EFI_IFR_TEXT	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_TEXT {$/;"	s
+_EFI_IFR_THIS	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_THIS {$/;"	s
+_EFI_IFR_TIME	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_TIME {$/;"	s
+_EFI_IFR_TOKEN	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_TOKEN {$/;"	s
+_EFI_IFR_TO_BOOLEAN	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_TO_BOOLEAN {$/;"	s
+_EFI_IFR_TO_LOWER	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_TO_LOWER {$/;"	s
+_EFI_IFR_TO_STRING	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_TO_STRING {$/;"	s
+_EFI_IFR_TO_UINT	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_TO_UINT {$/;"	s
+_EFI_IFR_TO_UPPER	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_TO_UPPER {$/;"	s
+_EFI_IFR_TRUE	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_TRUE {$/;"	s
+_EFI_IFR_UINT16	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_UINT16 {$/;"	s
+_EFI_IFR_UINT32	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_UINT32 {$/;"	s
+_EFI_IFR_UINT64	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_UINT64 {$/;"	s
+_EFI_IFR_UINT8	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_UINT8 {$/;"	s
+_EFI_IFR_UNDEFINED	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_UNDEFINED {$/;"	s
+_EFI_IFR_VALUE	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_VALUE {$/;"	s
+_EFI_IFR_VARSTORE	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_VARSTORE {$/;"	s
+_EFI_IFR_VARSTORE_DEVICE	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_VARSTORE_DEVICE {$/;"	s
+_EFI_IFR_VARSTORE_EFI	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_VARSTORE_EFI {$/;"	s
+_EFI_IFR_VARSTORE_NAME_VALUE	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_VARSTORE_NAME_VALUE {$/;"	s
+_EFI_IFR_VERSION	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_VERSION {$/;"	s
+_EFI_IFR_WARNING_IF	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_WARNING_IF {$/;"	s
+_EFI_IFR_WRITE	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_WRITE {$/;"	s
+_EFI_IFR_ZERO	UefiInternalFormRepresentation.h	/^typedef struct _EFI_IFR_ZERO {$/;"	s
+_EFI_LOAD_OPTION	UefiSpec.h	/^typedef struct _EFI_LOAD_OPTION {$/;"	s
+__EFI_PXE_H__	UefiPxe.h	16;"	d
+__UEFI_ACPI_DATA_TABLE_H__	UefiAcpiDataTable.h	10;"	d
+__UEFI_BASETYPE_H__	UefiBaseType.h	13;"	d
+__UEFI_GPT_H__	UefiGpt.h	10;"	d
+__UEFI_INTERNAL_FORMREPRESENTATION_H__	UefiInternalFormRepresentation.h	16;"	d
+__UEFI_MULTIPHASE_H__	UefiMultiPhase.h	10;"	d
+__UEFI_SPEC_H__	UefiSpec.h	16;"	d
+b	UefiInternalFormRepresentation.h	/^  BOOLEAN         b;$/;"	m	union:__anon9
+b	UefiInternalFormRepresentation.h	/^  UINT8                        b;$/;"	m	struct:_EFI_HII_RGB_PIXEL
+data	UefiInternalFormRepresentation.h	/^  MINMAXSTEP_DATA          data;$/;"	m	struct:_EFI_IFR_NUMERIC
+data	UefiInternalFormRepresentation.h	/^  MINMAXSTEP_DATA          data;$/;"	m	struct:_EFI_IFR_ONE_OF
+date	UefiInternalFormRepresentation.h	/^  EFI_HII_DATE    date;$/;"	m	union:__anon9
+g	UefiInternalFormRepresentation.h	/^  UINT8                        g;$/;"	m	struct:_EFI_HII_RGB_PIXEL
+hw	UefiPxe.h	/^  PXE_HW_UNDI hw;$/;"	m	union:u_pxe_undi
+pcc	UefiPxe.h	/^  PXE_PCC_CONFIG_INFO   pcc;$/;"	m	union:u_pxe_db_get_config_info
+pci	UefiPxe.h	/^  PXE_PCI_CONFIG_INFO   pci;$/;"	m	union:u_pxe_db_get_config_info
+pxe_device	UefiPxe.h	/^typedef union pxe_device {$/;"	u
+r	UefiInternalFormRepresentation.h	/^  UINT8                        r;$/;"	m	struct:_EFI_HII_RGB_PIXEL
+ref	UefiInternalFormRepresentation.h	/^  EFI_HII_REF     ref;    \/\/\/< EFI_IFR_TYPE_REF$/;"	m	union:__anon9
+reserved	UefiPxe.h	/^    PXE_UINT32  reserved;$/;"	m	struct:s_pxe_cpb_fill_header_fragmented::__anon57
+reserved	UefiPxe.h	/^    PXE_UINT32  reserved;$/;"	m	struct:s_pxe_cpb_transmit_fragments::__anon58
+reserved	UefiPxe.h	/^  PXE_UINT16          reserved;$/;"	m	struct:s_pxe_cpb_fill_header_fragmented
+reserved	UefiPxe.h	/^  PXE_UINT16  reserved;$/;"	m	struct:s_pxe_cpb_transmit
+reserved	UefiPxe.h	/^  PXE_UINT32  reserved;$/;"	m	struct:s_pxe_cpb_receive
+reserved	UefiPxe.h	/^  PXE_UINT32  reserved;$/;"	m	struct:s_pxe_db_get_status
+reserved	UefiPxe.h	/^  PXE_UINT8           reserved[7];$/;"	m	struct:s_pxe_db_receive
+reserved	UefiPxe.h	/^  PXE_UINT8   reserved;       \/\/\/< zero, not used.$/;"	m	struct:s_pxe_hw_undi
+reserved1	UefiPxe.h	/^  PXE_UINT8   reserved1;      \/\/\/< zero, not used.$/;"	m	struct:s_pxe_sw_undi
+reserved2	UefiPxe.h	/^  PXE_UINT8   reserved2[3];   \/\/\/< zero, not used.$/;"	m	struct:s_pxe_sw_undi
+s_pxe_cdb	UefiPxe.h	/^typedef struct s_pxe_cdb {$/;"	s
+s_pxe_cpb_fill_header	UefiPxe.h	/^typedef struct s_pxe_cpb_fill_header {$/;"	s
+s_pxe_cpb_fill_header_fragmented	UefiPxe.h	/^typedef struct s_pxe_cpb_fill_header_fragmented {$/;"	s
+s_pxe_cpb_initialize	UefiPxe.h	/^typedef struct s_pxe_cpb_initialize {$/;"	s
+s_pxe_cpb_mcast_ip_to_mac	UefiPxe.h	/^typedef struct s_pxe_cpb_mcast_ip_to_mac {$/;"	s
+s_pxe_cpb_nvdata_sparse	UefiPxe.h	/^typedef struct s_pxe_cpb_nvdata_sparse {$/;"	s
+s_pxe_cpb_receive	UefiPxe.h	/^typedef struct s_pxe_cpb_receive {$/;"	s
+s_pxe_cpb_receive_filters	UefiPxe.h	/^typedef struct s_pxe_cpb_receive_filters {$/;"	s
+s_pxe_cpb_start_30	UefiPxe.h	/^typedef struct s_pxe_cpb_start_30 {$/;"	s
+s_pxe_cpb_start_31	UefiPxe.h	/^typedef struct s_pxe_cpb_start_31 {$/;"	s
+s_pxe_cpb_station_address	UefiPxe.h	/^typedef struct s_pxe_cpb_station_address {$/;"	s
+s_pxe_cpb_transmit	UefiPxe.h	/^typedef struct s_pxe_cpb_transmit {$/;"	s
+s_pxe_cpb_transmit_fragments	UefiPxe.h	/^typedef struct s_pxe_cpb_transmit_fragments {$/;"	s
+s_pxe_db_get_init_info	UefiPxe.h	/^typedef struct s_pxe_db_get_init_info {$/;"	s
+s_pxe_db_get_status	UefiPxe.h	/^typedef struct s_pxe_db_get_status {$/;"	s
+s_pxe_db_initialize	UefiPxe.h	/^typedef struct s_pxe_db_initialize {$/;"	s
+s_pxe_db_mcast_ip_to_mac	UefiPxe.h	/^typedef struct s_pxe_db_mcast_ip_to_mac {$/;"	s
+s_pxe_db_nvdata	UefiPxe.h	/^typedef struct s_pxe_db_nvdata {$/;"	s
+s_pxe_db_receive	UefiPxe.h	/^typedef struct s_pxe_db_receive {$/;"	s
+s_pxe_db_receive_filters	UefiPxe.h	/^typedef struct s_pxe_db_receive_filters {$/;"	s
+s_pxe_db_statistics	UefiPxe.h	/^typedef struct s_pxe_db_statistics {$/;"	s
+s_pxe_dpb_station_address	UefiPxe.h	/^typedef struct s_pxe_dpb_station_address {$/;"	s
+s_pxe_hw_undi	UefiPxe.h	/^typedef struct s_pxe_hw_undi {$/;"	s
+s_pxe_pcc_config_info	UefiPxe.h	/^typedef struct s_pxe_pcc_config_info {$/;"	s
+s_pxe_pci_config_info	UefiPxe.h	/^typedef struct s_pxe_pci_config_info {$/;"	s
+s_pxe_sw_undi	UefiPxe.h	/^typedef struct s_pxe_sw_undi {$/;"	s
+string	UefiInternalFormRepresentation.h	/^  EFI_STRING_ID   string; \/\/\/< EFI_IFR_TYPE_STRING, EFI_IFR_TYPE_ACTION$/;"	m	union:__anon9
+sw	UefiPxe.h	/^  PXE_SW_UNDI sw;$/;"	m	union:u_pxe_undi
+time	UefiInternalFormRepresentation.h	/^  EFI_HII_TIME    time;$/;"	m	union:__anon9
+u16	UefiInternalFormRepresentation.h	/^  UINT16          u16;$/;"	m	union:__anon9
+u16	UefiInternalFormRepresentation.h	/^  } u16;$/;"	m	union:__anon11	typeref:struct:__anon11::__anon13
+u32	UefiInternalFormRepresentation.h	/^  UINT32          u32;$/;"	m	union:__anon9
+u32	UefiInternalFormRepresentation.h	/^  } u32;$/;"	m	union:__anon11	typeref:struct:__anon11::__anon14
+u64	UefiInternalFormRepresentation.h	/^  UINT64          u64;$/;"	m	union:__anon9
+u64	UefiInternalFormRepresentation.h	/^  } u64;$/;"	m	union:__anon11	typeref:struct:__anon11::__anon15
+u8	UefiInternalFormRepresentation.h	/^  UINT8           u8;$/;"	m	union:__anon9
+u8	UefiInternalFormRepresentation.h	/^  } u8;$/;"	m	union:__anon11	typeref:struct:__anon11::__anon12
+u_pxe_cpb_nvdata_bulk	UefiPxe.h	/^typedef union u_pxe_cpb_nvdata_bulk {$/;"	u
+u_pxe_db_get_config_info	UefiPxe.h	/^typedef union u_pxe_db_get_config_info {$/;"	u
+u_pxe_ip_addr	UefiPxe.h	/^typedef union u_pxe_ip_addr {$/;"	u
+u_pxe_undi	UefiPxe.h	/^typedef union u_pxe_undi {$/;"	u
+v4	UefiBaseType.h	/^  EFI_IPv4_ADDRESS  v4;$/;"	m	union:__anon26
+v6	UefiBaseType.h	/^  EFI_IPv6_ADDRESS  v6;$/;"	m	union:__anon26

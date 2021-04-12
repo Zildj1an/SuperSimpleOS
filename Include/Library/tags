@@ -1,0 +1,805 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AC	BaseLib.h	/^    UINT32  AC:1;           \/\/\/< Alignment Check.$/;"	m	struct:__anon9::__anon10
+AF	BaseLib.h	/^    UINT32  AF:1;           \/\/\/< Auxiliary Carry Flag.$/;"	m	struct:__anon7::__anon8
+AF	BaseLib.h	/^    UINT32  AF:1;           \/\/\/< Auxiliary Carry Flag.$/;"	m	struct:__anon9::__anon10
+AH	BaseLib.h	/^  UINT8                             AH;$/;"	m	struct:__anon31
+AL	BaseLib.h	/^  UINT8                             AL;$/;"	m	struct:__anon31
+AM	BaseLib.h	/^    UINT32  AM:1;           \/\/\/< Alignment Mask.$/;"	m	struct:__anon11::__anon12
+ASSERT	DebugLib.h	363;"	d
+ASSERT	DebugLib.h	373;"	d
+ASSERT_EFI_ERROR	DebugLib.h	412;"	d
+ASSERT_EFI_ERROR	DebugLib.h	422;"	d
+ASSERT_LOCKED	UefiLib.h	332;"	d
+ASSERT_LOCKED	UefiLib.h	342;"	d
+ASSERT_PROTOCOL_ALREADY_INSTALLED	DebugLib.h	475;"	d
+ASSERT_PROTOCOL_ALREADY_INSTALLED	DebugLib.h	492;"	d
+ASSERT_RETURN_ERROR	DebugLib.h	438;"	d
+ASSERT_RETURN_ERROR	DebugLib.h	449;"	d
+AVL	BaseLib.h	/^    UINT32  AVL:1;          \/\/\/< Available for use by system software$/;"	m	struct:__anon21::__anon22
+AVL	BaseLib.h	/^    UINT32  AVL:1;          \/\/\/< Available for use by system software$/;"	m	struct:__anon27::__anon28
+AVL	BaseLib.h	/^    UINT32  AVL:1;$/;"	m	struct:__anon15::__anon16
+AX	BaseLib.h	/^  UINT16                            AX;$/;"	m	struct:__anon32
+BASE_LIBRARY_JUMP_BUFFER	BaseLib.h	/^} BASE_LIBRARY_JUMP_BUFFER;$/;"	t	typeref:struct:__anon1
+BASE_LIBRARY_JUMP_BUFFER	BaseLib.h	/^} BASE_LIBRARY_JUMP_BUFFER;$/;"	t	typeref:struct:__anon2
+BASE_LIBRARY_JUMP_BUFFER	BaseLib.h	/^} BASE_LIBRARY_JUMP_BUFFER;$/;"	t	typeref:struct:__anon3
+BASE_LIBRARY_JUMP_BUFFER	BaseLib.h	/^} BASE_LIBRARY_JUMP_BUFFER;$/;"	t	typeref:struct:__anon4
+BASE_LIBRARY_JUMP_BUFFER	BaseLib.h	/^} BASE_LIBRARY_JUMP_BUFFER;$/;"	t	typeref:struct:__anon5
+BASE_LIBRARY_JUMP_BUFFER	BaseLib.h	/^} BASE_LIBRARY_JUMP_BUFFER;$/;"	t	typeref:struct:__anon6
+BASE_LIBRARY_JUMP_BUFFER_ALIGNMENT	BaseLib.h	126;"	d
+BASE_LIBRARY_JUMP_BUFFER_ALIGNMENT	BaseLib.h	151;"	d
+BASE_LIBRARY_JUMP_BUFFER_ALIGNMENT	BaseLib.h	34;"	d
+BASE_LIBRARY_JUMP_BUFFER_ALIGNMENT	BaseLib.h	58;"	d
+BASE_LIBRARY_JUMP_BUFFER_ALIGNMENT	BaseLib.h	74;"	d
+BASE_LIBRARY_JUMP_BUFFER_ALIGNMENT	BaseLib.h	94;"	d
+BASE_LIST_FOR_EACH	BaseLib.h	2489;"	d
+BASE_LIST_FOR_EACH_SAFE	BaseLib.h	2505;"	d
+BH	BaseLib.h	/^  UINT8                             BH;$/;"	m	struct:__anon31
+BL	BaseLib.h	/^  UINT8                             BL;$/;"	m	struct:__anon31
+BP	BaseLib.h	/^  UINT16                            BP;$/;"	m	struct:__anon32
+BX	BaseLib.h	/^  UINT16                            BX;$/;"	m	struct:__anon32
+Base	BaseLib.h	/^  UINTN   Base;$/;"	m	struct:__anon17
+BaseAddress	PciSegmentInfoLib.h	/^  UINT64               BaseAddress;     \/\/\/< ECAM Base address.$/;"	m	struct:__anon40
+BaseHigh	BaseLib.h	/^    UINT32  BaseHigh:32;    \/\/\/< Base Address  63..32$/;"	m	struct:__anon27::__anon28
+BaseHigh	BaseLib.h	/^    UINT32  BaseHigh:8;     \/\/\/< Base Address 31..24$/;"	m	struct:__anon21::__anon22
+BaseHigh	BaseLib.h	/^    UINT32  BaseHigh:8;$/;"	m	struct:__anon15::__anon16
+BaseLow	BaseLib.h	/^    UINT32  BaseLow:16;     \/\/\/< Base Address  15..00$/;"	m	struct:__anon21::__anon22
+BaseLow	BaseLib.h	/^    UINT32  BaseLow:16;     \/\/\/< Base Address  15..00$/;"	m	struct:__anon27::__anon28
+BaseLow	BaseLib.h	/^    UINT32  BaseLow:16;$/;"	m	struct:__anon15::__anon16
+BaseMid	BaseLib.h	/^    UINT32  BaseMid:8;      \/\/\/< Base Address  23..16$/;"	m	struct:__anon21::__anon22
+BaseMid	BaseLib.h	/^    UINT32  BaseMid:8;$/;"	m	struct:__anon15::__anon16
+BaseMidh	BaseLib.h	/^    UINT32  BaseMidh:8;     \/\/\/< Base Address  31..24$/;"	m	struct:__anon27::__anon28
+BaseMidl	BaseLib.h	/^    UINT32  BaseMidl:8;     \/\/\/< Base Address  23..16$/;"	m	struct:__anon27::__anon28
+Bits	BaseLib.h	/^  } Bits;$/;"	m	union:__anon11	typeref:struct:__anon11::__anon12
+Bits	BaseLib.h	/^  } Bits;$/;"	m	union:__anon13	typeref:struct:__anon13::__anon14
+Bits	BaseLib.h	/^  } Bits;$/;"	m	union:__anon15	typeref:struct:__anon15::__anon16
+Bits	BaseLib.h	/^  } Bits;$/;"	m	union:__anon18	typeref:struct:__anon18::__anon19
+Bits	BaseLib.h	/^  } Bits;$/;"	m	union:__anon21	typeref:struct:__anon21::__anon22
+Bits	BaseLib.h	/^  } Bits;$/;"	m	union:__anon23	typeref:struct:__anon23::__anon24
+Bits	BaseLib.h	/^  } Bits;$/;"	m	union:__anon27	typeref:struct:__anon27::__anon28
+Bits	BaseLib.h	/^  } Bits;$/;"	m	union:__anon7	typeref:struct:__anon7::__anon8
+Bits	BaseLib.h	/^  } Bits;$/;"	m	union:__anon9	typeref:struct:__anon9::__anon10
+Buffer	BaseLib.h	/^  UINT8  Buffer[512];$/;"	m	struct:__anon30
+CD	BaseLib.h	/^    UINT32  CD:1;           \/\/\/< Cache Disable.$/;"	m	struct:__anon11::__anon12
+CF	BaseLib.h	/^    UINT32  CF:1;           \/\/\/< Carry Flag.$/;"	m	struct:__anon7::__anon8
+CF	BaseLib.h	/^    UINT32  CF:1;           \/\/\/< Carry Flag.$/;"	m	struct:__anon9::__anon10
+CH	BaseLib.h	/^  UINT8                             CH;$/;"	m	struct:__anon31
+CHAR16_ERROR	SafeIntLib.h	22;"	d
+CHAR8_ERROR	SafeIntLib.h	19;"	d
+CL	BaseLib.h	/^  UINT8                             CL;$/;"	m	struct:__anon31
+COMMA_TYPE	PrintLib.h	196;"	d
+CR	DebugLib.h	594;"	d
+CR	DebugLib.h	599;"	d
+CR3	BaseLib.h	/^  UINT32    CR3;$/;"	m	struct:__anon20
+CS	BaseLib.h	/^  UINT16                            CS;$/;"	m	struct:__anon33
+CS	BaseLib.h	/^  UINT16    CS;$/;"	m	struct:__anon20
+CX	BaseLib.h	/^  UINT16                            CX;$/;"	m	struct:__anon32
+CodeView	PeCoffLib.h	/^  VOID                              *CodeView;$/;"	m	struct:__anon43
+Context	PeCoffLib.h	/^  UINT64                            Context;$/;"	m	struct:__anon43
+D10	BaseLib.h	/^  UINT64    D10;$/;"	m	struct:__anon5
+D11	BaseLib.h	/^  UINT64    D11;$/;"	m	struct:__anon5
+D12	BaseLib.h	/^  UINT64    D12;$/;"	m	struct:__anon5
+D13	BaseLib.h	/^  UINT64    D13;$/;"	m	struct:__anon5
+D14	BaseLib.h	/^  UINT64    D14;$/;"	m	struct:__anon5
+D15	BaseLib.h	/^  UINT64    D15;$/;"	m	struct:__anon5
+D8	BaseLib.h	/^  UINT64    D8;$/;"	m	struct:__anon5
+D9	BaseLib.h	/^  UINT64    D9;$/;"	m	struct:__anon5
+DB	BaseLib.h	/^    UINT32  DB:1;$/;"	m	struct:__anon15::__anon16
+DE	BaseLib.h	/^    UINT32  DE:1;           \/\/\/< Debugging Extensions.$/;"	m	struct:__anon13::__anon14
+DEBUG	DebugLib.h	389;"	d
+DEBUG	DebugLib.h	396;"	d
+DEBUG_BLKIO	DebugLib.h	42;"	d
+DEBUG_BM	DebugLib.h	41;"	d
+DEBUG_CACHE	DebugLib.h	48;"	d
+DEBUG_CLEAR_MEMORY	DebugLib.h	543;"	d
+DEBUG_CODE	DebugLib.h	527;"	d
+DEBUG_CODE_BEGIN	DebugLib.h	504;"	d
+DEBUG_CODE_END	DebugLib.h	516;"	d
+DEBUG_DISPATCH	DebugLib.h	39;"	d
+DEBUG_ERROR	DebugLib.h	51;"	d
+DEBUG_EVENT	DebugLib.h	46;"	d
+DEBUG_FS	DebugLib.h	35;"	d
+DEBUG_GCD	DebugLib.h	47;"	d
+DEBUG_INFO	DebugLib.h	38;"	d
+DEBUG_INIT	DebugLib.h	32;"	d
+DEBUG_LOAD	DebugLib.h	34;"	d
+DEBUG_LOADFILE	DebugLib.h	45;"	d
+DEBUG_NET	DebugLib.h	43;"	d
+DEBUG_PAGE	DebugLib.h	37;"	d
+DEBUG_POOL	DebugLib.h	36;"	d
+DEBUG_PROPERTY_ASSERT_BREAKPOINT_ENABLED	DebugLib.h	26;"	d
+DEBUG_PROPERTY_ASSERT_DEADLOOP_ENABLED	DebugLib.h	27;"	d
+DEBUG_PROPERTY_CLEAR_MEMORY_ENABLED	DebugLib.h	25;"	d
+DEBUG_PROPERTY_DEBUG_ASSERT_ENABLED	DebugLib.h	22;"	d
+DEBUG_PROPERTY_DEBUG_CODE_ENABLED	DebugLib.h	24;"	d
+DEBUG_PROPERTY_DEBUG_PRINT_ENABLED	DebugLib.h	23;"	d
+DEBUG_UNDI	DebugLib.h	44;"	d
+DEBUG_VARIABLE	DebugLib.h	40;"	d
+DEBUG_VERBOSE	DebugLib.h	49;"	d
+DEBUG_WARN	DebugLib.h	33;"	d
+DF	BaseLib.h	/^    UINT32  DF:1;           \/\/\/< Direction Flag.$/;"	m	struct:__anon7::__anon8
+DF	BaseLib.h	/^    UINT32  DF:1;           \/\/\/< Direction Flag.$/;"	m	struct:__anon9::__anon10
+DH	BaseLib.h	/^  UINT8                             DH;$/;"	m	struct:__anon31
+DI	BaseLib.h	/^  UINT16                            DI;$/;"	m	struct:__anon32
+DL	BaseLib.h	/^  UINT8                             DL;$/;"	m	struct:__anon31
+DPL	BaseLib.h	/^    UINT32  DPL:2;          \/\/\/< Descriptor Privilege Level$/;"	m	struct:__anon21::__anon22
+DPL	BaseLib.h	/^    UINT32  DPL:2;          \/\/\/< Descriptor Privilege Level$/;"	m	struct:__anon27::__anon28
+DPL	BaseLib.h	/^    UINT32  DPL:2;$/;"	m	struct:__anon15::__anon16
+DS	BaseLib.h	/^  UINT16                            DS;$/;"	m	struct:__anon33
+DS	BaseLib.h	/^  UINT16    DS;$/;"	m	struct:__anon20
+DX	BaseLib.h	/^  UINT16                            DX;$/;"	m	struct:__anon32
+DebugDirectoryEntryRva	PeCoffLib.h	/^  UINT32                            DebugDirectoryEntryRva;$/;"	m	struct:__anon43
+DestinationAddress	PeCoffLib.h	/^  PHYSICAL_ADDRESS                  DestinationAddress;$/;"	m	struct:__anon43
+E	BaseLib.h	/^  IA32_DWORD_REGS                   E;$/;"	m	union:__anon34
+EAX	BaseLib.h	/^  UINT32                            EAX;$/;"	m	struct:__anon33
+EAX	BaseLib.h	/^  UINT32    EAX;$/;"	m	struct:__anon20
+EBP	BaseLib.h	/^  UINT32                            EBP;$/;"	m	struct:__anon33
+EBP	BaseLib.h	/^  UINT32    EBP;$/;"	m	struct:__anon20
+EBX	BaseLib.h	/^  UINT32                            EBX;$/;"	m	struct:__anon33
+EBX	BaseLib.h	/^  UINT32    EBX;$/;"	m	struct:__anon20
+ECX	BaseLib.h	/^  UINT32                            ECX;$/;"	m	struct:__anon33
+ECX	BaseLib.h	/^  UINT32    ECX;$/;"	m	struct:__anon20
+EDI	BaseLib.h	/^  UINT32                            EDI;$/;"	m	struct:__anon33
+EDI	BaseLib.h	/^  UINT32    EDI;$/;"	m	struct:__anon20
+EDX	BaseLib.h	/^  UINT32                            EDX;$/;"	m	struct:__anon33
+EDX	BaseLib.h	/^  UINT32    EDX;$/;"	m	struct:__anon20
+EFI_D_BLKIO	DebugLib.h	66;"	d
+EFI_D_BM	DebugLib.h	65;"	d
+EFI_D_DISPATCH	DebugLib.h	63;"	d
+EFI_D_ERROR	DebugLib.h	72;"	d
+EFI_D_EVENT	DebugLib.h	70;"	d
+EFI_D_FS	DebugLib.h	59;"	d
+EFI_D_INFO	DebugLib.h	62;"	d
+EFI_D_INIT	DebugLib.h	56;"	d
+EFI_D_LOAD	DebugLib.h	58;"	d
+EFI_D_LOADFILE	DebugLib.h	69;"	d
+EFI_D_NET	DebugLib.h	67;"	d
+EFI_D_PAGE	DebugLib.h	61;"	d
+EFI_D_POOL	DebugLib.h	60;"	d
+EFI_D_UNDI	DebugLib.h	68;"	d
+EFI_D_VARIABLE	DebugLib.h	64;"	d
+EFI_D_VERBOSE	DebugLib.h	71;"	d
+EFI_D_WARN	DebugLib.h	57;"	d
+EFI_INITIALIZE_LOCK_VARIABLE	UefiLib.h	313;"	d
+EFI_LOCK	UefiLib.h	/^} EFI_LOCK;$/;"	t	typeref:struct:__anon38
+EFI_LOCK_STATE	UefiLib.h	/^} EFI_LOCK_STATE;$/;"	t	typeref:enum:__anon37
+EFI_TIMER_PERIOD_MICROSECONDS	UefiLib.h	74;"	d
+EFI_TIMER_PERIOD_MILLISECONDS	UefiLib.h	86;"	d
+EFI_TIMER_PERIOD_SECONDS	UefiLib.h	98;"	d
+EFI_UNICODE_STRING_TABLE	UefiLib.h	/^} EFI_UNICODE_STRING_TABLE;$/;"	t	typeref:struct:__anon36
+EFLAGS	BaseLib.h	/^  IA32_EFLAGS32                     EFLAGS;$/;"	m	struct:__anon33
+EFLAGS	BaseLib.h	/^  UINT32    EFLAGS;$/;"	m	struct:__anon20
+EIP	BaseLib.h	/^  UINT32    EIP;$/;"	m	struct:__anon20
+EM	BaseLib.h	/^    UINT32  EM:1;           \/\/\/< Emulation.$/;"	m	struct:__anon11::__anon12
+END_DEVICE_PATH_LENGTH	DevicePathLib.h	15;"	d
+END_OF_HOB_LIST	HobLib.h	531;"	d
+ES	BaseLib.h	/^  UINT16                            ES;$/;"	m	struct:__anon33
+ES	BaseLib.h	/^  UINT16    ES;$/;"	m	struct:__anon20
+ESI	BaseLib.h	/^  UINT32                            ESI;$/;"	m	struct:__anon33
+ESI	BaseLib.h	/^  UINT32    ESI;$/;"	m	struct:__anon20
+ESP	BaseLib.h	/^  UINT32                            ESP;$/;"	m	struct:__anon33
+ESP	BaseLib.h	/^  UINT32    ESP;$/;"	m	struct:__anon20
+ESP0	BaseLib.h	/^  UINT32    ESP0;$/;"	m	struct:__anon20
+ESP1	BaseLib.h	/^  UINT32    ESP1;$/;"	m	struct:__anon20
+ESP2	BaseLib.h	/^  UINT32    ESP2;$/;"	m	struct:__anon20
+ET	BaseLib.h	/^    UINT32  ET:1;           \/\/\/< Extension Type.$/;"	m	struct:__anon11::__anon12
+EXTRACT_GUIDED_SECTION_DECODE_HANDLER	ExtractGuidedSectionLib.h	/^(EFIAPI *EXTRACT_GUIDED_SECTION_DECODE_HANDLER)($/;"	t
+EXTRACT_GUIDED_SECTION_GET_INFO_HANDLER	ExtractGuidedSectionLib.h	/^(EFIAPI *EXTRACT_GUIDED_SECTION_GET_INFO_HANDLER)($/;"	t
+Ebp	BaseLib.h	/^  UINT32                            Ebp;$/;"	m	struct:__anon1
+Ebx	BaseLib.h	/^  UINT32                            Ebx;$/;"	m	struct:__anon1
+Edi	BaseLib.h	/^  UINT32                            Edi;$/;"	m	struct:__anon1
+EfiLockAcquired	UefiLib.h	/^  EfiLockAcquired      = 2$/;"	e	enum:__anon37
+EfiLockReleased	UefiLib.h	/^  EfiLockReleased      = 1,$/;"	e	enum:__anon37
+EfiLockUninitialized	UefiLib.h	/^  EfiLockUninitialized = 0,$/;"	e	enum:__anon37
+Eip	BaseLib.h	/^  UINT32                            Eip;$/;"	m	struct:__anon1
+Eip	BaseLib.h	/^  UINT32                            Eip;$/;"	m	struct:__anon33
+EndBusNumber	PciSegmentInfoLib.h	/^  UINT8                EndBusNumber;    \/\/\/< End BUS number, for verifying the PCI Segment address.$/;"	m	struct:__anon40
+EntryPoint	PeCoffLib.h	/^  PHYSICAL_ADDRESS                  EntryPoint;$/;"	m	struct:__anon43
+Esi	BaseLib.h	/^  UINT32                            Esi;$/;"	m	struct:__anon1
+Esp	BaseLib.h	/^  UINT32                            Esp;$/;"	m	struct:__anon1
+FP	BaseLib.h	/^  UINT64    FP;$/;"	m	struct:__anon5
+FS	BaseLib.h	/^  UINT16                            FS;$/;"	m	struct:__anon33
+FS	BaseLib.h	/^  UINT16    FS;$/;"	m	struct:__anon20
+FSGSBASE	BaseLib.h	/^    UINT32  FSGSBASE:1;     \/\/\/< FSGSBASE Enable.$/;"	m	struct:__anon13::__anon14
+FeaturePcdGet	PcdLib.h	52;"	d
+FixedPcdGet16	PcdLib.h	82;"	d
+FixedPcdGet32	PcdLib.h	97;"	d
+FixedPcdGet64	PcdLib.h	112;"	d
+FixedPcdGet8	PcdLib.h	67;"	d
+FixedPcdGetBool	PcdLib.h	127;"	d
+FixedPcdGetPtr	PcdLib.h	142;"	d
+FixedPcdGetSize	PcdLib.h	438;"	d
+FixupData	PeCoffLib.h	/^  VOID                              *FixupData;$/;"	m	struct:__anon43
+FixupDataSize	PeCoffLib.h	/^  UINTN                             FixupDataSize;$/;"	m	struct:__anon43
+G	BaseLib.h	/^    UINT32  G:1;            \/\/\/< Granularity$/;"	m	struct:__anon21::__anon22
+G	BaseLib.h	/^    UINT32  G:1;            \/\/\/< Granularity$/;"	m	struct:__anon27::__anon28
+G	BaseLib.h	/^    UINT32  G:1;$/;"	m	struct:__anon15::__anon16
+GET_GUID_HOB_DATA	HobLib.h	544;"	d
+GET_GUID_HOB_DATA_SIZE	HobLib.h	557;"	d
+GET_HOB_LENGTH	HobLib.h	501;"	d
+GET_HOB_TYPE	HobLib.h	487;"	d
+GET_NEXT_HOB	HobLib.h	515;"	d
+GS	BaseLib.h	/^  UINT16                            GS;$/;"	m	struct:__anon33
+GS	BaseLib.h	/^  UINT16    GS;$/;"	m	struct:__anon20
+GUID_STRING_LENGTH	BaseLib.h	1396;"	d
+GateType	BaseLib.h	/^    UINT32  GateType:8;     \/\/\/< Gate Type.  See #defines above.$/;"	m	struct:__anon18::__anon19
+GateType	BaseLib.h	/^    UINT32  GateType:8;     \/\/\/< Gate Type.  See #defines above.$/;"	m	struct:__anon23::__anon24
+H	BaseLib.h	/^  IA32_BYTE_REGS                    H;$/;"	m	union:__anon34
+Handle	PeCoffLib.h	/^  VOID                              *Handle;$/;"	m	struct:__anon43
+HiiResourceData	PeCoffLib.h	/^  PHYSICAL_ADDRESS                  HiiResourceData;$/;"	m	struct:__anon43
+IA32_BYTE_REGS	BaseLib.h	/^} IA32_BYTE_REGS;$/;"	t	typeref:struct:__anon31
+IA32_CR0	BaseLib.h	/^} IA32_CR0;$/;"	t	typeref:union:__anon11
+IA32_CR4	BaseLib.h	/^} IA32_CR4;$/;"	t	typeref:union:__anon13
+IA32_DESCRIPTOR	BaseLib.h	/^} IA32_DESCRIPTOR;$/;"	t	typeref:struct:__anon17
+IA32_DWORD_REGS	BaseLib.h	/^} IA32_DWORD_REGS;$/;"	t	typeref:struct:__anon33
+IA32_EFLAGS32	BaseLib.h	/^} IA32_EFLAGS32;$/;"	t	typeref:union:__anon9
+IA32_FLAGS16	BaseLib.h	/^} IA32_FLAGS16;$/;"	t	typeref:union:__anon7
+IA32_FX_BUFFER	BaseLib.h	/^} IA32_FX_BUFFER;$/;"	t	typeref:struct:__anon30
+IA32_GDT_ALIGNMENT	BaseLib.h	4979;"	d
+IA32_GDT_TYPE_TSS	BaseLib.h	4978;"	d
+IA32_IDT_GATE_DESCRIPTOR	BaseLib.h	/^} IA32_IDT_GATE_DESCRIPTOR;$/;"	t	typeref:union:__anon18
+IA32_IDT_GATE_DESCRIPTOR	BaseLib.h	/^} IA32_IDT_GATE_DESCRIPTOR;$/;"	t	typeref:union:__anon23
+IA32_IDT_GATE_TYPE_INTERRUPT_16	BaseLib.h	4973;"	d
+IA32_IDT_GATE_TYPE_INTERRUPT_32	BaseLib.h	4975;"	d
+IA32_IDT_GATE_TYPE_TASK	BaseLib.h	4972;"	d
+IA32_IDT_GATE_TYPE_TRAP_16	BaseLib.h	4974;"	d
+IA32_IDT_GATE_TYPE_TRAP_32	BaseLib.h	4976;"	d
+IA32_REGISTER_SET	BaseLib.h	/^} IA32_REGISTER_SET;$/;"	t	typeref:union:__anon34
+IA32_SEGMENT_DESCRIPTOR	BaseLib.h	/^} IA32_SEGMENT_DESCRIPTOR;$/;"	t	typeref:union:__anon15
+IA32_TASK_STATE_SEGMENT	BaseLib.h	/^} IA32_TASK_STATE_SEGMENT;$/;"	t	typeref:struct:__anon20
+IA32_TASK_STATE_SEGMENT	BaseLib.h	/^} IA32_TASK_STATE_SEGMENT;$/;"	t	typeref:struct:__anon26
+IA32_TSS_DESCRIPTOR	BaseLib.h	/^} IA32_TSS_DESCRIPTOR;$/;"	t	typeref:union:__anon21
+IA32_TSS_DESCRIPTOR	BaseLib.h	/^} IA32_TSS_DESCRIPTOR;$/;"	t	typeref:union:__anon27
+IA32_WORD_REGS	BaseLib.h	/^} IA32_WORD_REGS;$/;"	t	typeref:struct:__anon32
+ID	BaseLib.h	/^    UINT32  ID:1;           \/\/\/< ID Flag.$/;"	m	struct:__anon9::__anon10
+IF	BaseLib.h	/^    UINT32  IF:1;           \/\/\/< Interrupt Enable Flag.$/;"	m	struct:__anon7::__anon8
+IF	BaseLib.h	/^    UINT32  IF:1;           \/\/\/< Interrupt Enable Flag.$/;"	m	struct:__anon9::__anon10
+IMAGE_ERROR_FAILED_ICACHE_FLUSH	PeCoffLib.h	30;"	d
+IMAGE_ERROR_FAILED_RELOCATION	PeCoffLib.h	29;"	d
+IMAGE_ERROR_IMAGE_READ	PeCoffLib.h	21;"	d
+IMAGE_ERROR_INVALID_IMAGE_ADDRESS	PeCoffLib.h	25;"	d
+IMAGE_ERROR_INVALID_IMAGE_SIZE	PeCoffLib.h	26;"	d
+IMAGE_ERROR_INVALID_MACHINE_TYPE	PeCoffLib.h	23;"	d
+IMAGE_ERROR_INVALID_PE_HEADER_SIGNATURE	PeCoffLib.h	22;"	d
+IMAGE_ERROR_INVALID_SECTION_ALIGNMENT	PeCoffLib.h	27;"	d
+IMAGE_ERROR_INVALID_SUBSYSTEM	PeCoffLib.h	24;"	d
+IMAGE_ERROR_SECTION_NOT_LOADED	PeCoffLib.h	28;"	d
+IMAGE_ERROR_SUCCESS	PeCoffLib.h	20;"	d
+IMAGE_ERROR_UNSUPPORTED	PeCoffLib.h	31;"	d
+INITIALIZE_LIST_HEAD_VARIABLE	BaseLib.h	2480;"	d
+INT16_ERROR	SafeIntLib.h	20;"	d
+INT32_ERROR	SafeIntLib.h	23;"	d
+INT64_ERROR	SafeIntLib.h	25;"	d
+INT8_ERROR	SafeIntLib.h	17;"	d
+INTN_ERROR	SafeIntLib.h	27;"	d
+IOMapBaseAddress	BaseLib.h	/^  UINT16    IOMapBaseAddress;$/;"	m	struct:__anon20
+IOMapBaseAddress	BaseLib.h	/^  UINT16    IOMapBaseAddress;$/;"	m	struct:__anon26
+IOPL	BaseLib.h	/^    UINT32  IOPL:2;         \/\/\/< I\/O Privilege Level.$/;"	m	struct:__anon7::__anon8
+IOPL	BaseLib.h	/^    UINT32  IOPL:2;         \/\/\/< I\/O Privilege Level.$/;"	m	struct:__anon9::__anon10
+IO_LIB_ADDRESS	IoLib.h	29;"	d
+IP	BaseLib.h	/^  UINT64                            IP;$/;"	m	struct:__anon3
+IP0	BaseLib.h	/^  UINT64    IP0;$/;"	m	struct:__anon5
+IST	BaseLib.h	/^  UINT64    IST[7];$/;"	m	struct:__anon26
+ImageAddress	PeCoffLib.h	/^  PHYSICAL_ADDRESS                  ImageAddress;$/;"	m	struct:__anon43
+ImageCodeMemoryType	PeCoffLib.h	/^  UINT32                            ImageCodeMemoryType;$/;"	m	struct:__anon43
+ImageDataMemoryType	PeCoffLib.h	/^  UINT32                            ImageDataMemoryType;$/;"	m	struct:__anon43
+ImageError	PeCoffLib.h	/^  UINT32                            ImageError;$/;"	m	struct:__anon43
+ImageRead	PeCoffLib.h	/^  PE_COFF_LOADER_READ_FILE          ImageRead;$/;"	m	struct:__anon43
+ImageSize	PeCoffLib.h	/^  UINT64                            ImageSize;$/;"	m	struct:__anon43
+ImageType	PeCoffLib.h	/^  UINT16                            ImageType;$/;"	m	struct:__anon43
+IsTeImage	PeCoffLib.h	/^  BOOLEAN                           IsTeImage;$/;"	m	struct:__anon43
+L	BaseLib.h	/^    UINT32  L:1;$/;"	m	struct:__anon15::__anon16
+LA57	BaseLib.h	/^    UINT32  LA57:1;         \/\/\/< Linear Address 57bit.$/;"	m	struct:__anon13::__anon14
+LDTSegmentSelector	BaseLib.h	/^  UINT16    LDTSegmentSelector;$/;"	m	struct:__anon20
+LEFT_JUSTIFY	PrintLib.h	195;"	d
+LR	BaseLib.h	/^  UINT64    LR;$/;"	m	struct:__anon5
+Language	UefiLib.h	/^  CHAR8   *Language;$/;"	m	struct:__anon36
+Limit	BaseLib.h	/^  UINT16  Limit;$/;"	m	struct:__anon17
+LimitHigh	BaseLib.h	/^    UINT32  LimitHigh:4;    \/\/\/< Segment Limit 19..16$/;"	m	struct:__anon21::__anon22
+LimitHigh	BaseLib.h	/^    UINT32  LimitHigh:4;    \/\/\/< Segment Limit 19..16$/;"	m	struct:__anon27::__anon28
+LimitHigh	BaseLib.h	/^    UINT32  LimitHigh:4;$/;"	m	struct:__anon15::__anon16
+LimitLow	BaseLib.h	/^    UINT32  LimitLow:16;    \/\/\/< Segment Limit 15..00$/;"	m	struct:__anon21::__anon22
+LimitLow	BaseLib.h	/^    UINT32  LimitLow:16;    \/\/\/< Segment Limit 15..00$/;"	m	struct:__anon27::__anon28
+LimitLow	BaseLib.h	/^    UINT32  LimitLow:16;$/;"	m	struct:__anon15::__anon16
+Lock	UefiLib.h	/^  EFI_LOCK_STATE  Lock;$/;"	m	struct:__anon38
+MAXIMUM_VALUE_CHARACTERS	PrintLib.h	189;"	d
+MCE	BaseLib.h	/^    UINT32  MCE:1;          \/\/\/< Machine Check Enable.$/;"	m	struct:__anon13::__anon14
+MODULE_DB_END_ID	PerformanceLib.h	27;"	d
+MODULE_DB_START_ID	PerformanceLib.h	26;"	d
+MODULE_DB_STOP_END_ID	PerformanceLib.h	31;"	d
+MODULE_DB_STOP_START_ID	PerformanceLib.h	30;"	d
+MODULE_DB_SUPPORT_END_ID	PerformanceLib.h	29;"	d
+MODULE_DB_SUPPORT_START_ID	PerformanceLib.h	28;"	d
+MODULE_END_ID	PerformanceLib.h	23;"	d
+MODULE_LOADIMAGE_END_ID	PerformanceLib.h	25;"	d
+MODULE_LOADIMAGE_START_ID	PerformanceLib.h	24;"	d
+MODULE_START_ID	PerformanceLib.h	22;"	d
+MP	BaseLib.h	/^    UINT32  MP:1;           \/\/\/< Monitor Coprocessor.$/;"	m	struct:__anon11::__anon12
+Machine	PeCoffLib.h	/^  UINT16                            Machine;$/;"	m	struct:__anon43
+MxCsr	BaseLib.h	/^  UINT64                            MxCsr;$/;"	m	struct:__anon2
+NE	BaseLib.h	/^    UINT32  NE:1;           \/\/\/< Numeric Error.$/;"	m	struct:__anon11::__anon12
+NEXT_MEMORY_DESCRIPTOR	UefiLib.h	111;"	d
+NT	BaseLib.h	/^    UINT32  NT:1;           \/\/\/< Nested Task.$/;"	m	struct:__anon7::__anon8
+NT	BaseLib.h	/^    UINT32  NT:1;           \/\/\/< Nested Task.$/;"	m	struct:__anon9::__anon10
+NW	BaseLib.h	/^    UINT32  NW:1;           \/\/\/< Mot Write-through.$/;"	m	struct:__anon11::__anon12
+OF	BaseLib.h	/^    UINT32  OF:1;           \/\/\/< Overflow Flag.$/;"	m	struct:__anon7::__anon8
+OF	BaseLib.h	/^    UINT32  OF:1;           \/\/\/< Overflow Flag.$/;"	m	struct:__anon9::__anon10
+ORDERED_COLLECTION	OrderedCollectionLib.h	/^typedef struct ORDERED_COLLECTION ORDERED_COLLECTION;$/;"	t	typeref:struct:ORDERED_COLLECTION
+ORDERED_COLLECTION_ENTRY	OrderedCollectionLib.h	/^typedef struct ORDERED_COLLECTION_ENTRY ORDERED_COLLECTION_ENTRY;$/;"	t	typeref:struct:ORDERED_COLLECTION_ENTRY
+ORDERED_COLLECTION_KEY_COMPARE	OrderedCollectionLib.h	/^(EFIAPI *ORDERED_COLLECTION_KEY_COMPARE)($/;"	t
+ORDERED_COLLECTION_USER_COMPARE	OrderedCollectionLib.h	/^(EFIAPI *ORDERED_COLLECTION_USER_COMPARE)($/;"	t
+OSFXSR	BaseLib.h	/^    UINT32  OSFXSR:1;       \/\/\/< Operating System Support for$/;"	m	struct:__anon13::__anon14
+OSXMMEXCPT	BaseLib.h	/^    UINT32  OSXMMEXCPT:1;   \/\/\/< Operating System Support for$/;"	m	struct:__anon13::__anon14
+OSXSAVE	BaseLib.h	/^    UINT32  OSXSAVE:1;      \/\/\/< XSAVE and Processor Extended States Enable.$/;"	m	struct:__anon13::__anon14
+OffsetHigh	BaseLib.h	/^    UINT32  OffsetHigh:16;  \/\/\/< Offset bits 31..16.$/;"	m	struct:__anon18::__anon19
+OffsetHigh	BaseLib.h	/^    UINT32  OffsetHigh:16;  \/\/\/< Offset bits 31..16.$/;"	m	struct:__anon23::__anon24
+OffsetLow	BaseLib.h	/^    UINT32  OffsetLow:16;   \/\/\/< Offset bits 15..0.$/;"	m	struct:__anon18::__anon19
+OffsetLow	BaseLib.h	/^    UINT32  OffsetLow:16;   \/\/\/< Offset bits 15..0.$/;"	m	struct:__anon23::__anon24
+OffsetUpper	BaseLib.h	/^    UINT32  OffsetUpper:32; \/\/\/< Offset bits 63..32.$/;"	m	struct:__anon23::__anon24
+OwnerTpl	UefiLib.h	/^  EFI_TPL         OwnerTpl;$/;"	m	struct:__anon38
+P	BaseLib.h	/^    UINT32  P:1;            \/\/\/< Segment Present$/;"	m	struct:__anon21::__anon22
+P	BaseLib.h	/^    UINT32  P:1;            \/\/\/< Segment Present$/;"	m	struct:__anon27::__anon28
+P	BaseLib.h	/^    UINT32  P:1;$/;"	m	struct:__anon15::__anon16
+PAE	BaseLib.h	/^    UINT32  PAE:1;          \/\/\/< Physical Address Extension.$/;"	m	struct:__anon13::__anon14
+PCD_CALLBACK	PcdLib.h	/^(EFIAPI *PCD_CALLBACK)($/;"	t
+PCD_INFO	PcdLib.h	/^} PCD_INFO;$/;"	t	typeref:struct:__anon42
+PCD_TYPE	PcdLib.h	/^} PCD_TYPE;$/;"	t	typeref:enum:__anon41
+PCD_TYPE_16	PcdLib.h	/^  PCD_TYPE_16,$/;"	e	enum:__anon41
+PCD_TYPE_32	PcdLib.h	/^  PCD_TYPE_32,$/;"	e	enum:__anon41
+PCD_TYPE_64	PcdLib.h	/^  PCD_TYPE_64,$/;"	e	enum:__anon41
+PCD_TYPE_8	PcdLib.h	/^  PCD_TYPE_8,$/;"	e	enum:__anon41
+PCD_TYPE_BOOL	PcdLib.h	/^  PCD_TYPE_BOOL,$/;"	e	enum:__anon41
+PCD_TYPE_PTR	PcdLib.h	/^  PCD_TYPE_PTR$/;"	e	enum:__anon41
+PCE	BaseLib.h	/^    UINT32  PCE:1;          \/\/\/< Performance Monitoring Counter$/;"	m	struct:__anon13::__anon14
+PCIDE	BaseLib.h	/^    UINT32  PCIDE:1;        \/\/\/< PCID Enable.$/;"	m	struct:__anon13::__anon14
+PCI_CF8_LIB_ADDRESS	PciCf8Lib.h	33;"	d
+PCI_EXPRESS_LIB_ADDRESS	PciExpressLib.h	35;"	d
+PCI_LIB_ADDRESS	PciLib.h	34;"	d
+PCI_SEGMENT_INFO	PciSegmentInfoLib.h	/^} PCI_SEGMENT_INFO;$/;"	t	typeref:struct:__anon40
+PCI_SEGMENT_LIB_ADDRESS	PciSegmentLib.h	52;"	d
+PE	BaseLib.h	/^    UINT32  PE:1;           \/\/\/< Protection Enable.$/;"	m	struct:__anon11::__anon12
+PERFORMANCE_LIBRARY_PROPERTY_MEASUREMENT_ENABLED	PerformanceLib.h	15;"	d
+PERF_CALLBACK_BEGIN	PerformanceLib.h	559;"	d
+PERF_CALLBACK_END	PerformanceLib.h	575;"	d
+PERF_CALLBACK_END_ID	PerformanceLib.h	36;"	d
+PERF_CALLBACK_START_ID	PerformanceLib.h	35;"	d
+PERF_CODE	PerformanceLib.h	760;"	d
+PERF_CODE_BEGIN	PerformanceLib.h	738;"	d
+PERF_CODE_END	PerformanceLib.h	748;"	d
+PERF_CORE_DB_START	PerformanceLib.h	51;"	d
+PERF_CORE_DB_STOP	PerformanceLib.h	52;"	d
+PERF_CORE_DB_SUPPORT	PerformanceLib.h	50;"	d
+PERF_CORE_LOAD_IMAGE	PerformanceLib.h	49;"	d
+PERF_CORE_START_IMAGE	PerformanceLib.h	48;"	d
+PERF_CROSSMODULE_BEGIN	PerformanceLib.h	651;"	d
+PERF_CROSSMODULE_END	PerformanceLib.h	667;"	d
+PERF_CROSSMODULE_END_ID	PerformanceLib.h	42;"	d
+PERF_CROSSMODULE_START_ID	PerformanceLib.h	41;"	d
+PERF_DRIVER_BINDING_START_BEGIN	PerformanceLib.h	450;"	d
+PERF_DRIVER_BINDING_START_END	PerformanceLib.h	465;"	d
+PERF_DRIVER_BINDING_STOP_BEGIN	PerformanceLib.h	480;"	d
+PERF_DRIVER_BINDING_STOP_END	PerformanceLib.h	495;"	d
+PERF_DRIVER_BINDING_SUPPORT_BEGIN	PerformanceLib.h	420;"	d
+PERF_DRIVER_BINDING_SUPPORT_END	PerformanceLib.h	435;"	d
+PERF_END	PerformanceLib.h	681;"	d
+PERF_END_EX	PerformanceLib.h	709;"	d
+PERF_EVENT	PerformanceLib.h	511;"	d
+PERF_EVENTSIGNAL_END_ID	PerformanceLib.h	34;"	d
+PERF_EVENTSIGNAL_START_ID	PerformanceLib.h	33;"	d
+PERF_EVENT_ID	PerformanceLib.h	20;"	d
+PERF_EVENT_SIGNAL_BEGIN	PerformanceLib.h	527;"	d
+PERF_EVENT_SIGNAL_END	PerformanceLib.h	543;"	d
+PERF_FUNCTION_BEGIN	PerformanceLib.h	590;"	d
+PERF_FUNCTION_END	PerformanceLib.h	605;"	d
+PERF_FUNCTION_END_ID	PerformanceLib.h	38;"	d
+PERF_FUNCTION_START_ID	PerformanceLib.h	37;"	d
+PERF_GENERAL_TYPE	PerformanceLib.h	54;"	d
+PERF_INMODULE_BEGIN	PerformanceLib.h	620;"	d
+PERF_INMODULE_END	PerformanceLib.h	635;"	d
+PERF_INMODULE_END_ID	PerformanceLib.h	40;"	d
+PERF_INMODULE_START_ID	PerformanceLib.h	39;"	d
+PERF_LOAD_IMAGE_BEGIN	PerformanceLib.h	390;"	d
+PERF_LOAD_IMAGE_END	PerformanceLib.h	405;"	d
+PERF_START	PerformanceLib.h	695;"	d
+PERF_START_EX	PerformanceLib.h	723;"	d
+PERF_START_IMAGE_BEGIN	PerformanceLib.h	360;"	d
+PERF_START_IMAGE_END	PerformanceLib.h	375;"	d
+PERIODIC_SMI_LIBRARY_ANY_CPU	SmmPeriodicSmiLib.h	12;"	d
+PERIODIC_SMI_LIBRARY_HANDLER	SmmPeriodicSmiLib.h	/^(EFIAPI *PERIODIC_SMI_LIBRARY_HANDLER) ($/;"	t
+PE_COFF_LOADER_IMAGE_CONTEXT	PeCoffLib.h	/^} PE_COFF_LOADER_IMAGE_CONTEXT;$/;"	t	typeref:struct:__anon43
+PE_COFF_LOADER_READ_FILE	PeCoffLib.h	/^(EFIAPI *PE_COFF_LOADER_READ_FILE)($/;"	t
+PF	BaseLib.h	/^    UINT32  PF:1;           \/\/\/< Parity Flag.$/;"	m	struct:__anon7::__anon8
+PF	BaseLib.h	/^    UINT32  PF:1;           \/\/\/< Parity Flag.$/;"	m	struct:__anon9::__anon10
+PG	BaseLib.h	/^    UINT32  PG:1;           \/\/\/< Paging.$/;"	m	struct:__anon11::__anon12
+PGE	BaseLib.h	/^    UINT32  PGE:1;          \/\/\/< Page Global Enable.$/;"	m	struct:__anon13::__anon14
+PKE	BaseLib.h	/^    UINT32  PKE:1;          \/\/\/< Protection-Key Enable.$/;"	m	struct:__anon13::__anon14
+POST_CODE	PostCodeLib.h	121;"	d
+POST_CODE_PROPERTY_POST_CODE_DESCRIPTION_ENABLED	PostCodeLib.h	13;"	d
+POST_CODE_PROPERTY_POST_CODE_ENABLED	PostCodeLib.h	12;"	d
+POST_CODE_WITH_DESCRIPTION	PostCodeLib.h	137;"	d
+PREFIX_ZERO	PrintLib.h	197;"	d
+PSE	BaseLib.h	/^    UINT32  PSE:1;          \/\/\/< Page Size Extensions.$/;"	m	struct:__anon13::__anon14
+PVI	BaseLib.h	/^    UINT32  PVI:1;          \/\/\/< Protected-Mode Virtual Interrupts.$/;"	m	struct:__anon13::__anon14
+PatchPcdGet16	PcdLib.h	171;"	d
+PatchPcdGet32	PcdLib.h	186;"	d
+PatchPcdGet64	PcdLib.h	201;"	d
+PatchPcdGet8	PcdLib.h	157;"	d
+PatchPcdGetBool	PcdLib.h	216;"	d
+PatchPcdGetPtr	PcdLib.h	231;"	d
+PatchPcdGetSize	PcdLib.h	452;"	d
+PatchPcdSet16	PcdLib.h	263;"	d
+PatchPcdSet32	PcdLib.h	279;"	d
+PatchPcdSet64	PcdLib.h	295;"	d
+PatchPcdSet8	PcdLib.h	247;"	d
+PatchPcdSetBool	PcdLib.h	311;"	d
+PatchPcdSetPtr	PcdLib.h	335;"	d
+PcdGet16	PcdLib.h	368;"	d
+PcdGet32	PcdLib.h	382;"	d
+PcdGet64	PcdLib.h	396;"	d
+PcdGet8	PcdLib.h	354;"	d
+PcdGetBool	PcdLib.h	424;"	d
+PcdGetEx16	PcdLib.h	629;"	d
+PcdGetEx32	PcdLib.h	648;"	d
+PcdGetEx64	PcdLib.h	667;"	d
+PcdGetEx8	PcdLib.h	611;"	d
+PcdGetExBool	PcdLib.h	705;"	d
+PcdGetExPtr	PcdLib.h	686;"	d
+PcdGetExSize	PcdLib.h	482;"	d
+PcdGetPtr	PcdLib.h	410;"	d
+PcdGetSize	PcdLib.h	466;"	d
+PcdName	PcdLib.h	/^  CHAR8             *PcdName;$/;"	m	struct:__anon42
+PcdSet16S	PcdLib.h	510;"	d
+PcdSet32S	PcdLib.h	524;"	d
+PcdSet64S	PcdLib.h	538;"	d
+PcdSet8S	PcdLib.h	496;"	d
+PcdSetBoolS	PcdLib.h	578;"	d
+PcdSetEx16S	PcdLib.h	745;"	d
+PcdSetEx32S	PcdLib.h	764;"	d
+PcdSetEx64S	PcdLib.h	783;"	d
+PcdSetEx8S	PcdLib.h	726;"	d
+PcdSetExBoolS	PcdLib.h	831;"	d
+PcdSetExPtrS	PcdLib.h	810;"	d
+PcdSetPtrS	PcdLib.h	561;"	d
+PcdSize	PcdLib.h	/^  UINTN             PcdSize;$/;"	m	struct:__anon42
+PcdToken	PcdLib.h	37;"	d
+PcdTokenEx	PcdLib.h	593;"	d
+PcdType	PcdLib.h	/^  PCD_TYPE          PcdType;$/;"	m	struct:__anon42
+PdbPointer	PeCoffLib.h	/^  CHAR8                             *PdbPointer;$/;"	m	struct:__anon43
+PeCoffHeaderOffset	PeCoffLib.h	/^  UINT32                            PeCoffHeaderOffset;$/;"	m	struct:__anon43
+PreviousTaskLink	BaseLib.h	/^  UINT16    PreviousTaskLink;$/;"	m	struct:__anon20
+R0	BaseLib.h	/^  UINT64                            R0;$/;"	m	struct:__anon3
+R1	BaseLib.h	/^  UINT64                            R1;$/;"	m	struct:__anon3
+R10	BaseLib.h	/^  UINT32    R10;$/;"	m	struct:__anon4
+R11	BaseLib.h	/^  UINT32    R11;$/;"	m	struct:__anon4
+R12	BaseLib.h	/^  UINT32    R12;$/;"	m	struct:__anon4
+R12	BaseLib.h	/^  UINT64                            R12;$/;"	m	struct:__anon2
+R13	BaseLib.h	/^  UINT64                            R13;$/;"	m	struct:__anon2
+R14	BaseLib.h	/^  UINT32    R14;$/;"	m	struct:__anon4
+R14	BaseLib.h	/^  UINT64                            R14;$/;"	m	struct:__anon2
+R15	BaseLib.h	/^  UINT64                            R15;$/;"	m	struct:__anon2
+R2	BaseLib.h	/^  UINT64                            R2;$/;"	m	struct:__anon3
+R3	BaseLib.h	/^  UINT32    R3;  \/\/\/< A copy of R13.$/;"	m	struct:__anon4
+R3	BaseLib.h	/^  UINT64                            R3;$/;"	m	struct:__anon3
+R4	BaseLib.h	/^  UINT32    R4;$/;"	m	struct:__anon4
+R5	BaseLib.h	/^  UINT32    R5;$/;"	m	struct:__anon4
+R6	BaseLib.h	/^  UINT32    R6;$/;"	m	struct:__anon4
+R7	BaseLib.h	/^  UINT32    R7;$/;"	m	struct:__anon4
+R8	BaseLib.h	/^  UINT32    R8;$/;"	m	struct:__anon4
+R9	BaseLib.h	/^  UINT32    R9;$/;"	m	struct:__anon4
+RA	BaseLib.h	/^  UINT64                            RA;$/;"	m	struct:__anon6
+RADIX_HEX	PrintLib.h	198;"	d
+REPORT_STATUS_CODE	ReportStatusCodeLib.h	376;"	d
+REPORT_STATUS_CODE_EX	ReportStatusCodeLib.h	477;"	d
+REPORT_STATUS_CODE_PROPERTY_DEBUG_CODE_ENABLED	ReportStatusCodeLib.h	21;"	d
+REPORT_STATUS_CODE_PROPERTY_ERROR_CODE_ENABLED	ReportStatusCodeLib.h	20;"	d
+REPORT_STATUS_CODE_PROPERTY_PROGRESS_CODE_ENABLED	ReportStatusCodeLib.h	19;"	d
+REPORT_STATUS_CODE_WITH_DEVICE_PATH	ReportStatusCodeLib.h	407;"	d
+REPORT_STATUS_CODE_WITH_EXTENDED_DATA	ReportStatusCodeLib.h	440;"	d
+RF	BaseLib.h	/^    UINT32  RF:1;           \/\/\/< Resume Flag.$/;"	m	struct:__anon9::__anon10
+RSP0	BaseLib.h	/^  UINT64    RSP0;$/;"	m	struct:__anon26
+RSP1	BaseLib.h	/^  UINT64    RSP1;$/;"	m	struct:__anon26
+RSP2	BaseLib.h	/^  UINT64    RSP2;$/;"	m	struct:__anon26
+Rbp	BaseLib.h	/^  UINT64                            Rbp;$/;"	m	struct:__anon2
+Rbx	BaseLib.h	/^  UINT64                            Rbx;$/;"	m	struct:__anon2
+Rdi	BaseLib.h	/^  UINT64                            Rdi;$/;"	m	struct:__anon2
+RealModeBuffer	BaseLib.h	/^  VOID                              *RealModeBuffer;$/;"	m	struct:__anon35
+RealModeBufferSize	BaseLib.h	/^  UINT32                            RealModeBufferSize;$/;"	m	struct:__anon35
+RealModeState	BaseLib.h	/^  IA32_REGISTER_SET                 *RealModeState;$/;"	m	struct:__anon35
+RelocationsStripped	PeCoffLib.h	/^  BOOLEAN                           RelocationsStripped;$/;"	m	struct:__anon43
+Reserved1	BaseLib.h	/^  UINT16                            Reserved1;$/;"	m	struct:__anon32
+Reserved1	BaseLib.h	/^  UINT32                            Reserved1;$/;"	m	struct:__anon31
+Reserved2	BaseLib.h	/^  UINT16                            Reserved2;$/;"	m	struct:__anon32
+Reserved2	BaseLib.h	/^  UINT32                            Reserved2;$/;"	m	struct:__anon31
+Reserved3	BaseLib.h	/^  UINT16                            Reserved3;$/;"	m	struct:__anon32
+Reserved3	BaseLib.h	/^  UINT32                            Reserved3;$/;"	m	struct:__anon31
+Reserved4	BaseLib.h	/^  UINT16                            Reserved4;$/;"	m	struct:__anon32
+Reserved4	BaseLib.h	/^  UINT32                            Reserved4;$/;"	m	struct:__anon31
+Reserved5	BaseLib.h	/^  UINT16                            Reserved5;$/;"	m	struct:__anon31
+Reserved5	BaseLib.h	/^  UINT16                            Reserved5;$/;"	m	struct:__anon32
+Reserved6	BaseLib.h	/^  UINT16                            Reserved6;$/;"	m	struct:__anon31
+Reserved6	BaseLib.h	/^  UINT16                            Reserved6;$/;"	m	struct:__anon32
+Reserved7	BaseLib.h	/^  UINT16                            Reserved7;$/;"	m	struct:__anon31
+Reserved7	BaseLib.h	/^  UINT16                            Reserved7;$/;"	m	struct:__anon32
+Reserved8	BaseLib.h	/^  UINT16                            Reserved8;$/;"	m	struct:__anon31
+Reserved8	BaseLib.h	/^  UINT16                            Reserved8;$/;"	m	struct:__anon32
+Reserved_0	BaseLib.h	/^    UINT32  Reserved_0:10;  \/\/\/< Reserved.$/;"	m	struct:__anon11::__anon12
+Reserved_0	BaseLib.h	/^    UINT32  Reserved_0:1;   \/\/\/< Reserved.$/;"	m	struct:__anon7::__anon8
+Reserved_0	BaseLib.h	/^    UINT32  Reserved_0:1;   \/\/\/< Reserved.$/;"	m	struct:__anon9::__anon10
+Reserved_0	BaseLib.h	/^    UINT32  Reserved_0:8;   \/\/\/< Reserved.$/;"	m	struct:__anon18::__anon19
+Reserved_0	BaseLib.h	/^    UINT32  Reserved_0:8;   \/\/\/< Reserved.$/;"	m	struct:__anon23::__anon24
+Reserved_0	BaseLib.h	/^  UINT32    Reserved_0;$/;"	m	struct:__anon26
+Reserved_1	BaseLib.h	/^    UINT32  Reserved_1:1;   \/\/\/< Reserved.$/;"	m	struct:__anon11::__anon12
+Reserved_1	BaseLib.h	/^    UINT32  Reserved_1:1;   \/\/\/< Reserved.$/;"	m	struct:__anon7::__anon8
+Reserved_1	BaseLib.h	/^    UINT32  Reserved_1:1;   \/\/\/< Reserved.$/;"	m	struct:__anon9::__anon10
+Reserved_1	BaseLib.h	/^    UINT32  Reserved_1:32;  \/\/\/< Reserved.$/;"	m	struct:__anon23::__anon24
+Reserved_10	BaseLib.h	/^  UINT16    Reserved_10;$/;"	m	struct:__anon20
+Reserved_100	BaseLib.h	/^  UINT16    Reserved_100;$/;"	m	struct:__anon26
+Reserved_18	BaseLib.h	/^  UINT16    Reserved_18;$/;"	m	struct:__anon20
+Reserved_2	BaseLib.h	/^    UINT32  Reserved_2:10;  \/\/\/< Reserved.$/;"	m	struct:__anon11::__anon12
+Reserved_2	BaseLib.h	/^    UINT32  Reserved_2:1;   \/\/\/< Reserved.$/;"	m	struct:__anon7::__anon8
+Reserved_2	BaseLib.h	/^    UINT32  Reserved_2:1;   \/\/\/< Reserved.$/;"	m	struct:__anon9::__anon10
+Reserved_2	BaseLib.h	/^  UINT16    Reserved_2;$/;"	m	struct:__anon20
+Reserved_26	BaseLib.h	/^  UINT16    Reserved_26;$/;"	m	struct:__anon20
+Reserved_28	BaseLib.h	/^  UINT64    Reserved_28;$/;"	m	struct:__anon26
+Reserved_3	BaseLib.h	/^    UINT32  Reserved_3:1;   \/\/\/< Reserved.$/;"	m	struct:__anon13::__anon14
+Reserved_3	BaseLib.h	/^    UINT32  Reserved_3:1;   \/\/\/< Reserved.$/;"	m	struct:__anon7::__anon8
+Reserved_3	BaseLib.h	/^    UINT32  Reserved_3:1;   \/\/\/< Reserved.$/;"	m	struct:__anon9::__anon10
+Reserved_4	BaseLib.h	/^    UINT32  Reserved_4:10;  \/\/\/< Reserved.$/;"	m	struct:__anon9::__anon10
+Reserved_4	BaseLib.h	/^    UINT32  Reserved_4:1;   \/\/\/< Reserved.$/;"	m	struct:__anon13::__anon14
+Reserved_43	BaseLib.h	/^    UINT32  Reserved_43:1;  \/\/\/< 0$/;"	m	struct:__anon21::__anon22
+Reserved_43	BaseLib.h	/^    UINT32  Reserved_43:1;  \/\/\/< 0$/;"	m	struct:__anon27::__anon28
+Reserved_5	BaseLib.h	/^    UINT32  Reserved_5:9;   \/\/\/< Reserved.$/;"	m	struct:__anon13::__anon14
+Reserved_52	BaseLib.h	/^    UINT32  Reserved_52:2;  \/\/\/< 0 0$/;"	m	struct:__anon21::__anon22
+Reserved_52	BaseLib.h	/^    UINT32  Reserved_52:2;  \/\/\/< 0 0$/;"	m	struct:__anon27::__anon28
+Reserved_74	BaseLib.h	/^  UINT16    Reserved_74;$/;"	m	struct:__anon20
+Reserved_78	BaseLib.h	/^  UINT16    Reserved_78;$/;"	m	struct:__anon20
+Reserved_82	BaseLib.h	/^  UINT16    Reserved_82;$/;"	m	struct:__anon20
+Reserved_86	BaseLib.h	/^  UINT16    Reserved_86;$/;"	m	struct:__anon20
+Reserved_90	BaseLib.h	/^  UINT16    Reserved_90;$/;"	m	struct:__anon20
+Reserved_92	BaseLib.h	/^  UINT64    Reserved_92;$/;"	m	struct:__anon26
+Reserved_94	BaseLib.h	/^  UINT16    Reserved_94;$/;"	m	struct:__anon20
+Reserved_96	BaseLib.h	/^    UINT32  Reserved_96:32; \/\/\/< Reserved$/;"	m	struct:__anon27::__anon28
+Reserved_98	BaseLib.h	/^  UINT16    Reserved_98;$/;"	m	struct:__anon20
+Rip	BaseLib.h	/^  UINT64                            Rip;$/;"	m	struct:__anon2
+Rsi	BaseLib.h	/^  UINT64                            Rsi;$/;"	m	struct:__anon2
+Rsp	BaseLib.h	/^  UINT64                            Rsp;$/;"	m	struct:__anon2
+S	BaseLib.h	/^    UINT32  S:1;$/;"	m	struct:__anon15::__anon16
+S0	BaseLib.h	/^  UINT64                            S0;$/;"	m	struct:__anon6
+S1	BaseLib.h	/^  UINT64                            S1;$/;"	m	struct:__anon6
+S10	BaseLib.h	/^  UINT64                            S10;$/;"	m	struct:__anon6
+S11	BaseLib.h	/^  UINT64                            S11;$/;"	m	struct:__anon6
+S2	BaseLib.h	/^  UINT64                            S2;$/;"	m	struct:__anon6
+S3	BaseLib.h	/^  UINT64                            S3;$/;"	m	struct:__anon6
+S3BootScriptWidthFifoUint16	S3BootScriptLib.h	/^  S3BootScriptWidthFifoUint16,   \/\/\/< 16-bit FIFO operation.$/;"	e	enum:__anon39
+S3BootScriptWidthFifoUint32	S3BootScriptLib.h	/^  S3BootScriptWidthFifoUint32,   \/\/\/< 32-bit FIFO operation.$/;"	e	enum:__anon39
+S3BootScriptWidthFifoUint64	S3BootScriptLib.h	/^  S3BootScriptWidthFifoUint64,   \/\/\/< 64-bit FIFO operation.$/;"	e	enum:__anon39
+S3BootScriptWidthFifoUint8	S3BootScriptLib.h	/^  S3BootScriptWidthFifoUint8,    \/\/\/< 8-bit FIFO operation.$/;"	e	enum:__anon39
+S3BootScriptWidthFillUint16	S3BootScriptLib.h	/^  S3BootScriptWidthFillUint16,   \/\/\/< 16-bit Fill operation.$/;"	e	enum:__anon39
+S3BootScriptWidthFillUint32	S3BootScriptLib.h	/^  S3BootScriptWidthFillUint32,   \/\/\/< 32-bit Fill operation.$/;"	e	enum:__anon39
+S3BootScriptWidthFillUint64	S3BootScriptLib.h	/^  S3BootScriptWidthFillUint64,   \/\/\/< 64-bit Fill operation.$/;"	e	enum:__anon39
+S3BootScriptWidthFillUint8	S3BootScriptLib.h	/^  S3BootScriptWidthFillUint8,    \/\/\/< 8-bit Fill operation.$/;"	e	enum:__anon39
+S3BootScriptWidthMaximum	S3BootScriptLib.h	/^  S3BootScriptWidthMaximum$/;"	e	enum:__anon39
+S3BootScriptWidthUint16	S3BootScriptLib.h	/^  S3BootScriptWidthUint16,       \/\/\/< 16-bit operation.$/;"	e	enum:__anon39
+S3BootScriptWidthUint32	S3BootScriptLib.h	/^  S3BootScriptWidthUint32,       \/\/\/< 32-bit operation.$/;"	e	enum:__anon39
+S3BootScriptWidthUint64	S3BootScriptLib.h	/^  S3BootScriptWidthUint64,       \/\/\/< 64-bit operation.$/;"	e	enum:__anon39
+S3BootScriptWidthUint8	S3BootScriptLib.h	/^  S3BootScriptWidthUint8,        \/\/\/< 8-bit operation.$/;"	e	enum:__anon39
+S3_BOOT_SCRIPT_LIB_PCI_ADDRESS	S3BootScriptLib.h	33;"	d
+S3_BOOT_SCRIPT_LIB_WIDTH	S3BootScriptLib.h	/^} S3_BOOT_SCRIPT_LIB_WIDTH;$/;"	t	typeref:enum:__anon39
+S3_PCI_LIB_ADDRESS	S3PciLib.h	28;"	d
+S3_PCI_SEGMENT_LIB_ADDRESS	S3PciSegmentLib.h	32;"	d
+S4	BaseLib.h	/^  UINT64                            S4;$/;"	m	struct:__anon6
+S5	BaseLib.h	/^  UINT64                            S5;$/;"	m	struct:__anon6
+S6	BaseLib.h	/^  UINT64                            S6;$/;"	m	struct:__anon6
+S7	BaseLib.h	/^  UINT64                            S7;$/;"	m	struct:__anon6
+S8	BaseLib.h	/^  UINT64                            S8;$/;"	m	struct:__anon6
+S9	BaseLib.h	/^  UINT64                            S9;$/;"	m	struct:__anon6
+SF	BaseLib.h	/^    UINT32  SF:1;           \/\/\/< Sign Flag.$/;"	m	struct:__anon7::__anon8
+SF	BaseLib.h	/^    UINT32  SF:1;           \/\/\/< Sign Flag.$/;"	m	struct:__anon9::__anon10
+SI	BaseLib.h	/^  UINT16                            SI;$/;"	m	struct:__anon32
+SMAP	BaseLib.h	/^    UINT32  SMAP:1;         \/\/\/< SMAP Enable.$/;"	m	struct:__anon13::__anon14
+SMBUS_LIB_ADDRESS	SmbusLib.h	27;"	d
+SMBUS_LIB_COMMAND	SmbusLib.h	46;"	d
+SMBUS_LIB_LENGTH	SmbusLib.h	53;"	d
+SMBUS_LIB_PEC	SmbusLib.h	60;"	d
+SMBUS_LIB_RESERVED	SmbusLib.h	67;"	d
+SMBUS_LIB_SLAVE_ADDRESS	SmbusLib.h	39;"	d
+SMEP	BaseLib.h	/^    UINT32  SMEP:1;         \/\/\/< SMEP Enable.$/;"	m	struct:__anon13::__anon14
+SMXE	BaseLib.h	/^    UINT32  SMXE:1;         \/\/\/< SMX Enable.$/;"	m	struct:__anon13::__anon14
+SP	BaseLib.h	/^  UINT16                            SP;$/;"	m	struct:__anon32
+SP	BaseLib.h	/^  UINT64                            SP;$/;"	m	struct:__anon6
+SPIN_LOCK	SynchronizationLib.h	/^typedef volatile UINTN              SPIN_LOCK;$/;"	t
+SS	BaseLib.h	/^  UINT16                            SS;$/;"	m	struct:__anon33
+SS	BaseLib.h	/^  UINT16    SS;$/;"	m	struct:__anon20
+SS0	BaseLib.h	/^  UINT16    SS0;$/;"	m	struct:__anon20
+SS1	BaseLib.h	/^  UINT16    SS1;$/;"	m	struct:__anon20
+SS2	BaseLib.h	/^  UINT16    SS2;$/;"	m	struct:__anon20
+SWITCH_STACK_ENTRY_POINT	BaseLib.h	/^(EFIAPI *SWITCH_STACK_ENTRY_POINT)($/;"	t
+SafeChar16Add	SafeIntLib.h	50;"	d
+SafeChar16Mult	SafeIntLib.h	48;"	d
+SafeChar16Sub	SafeIntLib.h	49;"	d
+SafeChar16ToChar8	SafeIntLib.h	45;"	d
+SafeChar16ToInt16	SafeIntLib.h	46;"	d
+SafeChar16ToInt8	SafeIntLib.h	43;"	d
+SafeChar16ToUint8	SafeIntLib.h	44;"	d
+SafeInt16ToChar16	SafeIntLib.h	35;"	d
+SafeInt32ToChar16	SafeIntLib.h	36;"	d
+SafeInt64ToChar16	SafeIntLib.h	38;"	d
+SafeInt8ToChar16	SafeIntLib.h	34;"	d
+SafeIntnToChar16	SafeIntLib.h	40;"	d
+SafeUint32ToChar16	SafeIntLib.h	37;"	d
+SafeUint64ToChar16	SafeIntLib.h	39;"	d
+SafeUintnToChar16	SafeIntLib.h	41;"	d
+SectionAlignment	PeCoffLib.h	/^  UINT32                            SectionAlignment;$/;"	m	struct:__anon43
+SegmentNumber	PciSegmentInfoLib.h	/^  UINT16               SegmentNumber;   \/\/\/< Segment number.$/;"	m	struct:__anon40
+Selector	BaseLib.h	/^    UINT32  Selector:16;    \/\/\/< Selector.$/;"	m	struct:__anon18::__anon19
+Selector	BaseLib.h	/^    UINT32  Selector:16;    \/\/\/< Selector.$/;"	m	struct:__anon23::__anon24
+SizeOfHeaders	PeCoffLib.h	/^  UINTN                             SizeOfHeaders;$/;"	m	struct:__anon43
+Ssp	BaseLib.h	/^  UINT32                            Ssp;$/;"	m	struct:__anon1
+Ssp	BaseLib.h	/^  UINT64                            Ssp;$/;"	m	struct:__anon2
+StartBusNumber	PciSegmentInfoLib.h	/^  UINT8                StartBusNumber;  \/\/\/< Start BUS number, for verifying the PCI Segment address.$/;"	m	struct:__anon40
+T	BaseLib.h	/^  UINT16    T;$/;"	m	struct:__anon20
+TF	BaseLib.h	/^    UINT32  TF:1;           \/\/\/< Trap Flag.$/;"	m	struct:__anon7::__anon8
+TF	BaseLib.h	/^    UINT32  TF:1;           \/\/\/< Trap Flag.$/;"	m	struct:__anon9::__anon10
+THUNK_ATTRIBUTE_BIG_REAL_MODE	BaseLib.h	5207;"	d
+THUNK_ATTRIBUTE_DISABLE_A20_MASK_INT_15	BaseLib.h	5208;"	d
+THUNK_ATTRIBUTE_DISABLE_A20_MASK_KBD_CTRL	BaseLib.h	5209;"	d
+THUNK_CONTEXT	BaseLib.h	/^} THUNK_CONTEXT;$/;"	t	typeref:struct:__anon35
+TS	BaseLib.h	/^    UINT32  TS:1;           \/\/\/< Task Switched.$/;"	m	struct:__anon11::__anon12
+TSD	BaseLib.h	/^    UINT32  TSD:1;          \/\/\/< Time Stamp Disable.$/;"	m	struct:__anon13::__anon14
+ThunkAttributes	BaseLib.h	/^  UINT32                            ThunkAttributes;$/;"	m	struct:__anon35
+Tpl	UefiLib.h	/^  EFI_TPL         Tpl;$/;"	m	struct:__anon38
+Type	BaseLib.h	/^    UINT32  Type:4;         \/\/\/< Type (1 0 B 1)$/;"	m	struct:__anon21::__anon22
+Type	BaseLib.h	/^    UINT32  Type:4;         \/\/\/< Type (1 0 B 1)$/;"	m	struct:__anon27::__anon28
+Type	BaseLib.h	/^    UINT32  Type:4;$/;"	m	struct:__anon15::__anon16
+UINT16_ERROR	SafeIntLib.h	21;"	d
+UINT32_ERROR	SafeIntLib.h	24;"	d
+UINT64_ERROR	SafeIntLib.h	26;"	d
+UINT8_ERROR	SafeIntLib.h	18;"	d
+UINTN_ERROR	SafeIntLib.h	28;"	d
+UMIP	BaseLib.h	/^    UINT32  UMIP:1;         \/\/\/< User-Mode Instruction Prevention.$/;"	m	struct:__anon13::__anon14
+UNIT_TEST_CLEANUP	UnitTestLib.h	/^(EFIAPI *UNIT_TEST_CLEANUP)($/;"	t
+UNIT_TEST_CONTEXT	UnitTestLib.h	/^typedef VOID*  UNIT_TEST_CONTEXT;$/;"	t
+UNIT_TEST_ERROR_CLEANUP_FAILED	UnitTestLib.h	20;"	d
+UNIT_TEST_ERROR_PREREQUISITE_NOT_MET	UnitTestLib.h	18;"	d
+UNIT_TEST_ERROR_TEST_FAILED	UnitTestLib.h	19;"	d
+UNIT_TEST_FRAMEWORK_HANDLE	UnitTestLib.h	/^typedef struct UNIT_TEST_FRAMEWORK_OBJECT  *UNIT_TEST_FRAMEWORK_HANDLE;$/;"	t	typeref:struct:UNIT_TEST_FRAMEWORK_OBJECT
+UNIT_TEST_FUNCTION	UnitTestLib.h	/^(EFIAPI *UNIT_TEST_FUNCTION)($/;"	t
+UNIT_TEST_HANDLE	UnitTestLib.h	/^typedef struct UNIT_TEST_OBJECT  *UNIT_TEST_HANDLE;$/;"	t	typeref:struct:UNIT_TEST_OBJECT
+UNIT_TEST_LOG_LEVEL_ERROR	UnitTestLib.h	28;"	d
+UNIT_TEST_LOG_LEVEL_INFO	UnitTestLib.h	30;"	d
+UNIT_TEST_LOG_LEVEL_VERBOSE	UnitTestLib.h	31;"	d
+UNIT_TEST_LOG_LEVEL_WARN	UnitTestLib.h	29;"	d
+UNIT_TEST_PASSED	UnitTestLib.h	17;"	d
+UNIT_TEST_PENDING	UnitTestLib.h	23;"	d
+UNIT_TEST_PREREQUISITE	UnitTestLib.h	/^(EFIAPI *UNIT_TEST_PREREQUISITE)($/;"	t
+UNIT_TEST_RUNNING	UnitTestLib.h	22;"	d
+UNIT_TEST_SKIPPED	UnitTestLib.h	21;"	d
+UNIT_TEST_STATUS	UnitTestLib.h	/^typedef UINT32  UNIT_TEST_STATUS;$/;"	t
+UNIT_TEST_SUITE_HANDLE	UnitTestLib.h	/^typedef struct UNIT_TEST_SUITE_OBJECT  *UNIT_TEST_SUITE_HANDLE;$/;"	t	typeref:struct:UNIT_TEST_SUITE_OBJECT
+UNIT_TEST_SUITE_SETUP	UnitTestLib.h	/^(EFIAPI *UNIT_TEST_SUITE_SETUP)($/;"	t
+UNIT_TEST_SUITE_TEARDOWN	UnitTestLib.h	/^(EFIAPI *UNIT_TEST_SUITE_TEARDOWN)($/;"	t
+UT_ASSERT_EQUAL	UnitTestLib.h	375;"	d
+UT_ASSERT_FALSE	UnitTestLib.h	362;"	d
+UT_ASSERT_MEM_EQUAL	UnitTestLib.h	389;"	d
+UT_ASSERT_NOT_EFI_ERROR	UnitTestLib.h	414;"	d
+UT_ASSERT_NOT_EQUAL	UnitTestLib.h	402;"	d
+UT_ASSERT_NOT_NULL	UnitTestLib.h	439;"	d
+UT_ASSERT_STATUS_EQUAL	UnitTestLib.h	427;"	d
+UT_ASSERT_TRUE	UnitTestLib.h	350;"	d
+UT_EXPECT_ASSERT_FAILURE	UnitTestLib.h	468;"	d
+UT_EXPECT_ASSERT_FAILURE	UnitTestLib.h	491;"	d
+UT_LOG_ERROR	UnitTestLib.h	791;"	d
+UT_LOG_INFO	UnitTestLib.h	813;"	d
+UT_LOG_VERBOSE	UnitTestLib.h	824;"	d
+UT_LOG_WARNING	UnitTestLib.h	802;"	d
+Uint128	BaseLib.h	/^  } Uint128;$/;"	m	union:__anon23	typeref:struct:__anon23::__anon25
+Uint128	BaseLib.h	/^  } Uint128;$/;"	m	union:__anon27	typeref:struct:__anon27::__anon29
+Uint16	BaseLib.h	/^  UINT16    Uint16;$/;"	m	union:__anon7
+Uint64	BaseLib.h	/^    UINT64  Uint64;$/;"	m	struct:__anon23::__anon25
+Uint64	BaseLib.h	/^    UINT64  Uint64;$/;"	m	struct:__anon27::__anon29
+Uint64	BaseLib.h	/^  UINT64  Uint64;$/;"	m	union:__anon15
+Uint64	BaseLib.h	/^  UINT64  Uint64;$/;"	m	union:__anon18
+Uint64	BaseLib.h	/^  UINT64  Uint64;$/;"	m	union:__anon21
+Uint64_1	BaseLib.h	/^    UINT64  Uint64_1;$/;"	m	struct:__anon23::__anon25
+Uint64_1	BaseLib.h	/^    UINT64  Uint64_1;$/;"	m	struct:__anon27::__anon29
+UintN	BaseLib.h	/^  UINTN     UintN;$/;"	m	union:__anon11
+UintN	BaseLib.h	/^  UINTN     UintN;$/;"	m	union:__anon13
+UintN	BaseLib.h	/^  UINTN     UintN;$/;"	m	union:__anon9
+UnicodeString	UefiLib.h	/^  CHAR16  *UnicodeString;$/;"	m	struct:__anon36
+VIF	BaseLib.h	/^    UINT32  VIF:1;          \/\/\/< Virtual Interrupt Flag.$/;"	m	struct:__anon9::__anon10
+VIP	BaseLib.h	/^    UINT32  VIP:1;          \/\/\/< Virtual Interrupt Pending.$/;"	m	struct:__anon9::__anon10
+VM	BaseLib.h	/^    UINT32  VM:1;           \/\/\/< Virtual 8086 Mode.$/;"	m	struct:__anon9::__anon10
+VME	BaseLib.h	/^    UINT32  VME:1;          \/\/\/< Virtual-8086 Mode Extensions.$/;"	m	struct:__anon13::__anon14
+VMXE	BaseLib.h	/^    UINT32  VMXE:1;         \/\/\/< VMX Enable.$/;"	m	struct:__anon13::__anon14
+WP	BaseLib.h	/^    UINT32  WP:1;           \/\/\/< Write Protect.$/;"	m	struct:__anon11::__anon12
+X	BaseLib.h	/^  IA32_WORD_REGS                    X;$/;"	m	union:__anon34
+X19	BaseLib.h	/^  UINT64    X19;$/;"	m	struct:__anon5
+X20	BaseLib.h	/^  UINT64    X20;$/;"	m	struct:__anon5
+X21	BaseLib.h	/^  UINT64    X21;$/;"	m	struct:__anon5
+X22	BaseLib.h	/^  UINT64    X22;$/;"	m	struct:__anon5
+X23	BaseLib.h	/^  UINT64    X23;$/;"	m	struct:__anon5
+X24	BaseLib.h	/^  UINT64    X24;$/;"	m	struct:__anon5
+X25	BaseLib.h	/^  UINT64    X25;$/;"	m	struct:__anon5
+X26	BaseLib.h	/^  UINT64    X26;$/;"	m	struct:__anon5
+X27	BaseLib.h	/^  UINT64    X27;$/;"	m	struct:__anon5
+X28	BaseLib.h	/^  UINT64    X28;$/;"	m	struct:__anon5
+X86_ASSEMBLY_PATCH_LABEL	BaseLib.h	/^typedef VOID (X86_ASSEMBLY_PATCH_LABEL) (VOID);$/;"	t
+XmmBuffer	BaseLib.h	/^  UINT8                             XmmBuffer[160]; \/\/\/< XMM6-XMM15.$/;"	m	struct:__anon2
+ZF	BaseLib.h	/^    UINT32  ZF:1;           \/\/\/< Zero Flag.$/;"	m	struct:__anon7::__anon8
+ZF	BaseLib.h	/^    UINT32  ZF:1;           \/\/\/< Zero Flag.$/;"	m	struct:__anon9::__anon10
+_ASSERT	DebugLib.h	313;"	d
+_ASSERT	DebugLib.h	315;"	d
+_ASSERT	DebugLib.h	319;"	d
+_ASSERT	DebugLib.h	321;"	d
+_DEBUG	DebugLib.h	345;"	d
+_DEBUG	DebugLib.h	347;"	d
+_DEBUG_PRINT	DebugLib.h	339;"	d
+_DEBUG_PRINT_ERROR_LEVEL_LIB_H_	DebugPrintErrorLevelLib.h	9;"	d
+_FILE_HANDLE_LIBRARY_HEADER_	FileHandleLib.h	10;"	d
+_S3_BOOT_SCRIPT_LIB_H_	S3BootScriptLib.h	15;"	d
+_SMM_IO_LIB_H_	SmmIoLib.h	12;"	d
+_SMM_MEM_LIB_H_	SmmMemLib.h	14;"	d
+__BASE_LIB__	BaseLib.h	15;"	d
+__BASE_MEMORY_LIB__	BaseMemoryLib.h	14;"	d
+__BASE_PE_COFF_LIB_H__	PeCoffLib.h	14;"	d
+__CACHE_MAINTENANCE_LIB__	CacheMaintenanceLib.h	13;"	d
+__CPU_LIB_H__	CpuLib.h	16;"	d
+__DEBUG_LIB_H__	DebugLib.h	17;"	d
+__DEVICE_PATH_LIB_H__	DevicePathLib.h	13;"	d
+__DXE_SERVICES_LIB_H__	DxeServicesLib.h	12;"	d
+__DXE_SERVICES_TABLE_LIB_H__	DxeServicesTableLib.h	20;"	d
+__EXTRACT_GUIDED_SECTION_H__	ExtractGuidedSectionLib.h	18;"	d
+__HOB_LIB_H__	HobLib.h	17;"	d
+__HSTI_LIB_H__	HstiLib.h	10;"	d
+__INT_SAFE_LIB_H__	SafeIntLib.h	12;"	d
+__IO_LIB_H__	IoLib.h	12;"	d
+__MEMORY_ALLOCATION_LIB_H__	MemoryAllocationLib.h	15;"	d
+__MM_SERVICES_TABLE_LIB_H__	MmServicesTableLib.h	13;"	d
+__MODULE_ENTRY_POINT_H__	DxeCoreEntryPoint.h	10;"	d
+__MODULE_ENTRY_POINT_H__	PeiCoreEntryPoint.h	10;"	d
+__MODULE_ENTRY_POINT_H__	PeimEntryPoint.h	10;"	d
+__MODULE_ENTRY_POINT_H__	StandaloneMmDriverEntryPoint.h	13;"	d
+__MODULE_ENTRY_POINT_H__	UefiDriverEntryPoint.h	11;"	d
+__ORDERED_COLLECTION_LIB__	OrderedCollectionLib.h	13;"	d
+__PCD_LIB_H__	PcdLib.h	23;"	d
+__PCI_CF8_LIB_H__	PciCf8Lib.h	14;"	d
+__PCI_EXPRESS_LIB_H__	PciExpressLib.h	15;"	d
+__PCI_LIB_H__	PciLib.h	19;"	d
+__PCI_SEGMENT_INFO_LIB__	PciSegmentInfoLib.h	12;"	d
+__PCI_SEGMENT_LIB__	PciSegmentLib.h	32;"	d
+__PEI_SERVICES_LIB_H__	PeiServicesLib.h	10;"	d
+__PEI_SERVICES_TABLE_POINTER_LIB_H__	PeiServicesTablePointerLib.h	10;"	d
+__PERFORMANCE_LIB_H__	PerformanceLib.h	10;"	d
+__PERIODIC_SMI_LIB_H__	SmmPeriodicSmiLib.h	10;"	d
+__PE_COFF_EXTRA_ACTION_LIB_H__	PeCoffExtraActionLib.h	12;"	d
+__PE_COFF_GET_ENTRY_POINT_LIB_H__	PeCoffGetEntryPointLib.h	10;"	d
+__POST_CODE_LIB_H__	PostCodeLib.h	10;"	d
+__PRINT_LIB_H__	PrintLib.h	173;"	d
+__REPORT_STATUS_CODE_LIB_H__	ReportStatusCodeLib.h	10;"	d
+__RESOURCE_PUBLICATION_LIB__	ResourcePublicationLib.h	10;"	d
+__RNG_LIB_H__	RngLib.h	10;"	d
+__S3_IO_LIB_H__	S3IoLib.h	13;"	d
+__S3_PCI_LIB_H__	S3PciLib.h	13;"	d
+__S3_PCI_SEGMENT_LIB__	S3PciSegmentLib.h	12;"	d
+__S3_SMBUS_LIB_H__	S3SmbusLib.h	13;"	d
+__S3_STALL_LIB_H__	S3StallLib.h	13;"	d
+__SCSI_LIB_H__	UefiScsiLib.h	14;"	d
+__SERIAL_PORT_LIB__	SerialPortLib.h	11;"	d
+__SMBUS_LIB__	SmbusLib.h	11;"	d
+__SMI_HANDLER_PROFILE_LIB_H__	SmiHandlerProfileLib.h	21;"	d
+__SMM_LIB_H__	SmmLib.h	12;"	d
+__SMM_SERVICES_TABLE_LIB_H__	SmmServicesTableLib.h	11;"	d
+__SYNCHRONIZATION_LIB__	SynchronizationLib.h	10;"	d
+__TIMER_LIB__	TimerLib.h	10;"	d
+__UEFI_APPLICATION_ENTRY_POINT_H__	UefiApplicationEntryPoint.h	10;"	d
+__UEFI_BOOT_SERVICES_TABLE_LIB_H__	UefiBootServicesTableLib.h	11;"	d
+__UEFI_DECPOMPRESS_LIB_H__	UefiDecompressLib.h	15;"	d
+__UEFI_LIB_H__	UefiLib.h	22;"	d
+__UEFI_RUNTIME_LIB__	UefiRuntimeLib.h	10;"	d
+__UEFI_RUNTIME_SERVICES_TABLE_LIB_H__	UefiRuntimeServicesTableLib.h	19;"	d
+__UNIT_TEST_LIB_H__	UnitTestLib.h	11;"	d
+__USB_DXE_LIB_H__	UefiUsbLib.h	12;"	d

@@ -1,0 +1,2850 @@
+cscope 15 $HOME/VT/SPRING_2021/6504/Assignment1/Include               0000019238
+	@Base.h
+
+16 #iâdeà
+__BASE_H__
+
+
+17 
+	#__BASE_H__
+
+
+	)
+
+22 
+	~<ProûssÜBšd.h
+>
+
+24 #ià
+defšed
+(
+_MSC_EXTENSIONS
+)
+
+28 #´agm¨
+w¬nšg
+ ( 
+di§bË
+ : 4200 )
+
+36 #ià
+defšed
+(
+_MSC_VER
+è&& _MSC_VER < 1800 && !defšed (
+MDE_CPU_EBC
+)
+
+42 
+	#GLOBAL_REMOVE_IF_UNREFERENCED
+ 
+	`__deþ¥ec
+(
+£Ëùªy
+)
+
+	)
+
+49 
+	#GLOBAL_REMOVE_IF_UNREFERENCED
+
+
+	)
+
+56 #iâdeà
+UNREACHABLE
+
+
+57 #ifdeà
+__GNUC__
+
+
+62 
+	#UNREACHABLE
+(è
+	`__bužtš_uÄ—chabË
+ ()
+
+	)
+
+63 #–ià
+defšed
+ (
+__has_ã©u»
+)
+
+64 #ià
+__has_bužtš
+ (
+__bužtš_uÄ—chabË
+)
+
+69 
+	#UNREACHABLE
+(è
+	`__bužtš_uÄ—chabË
+ ()
+
+	)
+
+73 #iâdeà
+UNREACHABLE
+
+
+78 
+	#UNREACHABLE
+()
+
+	)
+
+87 #iâdeà
+NORETURN
+
+
+88 #ià
+defšed
+ (
+__GNUC__
+è|| defšed (
+__þªg__
+)
+
+94 
+	#NORETURN
+ 
+	`__©Œibu‹__
+((
+nÜ‘uº
+))
+
+	)
+
+95 #–ià
+defšed
+(
+_MSC_EXTENSIONS
+è&& !defšed(
+MDE_CPU_EBC
+)
+
+101 
+	#NORETURN
+ 
+	`__deþ¥ec
+(
+nÜ‘uº
+)
+
+	)
+
+108 
+	#NORETURN
+
+
+	)
+
+116 #iâdeà
+ANALYZER_UNREACHABLE
+
+
+117 #ifdeà
+__þªg_ª®yz”__
+
+
+118 #ià
+__has_bužtš
+ (
+__bužtš_uÄ—chabË
+)
+
+123 
+	#ANALYZER_UNREACHABLE
+(è
+	`__bužtš_uÄ—chabË
+ ()
+
+	)
+
+127 #iâdeà
+ANALYZER_UNREACHABLE
+
+
+132 
+	#ANALYZER_UNREACHABLE
+()
+
+	)
+
+142 #iâdeà
+ANALYZER_NORETURN
+
+
+143 #ifdeà
+__has_ã©u»
+
+
+144 #ià
+__has_ã©u»
+ (
+©Œibu‹_ª®yz”_nÜ‘uº
+)
+
+149 
+	#ANALYZER_NORETURN
+ 
+	`__©Œibu‹__
+((
+ª®yz”_nÜ‘uº
+))
+
+	)
+
+153 #iâdeà
+ANALYZER_NORETURN
+
+
+158 
+	#ANALYZER_NORETURN
+
+
+	)
+
+166 #iâdeà
+RETURNS_TWICE
+
+
+167 #ià
+defšed
+ (
+__GNUC__
+è|| defšed (
+__þªg__
+)
+
+172 
+	#RETURNS_TWICE
+ 
+	`__©Œibu‹__
+((
+»tuºs_twiû
+))
+
+	)
+
+178 
+	#RETURNS_TWICE
+
+
+	)
+
+189 
+	#_CONCATENATE
+(
+a
+, 
+b
+è
+	`__CONCATENATE
+×, b)
+
+	)
+
+190 
+	#__CONCATENATE
+(
+a
+, 
+b
+è¨## 
+	)
+b
+
+196 
+	#ASM_PFX
+(
+Çme
+è
+	`_CONCATENATE
+ (
+__USER_LABEL_PREFIX__
+,‚ame)
+
+	)
+
+198 #ifdeà
+__APPLE__
+
+
+203 
+	#ASM_FUNCTION_REMOVE_IF_UNREFERENCED
+ .
+sub£ùiÚs_vŸ_symbÞs
+
+
+	)
+
+205 
+	#ASM_FUNCTION_REMOVE_IF_UNREFERENCED
+
+
+	)
+
+208 #ifdeà
+__CC_ARM
+
+
+213 
+	#PACKED
+ 
+__·cked
+
+
+	)
+
+215 
+	#PACKED
+
+
+	)
+
+223 
+UINT32
+ 
+	mD©a1
+;
+
+224 
+UINT16
+ 
+	mD©a2
+;
+
+225 
+UINT16
+ 
+	mD©a3
+;
+
+226 
+UINT8
+ 
+	mD©a4
+[8];
+
+227 } 
+	tGUID
+;
+
+233 
+UINT8
+ 
+	mAddr
+[4];
+
+234 } 
+	tIPv4_ADDRESS
+;
+
+240 
+UINT8
+ 
+	mAddr
+[16];
+
+241 } 
+	tIPv6_ADDRESS
+;
+
+246 
+UINT64
+ 
+	tPHYSICAL_ADDRESS
+;
+
+251 
+_LIST_ENTRY
+ 
+	tLIST_ENTRY
+;
+
+256 
+	s_LIST_ENTRY
+ {
+
+257 
+LIST_ENTRY
+ *
+	mFÜw¬dLšk
+;
+
+258 
+LIST_ENTRY
+ *
+	mBackLšk
+;
+
+268 
+	#CONST
+ cÚ¡
+
+	)
+
+273 
+	#STATIC
+ 
+
+	)
+
+278 
+	#VOID
+ 
+
+	)
+
+288 
+	#IN
+
+
+	)
+
+293 
+	#OUT
+
+
+	)
+
+299 
+	#OPTIONAL
+
+
+	)
+
+310 
+	#TRUE
+ ((
+BOOLEAN
+)(1==1))
+
+	)
+
+316 
+	#FALSE
+ ((
+BOOLEAN
+)(0==1))
+
+	)
+
+321 
+	#NULL
+ ((
+VOID
+ *è0)
+
+	)
+
+326 
+	#CHAR_NULL
+ 0x0000
+
+	)
+
+331 
+	#MAX_INT8
+ ((
+INT8
+)0x7F)
+
+	)
+
+332 
+	#MAX_UINT8
+ ((
+UINT8
+)0xFF)
+
+	)
+
+333 
+	#MAX_INT16
+ ((
+INT16
+)0x7FFF)
+
+	)
+
+334 
+	#MAX_UINT16
+ ((
+UINT16
+)0xFFFF)
+
+	)
+
+335 
+	#MAX_INT32
+ ((
+INT32
+)0x7FFFFFFF)
+
+	)
+
+336 
+	#MAX_UINT32
+ ((
+UINT32
+)0xFFFFFFFF)
+
+	)
+
+337 
+	#MAX_INT64
+ ((
+INT64
+)0x7FFFFFFFFFFFFFFFULL)
+
+	)
+
+338 
+	#MAX_UINT64
+ ((
+UINT64
+)0xFFFFFFFFFFFFFFFFULL)
+
+	)
+
+343 
+	#MIN_INT8
+ (((
+INT8
+è-127è- 1)
+
+	)
+
+344 
+	#MIN_INT16
+ (((
+INT16
+è-32767è- 1)
+
+	)
+
+345 
+	#MIN_INT32
+ (((
+INT32
+è-2147483647è- 1)
+
+	)
+
+346 
+	#MIN_INT64
+ (((
+INT64
+è-9223372036854775807LLè- 1)
+
+	)
+
+348 
+	#BIT0
+ 0x00000001
+
+	)
+
+349 
+	#BIT1
+ 0x00000002
+
+	)
+
+350 
+	#BIT2
+ 0x00000004
+
+	)
+
+351 
+	#BIT3
+ 0x00000008
+
+	)
+
+352 
+	#BIT4
+ 0x00000010
+
+	)
+
+353 
+	#BIT5
+ 0x00000020
+
+	)
+
+354 
+	#BIT6
+ 0x00000040
+
+	)
+
+355 
+	#BIT7
+ 0x00000080
+
+	)
+
+356 
+	#BIT8
+ 0x00000100
+
+	)
+
+357 
+	#BIT9
+ 0x00000200
+
+	)
+
+358 
+	#BIT10
+ 0x00000400
+
+	)
+
+359 
+	#BIT11
+ 0x00000800
+
+	)
+
+360 
+	#BIT12
+ 0x00001000
+
+	)
+
+361 
+	#BIT13
+ 0x00002000
+
+	)
+
+362 
+	#BIT14
+ 0x00004000
+
+	)
+
+363 
+	#BIT15
+ 0x00008000
+
+	)
+
+364 
+	#BIT16
+ 0x00010000
+
+	)
+
+365 
+	#BIT17
+ 0x00020000
+
+	)
+
+366 
+	#BIT18
+ 0x00040000
+
+	)
+
+367 
+	#BIT19
+ 0x00080000
+
+	)
+
+368 
+	#BIT20
+ 0x00100000
+
+	)
+
+369 
+	#BIT21
+ 0x00200000
+
+	)
+
+370 
+	#BIT22
+ 0x00400000
+
+	)
+
+371 
+	#BIT23
+ 0x00800000
+
+	)
+
+372 
+	#BIT24
+ 0x01000000
+
+	)
+
+373 
+	#BIT25
+ 0x02000000
+
+	)
+
+374 
+	#BIT26
+ 0x04000000
+
+	)
+
+375 
+	#BIT27
+ 0x08000000
+
+	)
+
+376 
+	#BIT28
+ 0x10000000
+
+	)
+
+377 
+	#BIT29
+ 0x20000000
+
+	)
+
+378 
+	#BIT30
+ 0x40000000
+
+	)
+
+379 
+	#BIT31
+ 0x80000000
+
+	)
+
+380 
+	#BIT32
+ 0x0000000100000000ULL
+
+	)
+
+381 
+	#BIT33
+ 0x0000000200000000ULL
+
+	)
+
+382 
+	#BIT34
+ 0x0000000400000000ULL
+
+	)
+
+383 
+	#BIT35
+ 0x0000000800000000ULL
+
+	)
+
+384 
+	#BIT36
+ 0x0000001000000000ULL
+
+	)
+
+385 
+	#BIT37
+ 0x0000002000000000ULL
+
+	)
+
+386 
+	#BIT38
+ 0x0000004000000000ULL
+
+	)
+
+387 
+	#BIT39
+ 0x0000008000000000ULL
+
+	)
+
+388 
+	#BIT40
+ 0x0000010000000000ULL
+
+	)
+
+389 
+	#BIT41
+ 0x0000020000000000ULL
+
+	)
+
+390 
+	#BIT42
+ 0x0000040000000000ULL
+
+	)
+
+391 
+	#BIT43
+ 0x0000080000000000ULL
+
+	)
+
+392 
+	#BIT44
+ 0x0000100000000000ULL
+
+	)
+
+393 
+	#BIT45
+ 0x0000200000000000ULL
+
+	)
+
+394 
+	#BIT46
+ 0x0000400000000000ULL
+
+	)
+
+395 
+	#BIT47
+ 0x0000800000000000ULL
+
+	)
+
+396 
+	#BIT48
+ 0x0001000000000000ULL
+
+	)
+
+397 
+	#BIT49
+ 0x0002000000000000ULL
+
+	)
+
+398 
+	#BIT50
+ 0x0004000000000000ULL
+
+	)
+
+399 
+	#BIT51
+ 0x0008000000000000ULL
+
+	)
+
+400 
+	#BIT52
+ 0x0010000000000000ULL
+
+	)
+
+401 
+	#BIT53
+ 0x0020000000000000ULL
+
+	)
+
+402 
+	#BIT54
+ 0x0040000000000000ULL
+
+	)
+
+403 
+	#BIT55
+ 0x0080000000000000ULL
+
+	)
+
+404 
+	#BIT56
+ 0x0100000000000000ULL
+
+	)
+
+405 
+	#BIT57
+ 0x0200000000000000ULL
+
+	)
+
+406 
+	#BIT58
+ 0x0400000000000000ULL
+
+	)
+
+407 
+	#BIT59
+ 0x0800000000000000ULL
+
+	)
+
+408 
+	#BIT60
+ 0x1000000000000000ULL
+
+	)
+
+409 
+	#BIT61
+ 0x2000000000000000ULL
+
+	)
+
+410 
+	#BIT62
+ 0x4000000000000000ULL
+
+	)
+
+411 
+	#BIT63
+ 0x8000000000000000ULL
+
+	)
+
+413 
+	#SIZE_1KB
+ 0x00000400
+
+	)
+
+414 
+	#SIZE_2KB
+ 0x00000800
+
+	)
+
+415 
+	#SIZE_4KB
+ 0x00001000
+
+	)
+
+416 
+	#SIZE_8KB
+ 0x00002000
+
+	)
+
+417 
+	#SIZE_16KB
+ 0x00004000
+
+	)
+
+418 
+	#SIZE_32KB
+ 0x00008000
+
+	)
+
+419 
+	#SIZE_64KB
+ 0x00010000
+
+	)
+
+420 
+	#SIZE_128KB
+ 0x00020000
+
+	)
+
+421 
+	#SIZE_256KB
+ 0x00040000
+
+	)
+
+422 
+	#SIZE_512KB
+ 0x00080000
+
+	)
+
+423 
+	#SIZE_1MB
+ 0x00100000
+
+	)
+
+424 
+	#SIZE_2MB
+ 0x00200000
+
+	)
+
+425 
+	#SIZE_4MB
+ 0x00400000
+
+	)
+
+426 
+	#SIZE_8MB
+ 0x00800000
+
+	)
+
+427 
+	#SIZE_16MB
+ 0x01000000
+
+	)
+
+428 
+	#SIZE_32MB
+ 0x02000000
+
+	)
+
+429 
+	#SIZE_64MB
+ 0x04000000
+
+	)
+
+430 
+	#SIZE_128MB
+ 0x08000000
+
+	)
+
+431 
+	#SIZE_256MB
+ 0x10000000
+
+	)
+
+432 
+	#SIZE_512MB
+ 0x20000000
+
+	)
+
+433 
+	#SIZE_1GB
+ 0x40000000
+
+	)
+
+434 
+	#SIZE_2GB
+ 0x80000000
+
+	)
+
+435 
+	#SIZE_4GB
+ 0x0000000100000000ULL
+
+	)
+
+436 
+	#SIZE_8GB
+ 0x0000000200000000ULL
+
+	)
+
+437 
+	#SIZE_16GB
+ 0x0000000400000000ULL
+
+	)
+
+438 
+	#SIZE_32GB
+ 0x0000000800000000ULL
+
+	)
+
+439 
+	#SIZE_64GB
+ 0x0000001000000000ULL
+
+	)
+
+440 
+	#SIZE_128GB
+ 0x0000002000000000ULL
+
+	)
+
+441 
+	#SIZE_256GB
+ 0x0000004000000000ULL
+
+	)
+
+442 
+	#SIZE_512GB
+ 0x0000008000000000ULL
+
+	)
+
+443 
+	#SIZE_1TB
+ 0x0000010000000000ULL
+
+	)
+
+444 
+	#SIZE_2TB
+ 0x0000020000000000ULL
+
+	)
+
+445 
+	#SIZE_4TB
+ 0x0000040000000000ULL
+
+	)
+
+446 
+	#SIZE_8TB
+ 0x0000080000000000ULL
+
+	)
+
+447 
+	#SIZE_16TB
+ 0x0000100000000000ULL
+
+	)
+
+448 
+	#SIZE_32TB
+ 0x0000200000000000ULL
+
+	)
+
+449 
+	#SIZE_64TB
+ 0x0000400000000000ULL
+
+	)
+
+450 
+	#SIZE_128TB
+ 0x0000800000000000ULL
+
+	)
+
+451 
+	#SIZE_256TB
+ 0x0001000000000000ULL
+
+	)
+
+452 
+	#SIZE_512TB
+ 0x0002000000000000ULL
+
+	)
+
+453 
+	#SIZE_1PB
+ 0x0004000000000000ULL
+
+	)
+
+454 
+	#SIZE_2PB
+ 0x0008000000000000ULL
+
+	)
+
+455 
+	#SIZE_4PB
+ 0x0010000000000000ULL
+
+	)
+
+456 
+	#SIZE_8PB
+ 0x0020000000000000ULL
+
+	)
+
+457 
+	#SIZE_16PB
+ 0x0040000000000000ULL
+
+	)
+
+458 
+	#SIZE_32PB
+ 0x0080000000000000ULL
+
+	)
+
+459 
+	#SIZE_64PB
+ 0x0100000000000000ULL
+
+	)
+
+460 
+	#SIZE_128PB
+ 0x0200000000000000ULL
+
+	)
+
+461 
+	#SIZE_256PB
+ 0x0400000000000000ULL
+
+	)
+
+462 
+	#SIZE_512PB
+ 0x0800000000000000ULL
+
+	)
+
+463 
+	#SIZE_1EB
+ 0x1000000000000000ULL
+
+	)
+
+464 
+	#SIZE_2EB
+ 0x2000000000000000ULL
+
+	)
+
+465 
+	#SIZE_4EB
+ 0x4000000000000000ULL
+
+	)
+
+466 
+	#SIZE_8EB
+ 0x8000000000000000ULL
+
+	)
+
+468 
+	#BASE_1KB
+ 0x00000400
+
+	)
+
+469 
+	#BASE_2KB
+ 0x00000800
+
+	)
+
+470 
+	#BASE_4KB
+ 0x00001000
+
+	)
+
+471 
+	#BASE_8KB
+ 0x00002000
+
+	)
+
+472 
+	#BASE_16KB
+ 0x00004000
+
+	)
+
+473 
+	#BASE_32KB
+ 0x00008000
+
+	)
+
+474 
+	#BASE_64KB
+ 0x00010000
+
+	)
+
+475 
+	#BASE_128KB
+ 0x00020000
+
+	)
+
+476 
+	#BASE_256KB
+ 0x00040000
+
+	)
+
+477 
+	#BASE_512KB
+ 0x00080000
+
+	)
+
+478 
+	#BASE_1MB
+ 0x00100000
+
+	)
+
+479 
+	#BASE_2MB
+ 0x00200000
+
+	)
+
+480 
+	#BASE_4MB
+ 0x00400000
+
+	)
+
+481 
+	#BASE_8MB
+ 0x00800000
+
+	)
+
+482 
+	#BASE_16MB
+ 0x01000000
+
+	)
+
+483 
+	#BASE_32MB
+ 0x02000000
+
+	)
+
+484 
+	#BASE_64MB
+ 0x04000000
+
+	)
+
+485 
+	#BASE_128MB
+ 0x08000000
+
+	)
+
+486 
+	#BASE_256MB
+ 0x10000000
+
+	)
+
+487 
+	#BASE_512MB
+ 0x20000000
+
+	)
+
+488 
+	#BASE_1GB
+ 0x40000000
+
+	)
+
+489 
+	#BASE_2GB
+ 0x80000000
+
+	)
+
+490 
+	#BASE_4GB
+ 0x0000000100000000ULL
+
+	)
+
+491 
+	#BASE_8GB
+ 0x0000000200000000ULL
+
+	)
+
+492 
+	#BASE_16GB
+ 0x0000000400000000ULL
+
+	)
+
+493 
+	#BASE_32GB
+ 0x0000000800000000ULL
+
+	)
+
+494 
+	#BASE_64GB
+ 0x0000001000000000ULL
+
+	)
+
+495 
+	#BASE_128GB
+ 0x0000002000000000ULL
+
+	)
+
+496 
+	#BASE_256GB
+ 0x0000004000000000ULL
+
+	)
+
+497 
+	#BASE_512GB
+ 0x0000008000000000ULL
+
+	)
+
+498 
+	#BASE_1TB
+ 0x0000010000000000ULL
+
+	)
+
+499 
+	#BASE_2TB
+ 0x0000020000000000ULL
+
+	)
+
+500 
+	#BASE_4TB
+ 0x0000040000000000ULL
+
+	)
+
+501 
+	#BASE_8TB
+ 0x0000080000000000ULL
+
+	)
+
+502 
+	#BASE_16TB
+ 0x0000100000000000ULL
+
+	)
+
+503 
+	#BASE_32TB
+ 0x0000200000000000ULL
+
+	)
+
+504 
+	#BASE_64TB
+ 0x0000400000000000ULL
+
+	)
+
+505 
+	#BASE_128TB
+ 0x0000800000000000ULL
+
+	)
+
+506 
+	#BASE_256TB
+ 0x0001000000000000ULL
+
+	)
+
+507 
+	#BASE_512TB
+ 0x0002000000000000ULL
+
+	)
+
+508 
+	#BASE_1PB
+ 0x0004000000000000ULL
+
+	)
+
+509 
+	#BASE_2PB
+ 0x0008000000000000ULL
+
+	)
+
+510 
+	#BASE_4PB
+ 0x0010000000000000ULL
+
+	)
+
+511 
+	#BASE_8PB
+ 0x0020000000000000ULL
+
+	)
+
+512 
+	#BASE_16PB
+ 0x0040000000000000ULL
+
+	)
+
+513 
+	#BASE_32PB
+ 0x0080000000000000ULL
+
+	)
+
+514 
+	#BASE_64PB
+ 0x0100000000000000ULL
+
+	)
+
+515 
+	#BASE_128PB
+ 0x0200000000000000ULL
+
+	)
+
+516 
+	#BASE_256PB
+ 0x0400000000000000ULL
+
+	)
+
+517 
+	#BASE_512PB
+ 0x0800000000000000ULL
+
+	)
+
+518 
+	#BASE_1EB
+ 0x1000000000000000ULL
+
+	)
+
+519 
+	#BASE_2EB
+ 0x2000000000000000ULL
+
+	)
+
+520 
+	#BASE_4EB
+ 0x4000000000000000ULL
+
+	)
+
+521 
+	#BASE_8EB
+ 0x8000000000000000ULL
+
+	)
+
+580 
+	#_INT_SIZE_OF
+(
+n
+è(( (nè+  (
+UINTN
+è- 1è&~( (UINTNè- 1))
+
+	)
+
+582 #ià
+defšed
+(
+__CC_ARM
+)
+
+591 #ifdeà
+__APCS_ADSABI
+
+
+592 *
+	tva_li¡
+[1];
+
+593 
+	#VA_LIST
+ 
+va_li¡
+
+
+	)
+
+595 
+	s__va_li¡
+ { *
+	m__­
+; } 
+	tva_li¡
+;
+
+596 
+	#VA_LIST
+ 
+va_li¡
+
+
+	)
+
+599 
+	#VA_START
+(
+M¬k”
+, 
+P¬am‘”
+è
+	`__va_¡¬t
+(M¬k”, P¬am‘”)
+
+	)
+
+601 
+	#VA_ARG
+(
+M¬k”
+, 
+TYPE
+è
+	`__va_¬g
+(M¬k”, TYPE)
+
+	)
+
+603 
+	#VA_END
+(
+M¬k”
+è(()0)
+
+	)
+
+606 #iâdeà
+__va_cÝy
+
+
+607 
+	#__va_cÝy
+(
+de¡
+, 
+¤c
+è(()((de¡èð(¤c)))
+
+	)
+
+610 
+	#VA_COPY
+(
+De¡
+, 
+S¹
+è
+	`__va_cÝy
+ (De¡, S¹)
+
+	)
+
+612 #–ià
+defšed
+(
+_M_ARM
+è|| defšed(
+_M_ARM64
+)
+
+617 * 
+	tVA_LIST
+;
+
+619 
+	#VA_START
+(
+M¬k”
+, 
+P¬am‘”
+è
+	`__va_¡¬t
+ (&M¬k”, &P¬am‘”, 
+	`_INT_SIZE_OF
+ (P¬am‘”), 
+	`__®ignof
+(P¬am‘”), &P¬am‘”)
+
+	)
+
+620 
+	#VA_ARG
+(
+M¬k”
+, 
+TYPE
+è(*(TYPE *è((M¬k” +ð
+	`_INT_SIZE_OF
+ (TYPEè+ ((-(
+INTN
+)M¬k”è& ((TYPEè- 1))è- _INT_SIZE_OF (TYPE)))
+
+	)
+
+621 
+	#VA_END
+(
+M¬k”
+è(M¬k” = (
+VA_LIST
+è0)
+
+	)
+
+622 
+	#VA_COPY
+(
+De¡
+, 
+S¹
+è(()((De¡èð(S¹)))
+
+	)
+
+624 #–ià
+defšed
+(
+__GNUC__
+è|| defšed(
+__þªg__
+)
+
+626 #ià
+defšed
+(
+MDE_CPU_X64
+è&& !defšed(
+NO_MSABI_VA_FUNCS
+)
+
+638 
+__bužtš_ms_va_li¡
+ 
+	tVA_LIST
+;
+
+640 
+	#VA_START
+(
+M¬k”
+, 
+P¬am‘”
+è
+	`__bužtš_ms_va_¡¬t
+ (M¬k”, P¬am‘”)
+
+	)
+
+642 
+	#VA_ARG
+(
+M¬k”
+, 
+TYPE
+è(( (TYPEè<  (
+UINTN
+)è? (TYPE)(
+	`__bužtš_va_¬g
+ (M¬k”, UINTN)è: (TYPE)(__bužtš_va_¬g (M¬k”, TYPE)))
+
+	)
+
+644 
+	#VA_END
+(
+M¬k”
+è
+	`__bužtš_ms_va_’d
+ (M¬k”)
+
+	)
+
+646 
+	#VA_COPY
+(
+De¡
+, 
+S¹
+è
+	`__bužtš_ms_va_cÝy
+ (De¡, S¹)
+
+	)
+
+657 
+__bužtš_va_li¡
+ 
+	tVA_LIST
+;
+
+659 
+	#VA_START
+(
+M¬k”
+, 
+P¬am‘”
+è
+	`__bužtš_va_¡¬t
+ (M¬k”, P¬am‘”)
+
+	)
+
+661 
+	#VA_ARG
+(
+M¬k”
+, 
+TYPE
+è(( (TYPEè<  (
+UINTN
+)è? (TYPE)(
+	`__bužtš_va_¬g
+ (M¬k”, UINTN)è: (TYPE)(__bužtš_va_¬g (M¬k”, TYPE)))
+
+	)
+
+663 
+	#VA_END
+(
+M¬k”
+è
+	`__bužtš_va_’d
+ (M¬k”)
+
+	)
+
+665 
+	#VA_COPY
+(
+De¡
+, 
+S¹
+è
+	`__bužtš_va_cÝy
+ (De¡, S¹)
+
+	)
+
+674 
+CHAR8
+ *
+	tVA_LIST
+;
+
+692 
+	#VA_START
+(
+M¬k”
+, 
+P¬am‘”
+è(M¬k” = (
+VA_LIST
+è((
+UINTN
+è& (P¬am‘”è+ 
+	`_INT_SIZE_OF
+ (P¬am‘”)))
+
+	)
+
+710 
+	#VA_ARG
+(
+M¬k”
+, 
+TYPE
+è(*(TYPE *è((M¬k” +ð
+	`_INT_SIZE_OF
+ (TYPE)è- _INT_SIZE_OF (TYPE)))
+
+	)
+
+722 
+	#VA_END
+(
+M¬k”
+è(M¬k” = (
+VA_LIST
+è0)
+
+	)
+
+735 
+	#VA_COPY
+(
+De¡
+, 
+S¹
+è(()((De¡èð(S¹)))
+
+	)
+
+742 
+UINTN
+ *
+	tBASE_LIST
+;
+
+751 
+	#_BASE_INT_SIZE_OF
+(
+TYPE
+è(( (TYPEè+  (
+UINTN
+è- 1è/  (UINTN))
+
+	)
+
+769 
+	#BASE_ARG
+(
+M¬k”
+, 
+TYPE
+è(*(TYPE *è((M¬k” +ð
+	`_BASE_INT_SIZE_OF
+ (TYPE)è- _BASE_INT_SIZE_OF (TYPE)))
+
+	)
+
+784 #ià(
+defšed
+(
+__GNUC__
+è&& __GNUC__ >ð4è|| defšed(
+__þªg__
+)
+
+785 
+	#OFFSET_OF
+(
+TYPE
+, 
+F›ld
+è((
+UINTN
+è
+	`__bužtš_off£tof
+(TYPE, F›ld))
+
+	)
+
+788 #iâdeà
+OFFSET_OF
+
+
+789 
+	#OFFSET_OF
+(
+TYPE
+, 
+F›ld
+è((
+UINTN
+è&(((TYPE *)0)->F›ld))
+
+	)
+
+800 #ifdeà
+MDE_CPU_EBC
+
+
+801 
+	#STATIC_ASSERT
+(
+Ex´essiÚ
+, 
+Mes§ge
+)
+
+	)
+
+802 #–ià
+defšed
+(
+_MSC_EXTENSIONS
+)
+
+803 
+	#STATIC_ASSERT
+ 
+¡©ic_as£¹
+
+
+	)
+
+805 
+	#STATIC_ASSERT
+ 
+_Stic_as£¹
+
+
+	)
+
+813 
+STATIC_ASSERT
+ ( (
+BOOLEAN
+) == 1, "sizeof (BOOLEAN) does‚ot meet UEFI Specification Data Type„equirements");
+
+814 
+STATIC_ASSERT
+ ( (
+INT8
+) == 1, "sizeof (INT8) does‚ot meet UEFI Specification Data Type„equirements");
+
+815 
+STATIC_ASSERT
+ ( (
+UINT8
+) == 1, "sizeof (UINT8) does‚ot meet UEFI Specification Data Type„equirements");
+
+816 
+STATIC_ASSERT
+ ( (
+INT16
+) == 2, "sizeof (INT16) does‚ot meet UEFI Specification Data Type„equirements");
+
+817 
+STATIC_ASSERT
+ ( (
+UINT16
+) == 2, "sizeof (UINT16) does‚ot meet UEFI Specification Data Type„equirements");
+
+818 
+STATIC_ASSERT
+ ( (
+INT32
+) == 4, "sizeof (INT32) does‚ot meet UEFI Specification Data Type„equirements");
+
+819 
+STATIC_ASSERT
+ ( (
+UINT32
+) == 4, "sizeof (UINT32) does‚ot meet UEFI Specification Data Type„equirements");
+
+820 
+STATIC_ASSERT
+ ( (
+INT64
+) == 8, "sizeof (INT64) does‚ot meet UEFI Specification Data Type„equirements");
+
+821 
+STATIC_ASSERT
+ ( (
+UINT64
+) == 8, "sizeof (UINT64) does‚ot meet UEFI Specification Data Type„equirements");
+
+822 
+STATIC_ASSERT
+ ( (
+CHAR8
+) == 1, "sizeof (CHAR8) does‚ot meet UEFI Specification Data Type„equirements");
+
+823 
+STATIC_ASSERT
+ ( (
+CHAR16
+) == 2, "sizeof (CHAR16) does‚ot meet UEFI Specification Data Type„equirements");
+
+833 
+	m__V”ifyUšt8EnumV®ue
+ = 0xff
+
+834 } 
+	t__VERIFY_UINT8_ENUM_SIZE
+;
+
+837 
+	m__V”ifyUšt16EnumV®ue
+ = 0xffff
+
+838 } 
+	t__VERIFY_UINT16_ENUM_SIZE
+;
+
+841 
+	m__V”ifyUšt32EnumV®ue
+ = 0xffffffff
+
+842 } 
+	t__VERIFY_UINT32_ENUM_SIZE
+;
+
+844 
+STATIC_ASSERT
+ ( (
+__VERIFY_UINT8_ENUM_SIZE
+) == 4, "Size ofƒnum does‚ot meet UEFI Specification Data Type„equirements");
+
+845 
+STATIC_ASSERT
+ ( (
+__VERIFY_UINT16_ENUM_SIZE
+) == 4, "Size ofƒnum does‚ot meet UEFI Specification Data Type„equirements");
+
+846 
+STATIC_ASSERT
+ ( (
+__VERIFY_UINT32_ENUM_SIZE
+) == 4, "Size ofƒnum does‚ot meet UEFI Specification Data Type„equirements");
+
+867 
+	#BASE_CR
+(
+RecÜd
+, 
+TYPE
+, 
+F›ld
+è((TYPE *è((
+CHAR8
+ *è(RecÜdè- 
+	`OFFSET_OF
+ (TYPE, F›ld)))
+
+	)
+
+881 
+	#ALIGN_VALUE
+(
+V®ue
+, 
+Alignm’t
+è((V®ueè+ (((Alignm’tè- (V®ue)è& ((Alignm’tè- 1)))
+
+	)
+
+896 
+	#ALIGN_POINTER
+(
+Poš‹r
+, 
+Alignm’t
+è((
+VOID
+ *è(
+	`ALIGN_VALUE
+ ((
+UINTN
+)(Poš‹r), (Alignm’t))))
+
+	)
+
+910 
+	#ALIGN_VARIABLE
+(
+V®ue
+è
+	`ALIGN_VALUE
+ ((V®ue),  (
+UINTN
+))
+
+	)
+
+926 
+	#MAX
+(
+a
+, 
+b
+è\
+
+	)
+
+927 (((
+	ga
+è> (
+	gb
+)è? (aè: (
+b
+))
+
+941 
+	#MIN
+(
+a
+, 
+b
+è\
+
+	)
+
+942 (((
+	ga
+è< (
+	gb
+)è? (aè: (
+b
+))
+
+954 
+	#ABS
+(
+a
+è\
+
+	)
+
+955 (((
+a
+) < 0) ? (-(a)) : (a))
+
+960 
+UINTN
+ 
+	tRETURN_STATUS
+;
+
+971 
+	#ENCODE_ERROR
+(
+StusCode
+è((
+RETURN_STATUS
+)(
+MAX_BIT
+ | (StusCode)))
+
+	)
+
+982 
+	#ENCODE_WARNING
+(
+StusCode
+è((
+RETURN_STATUS
+)(StusCode))
+
+	)
+
+995 
+	#RETURN_ERROR
+(
+StusCode
+è(((
+INTN
+)(
+RETURN_STATUS
+)(StusCode)è< 0)
+
+	)
+
+1000 
+	#RETURN_SUCCESS
+ 0
+
+	)
+
+1005 
+	#RETURN_LOAD_ERROR
+ 
+	`ENCODE_ERROR
+ (1)
+
+	)
+
+1010 
+	#RETURN_INVALID_PARAMETER
+ 
+	`ENCODE_ERROR
+ (2)
+
+	)
+
+1015 
+	#RETURN_UNSUPPORTED
+ 
+	`ENCODE_ERROR
+ (3)
+
+	)
+
+1020 
+	#RETURN_BAD_BUFFER_SIZE
+ 
+	`ENCODE_ERROR
+ (4)
+
+	)
+
+1027 
+	#RETURN_BUFFER_TOO_SMALL
+ 
+	`ENCODE_ERROR
+ (5)
+
+	)
+
+1032 
+	#RETURN_NOT_READY
+ 
+	`ENCODE_ERROR
+ (6)
+
+	)
+
+1038 
+	#RETURN_DEVICE_ERROR
+ 
+	`ENCODE_ERROR
+ (7)
+
+	)
+
+1043 
+	#RETURN_WRITE_PROTECTED
+ 
+	`ENCODE_ERROR
+ (8)
+
+	)
+
+1048 
+	#RETURN_OUT_OF_RESOURCES
+ 
+	`ENCODE_ERROR
+ (9)
+
+	)
+
+1054 
+	#RETURN_VOLUME_CORRUPTED
+ 
+	`ENCODE_ERROR
+ (10)
+
+	)
+
+1059 
+	#RETURN_VOLUME_FULL
+ 
+	`ENCODE_ERROR
+ (11)
+
+	)
+
+1065 
+	#RETURN_NO_MEDIA
+ 
+	`ENCODE_ERROR
+ (12)
+
+	)
+
+1071 
+	#RETURN_MEDIA_CHANGED
+ 
+	`ENCODE_ERROR
+ (13)
+
+	)
+
+1076 
+	#RETURN_NOT_FOUND
+ 
+	`ENCODE_ERROR
+ (14)
+
+	)
+
+1081 
+	#RETURN_ACCESS_DENIED
+ 
+	`ENCODE_ERROR
+ (15)
+
+	)
+
+1086 
+	#RETURN_NO_RESPONSE
+ 
+	`ENCODE_ERROR
+ (16)
+
+	)
+
+1091 
+	#RETURN_NO_MAPPING
+ 
+	`ENCODE_ERROR
+ (17)
+
+	)
+
+1096 
+	#RETURN_TIMEOUT
+ 
+	`ENCODE_ERROR
+ (18)
+
+	)
+
+1101 
+	#RETURN_NOT_STARTED
+ 
+	`ENCODE_ERROR
+ (19)
+
+	)
+
+1106 
+	#RETURN_ALREADY_STARTED
+ 
+	`ENCODE_ERROR
+ (20)
+
+	)
+
+1111 
+	#RETURN_ABORTED
+ 
+	`ENCODE_ERROR
+ (21)
+
+	)
+
+1116 
+	#RETURN_ICMP_ERROR
+ 
+	`ENCODE_ERROR
+ (22)
+
+	)
+
+1121 
+	#RETURN_TFTP_ERROR
+ 
+	`ENCODE_ERROR
+ (23)
+
+	)
+
+1126 
+	#RETURN_PROTOCOL_ERROR
+ 
+	`ENCODE_ERROR
+ (24)
+
+	)
+
+1132 
+	#RETURN_INCOMPATIBLE_VERSION
+ 
+	`ENCODE_ERROR
+ (25)
+
+	)
+
+1137 
+	#RETURN_SECURITY_VIOLATION
+ 
+	`ENCODE_ERROR
+ (26)
+
+	)
+
+1142 
+	#RETURN_CRC_ERROR
+ 
+	`ENCODE_ERROR
+ (27)
+
+	)
+
+1147 
+	#RETURN_END_OF_MEDIA
+ 
+	`ENCODE_ERROR
+ (28)
+
+	)
+
+1152 
+	#RETURN_END_OF_FILE
+ 
+	`ENCODE_ERROR
+ (31)
+
+	)
+
+1157 
+	#RETURN_INVALID_LANGUAGE
+ 
+	`ENCODE_ERROR
+ (32)
+
+	)
+
+1164 
+	#RETURN_COMPROMISED_DATA
+ 
+	`ENCODE_ERROR
+ (33)
+
+	)
+
+1169 
+	#RETURN_HTTP_ERROR
+ 
+	`ENCODE_ERROR
+ (35)
+
+	)
+
+1175 
+	#RETURN_WARN_UNKNOWN_GLYPH
+ 
+	`ENCODE_WARNING
+ (1)
+
+	)
+
+1180 
+	#RETURN_WARN_DELETE_FAILURE
+ 
+	`ENCODE_WARNING
+ (2)
+
+	)
+
+1186 
+	#RETURN_WARN_WRITE_FAILURE
+ 
+	`ENCODE_WARNING
+ (3)
+
+	)
+
+1192 
+	#RETURN_WARN_BUFFER_TOO_SMALL
+ 
+	`ENCODE_WARNING
+ (4)
+
+	)
+
+1198 
+	#RETURN_WARN_STALE_DATA
+ 
+	`ENCODE_WARNING
+ (5)
+
+	)
+
+1203 
+	#RETURN_WARN_FILE_SYSTEM
+ 
+	`ENCODE_WARNING
+ (6)
+
+	)
+
+1218 
+	#SIGNATURE_16
+(
+A
+, 
+B
+è((Aè| (B << 8))
+
+	)
+
+1235 
+	#SIGNATURE_32
+(
+A
+, 
+B
+, 
+C
+, 
+D
+è(
+	`SIGNATURE_16
+ (A, Bè| (SIGNATURE_16 (C, Dè<< 16))
+
+	)
+
+1256 
+	#SIGNATURE_64
+(
+A
+, 
+B
+, 
+C
+, 
+D
+, 
+E
+, 
+F
+, 
+G
+, 
+H
+è\
+
+	)
+
+1257 (
+SIGNATURE_32
+ (
+A
+, 
+B
+, 
+C
+, 
+D
+è| ((
+	gUINT64
+è(SIGNATURE_32 (
+E
+, 
+F
+, 
+G
+, 
+H
+)) << 32))
+
+1259 #ià
+defšed
+(
+_MSC_EXTENSIONS
+è&& !defšed (
+__INTEL_COMPILER
+è&& !defšed (
+MDE_CPU_EBC
+)
+
+1260 * 
+_R‘uºAdd»ss
+();
+
+1261 #´agm¨
+šŒšsic
+(
+_R‘uºAdd»ss
+)
+
+1274 
+	#RETURN_ADDRESS
+(
+L
+è((L =ð0è? 
+	`_R‘uºAdd»ss
+(è: (
+VOID
+ *è0)
+
+	)
+
+1275 #–ià
+defšed
+ (
+__GNUC__
+è|| defšed (
+__þªg__
+)
+
+1287 
+	#RETURN_ADDRESS
+(
+L
+è
+	`__bužtš_»tuº_add»ss
+ (L)
+
+	)
+
+1297 
+	#RETURN_ADDRESS
+(
+L
+è((
+VOID
+ *è0)
+
+	)
+
+1311 
+	#ARRAY_SIZE
+(
+A¼ay
+è( (A¼ayè/  ((A¼ay)[0]))
+
+	)
+
+	@PiDxe.h
+
+10 #iâdeà
+__PI_DXE_H__
+
+
+11 
+	#__PI_DXE_H__
+
+
+	)
+
+13 
+	~<Uefi/UefiBa£Ty³.h
+>
+
+14 
+	~<Uefi/UefiS³c.h
+>
+
+16 
+	~<Pi/PiDxeCis.h
+>
+
+	@PiMm.h
+
+10 #iâdeà
+__PI_MM_H__
+
+
+11 
+	#__PI_MM_H__
+
+
+	)
+
+13 
+	~<Uefi/UefiBa£Ty³.h
+>
+
+14 
+	~<Uefi/UefiS³c.h
+>
+
+16 
+	~<Pi/PiMmCis.h
+>
+
+	@PiPei.h
+
+14 #iâdeà
+__PI_PEI_H__
+
+
+15 
+	#__PI_PEI_H__
+
+
+	)
+
+17 
+	~<Uefi/UefiBa£Ty³.h
+>
+
+18 
+	~<Pi/PiPeiCis.h
+>
+
+	@PiSmm.h
+
+10 #iâdeà
+__PI_SMM_H__
+
+
+11 
+	#__PI_SMM_H__
+
+
+	)
+
+13 
+	~<Uefi/UefiBa£Ty³.h
+>
+
+14 
+	~<Uefi/UefiS³c.h
+>
+
+16 
+	~<Pi/PiSmmCis.h
+>
+
+	@Uefi.h
+
+14 #iâdeà
+__PI_UEFI_H__
+
+
+15 
+	#__PI_UEFI_H__
+
+
+	)
+
+17 
+	~<Uefi/UefiBa£Ty³.h
+>
+
+18 
+	~<Uefi/UefiS³c.h
+>
+
+	@
+1
+.
+1
+/usr/include
+6
+45
+Base.h
+PiDxe.h
+PiMm.h
+PiPei.h
+PiSmm.h
+Uefi.h
