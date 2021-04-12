@@ -19,6 +19,7 @@
 #include <basic_xen.h>
 #include <hypercall.h>
 #include <gnttab.h>
+#include <scheduler.h>
 
 /* Detect the Xen hypervisor, initialize hypercalls and map the shared info data
    structure.
@@ -347,6 +348,10 @@ void kernel_start(void  *kstack,
 	shared_memory_xen(grant_pages);
 
 #elif
+
+	/* Initialize the multi-tasking ------------------------------------------*/
+
+	init_scheduler(kinfo_pages);
 
 	/* Switch to unpriviledged mode and jump to the user app -----------------*/
 

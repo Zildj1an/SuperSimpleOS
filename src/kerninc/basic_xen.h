@@ -7,7 +7,7 @@
 #include <xen.h>
 #include <hypercall.h>
 
-#define _USE_XEN_HYPERVISOR     (1) /* VBox is an alternative */
+#define _USE_XEN_HYPERVISOR     (0) /* VBox is an alternative */
 #define HYP_VENDOR_SIGNATURE    (0x40000000)
 #define XEN_NUMS1               (0x566e6558)
 #define XEN_NUMS2               (0x65584d4d)

@@ -10,7 +10,7 @@ In this project we implement the main abstractions of an operating system from s
 
 - Handling of exceptions and interrupts (IDT) and APIC timer.
 
-- Support for the Xen hypervisor, with PV clocks and shared memory between guests, or Qemu.
+- Support for the Xen hypervisor, with PV clocks and shared memory between guests, or Virtual Box.
 
 ## Instructions for launching a HVM guest
 
