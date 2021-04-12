@@ -1,6 +1,6 @@
 # Super Simple OS
 
-In this project we implement the main abstractions of an operating system from scratch:
+In this project we implement an operating system with its main abstractions from scratch:
 
 - A basic UEFI boot loader (boot.c) that loads the kernel and allocates memory for its structures (stacks, etc.) before exiting boot services. 
 
