@@ -20,8 +20,6 @@ void init_scheduler(page_tables_t *kinfo_pages)
 
 void __register_task(void *code, void *stack, page_tables_t *page_table)
 {
-	current_task++;
-
 	/* Kernel has id zero, and we can't have more than MAX_NUM_THREADS */
 	assert(current_task < MAX_NUM_THREADS);
 
@@ -35,6 +33,8 @@ void __register_task(void *code, void *stack, page_tables_t *page_table)
 
 void jump_to_user(void *code, void *stack, page_tables_t *page_table)
 {
+	current_task++;
+
 	__register_task(code,stack,page_table);
 	
 	// Perhaps we need to save the kernel stack and code before calling user_jump()?

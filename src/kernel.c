@@ -292,8 +292,7 @@ void jump2user(page_tables_t *kinfo_pages, ucode_info_t *ucode_info)
 	
 	printf(">> Jumping to user-space code...\n\n");
 
-	// jump_to_user() instead
-	user_jump(ucode);
+	jump_to_user(ucode, ustack, user_info_pages);
 }
 
 void kernel_start(void  *kstack,
