@@ -36,6 +36,6 @@ static task_struct tasks[MAX_NUM_THREADS];
 
 void init_scheduler(page_tables_t *kinfo_pages); 
 
-// void jump_to_user();
+void jump_to_user(void *code, void *stack, page_tables_t *page_table);
 
 #endif
