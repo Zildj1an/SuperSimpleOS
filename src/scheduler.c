@@ -12,10 +12,10 @@ void init_scheduler(page_tables_t *kinfo_pages)
 {
 	task_struct *kernel_task = tasks;
 
-	kernel_task.page_table = kinfo_pages;
-	kernel_task.pid        = 0;
-	kernel_task.user_space = 0;
-	kernel_task.policy     = DEFAUT_POLICY;
+	kernel_task->page_table = kinfo_pages;
+	kernel_task->pid        = 0;
+	kernel_task->user_space = 0;
+	kernel_task->policy     = DEFAUT_POLICY;
 }
 
 void __register_task(void *code, void *stack, page_tables_t *page_table)

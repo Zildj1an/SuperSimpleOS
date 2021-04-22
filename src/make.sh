@@ -19,8 +19,9 @@ gcc $VARS -c ascii_font.c
 gcc $VARS -c page_table.c
 gcc $VARS -c apic.c
 gcc $VARS -c exceptions.c
+gcc $VARS -c scheduler.c
 gcc $VARS -c gnttab.c
-ld --oformat=binary -T ./kernel.lds -nostdlib -melf_x86_64 -pie kernel_entry.o page_table.o exceptions.o basic_xen.o apic.o kernel.o kernel_asm.o kernel_syscall.o printf.o fb.o ascii_font.o gnttab.o -o kernel
+ld --oformat=binary -T ./kernel.lds -nostdlib -melf_x86_64 -pie kernel_entry.o scheduler.o page_table.o exceptions.o basic_xen.o apic.o kernel.o kernel_asm.o kernel_syscall.o printf.o fb.o ascii_font.o gnttab.o -o kernel
 
 # Comple the user application
 gcc -Wall -Wno-address-of-packed-member -Wno-builtin-declaration-mismatch -O2 -mno-red-zone -nostdinc -fno-stack-protector -I ./userinc -pie -fno-zero-initialized-in-bss -c user_entry.S

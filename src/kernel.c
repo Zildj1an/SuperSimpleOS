@@ -347,7 +347,7 @@ void kernel_start(void  *kstack,
 	/* Shared memory between two Xen guests */
 	shared_memory_xen(grant_pages);
 
-#elif
+#else
 
 	/* Initialize the multi-tasking ------------------------------------------*/
 

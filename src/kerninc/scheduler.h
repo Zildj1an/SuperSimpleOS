@@ -9,6 +9,9 @@
 #ifndef __SCHEDULER_H__
 #define __SCHEDULER_H__
 
+#include <page_table.h>
+#include <types.h>
+
 #define MAX_NUM_THREADS (6)
 
 typedef enum {DEFAUT_POLICY, NUM_SCHED_POLICIES} sched_policy_t;
