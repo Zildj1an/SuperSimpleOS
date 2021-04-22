@@ -2,7 +2,7 @@ all:
 	# COMMENT NEXT LINE FOR WRITER
 	#cat make2 > make.sh
 	# UNCOMMENT NEXT LINE FOR WRITER
-	cat make1 > make.sh 
+	# cat make1 > make.sh 
 	./make.sh
 	# COMMENT NEXT LINE FOR WRITER
 	#sudo xl create /etc/code-other.cfg
