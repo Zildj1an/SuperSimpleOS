@@ -11,11 +11,18 @@
 #include <interrupts.h>
 #include <page_table.h>
 #include <apic.h>
+#include <scheduler.h>
 
 /* APIC timer interrupt handler (timer IRQ) */
 void apic_interrupt(void)
 {
+	static unsigned int count;
 	printf("Timer!\n");
+	count++;
+	if(!(count%2))
+	{
+		scheduler();
+	}
 	
     /* Set APIC init counter to 4194304 */
     x86_lapic_write(X86_LAPIC_TIMER_INIT, 0x400000);

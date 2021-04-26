@@ -14,6 +14,10 @@
 
 #define MAX_NUM_THREADS (6)
 
+extern struct task_struct * current;
+
+extern void scheduler();
+
 typedef enum {DEFAUT_POLICY, NUM_SCHED_POLICIES} sched_policy_t;
 
 typedef struct {
@@ -33,7 +37,7 @@ typedef struct {
 
 } task_struct;
 
-static volatile int current_task = 0; // Update in a wrapper of user_jump? 
+static volatile int registered_tasks = 0; // Update in a wrapper of user_jump? 
 
 static task_struct tasks[MAX_NUM_THREADS];
 

@@ -3,7 +3,7 @@
  * Copyright 2021 Ruslan Nikolaev <rnikola@vt.edu>
  */
 
-.global syscall_entry, user_jump, pagefault_trap, default_trap
+.global syscall_entry, user_jump, pagefault_trap, default_trap, context_switch
 .code64
 
 .align 64
@@ -116,3 +116,37 @@ timer_apic:
 	RESTORE_REGS
 	sti
 	iretq
+
+/*
+ * %rdi: prev task -> first argument
+ * %rsi: next task -> second argument
+ */
+.align 64
+.type context_switch,%function
+context_switch:
+	/* Set up the kernel stack */
+/*	movq %rsp, user_stack(%rip)
+	movq kernel_stack(%rip), %rsp
+*/
+	/* Save other registers */
+	pushq %rdi
+	pushq %rsi
+	pushq %rdx
+	pushq %r8
+	pushq %r9
+	pushq %r10
+
+	/*Perform the stack switch*/
+	movq %rsp,%rdi  	// moving current task stack into its stack holder
+	movq %rsi,%rsp		// replacing the rsp with new task's rsp
+
+	/* Restore other registers */
+
+	popq %r10
+	popq %r9
+	popq %r8
+	popq %rdx
+	popq %rsi
+	popq %rdi
+
+
