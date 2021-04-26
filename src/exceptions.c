@@ -13,13 +13,18 @@
 #include <apic.h>
 #include <scheduler.h>
 
+#define MAX_COUNTER (9000)
+
 /* APIC timer interrupt handler (timer IRQ) */
 void apic_interrupt(void)
 {
 	static unsigned int count;
 	printf("Timer!\n");
-	count++;
-	if(!(count%2))
+	
+	/* Make sure there is no overflow */
+	count = (count + 1) % MAX_COUNTER;
+	
+	if (!(count % 2))
 	{
 		scheduler();
 	}
