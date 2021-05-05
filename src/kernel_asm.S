@@ -3,7 +3,7 @@
  * Copyright 2021 Ruslan Nikolaev <rnikola@vt.edu>
  */
 
-.global syscall_entry, user_jump, pagefault_trap, default_trap, context_switch
+.global syscall_entry, user_jump, pagefault_trap, default_trap, timer_apic, divzero_trap, timer_entry_ptr, context_switch , init_trampoline
 .code64
 
 .align 64
@@ -80,39 +80,54 @@ user_jump:
 	popq %rcx						;\
 	popq %rax
 
+/* Part 2 */
 .align 64
 .type default_trap,%function
 default_trap:
 	cli
 	SAVE_REGS
-	/* Print message exception happened and %rsp */
-	movq %rsp, %rdi 
-	call default_trap_msg 
+	/* TODO: Do something here */
+	movq %cr2, %rdi
+	movq %rsp, %rsi
+	movq (%rip), %rdx
+	call handler
 	RESTORE_REGS
-	hlt 
+	hlt
+
+.align 64
+.type divzero_trap,%function
+divzero_trap:
+	cli
+	SAVE_REGS
+	/* TODO: Do something here */
+	movq %cr2, %rdi
+	movq %rsp, %rsi
+	call divzero_handler
+	RESTORE_REGS
+	hlt
 
 .align 64
 .type pagefault_trap,%function
 pagefault_trap:
 	cli
 	SAVE_REGS
-	/* Perform a lazy allocation 
-	   See System V UNIX assembly calling convention.
-	*/
-	movq %rsp, %rdi 
-	call pagefault_trap_handler 
+	/* TODO: Do something here */
+	movq %cr2, %rdi
+	movq %rsp, %rsi
+	call pg_handler
 	RESTORE_REGS
 	sti
 	addq $8, %rsp	/* skip the page-fault error code */
 	iretq
 
-/* APIC timer interrupt handler */
+/* Part 3 */
 .align 64
 .type timer_apic,%function
 timer_apic:
 	cli
 	SAVE_REGS
-	call apic_interrupt 
+	/* TODO: Do something here */
+	call apic_timer_handler
 	RESTORE_REGS
 	sti
 	iretq
@@ -124,29 +139,60 @@ timer_apic:
 .align 64
 .type context_switch,%function
 context_switch:
-	/* Set up the kernel stack */
-/*	movq %rsp, user_stack(%rip)
-	movq kernel_stack(%rip), %rsp
+		/* 
+		 * [1] Save all the register to the current thread stack            
+	     */
+	pushq %rbp
+        pushq %rbx
+        pushq %r12
+        pushq %r13
+        pushq %r14
+        pushq %r15
+		/* 
+		 * [2] Save current SP into *prev_task.stack, since the parenthesis are 	
+		 *     derreferencing it is *(rdi). Then load *next_task.stack into 
+		 *     the SP. 
+		 */
+        movq %rsp, (%rdi)               /* save ESP */
+        movq (%rsi), %rsp               /* restore ESP */
+	/* [3] Save the position-independent sched_resume() address into the 
+         *     next field of the task_struct (the instruction pointer field).
+         *     Remember that 8(*rdi) == (*(%rdi) + 8)
+         */
+	leaq sched_resume(%rip), %rax
+	movq %rax , 8(%rdi) 
+	/* [4] We cannot directly update the instruction pointer so we put 
+		 *     in the stack the address we want to go to, so RET fetches it.
+		 */ 
+	pushq 8(%rsi)                   /* restore EIP */
+        ret
+sched_resume:
+        popq %r15
+        popq %r14
+        popq %r13
+        popq %r12
+        popq %rbx
+        popq %rbp
+        ret
+
+/*
+	Method to initialize the stack when the
+	task is initialized into our array. 
 */
-	/* Save other registers */
-	pushq %rdi
-	pushq %rsi
-	pushq %rdx
-	pushq %r8
-	pushq %r9
-	pushq %r10
-
-	/*Perform the stack switch*/
-	movq %rsp,%rdi  	// moving current task stack into its stack holder
-	movq %rsi,%rsp		// replacing the rsp with new task's rsp
-
-	/* Restore other registers */
-
-	popq %r10
-	popq %r9
-	popq %r8
-	popq %rdx
-	popq %rsi
+.align 64
+.type init_trampoline,%function
+init_trampoline:
 	popq %rdi
+        popq %rbx
+        pushq $0                        /* correct stack alignment for SSE */
+        pushq $0
+        xorq %rbp,%rbp	
+        call *%rbx
+        call task_exit
 
 
+/*	movq 8(%rsi) , %rcx	
+        movq (%rip),%r8	
+	pop %rdx
+	push %rdx
+	call debug_print  	debug code ends */
